@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "people/pi/index.html",
+    "href": "people/pi/index.html",
+    "title": "Hemanth Manjunatha",
+    "section": "",
+    "text": "I am glad you landed on this tiny corner of the internet"
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Manjunatha, Hemanth, Sri Sadhan Jujjavarapu, and Ehsan T Esfahani. Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography. Journal of Computing and Information Science in Engineering, 1–32.\nManjunatha, Hemanth, Shrey Pareek, Sri Sadhan Jujjavarapu, Mostafa Ghobadi, Thenkurussi Kesavadas, and Ehsan T Esfahani. 2021. Upper Limb Home-Based Robotic Rehabilitation During COVID-19 Outbreak. Frontiers in Robotics and AI 8.\nManjunatha, Hemanth, Shrey Pareek, Amirhossein H Memar, Thenkurussi Kesavadas, and Ehsan T Esfahani. 2020. Effect of Haptic Assistance Strategy on Mental Engagement in Fine Motor Tasks. Journal of Medical Robotics Research 5 (01n02): 2041004.\nPareek, Shrey, Hemanth Manjunatha, Ehsan T Esfahani, and Thenkurussi Kesavadas. 2019. Myotrack: Realtime Estimation of Subject Participation in Robotic Rehabilitation Using SEMG and IMU. IEEE Access 7: 76030–41.\nThammineni, Chaitanya, Hemanth Manjunatha, and Ehsan T Esfahani. 2021. Selective Eye-Gaze Augmentation to Enhance Imitation Learning in Atari Games. Neural Computing and Applications, 1–10.\nZhang, Binbin, Jida Huang, Rahul Rai, and Hemanth Manjunatha. 2018. A Sequential Sampling Algorithm for Multistage Static Coverage Problems. Journal of Computing and Information Science in Engineering 18 (2)."
+  },
+  {
+    "objectID": "publications/index.html#journal-papers",
+    "href": "publications/index.html#journal-papers",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Manjunatha, Hemanth, Sri Sadhan Jujjavarapu, and Ehsan T Esfahani. Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography. Journal of Computing and Information Science in Engineering, 1–32.\nManjunatha, Hemanth, Shrey Pareek, Sri Sadhan Jujjavarapu, Mostafa Ghobadi, Thenkurussi Kesavadas, and Ehsan T Esfahani. 2021. Upper Limb Home-Based Robotic Rehabilitation During COVID-19 Outbreak. Frontiers in Robotics and AI 8.\nManjunatha, Hemanth, Shrey Pareek, Amirhossein H Memar, Thenkurussi Kesavadas, and Ehsan T Esfahani. 2020. Effect of Haptic Assistance Strategy on Mental Engagement in Fine Motor Tasks. Journal of Medical Robotics Research 5 (01n02): 2041004.\nPareek, Shrey, Hemanth Manjunatha, Ehsan T Esfahani, and Thenkurussi Kesavadas. 2019. Myotrack: Realtime Estimation of Subject Participation in Robotic Rehabilitation Using SEMG and IMU. IEEE Access 7: 76030–41.\nThammineni, Chaitanya, Hemanth Manjunatha, and Ehsan T Esfahani. 2021. Selective Eye-Gaze Augmentation to Enhance Imitation Learning in Atari Games. Neural Computing and Applications, 1–10.\nZhang, Binbin, Jida Huang, Rahul Rai, and Hemanth Manjunatha. 2018. A Sequential Sampling Algorithm for Multistage Static Coverage Problems. Journal of Computing and Information Science in Engineering 18 (2)."
+  },
+  {
+    "objectID": "publications/index.html#conference-paper",
+    "href": "publications/index.html#conference-paper",
+    "title": "iHuman Lab",
+    "section": "Conference Paper",
+    "text": "Conference Paper"
+  },
+  {
+    "objectID": "publications/index.html#book-chapter",
+    "href": "publications/index.html#book-chapter",
+    "title": "iHuman Lab",
+    "section": "Book Chapter",
+    "text": "Book Chapter"
+  },
+  {
+    "objectID": "publications/index.html#under-review",
+    "href": "publications/index.html#under-review",
+    "title": "iHuman Lab",
+    "section": "Under Review",
+    "text": "Under Review"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nExtracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation\n\n\n\n\n\n\n\n\n\n\n\nJul 24, 2024\n\n\nHemanth Manjunatha\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/explainability/index.html#abstract",
+    "href": "research/explainability/index.html#abstract",
+    "title": "Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation",
+    "section": "Abstract",
+    "text": "Abstract\nThere is an increasing interest in adapting the deep learning models into neuroimaging techniques such as electroencephalogram (EEG). However, one of the fundamental problems in deep learning models is the interpretability of the learned representations. Even though many interpretability models exist for computer vision applications, adapting those methods for deep learning using EEG is still a challenge. In this regard, we propose a novel computational approach to increase the interpretability of results from deep learning algorithm using two popular saliency detection algorithms: integrated gradients and ablation attribution method. The method provides the importance of values across different EEG frequency bands (Theta, Alpha, Beta, Gamma) and across different electrode locations. We can use these importance values to recognize which electrode and frequency bands are relevant for a particular classification problem. We demonstrate the proposed method’s efficacy in a physical human-robot co-manipulation experiment where a convolution neural network (CNN) model is trained to classify the user’s mental workload using raw EEG recordings. The experiment is predominantly visuospatial and motor control-oriented. The proposed method found the Gamma and Beta frequency band across parietal and occipital regions to be important, which are indeed associated with visuospatial processing and sensory integration.\n\n\n\n\n\n\nResearch Questions\n\n\n\n\nWhich physiological modalities, eye, brain activity, or their combination can provide a more accurate classification of the reaction time?\nDo the task type information and individual differences in the task performance influence the classification of reaction time?"
+  },
+  {
+    "objectID": "research/explainability/index.html#results",
+    "href": "research/explainability/index.html#results",
+    "title": "Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation",
+    "section": "Results",
+    "text": "Results\nThe study concluded that both eye features and cognitive features are needed to classify the reaction time effectively. The task type information had a significant influence on the classification accuracy, while the same could not be said with individual difference information. The accuracy of classification was increased when task type information was included as features, indicating that the reaction time depends on the task information.\nThese results are in agreement with the Linear Approach to the Threshold with Ergodic Rate (LATER) model, which suggests that reaction time depends on evidence collected and the task difficulty. The classifier trained on the physiological features using reaction time as the label can be used to classify task difficulty well above chance. Such systems can be utilized in Automation Invocation models that utilize appropriate control inputs and control strategies for optimal role allocation in collaborative tasks such as teleoperation.\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
+  },
+  {
+    "objectID": "contact/contact.html",
+    "href": "contact/contact.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "The iHuman Lab is located in Oklahoma State University"
+  },
+  {
+    "objectID": "contact/contact.html#visit-us",
+    "href": "contact/contact.html#visit-us",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "The iHuman Lab is located in Oklahoma State University"
+  },
+  {
+    "objectID": "contact/contact.html#email-us",
+    "href": "contact/contact.html#email-us",
+    "title": "iHuman Lab",
+    "section": "Email Us",
+    "text": "Email Us"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Welcome to Intelligent Human-Machine Nexus Lab- iHuman Lab, where the convergence of human intelligence and machine capabilities defines our pursuit of cutting-edge research.\nAt the iHuman Lab, we are dedicated to unraveling the complexities of interaction between humans and machines, forging pathways that enhance cognitive abilities, augment decision-making processes, and revolutionize technological integration in society."
+  },
+  {
+    "objectID": "people/index.html",
+    "href": "people/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Home\n    People"
+  },
+  {
+    "objectID": "people/index.html#pi",
+    "href": "people/index.html#pi",
+    "title": "iHuman Lab",
+    "section": "PI",
+    "text": "PI\n\n\n\n\n\n\n\n\n\n\nHemanth Manjunatha\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/index.html#phd",
+    "href": "people/index.html#phd",
+    "title": "iHuman Lab",
+    "section": "PhD",
+    "text": "PhD"
+  },
+  {
+    "objectID": "people/index.html#masters",
+    "href": "people/index.html#masters",
+    "title": "iHuman Lab",
+    "section": "Masters",
+    "text": "Masters"
+  },
+  {
+    "objectID": "people/index.html#undergraduate",
+    "href": "people/index.html#undergraduate",
+    "title": "iHuman Lab",
+    "section": "Undergraduate",
+    "text": "Undergraduate"
+  },
+  {
+    "objectID": "people/index.html#alumni",
+    "href": "people/index.html#alumni",
+    "title": "iHuman Lab",
+    "section": "Alumni",
+    "text": "Alumni"
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "The iHuman Lab is located in Oklahoma State University"
+  },
+  {
+    "objectID": "contact/index.html#visit-us",
+    "href": "contact/index.html#visit-us",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "The iHuman Lab is located in Oklahoma State University"
+  },
+  {
+    "objectID": "contact/index.html#email-us",
+    "href": "contact/index.html#email-us",
+    "title": "iHuman Lab",
+    "section": "Email Us",
+    "text": "Email Us"
+  },
+  {
+    "objectID": "people/pi/index.html#hello",
+    "href": "people/pi/index.html#hello",
+    "title": "Hemanth Manjunatha",
+    "section": "",
+    "text": "I am glad you landed on this tiny corner of the internet"
+  },
+  {
+    "objectID": "people/pi/index.html#education",
+    "href": "people/pi/index.html#education",
+    "title": "Hemanth Manjunatha",
+    "section": "Education",
+    "text": "Education\nPhD in Mechanical and Aerospace Engineering University at Buffalo, USA | 2016–2021\nM.S. in Mechanical and Aerospace Engineering University at Buffalo, USA | 2015–2017\nB.S. in Mechanical Engineering National Institute of Engineering, India | 2010–2014"
+  },
+  {
+    "objectID": "people/pi/index.html#research-interest",
+    "href": "people/pi/index.html#research-interest",
+    "title": "Hemanth Manjunatha",
+    "section": "Research Interest",
+    "text": "Research Interest\nSafe Learning based Cyber Physical Systems | Brain Machine Interfaces | Human-Robot Interaction | Robotics | Haptics | Telerehabilitation"
+  }
+]
