@@ -97,6 +97,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-undergraduate .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-undergraduate'] = new List('listing-undergraduate', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -224,7 +252,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="pi">PI</h2>
 <div id="listing-pi" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1721890421396" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1726465405640" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
 <a href="../people/pi/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -258,8 +286,36 @@ No matching items
 </section>
 <section id="undergraduate" class="level2">
 <h2 class="anchored" data-anchor-id="undergraduate">Undergraduate</h2>
-<div id="undergraduate">
-
+<div id="listing-undergraduate" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727474578016" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+<a href="../people/undergraduate/JacksonBenton/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="../people/undergraduate/JacksonBenton/avatar.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jackson Benton
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+Started
+</td>
+<td class="started">
+&nbsp;
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 </section>
 <section id="alumni" class="level2">
