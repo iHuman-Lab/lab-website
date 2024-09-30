@@ -46,7 +46,7 @@
     "href": "research/index.html",
     "title": "iHuman Lab",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nExtracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation\n\n\n\n\n\n\n\n\n\n\n\nSep 27, 2024\n\n\nHemanth Manjunatha\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nExtracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2024\n\n\nHemanth Manjunatha\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/explainability/index.html#abstract",
@@ -123,7 +123,7 @@
     "href": "people/index.html#undergraduate",
     "title": "iHuman Lab",
     "section": "Undergraduate",
-    "text": "Undergraduate\n\n\n\n\n\n\n\n\n\n\nJackson Benton\n\n\n\n\nStarted\n\n\n \n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Undergraduate\n\n\n\n\n\n\n\n\n\n\nCarson McSpadden\n\n\n\n\nStarted\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJackson Benton\n\n\n\n\nStarted\n\n\n \n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/index.html#alumni",
@@ -194,5 +194,26 @@
     "title": "Jackson Benton",
     "section": "Research Interest",
     "text": "Research Interest\nInterested in aerodynamics, propulsion systems, and thermodynamics, with a focus on improving aerospace and mechanical systems. Also exploring AI and machine learning for autonomous systems."
+  },
+  {
+    "objectID": "people/undergraduate/CarsonMcSpadden/index.html",
+    "href": "people/undergraduate/CarsonMcSpadden/index.html",
+    "title": "Carson McSpadden",
+    "section": "",
+    "text": "B.S in Computer and Electrical Engineering | Oklahoma State University, Stillwater, OK | 2024-2027"
+  },
+  {
+    "objectID": "people/undergraduate/CarsonMcSpadden/index.html#education",
+    "href": "people/undergraduate/CarsonMcSpadden/index.html#education",
+    "title": "Carson McSpadden",
+    "section": "",
+    "text": "B.S in Computer and Electrical Engineering | Oklahoma State University, Stillwater, OK | 2024-2027"
+  },
+  {
+    "objectID": "people/undergraduate/CarsonMcSpadden/index.html#research-interest",
+    "href": "people/undergraduate/CarsonMcSpadden/index.html#research-interest",
+    "title": "Carson McSpadden",
+    "section": "Research Interest",
+    "text": "Research Interest\nDeep Learning | Human-Robot Interactions | Digital Circuit and System Design"
   }
 ]
