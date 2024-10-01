@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "people/undergraduate/JacksonBenton/index.html",
+    "href": "people/undergraduate/JacksonBenton/index.html",
+    "title": "Jackson Benton",
+    "section": "",
+    "text": "Oklahoma State University B.S. in Aerospace and Mechanical Engineering August 2021 - May 2026"
+  },
+  {
+    "objectID": "people/undergraduate/JacksonBenton/index.html#education",
+    "href": "people/undergraduate/JacksonBenton/index.html#education",
+    "title": "Jackson Benton",
+    "section": "",
+    "text": "Oklahoma State University B.S. in Aerospace and Mechanical Engineering August 2021 - May 2026"
+  },
+  {
+    "objectID": "people/undergraduate/JacksonBenton/index.html#research-interest",
+    "href": "people/undergraduate/JacksonBenton/index.html#research-interest",
+    "title": "Jackson Benton",
+    "section": "Research Interest",
+    "text": "Research Interest\nInterested in aerodynamics, propulsion systems, and thermodynamics, with a focus on improving aerospace and mechanical systems. Also exploring AI and machine learning for autonomous systems."
+  },
+  {
     "objectID": "people/pi/index.html",
     "href": "people/pi/index.html",
     "title": "Hemanth Manjunatha",
@@ -7,18 +28,25 @@
     "text": "I am glad you landed on this tiny corner of the internet"
   },
   {
-    "objectID": "publications/index.html",
-    "href": "publications/index.html",
-    "title": "iHuman Lab",
+    "objectID": "people/pi/index.html#hello",
+    "href": "people/pi/index.html#hello",
+    "title": "Hemanth Manjunatha",
     "section": "",
-    "text": "Manjunatha, Hemanth, Sri Sadhan Jujjavarapu, and Ehsan T Esfahani. Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography. Journal of Computing and Information Science in Engineering, 1–32.\nManjunatha, Hemanth, Shrey Pareek, Sri Sadhan Jujjavarapu, Mostafa Ghobadi, Thenkurussi Kesavadas, and Ehsan T Esfahani. 2021. Upper Limb Home-Based Robotic Rehabilitation During COVID-19 Outbreak. Frontiers in Robotics and AI 8.\nManjunatha, Hemanth, Shrey Pareek, Amirhossein H Memar, Thenkurussi Kesavadas, and Ehsan T Esfahani. 2020. Effect of Haptic Assistance Strategy on Mental Engagement in Fine Motor Tasks. Journal of Medical Robotics Research 5 (01n02): 2041004.\nPareek, Shrey, Hemanth Manjunatha, Ehsan T Esfahani, and Thenkurussi Kesavadas. 2019. Myotrack: Realtime Estimation of Subject Participation in Robotic Rehabilitation Using SEMG and IMU. IEEE Access 7: 76030–41.\nThammineni, Chaitanya, Hemanth Manjunatha, and Ehsan T Esfahani. 2021. Selective Eye-Gaze Augmentation to Enhance Imitation Learning in Atari Games. Neural Computing and Applications, 1–10.\nZhang, Binbin, Jida Huang, Rahul Rai, and Hemanth Manjunatha. 2018. A Sequential Sampling Algorithm for Multistage Static Coverage Problems. Journal of Computing and Information Science in Engineering 18 (2)."
+    "text": "I am glad you landed on this tiny corner of the internet"
   },
   {
-    "objectID": "publications/index.html#journal-papers",
-    "href": "publications/index.html#journal-papers",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "Manjunatha, Hemanth, Sri Sadhan Jujjavarapu, and Ehsan T Esfahani. Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography. Journal of Computing and Information Science in Engineering, 1–32.\nManjunatha, Hemanth, Shrey Pareek, Sri Sadhan Jujjavarapu, Mostafa Ghobadi, Thenkurussi Kesavadas, and Ehsan T Esfahani. 2021. Upper Limb Home-Based Robotic Rehabilitation During COVID-19 Outbreak. Frontiers in Robotics and AI 8.\nManjunatha, Hemanth, Shrey Pareek, Amirhossein H Memar, Thenkurussi Kesavadas, and Ehsan T Esfahani. 2020. Effect of Haptic Assistance Strategy on Mental Engagement in Fine Motor Tasks. Journal of Medical Robotics Research 5 (01n02): 2041004.\nPareek, Shrey, Hemanth Manjunatha, Ehsan T Esfahani, and Thenkurussi Kesavadas. 2019. Myotrack: Realtime Estimation of Subject Participation in Robotic Rehabilitation Using SEMG and IMU. IEEE Access 7: 76030–41.\nThammineni, Chaitanya, Hemanth Manjunatha, and Ehsan T Esfahani. 2021. Selective Eye-Gaze Augmentation to Enhance Imitation Learning in Atari Games. Neural Computing and Applications, 1–10.\nZhang, Binbin, Jida Huang, Rahul Rai, and Hemanth Manjunatha. 2018. A Sequential Sampling Algorithm for Multistage Static Coverage Problems. Journal of Computing and Information Science in Engineering 18 (2)."
+    "objectID": "people/pi/index.html#education",
+    "href": "people/pi/index.html#education",
+    "title": "Hemanth Manjunatha",
+    "section": "Education",
+    "text": "Education\nPhD in Mechanical and Aerospace Engineering University at Buffalo, USA | 2016–2021\nM.S. in Mechanical and Aerospace Engineering University at Buffalo, USA | 2015–2017\nB.S. in Mechanical Engineering National Institute of Engineering, India | 2010–2014"
+  },
+  {
+    "objectID": "people/pi/index.html#research-interest",
+    "href": "people/pi/index.html#research-interest",
+    "title": "Hemanth Manjunatha",
+    "section": "Research Interest",
+    "text": "Research Interest\nSafe Learning based Cyber Physical Systems | Brain Machine Interfaces | Human-Robot Interaction | Robotics | Haptics | Telerehabilitation"
   },
   {
     "objectID": "publications/index.html#conference-paper",
@@ -33,6 +61,13 @@
     "title": "iHuman Lab",
     "section": "Book Chapter",
     "text": "Book Chapter"
+  },
+  {
+    "objectID": "publications/index.html#posters",
+    "href": "publications/index.html#posters",
+    "title": "iHuman Lab",
+    "section": "Posters",
+    "text": "Posters"
   },
   {
     "objectID": "publications/index.html#under-review",
@@ -63,22 +98,22 @@
     "text": "Results\nThe study concluded that both eye features and cognitive features are needed to classify the reaction time effectively. The task type information had a significant influence on the classification accuracy, while the same could not be said with individual difference information. The accuracy of classification was increased when task type information was included as features, indicating that the reaction time depends on the task information.\nThese results are in agreement with the Linear Approach to the Threshold with Ergodic Rate (LATER) model, which suggests that reaction time depends on evidence collected and the task difficulty. The classifier trained on the physiological features using reaction time as the label can be used to classify task difficulty well above chance. Such systems can be utilized in Automation Invocation models that utilize appropriate control inputs and control strategies for optimal role allocation in collaborative tasks such as teleoperation.\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
   },
   {
-    "objectID": "contact/contact.html",
-    "href": "contact/contact.html",
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
     "title": "iHuman Lab",
     "section": "",
     "text": "The iHuman Lab is located in Oklahoma State University"
   },
   {
-    "objectID": "contact/contact.html#visit-us",
-    "href": "contact/contact.html#visit-us",
+    "objectID": "contact/index.html#visit-us",
+    "href": "contact/index.html#visit-us",
     "title": "iHuman Lab",
     "section": "",
     "text": "The iHuman Lab is located in Oklahoma State University"
   },
   {
-    "objectID": "contact/contact.html#email-us",
-    "href": "contact/contact.html#email-us",
+    "objectID": "contact/index.html#email-us",
+    "href": "contact/index.html#email-us",
     "title": "iHuman Lab",
     "section": "Email Us",
     "text": "Email Us"
@@ -123,7 +158,7 @@
     "href": "people/index.html#undergraduate",
     "title": "iHuman Lab",
     "section": "Undergraduate",
-    "text": "Undergraduate\n\n\n\n\n\n\n\n\n\n\nCarson McSpadden\n\n\n\n\nStarted\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJackson Benton\n\n\n\n\nStarted\n\n\n \n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Undergraduate\n\n\n\n\n\n\n\n\n\n\nCarson McSpadden\n\n\n\n\nStarted\n\n\nFall 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJackson Benton\n\n\n\n\nStarted\n\n\nFall 2024\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/index.html#alumni",
@@ -131,69 +166,6 @@
     "title": "iHuman Lab",
     "section": "Alumni",
     "text": "Alumni"
-  },
-  {
-    "objectID": "contact/index.html",
-    "href": "contact/index.html",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "The iHuman Lab is located in Oklahoma State University"
-  },
-  {
-    "objectID": "contact/index.html#visit-us",
-    "href": "contact/index.html#visit-us",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "The iHuman Lab is located in Oklahoma State University"
-  },
-  {
-    "objectID": "contact/index.html#email-us",
-    "href": "contact/index.html#email-us",
-    "title": "iHuman Lab",
-    "section": "Email Us",
-    "text": "Email Us"
-  },
-  {
-    "objectID": "people/pi/index.html#hello",
-    "href": "people/pi/index.html#hello",
-    "title": "Hemanth Manjunatha",
-    "section": "",
-    "text": "I am glad you landed on this tiny corner of the internet"
-  },
-  {
-    "objectID": "people/pi/index.html#education",
-    "href": "people/pi/index.html#education",
-    "title": "Hemanth Manjunatha",
-    "section": "Education",
-    "text": "Education\nPhD in Mechanical and Aerospace Engineering University at Buffalo, USA | 2016–2021\nM.S. in Mechanical and Aerospace Engineering University at Buffalo, USA | 2015–2017\nB.S. in Mechanical Engineering National Institute of Engineering, India | 2010–2014"
-  },
-  {
-    "objectID": "people/pi/index.html#research-interest",
-    "href": "people/pi/index.html#research-interest",
-    "title": "Hemanth Manjunatha",
-    "section": "Research Interest",
-    "text": "Research Interest\nSafe Learning based Cyber Physical Systems | Brain Machine Interfaces | Human-Robot Interaction | Robotics | Haptics | Telerehabilitation"
-  },
-  {
-    "objectID": "people/undergraduate/JacksonBenton/index.html",
-    "href": "people/undergraduate/JacksonBenton/index.html",
-    "title": "Jackson Benton",
-    "section": "",
-    "text": "Oklahoma State University B.S. in Aerospace and Mechanical Engineering August 2021 - May 2026"
-  },
-  {
-    "objectID": "people/undergraduate/JacksonBenton/index.html#education",
-    "href": "people/undergraduate/JacksonBenton/index.html#education",
-    "title": "Jackson Benton",
-    "section": "",
-    "text": "Oklahoma State University B.S. in Aerospace and Mechanical Engineering August 2021 - May 2026"
-  },
-  {
-    "objectID": "people/undergraduate/JacksonBenton/index.html#research-interest",
-    "href": "people/undergraduate/JacksonBenton/index.html#research-interest",
-    "title": "Jackson Benton",
-    "section": "Research Interest",
-    "text": "Research Interest\nInterested in aerodynamics, propulsion systems, and thermodynamics, with a focus on improving aerospace and mechanical systems. Also exploring AI and machine learning for autonomous systems."
   },
   {
     "objectID": "people/undergraduate/CarsonMcSpadden/index.html",
