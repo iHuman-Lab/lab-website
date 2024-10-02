@@ -81,7 +81,7 @@
     "href": "research/index.html",
     "title": "iHuman Lab",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nExtracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2024\n\n\nHemanth Manjunatha\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nExtracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation\n\n\n\n\n\n\n\n\n\n\n\nOct 1, 2024\n\n\nHemanth Manjunatha\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/explainability/index.html#abstract",
@@ -144,7 +144,7 @@
     "href": "people/index.html#phd",
     "title": "iHuman Lab",
     "section": "PhD",
-    "text": "PhD"
+    "text": "PhD\n\n\n\n\n\n\n\n\n\n\nElahe Oveisi\n\n\n\n\nStarted\n\n\nAugust 2023\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/index.html#masters",
@@ -187,5 +187,47 @@
     "title": "Carson McSpadden",
     "section": "Research Interest",
     "text": "Research Interest\nDeep Learning | Human-Robot Interactions | Digital Circuit and System Design"
+  },
+  {
+    "objectID": "people/phd/index.html",
+    "href": "people/phd/index.html",
+    "title": "Elahe Oveisi",
+    "section": "",
+    "text": "Oklahoma State University PhD in Aerospace and Mechanical Engineering August 2023 – August 2027"
+  },
+  {
+    "objectID": "people/phd/index.html#education",
+    "href": "people/phd/index.html#education",
+    "title": "Elahe Oveisi",
+    "section": "",
+    "text": "Oklahoma State University PhD in Aerospace and Mechanical Engineering August 2023 – August 2027"
+  },
+  {
+    "objectID": "people/phd/index.html#research-interests",
+    "href": "people/phd/index.html#research-interests",
+    "title": "Elahe Oveisi",
+    "section": "Research Interests",
+    "text": "Research Interests\nInterested in “Human Machine Interaction,” “Aviation Safety,” and “Human Factors” in Autonomous Systems."
+  },
+  {
+    "objectID": "people/phd/ElaheOveisi/index.html",
+    "href": "people/phd/ElaheOveisi/index.html",
+    "title": "Elahe Oveisi",
+    "section": "",
+    "text": "Oklahoma State University PhD in Aerospace and Mechanical Engineering"
+  },
+  {
+    "objectID": "people/phd/ElaheOveisi/index.html#education",
+    "href": "people/phd/ElaheOveisi/index.html#education",
+    "title": "Elahe Oveisi",
+    "section": "",
+    "text": "Oklahoma State University PhD in Aerospace and Mechanical Engineering"
+  },
+  {
+    "objectID": "people/phd/ElaheOveisi/index.html#research-interests",
+    "href": "people/phd/ElaheOveisi/index.html#research-interests",
+    "title": "Elahe Oveisi",
+    "section": "Research Interests",
+    "text": "Research Interests\nInterested in “Human Machine Interaction,” “Aviation Safety,” and “Human Factors” in Autonomous Systems."
   }
 ]
