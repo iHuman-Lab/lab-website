@@ -115,17 +115,8 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./contact"> 
 <span class="menu-text">Contact</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./blogs"> 
-<span class="menu-text">Blogs</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/iHuman-Lab"> <i class="bi bi-github" role="img">
 </i> 
@@ -158,17 +149,26 @@ ul.task-list li input[type="checkbox"] {
 
 <style>
   body {
-  background-image: url("images/illo.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+    background-image:url("images/campus.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* Correctly define the pseudo-element rule */
+  body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Use RGBA with RGB values instead of hex */
+    background-color: rgba(254, 92, 0, 0.5);
+    z-index:-1;
+  }
 </style>
-<p align="center">
-<img src="images/logo_transparent.png" class="img-fluid quarto-figure quarto-figure-center" style="width:10.0%">
-</p><p>
-</p><div class="lead">
-<p><strong>Welcome to <code>I</code>ntelligent <code>Hu</code>man-<code>Ma</code>chine <code>N</code>exus <code>Lab</code>- iHuman Lab, where the convergence of human intelligence and machine capabilities defines our pursuit of cutting-edge research.</strong></p>
-<p><strong>At the iHuman Lab, we are dedicated to unraveling the complexities of interaction between humans and machines, forging pathways that enhance cognitive abilities, augment decision-making processes, and revolutionize technological integration in society.</strong></p>
+<div class="text-box">
+<p>Welcome to <span class="primary">I</span>ntelligent <span class="primary">Hu</span>man-<span class="primary">Ma</span>chine <span class="primary">N</span>exus <span class="primary">Lab</span>-iHuman Lab, where the convergence of human intelligence and machine capabilities defines our pursuit of cutting-edge research.</p>
+<p>At the iHuman Lab, we are dedicated to unraveling the complexities of interaction between humans and machines, forging pathways that enhance cognitive abilities, augment decision-making processes, and revolutionize technological integration in society.</p>
 </div>
 
 
@@ -266,7 +266,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/iHuman-Lab\.github\.io\/lab-website\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

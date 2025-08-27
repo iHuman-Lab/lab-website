@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>iHuman Lab</title>
+<link>https://iHuman-Lab.github.io/lab-website/research/</link>
+<atom:link href="https://iHuman-Lab.github.io/lab-website/research/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Wed, 27 Aug 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation</title>
+  <link>https://iHuman-Lab.github.io/lab-website/research/explainability/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://iHuman-Lab.github.io/lab-website/research/explainability/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>Imagine a world where robots work <strong>hand-in-hand with humans</strong>, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with human-robot collaboration poised to transform industries from manufacturing and logistics to healthcare and assistive technologies. But to achieve truly seamless interaction, robots need to understand not only our actions but also our <strong>thoughts and cognitive processes</strong>.</p>
+<p>Enter <strong>electroencephalography (EEG)</strong>, a technique that measures brain activity using sensors on the scalp. EEG offers a window into the brain’s dynamic processes, but interpreting its complex signals remains a challenge. While <strong>deep learning models</strong> have shown success in decoding EEG data [14], they often act as “<strong>black boxes</strong>” – we see the results, but we don’t know <em>how</em> the model arrived at them. This lack of <strong>transparency</strong> hinders our ability to trust and fully utilize these powerful tools.</p>
+<p>Our research addresses the <strong>interpretability</strong> of deep learning models in human-robot co-manipulation. We developed a <strong>novel computational approach</strong> to understand how these models classify a user’s <strong>mental workload</strong> during collaboration with a robot.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="The Challenge">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+The Challenge
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Decoding the complex signals of the brain using deep learning while understanding <em>why</em> the model makes its decisions.</p>
+</div>
+</div>
+<p><strong>A Glimpse into the Experiment</strong></p>
+<p>To study mental workload, we designed an experiment where participants guided a robot’s movements. The tasks involved:</p>
+<ul>
+<li><strong>Gross Motor Control:</strong> Guiding the robot through a horizontal eight-shaped motion.</li>
+<li><strong>Fine Motor Control:</strong> Performing a star-shaped fine motion.</li>
+</ul>
+<p>We also manipulated the robot’s <strong>resistance (damping)</strong> between high (requiring more effort) and low (allowing easier movement) levels. This created conditions where the damping was either appropriate or inappropriate for the specific movement, influencing the user’s mental workload. Our <strong>Convolutional Neural Network (CNN)</strong> model was trained to distinguish between these conditions using raw EEG recordings.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Research Goal">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Research Goal
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To enhance the <strong>interpretability</strong> of deep learning models applied to EEG data, specifically in the context of classifying <strong>mental workload</strong> during human-robot co-manipulation.</p>
+</div>
+</div>
+<p><strong>Our Novel Approach: Making the “Black Box” Transparent</strong></p>
+<p>Our key contribution is our method to understand how our deep learning model (a CNN) made its decisions. We used two powerful techniques, adapting methods commonly used in <strong>computer vision</strong>:</p>
+<ul>
+<li><strong>Integrated Gradients:</strong> This method assigns <strong>importance scores</strong> to the input features (EEG data points) by considering the gradient of the output with respect to the input along a path from a baseline input to the actual input. Think of it as tracing back the model’s decision to the original EEG signals [11, 12].</li>
+<li><strong>Ablation Attribution:</strong> Here, we systematically removed parts of the input EEG data (e.g., data from specific electrodes or frequency bands) and observed how the model’s performance changed. If removing a particular feature significantly decreased performance, it indicates that the feature was <strong>important</strong> for the classification.</li>
+</ul>
+<p>By combining these methods, we created a pipeline that extracts <strong>interpretable features</strong> from EEG data, providing unprecedented insight into the brain activity patterns associated with mental workload in human-robot collaboration.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Key Methods">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Methods
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We used <strong>Integrated Gradients</strong> and <strong>Ablation Attribution</strong> to understand which EEG features were most important to our deep learning model.</p>
+</div>
+</div>
+<p><strong>Decoding the Brain: Key Findings</strong></p>
+<p>Our analysis revealed that the model relied heavily on specific brainwave frequencies and locations:</p>
+<ul>
+<li><strong>Gamma and Beta Bands:</strong> As highlighted in our abstract, the <strong>Gamma and Beta frequency bands</strong> were particularly relevant for classifying mental workload in this visuospatial and motor control-oriented experiment. These <strong>higher-frequency brainwaves</strong> are often associated with active processing of information, attention, and motor control [15].</li>
+<li><strong>Parietal Regions:</strong> Our method also indicated the importance of EEG signals originating from the <strong>parietal regions</strong> of the brain. These areas play a crucial role in <strong>spatial awareness, sensorimotor integration, and attention</strong>.</li>
+</ul>
+<p>These findings strongly suggest that <strong>Gamma and Beta activity over the parietal areas indicates mental workload</strong> when humans co-manipulate a robot, particularly during tasks requiring visual attention and motor coordination.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Key Findings">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Findings
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The model heavily relied on <strong>Gamma and Beta brainwave activity</strong> in the <strong>parietal regions</strong> to assess mental workload.</p>
+</div>
+</div>
+<p><strong>The Path to Smarter Human-Robot Collaboration</strong></p>
+<p>Our ability to interpret deep learning models opens up exciting possibilities:</p>
+<ul>
+<li><strong>Adaptive Robots:</strong> Robots could dynamically adjust their behavior based on a user’s real-time <strong>mental workload</strong>, providing assistance when needed and reducing demands when the user is overloaded.</li>
+<li><strong>Enhanced Training:</strong> Our findings can inform the design of training programs that optimize human-robot interaction and minimize <strong>mental strain</strong>.</li>
+<li><strong>Trustworthy AI:</strong> Understanding how these models work builds greater <strong>trust</strong> in AI-powered systems, paving the way for more seamless and effective collaboration.</li>
+</ul>
+<p>This research represents a significant step towards creating more <strong>intuitive and responsive human-robot interfaces</strong>. By shedding light on the brain activity patterns that underlie collaborative work, we can design robots that are true partners, enhancing human capabilities and improving our lives.</p>
+<p>What are your thoughts on the future of human-robot collaboration? How can <strong>interpretable AI in neurotechnology</strong> address challenges in other domains like healthcare or education?</p>
+
+
+
+ ]]></description>
+  <category>human-robot-interaction</category>
+  <category>python</category>
+  <guid>https://iHuman-Lab.github.io/lab-website/research/explainability/</guid>
+  <pubDate>Wed, 27 Aug 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/explainability/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Hello</title>
+  <link>https://iHuman-Lab.github.io/lab-website/research/new/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://iHuman-Lab.github.io/lab-website/research/new/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>Imagine a world where robots work <strong>hand-in-hand with humans</strong>, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with human-robot collaboration poised to transform industries from manufacturing and logistics to healthcare and assistive technologies. But to achieve truly seamless interaction, robots need to understand not only our actions but also our <strong>thoughts and cognitive processes</strong>.</p>
+<p>Enter <strong>electroencephalography (EEG)</strong>, a technique that measures brain activity using sensors on the scalp. EEG offers a window into the brain’s dynamic processes, but interpreting its complex signals remains a challenge. While <strong>deep learning models</strong> have shown success in decoding EEG data [14], they often act as “<strong>black boxes</strong>” – we see the results, but we don’t know <em>how</em> the model arrived at them. This lack of <strong>transparency</strong> hinders our ability to trust and fully utilize these powerful tools.</p>
+<p>Our research addresses the <strong>interpretability</strong> of deep learning models in human-robot co-manipulation. We developed a <strong>novel computational approach</strong> to understand how these models classify a user’s <strong>mental workload</strong> during collaboration with a robot.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="The Challenge">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+The Challenge
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Decoding the complex signals of the brain using deep learning while understanding <em>why</em> the model makes its decisions.</p>
+</div>
+</div>
+<p><strong>A Glimpse into the Experiment</strong></p>
+<p>To study mental workload, we designed an experiment where participants guided a robot’s movements. The tasks involved:</p>
+<ul>
+<li><strong>Gross Motor Control:</strong> Guiding the robot through a horizontal eight-shaped motion.</li>
+<li><strong>Fine Motor Control:</strong> Performing a star-shaped fine motion.</li>
+</ul>
+<p>We also manipulated the robot’s <strong>resistance (damping)</strong> between high (requiring more effort) and low (allowing easier movement) levels. This created conditions where the damping was either appropriate or inappropriate for the specific movement, influencing the user’s mental workload. Our <strong>Convolutional Neural Network (CNN)</strong> model was trained to distinguish between these conditions using raw EEG recordings.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Research Goal">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Research Goal
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To enhance the <strong>interpretability</strong> of deep learning models applied to EEG data, specifically in the context of classifying <strong>mental workload</strong> during human-robot co-manipulation.</p>
+</div>
+</div>
+<p><strong>Our Novel Approach: Making the “Black Box” Transparent</strong></p>
+<p>Our key contribution is our method to understand how our deep learning model (a CNN) made its decisions. We used two powerful techniques, adapting methods commonly used in <strong>computer vision</strong>:</p>
+<ul>
+<li><strong>Integrated Gradients:</strong> This method assigns <strong>importance scores</strong> to the input features (EEG data points) by considering the gradient of the output with respect to the input along a path from a baseline input to the actual input. Think of it as tracing back the model’s decision to the original EEG signals [11, 12].</li>
+<li><strong>Ablation Attribution:</strong> Here, we systematically removed parts of the input EEG data (e.g., data from specific electrodes or frequency bands) and observed how the model’s performance changed. If removing a particular feature significantly decreased performance, it indicates that the feature was <strong>important</strong> for the classification.</li>
+</ul>
+<p>By combining these methods, we created a pipeline that extracts <strong>interpretable features</strong> from EEG data, providing unprecedented insight into the brain activity patterns associated with mental workload in human-robot collaboration.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Key Methods">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Methods
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We used <strong>Integrated Gradients</strong> and <strong>Ablation Attribution</strong> to understand which EEG features were most important to our deep learning model.</p>
+</div>
+</div>
+<p><strong>Decoding the Brain: Key Findings</strong></p>
+<p>Our analysis revealed that the model relied heavily on specific brainwave frequencies and locations:</p>
+<ul>
+<li><strong>Gamma and Beta Bands:</strong> As highlighted in our abstract, the <strong>Gamma and Beta frequency bands</strong> were particularly relevant for classifying mental workload in this visuospatial and motor control-oriented experiment. These <strong>higher-frequency brainwaves</strong> are often associated with active processing of information, attention, and motor control [15].</li>
+<li><strong>Parietal Regions:</strong> Our method also indicated the importance of EEG signals originating from the <strong>parietal regions</strong> of the brain. These areas play a crucial role in <strong>spatial awareness, sensorimotor integration, and attention</strong>.</li>
+</ul>
+<p>These findings strongly suggest that <strong>Gamma and Beta activity over the parietal areas indicates mental workload</strong> when humans co-manipulate a robot, particularly during tasks requiring visual attention and motor coordination.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Key Findings">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Findings
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The model heavily relied on <strong>Gamma and Beta brainwave activity</strong> in the <strong>parietal regions</strong> to assess mental workload.</p>
+</div>
+</div>
+<p><strong>The Path to Smarter Human-Robot Collaboration</strong></p>
+<p>Our ability to interpret deep learning models opens up exciting possibilities:</p>
+<ul>
+<li><strong>Adaptive Robots:</strong> Robots could dynamically adjust their behavior based on a user’s real-time <strong>mental workload</strong>, providing assistance when needed and reducing demands when the user is overloaded.</li>
+<li><strong>Enhanced Training:</strong> Our findings can inform the design of training programs that optimize human-robot interaction and minimize <strong>mental strain</strong>.</li>
+<li><strong>Trustworthy AI:</strong> Understanding how these models work builds greater <strong>trust</strong> in AI-powered systems, paving the way for more seamless and effective collaboration.</li>
+</ul>
+<p>This research represents a significant step towards creating more <strong>intuitive and responsive human-robot interfaces</strong>. By shedding light on the brain activity patterns that underlie collaborative work, we can design robots that are true partners, enhancing human capabilities and improving our lives.</p>
+<p>What are your thoughts on the future of human-robot collaboration? How can <strong>interpretable AI in neurotechnology</strong> address challenges in other domains like healthcare or education?</p>
+
+
+
+ ]]></description>
+  <category>human-robot-interaction</category>
+  <category>python</category>
+  <guid>https://iHuman-Lab.github.io/lab-website/research/new/</guid>
+  <pubDate>Wed, 27 Aug 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/new/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

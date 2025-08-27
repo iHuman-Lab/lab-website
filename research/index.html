@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-date','listing-draft','listing-categories','listing-image','listing-links','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-date","listing-draft","listing-categories","listing-image","listing-links","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,7 +129,7 @@ window.Quarto = {
 };
 </script>
 
-</head>
+<link rel="alternate" type="application/rss+xml" title="iHuman Lab" href="index.xml" data-external="1"></head>
 
 <body class="nav-fixed">
 
@@ -175,17 +175,8 @@ window.Quarto = {
     <a class="nav-link" href="../contact"> 
 <span class="menu-text">Contact</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../blogs"> 
-<span class="menu-text">Blogs</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/iHuman-Lab"> <i class="bi bi-github" role="img">
 </i> 
@@ -219,13 +210,25 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
      <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
+         <option value="listing-project" data-direction="asc">
+          project
+        </option>
+         <option value="listing-website" data-direction="asc">
+          website
+        </option>
+         <option value="listing-format" data-direction="asc">
+          format
+        </option>
+         <option value="listing-language" data-direction="asc">
+          language
+        </option>
          <option value="listing-title" data-direction="asc">
           Title
         </option>
@@ -235,42 +238,209 @@ window.Quarto = {
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
         </option>
+         <option value="listing-draft" data-direction="asc">
+          draft
+        </option>
+         <option value="listing-categories" data-direction="asc">
+          Categories
+        </option>
+         <option value="listing-image" data-direction="asc">
+        </option>
+         <option value="listing-links" data-direction="asc">
+          links
+        </option>
+         <option value="listing-path" data-direction="asc">
+          path
+        </option>
+         <option value="listing-outputHref" data-direction="asc">
+          outputHref
+        </option>
+         <option value="listing-date-modified-sort" data-direction="asc">
+          Modified - Oldest
+        </option>
+         <option value="listing-date-modified-sort" data-direction="desc">
+          Modified - Newest
+        </option>
          <option value="listing-author" data-direction="asc">
           Author
+        </option>
+         <option value="listing-description" data-direction="asc">
+          Description
+        </option>
+         <option value="listing-filename" data-direction="asc">
+          File Name
+        </option>
+         <option value="listing-file-modified-sort" data-direction="asc">
+          Modified - Oldest
+        </option>
+         <option value="listing-file-modified-sort" data-direction="desc">
+          Modified - Newest
+        </option>
+         <option value="listing-reading-time-sort" data-direction="asc">
+          Reading Time (Low to High)
+        </option>
+         <option value="listing-reading-time-sort" data-direction="desc">
+          Reading Time (High to Low)
+        </option>
+         <option value="listing-word-count-sort" data-direction="asc">
+          Word Count (Low to High)
+        </option>
+         <option value="listing-word-count-sort" data-direction="desc">
+          Word Count (High to Low)
         </option>
      </select>
   </div>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="human-robot-interaction,python" data-listing-date-sort="1735027200000" data-listing-file-modified-sort="1735107980030" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="400">
-<div class="thumbnail">
-<p><a href="../research/explainability/index.html" class="no-external"></a></p><a href="../research/explainability/index.html" class="no-external">
-<p class="card-img-top"><img src="explainability/cover.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../research/explainability/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/explainability/index.html" class="no-external">Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../research/explainability/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../research/explainability/index.html" class="no-external">There is an increasing interest in adapting the deep learning models into neuroimaging techniques such as electroencephalogram (EEG). However, one of the fundamental…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../research/explainability/index.html" class="no-external">
-<div class="listing-date">
-Dec 24, 2024
-</div>
-<div class="listing-author">
-Hemanth Manjunatha
-</div>
-</a>
-</div>
-</div>
-</div>
+
+  <article class="simple-card">
+    <div class="card-text">
+      <h2 class="title anchored">
+        <a href="../research/explainability/index.html" style="text-decoration: none; color: inherit;">
+          Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation
+        </a>
+      </h2>
+      
+        <div class="categories">
+          
+            <span class="category">human-robot-interaction</span>
+          
+            <span class="category">python</span>
+          
+        </div>
+      
+
+      
+        <p class="description">Imagine a world where robots work <strong>hand-in-hand with humans</strong>, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with…<strong></strong></p>
+      
+    </div>
+
+    <div class="card-image">
+      <img src="../research/explainability/cover.jpg" alt="">
+    </div>
+  </article>
+
+  <article class="simple-card">
+    <div class="card-text">
+      <h2 class="title anchored">
+        <a href="../research/new/index.html" style="text-decoration: none; color: inherit;">
+          Hello
+        </a>
+      </h2>
+      
+        <div class="categories">
+          
+            <span class="category">human-robot-interaction</span>
+          
+            <span class="category">python</span>
+          
+        </div>
+      
+
+      
+        <p class="description">Imagine a world where robots work <strong>hand-in-hand with humans</strong>, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with…<strong></strong></p>
+      
+    </div>
+
+    <div class="card-image">
+      <img src="../research/new/cover.jpg" alt="">
+    </div>
+  </article>
+
+<style>
+.simple-card {
+  display: flex;
+  max-width: 1200px;
+  height: 200px;
+  margin: 2rem auto;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #dddddd;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  border: 1.5px solid #c0c1c4;
+}
+
+.card-text {
+  flex: 1;
+  padding: 4rem 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #Fe5c00
+}
+
+.title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin: 0 0 0.4rem;
+}
+
+.categories {
+  margin: 0 0 0.4rem;
+}
+
+.category {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.3rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  margin-right: 0.4rem;
+  display: inline-block;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #374151;
+  line-height: 1.4;
+  margin: 0;
+  max-height: 200px; /* Adjust as needed */
+
+}
+
+.card-image {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9fafb;
+}
+
+.card-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .simple-card {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card-image {
+    width: 100%;
+    height: 200px;
+  }
+
+  .card-image img {
+    max-height: 100%;
+    object-fit: contain;
+  }
+}
+</style>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -367,7 +537,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/iHuman-Lab\.github\.io\/lab-website\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

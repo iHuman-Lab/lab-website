@@ -6,8 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Hemanth Manjunatha">
-<meta name="dcterms.date" content="2024-12-24">
+<meta name="dcterms.date" content="2025-08-27">
 
 <title>Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation – iHuman Lab</title>
 <style>
@@ -71,10 +70,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta name="twitter:title" content="Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation – iHuman Lab">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="cover.jpg">
-<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -121,17 +116,8 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../contact"> 
 <span class="menu-text">Contact</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../blogs"> 
-<span class="menu-text">Blogs</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/iHuman-Lab"> <i class="bi bi-github" role="img">
 </i> 
@@ -153,15 +139,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -179,17 +158,11 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Hemanth Manjunatha </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 24, 2024</p>
+      <p class="date">August 27, 2025</p>
     </div>
   </div>
   
@@ -206,34 +179,93 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>There is an increasing interest in adapting the deep learning models into neuroimaging techniques such as electroencephalogram (EEG). However, one of the fundamental problems in deep learning models is the interpretability of the learned representations. Even though many interpretability models exist for computer vision applications, adapting those methods for deep learning using EEG is still a challenge. In this regard, we propose a novel computational approach to increase the interpretability of results from deep learning algorithm using two popular saliency detection algorithms: integrated gradients and ablation attribution method. The method provides the importance of values across different EEG frequency bands (Theta, Alpha, Beta, Gamma) and across different electrode locations. We can use these importance values to recognize which electrode and frequency bands are relevant for a particular classification problem. We demonstrate the proposed method’s efficacy in a physical human-robot co-manipulation experiment where a convolution neural network (CNN) model is trained to classify the user’s mental workload using raw EEG recordings. The experiment is predominantly visuospatial and motor control-oriented. The proposed method found the Gamma and Beta frequency band across parietal and occipital regions to be important, which are indeed associated with visuospatial processing and sensory integration.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="Research Questions">
+<p>Imagine a world where robots work <strong>hand-in-hand with humans</strong>, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with human-robot collaboration poised to transform industries from manufacturing and logistics to healthcare and assistive technologies. But to achieve truly seamless interaction, robots need to understand not only our actions but also our <strong>thoughts and cognitive processes</strong>.</p>
+<p>Enter <strong>electroencephalography (EEG)</strong>, a technique that measures brain activity using sensors on the scalp. EEG offers a window into the brain’s dynamic processes, but interpreting its complex signals remains a challenge. While <strong>deep learning models</strong> have shown success in decoding EEG data [14], they often act as “<strong>black boxes</strong>” – we see the results, but we don’t know <em>how</em> the model arrived at them. This lack of <strong>transparency</strong> hinders our ability to trust and fully utilize these powerful tools.</p>
+<p>Our research addresses the <strong>interpretability</strong> of deep learning models in human-robot co-manipulation. We developed a <strong>novel computational approach</strong> to understand how these models classify a user’s <strong>mental workload</strong> during collaboration with a robot.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="The Challenge">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Research Questions
+The Challenge
 </div>
 </div>
 <div class="callout-body-container callout-body">
+<p>Decoding the complex signals of the brain using deep learning while understanding <em>why</em> the model makes its decisions.</p>
+</div>
+</div>
+<p><strong>A Glimpse into the Experiment</strong></p>
+<p>To study mental workload, we designed an experiment where participants guided a robot’s movements. The tasks involved:</p>
 <ul>
-<li>Which physiological modalities, eye, brain activity, or their combination can provide a more accurate classification of the reaction time?</li>
-<li>Do the task type information and individual differences in the task performance influence the classification of reaction time?</li>
+<li><strong>Gross Motor Control:</strong> Guiding the robot through a horizontal eight-shaped motion.</li>
+<li><strong>Fine Motor Control:</strong> Performing a star-shaped fine motion.</li>
 </ul>
+<p>We also manipulated the robot’s <strong>resistance (damping)</strong> between high (requiring more effort) and low (allowing easier movement) levels. This created conditions where the damping was either appropriate or inappropriate for the specific movement, influencing the user’s mental workload. Our <strong>Convolutional Neural Network (CNN)</strong> model was trained to distinguish between these conditions using raw EEG recordings.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Research Goal">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Research Goal
 </div>
 </div>
-</section>
-<section id="results" class="level2">
-<h2 class="anchored" data-anchor-id="results">Results</h2>
-<p>The study concluded that both eye features and cognitive features are needed to classify the reaction time effectively. The task type information had a significant influence on the classification accuracy, while the same could not be said with individual difference information. The accuracy of classification was increased when task type information was included as features, indicating that the reaction time depends on the task information.</p>
-<p>These results are in agreement with the Linear Approach to the Threshold with Ergodic Rate (LATER) model, which suggests that reaction time depends on evidence collected and the task difficulty. The classifier trained on the physiological features using reaction time as the label can be used to classify task difficulty well above chance. Such systems can be utilized in Automation Invocation models that utilize appropriate control inputs and control strategies for optimal role allocation in collaborative tasks such as teleoperation.</p>
-<p><code>The present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time</code></p>
+<div class="callout-body-container callout-body">
+<p>To enhance the <strong>interpretability</strong> of deep learning models applied to EEG data, specifically in the context of classifying <strong>mental workload</strong> during human-robot co-manipulation.</p>
+</div>
+</div>
+<p><strong>Our Novel Approach: Making the “Black Box” Transparent</strong></p>
+<p>Our key contribution is our method to understand how our deep learning model (a CNN) made its decisions. We used two powerful techniques, adapting methods commonly used in <strong>computer vision</strong>:</p>
+<ul>
+<li><strong>Integrated Gradients:</strong> This method assigns <strong>importance scores</strong> to the input features (EEG data points) by considering the gradient of the output with respect to the input along a path from a baseline input to the actual input. Think of it as tracing back the model’s decision to the original EEG signals [11, 12].</li>
+<li><strong>Ablation Attribution:</strong> Here, we systematically removed parts of the input EEG data (e.g., data from specific electrodes or frequency bands) and observed how the model’s performance changed. If removing a particular feature significantly decreased performance, it indicates that the feature was <strong>important</strong> for the classification.</li>
+</ul>
+<p>By combining these methods, we created a pipeline that extracts <strong>interpretable features</strong> from EEG data, providing unprecedented insight into the brain activity patterns associated with mental workload in human-robot collaboration.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Key Methods">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Methods
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We used <strong>Integrated Gradients</strong> and <strong>Ablation Attribution</strong> to understand which EEG features were most important to our deep learning model.</p>
+</div>
+</div>
+<p><strong>Decoding the Brain: Key Findings</strong></p>
+<p>Our analysis revealed that the model relied heavily on specific brainwave frequencies and locations:</p>
+<ul>
+<li><strong>Gamma and Beta Bands:</strong> As highlighted in our abstract, the <strong>Gamma and Beta frequency bands</strong> were particularly relevant for classifying mental workload in this visuospatial and motor control-oriented experiment. These <strong>higher-frequency brainwaves</strong> are often associated with active processing of information, attention, and motor control [15].</li>
+<li><strong>Parietal Regions:</strong> Our method also indicated the importance of EEG signals originating from the <strong>parietal regions</strong> of the brain. These areas play a crucial role in <strong>spatial awareness, sensorimotor integration, and attention</strong>.</li>
+</ul>
+<p>These findings strongly suggest that <strong>Gamma and Beta activity over the parietal areas indicates mental workload</strong> when humans co-manipulate a robot, particularly during tasks requiring visual attention and motor coordination.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Key Findings">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Findings
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The model heavily relied on <strong>Gamma and Beta brainwave activity</strong> in the <strong>parietal regions</strong> to assess mental workload.</p>
+</div>
+</div>
+<p><strong>The Path to Smarter Human-Robot Collaboration</strong></p>
+<p>Our ability to interpret deep learning models opens up exciting possibilities:</p>
+<ul>
+<li><strong>Adaptive Robots:</strong> Robots could dynamically adjust their behavior based on a user’s real-time <strong>mental workload</strong>, providing assistance when needed and reducing demands when the user is overloaded.</li>
+<li><strong>Enhanced Training:</strong> Our findings can inform the design of training programs that optimize human-robot interaction and minimize <strong>mental strain</strong>.</li>
+<li><strong>Trustworthy AI:</strong> Understanding how these models work builds greater <strong>trust</strong> in AI-powered systems, paving the way for more seamless and effective collaboration.</li>
+</ul>
+<p>This research represents a significant step towards creating more <strong>intuitive and responsive human-robot interfaces</strong>. By shedding light on the brain activity patterns that underlie collaborative work, we can design robots that are true partners, enhancing human capabilities and improving our lives.</p>
+<p>What are your thoughts on the future of human-robot collaboration? How can <strong>interpretable AI in neurotechnology</strong> address challenges in other domains like healthcare or education?</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -328,7 +360,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/iHuman-Lab\.github\.io\/lab-website\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -662,6 +694,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/logo_text.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:65.0%"></p>
+</figure>
+</div>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
