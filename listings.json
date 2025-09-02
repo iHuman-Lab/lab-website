@@ -24,6 +24,10 @@
     ]
   },
   {
+    "listing": "/publications/index.html",
+    "items": []
+  },
+  {
     "listing": "/people/index.html",
     "items": [
       "/people/pi/index.html",

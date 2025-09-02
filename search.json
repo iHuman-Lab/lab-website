@@ -74,7 +74,7 @@
     "href": "index.html#research",
     "title": "iHuman Lab",
     "section": "Research",
-    "text": "Research\n\n\n\n\n\n\n\n\n\n\nClassification of Reaction Time in Simulated Multiple Robot Tele-Exploration\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSHASTA A Simulator for Human and Swarm Team Applications\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Research\n\n\n\n\n\n\n\n\n\n\nClassification of Reaction Time in Simulated Multiple Robot Tele-Exploration\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSHASTA A Simulator for Human and Swarm Team Applications\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 2, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contact/index.html",
@@ -158,7 +158,7 @@
     "href": "research/index.html",
     "title": "iHuman Lab",
     "section": "",
-    "text": "Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSHASTA A Simulator for Human and Swarm Team Applications\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTask Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Research @ iHuman Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClassification of Reaction Time in Simulated Multiple Robot Tele-Exploration\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSHASTA A Simulator for Human and Swarm Team Applications\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTask Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography\n\n\n\n\n\n\nHemanth Manjunatha\n\n\nSep 2, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/human-swarm-decision/index.html",
@@ -182,32 +182,39 @@
     "text": "Results\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
   },
   {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Manjunatha, Hemanth, Sri Sadhan Jujjavarapu, and Ehsan T Esfahani. Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography. Journal of Computing and Information Science in Engineering, 1–32.\nManjunatha, Hemanth, Shrey Pareek, Sri Sadhan Jujjavarapu, Mostafa Ghobadi, Thenkurussi Kesavadas, and Ehsan T Esfahani. 2021. Upper Limb Home-Based Robotic Rehabilitation During COVID-19 Outbreak. Frontiers in Robotics and AI 8.\nManjunatha, Hemanth, Shrey Pareek, Amirhossein H Memar, Thenkurussi Kesavadas, and Ehsan T Esfahani. 2020. Effect of Haptic Assistance Strategy on Mental Engagement in Fine Motor Tasks. Journal of Medical Robotics Research 5 (01n02): 2041004.\nPareek, Shrey, Hemanth Manjunatha, Ehsan T Esfahani, and Thenkurussi Kesavadas. 2019. Myotrack: Realtime Estimation of Subject Participation in Robotic Rehabilitation Using SEMG and IMU. IEEE Access 7: 76030–41.\nThammineni, Chaitanya, Hemanth Manjunatha, and Ehsan T Esfahani. 2021. Selective Eye-Gaze Augmentation to Enhance Imitation Learning in Atari Games. Neural Computing and Applications, 1–10.\nZhang, Binbin, Jida Huang, Rahul Rai, and Hemanth Manjunatha. 2018. A Sequential Sampling Algorithm for Multistage Static Coverage Problems. Journal of Computing and Information Science in Engineering 18 (2)."
+  },
+  {
+    "objectID": "publications/index.html#journal-papers",
+    "href": "publications/index.html#journal-papers",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Manjunatha, Hemanth, Sri Sadhan Jujjavarapu, and Ehsan T Esfahani. Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography. Journal of Computing and Information Science in Engineering, 1–32.\nManjunatha, Hemanth, Shrey Pareek, Sri Sadhan Jujjavarapu, Mostafa Ghobadi, Thenkurussi Kesavadas, and Ehsan T Esfahani. 2021. Upper Limb Home-Based Robotic Rehabilitation During COVID-19 Outbreak. Frontiers in Robotics and AI 8.\nManjunatha, Hemanth, Shrey Pareek, Amirhossein H Memar, Thenkurussi Kesavadas, and Ehsan T Esfahani. 2020. Effect of Haptic Assistance Strategy on Mental Engagement in Fine Motor Tasks. Journal of Medical Robotics Research 5 (01n02): 2041004.\nPareek, Shrey, Hemanth Manjunatha, Ehsan T Esfahani, and Thenkurussi Kesavadas. 2019. Myotrack: Realtime Estimation of Subject Participation in Robotic Rehabilitation Using SEMG and IMU. IEEE Access 7: 76030–41.\nThammineni, Chaitanya, Hemanth Manjunatha, and Ehsan T Esfahani. 2021. Selective Eye-Gaze Augmentation to Enhance Imitation Learning in Atari Games. Neural Computing and Applications, 1–10.\nZhang, Binbin, Jida Huang, Rahul Rai, and Hemanth Manjunatha. 2018. A Sequential Sampling Algorithm for Multistage Static Coverage Problems. Journal of Computing and Information Science in Engineering 18 (2)."
+  },
+  {
     "objectID": "publications/index.html#conference-paper",
     "href": "publications/index.html#conference-paper",
     "title": "iHuman Lab",
     "section": "Conference Paper",
-    "text": "Conference Paper"
+    "text": "Conference Paper\n\nAmir, Behjat, Hemanth Manjunatha, Apurv J. Kumar, Leighton Collins, Payam Ghassemi, Souma Chowdhury, Karthik Dantu, David Doermann, and Ehsan T. Esfahani. 2021. Learning Swarm Tactics Overs Complex Uncertain Environments. In 2021 International Symposium on Multi-Robot and Multi-Agent Systems (MRS).\nDistefano, Joseph P., Hemanth Manjunatha, Souma Chowdhury, Karthik Dantu, David Doermann, and Ehsan T. Esfahani. 2021. Using Physiological Information to Classify Task Difficulty in Human-Swarm Interaction. IEEE/SMC International Conference on System of Systems Engineering.\nManjunatha, Hemanth, Joseph P. Distefano, Payam Ghassemi, Souma Chowdhury, Karthik Dantu, David Doermann, and Ehsan T. Esfahani. 2020. Using Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams. IEEE/SMC International Conference on System of Systems Engineering.\nManjunatha, Hemanth, Joseph P Distefano, Apurv Jani, Payam Ghassemi, Souma Chowdhury, Karthik Dantu, David Doermann, and Ehsan T Esfahani. Using Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams. In 2020 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 256–61. IEEE.\nManjunatha, Hemanth, Joseph Distefano, Apurv Jani, Amir Behjat, Payam Ghassemi, David Doermann, Souma Chowdhury, Karthik Dantu, and Ehsan T. Esfahani. 2021. SHaSTA: A Simulator for Human and Swarm Team Applications. In.\nManjunatha, Hemanth, and Ehsan T Esfahani.Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-Manipulation. In 2021 10th International IEEE/EMBS Conference on Neural Engineering (NER), 339–42. IEEE.\nManjunatha, Hemanth, Jida Huang, Binbin Zhang, and Rahul Rai. 2016. A Sequential Sampling Algorithm for Multi-Stage Static Coverage Problems. In International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, 50114:V02BT03A029. American Society of Mechanical Engineers.\nManjunatha, Hemanth, Sri Sadhan Jujjavarapu, and Ehsan T Esfahani. 2020a. Classification of Motor Control Difficulty Using EMG in Physical Human-Robot Interaction. In 2020 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2708–13. IEEE."
   },
   {
     "objectID": "publications/index.html#book-chapter",
     "href": "publications/index.html#book-chapter",
     "title": "iHuman Lab",
     "section": "Book Chapter",
-    "text": "Book Chapter"
-  },
-  {
-    "objectID": "publications/index.html#posters",
-    "href": "publications/index.html#posters",
-    "title": "iHuman Lab",
-    "section": "Posters",
-    "text": "Posters"
+    "text": "Book Chapter\n\nManjunatha, Hemanth, and Ehsan T Esfahani. 2020. Application of Reinforcement and Deep Learning Techniques in Brain–Machine Interfaces. Advances in Motor Neuroprostheses, 1–14."
   },
   {
     "objectID": "publications/index.html#under-review",
     "href": "publications/index.html#under-review",
     "title": "iHuman Lab",
     "section": "Under Review",
-    "text": "Under Review"
+    "text": "Under Review\n\nPak, Andrey, Hemanth Manjunatha, Dimitar Filev, and Panagiotis Tsiotras CARNet: A Dynamic Autoencoder for Learning Latent Dynamics in Autonomous Driving Tasks. arXiv Preprint arXiv:2205.08712.\nManjunatha, Hemanth, Amir Memar, and Ehsan Esfahani. 2018. Classification of Task Type and Reaction Time of Operator in Simulated Multiple Robot Tele-Exploration. Frontiers in Human Neuroscience 12."
   },
   {
     "objectID": "people/index.html",
