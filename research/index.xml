@@ -10,7 +10,7 @@
 <atom:link href="https://iHuman-Lab.github.io/lab-website/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Tue, 02 Sep 2025 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 19 Sep 2025 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration</title>
   <dc:creator>Hemanth Manjunatha</dc:creator>
@@ -58,7 +58,7 @@ Research Questions
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/tele-operation/</guid>
-  <pubDate>Tue, 02 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/tele-operation/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -167,7 +167,7 @@ Key Findings
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/explainability/</guid>
-  <pubDate>Tue, 02 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/explainability/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -199,7 +199,7 @@ Key Findings
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/shasta/</guid>
-  <pubDate>Tue, 02 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/shasta/eeg-eye-tracking.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -232,7 +232,7 @@ Key Findings
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/</guid>
-  <pubDate>Tue, 02 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -260,7 +260,7 @@ Key Findings
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/task-difficulty/</guid>
-  <pubDate>Tue, 02 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/task-difficulty/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -313,7 +313,7 @@ Research Questions
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/transfer-learning/</guid>
-  <pubDate>Tue, 02 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/transfer-learning/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -341,7 +341,7 @@ Research Questions
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/</guid>
-  <pubDate>Tue, 02 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

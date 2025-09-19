@@ -1,15 +1,17 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/people/index.html",
     "items": [
-      "/research/tele-operation/index.html",
-      "/research/explainability/index.html",
-      "/research/shasta/index.html",
-      "/research/eye-gaze-augmentation/index.html",
-      "/research/task-difficulty/index.html",
-      "/research/transfer-learning/index.html",
-      "/research/human-swarm-decision/index.html"
+      "/people/pi/index.html",
+      "/people/phd/ElaheOveisi/index.html",
+      "/people/master/Bennett_Dogbey/index.html",
+      "/people/undergraduate/CarsonMcSpadden/index.html",
+      "/people/undergraduate/JacksonBenton/index.html"
     ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": []
   },
   {
     "listing": "/research/index.html",
@@ -24,16 +26,15 @@
     ]
   },
   {
-    "listing": "/publications/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/index.html",
+    "listing": "/index.html",
     "items": [
-      "/people/pi/index.html",
-      "/people/phd/ElaheOveisi/index.html",
-      "/people/undergraduate/CarsonMcSpadden/index.html",
-      "/people/undergraduate/JacksonBenton/index.html"
+      "/research/tele-operation/index.html",
+      "/research/explainability/index.html",
+      "/research/shasta/index.html",
+      "/research/eye-gaze-augmentation/index.html",
+      "/research/task-difficulty/index.html",
+      "/research/transfer-learning/index.html",
+      "/research/human-swarm-decision/index.html"
     ]
   }
 ]
