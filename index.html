@@ -107,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
@@ -254,6 +254,10 @@ window.Quarto = {
   margin: 0;
   overflow: hidden
 }
+
+.quarto-post .thumbnail img {
+    width: 45% !important;
+}
 </style>
 <div class="image-container">
 <p><img src="images/campus.jpg"></p>
@@ -270,7 +274,8 @@ Welcome to Intelligent Human-Machine Nexus Lab!
 <p>At the iHuman Lab, we are dedicated to unraveling the complexities of interaction between humans and machines, forging pathways that enhance cognitive abilities, augment decision-making processes, and revolutionize technological integration in society.</p>
 </div>
 </div>
-<!-- ## [Research](research/index.qmd) -->
+<section id="news" class="level2">
+<h2 class="anchored" data-anchor-id="news"><a href="./news/index.html">News</a></h2>
 <div id="listing-news" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-listing-date-sort="1771048800000" data-listing-file-modified-sort="1771055366692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
@@ -328,6 +333,9 @@ Feb 14, 2026
 No matching items
 </div>
 </div>
+</section>
+<section id="research" class="level2">
+<h2 class="anchored" data-anchor-id="research"><a href="./research/index.html">Research</a></h2>
 <div id="listing-research" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="human-robot-interaction,python" data-listing-date-sort="1771048800000" data-listing-file-modified-sort="1771050076823" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="345">
@@ -340,13 +348,7 @@ No matching items
 <h5 class="no-anchor card-title listing-title">
 Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration
 </h5>
-<div class="card-text listing-description">
-In the teleoperated scenario, as the task difficulty increases, the performance of the operator decreases which leads to a decrease in the overall system efficiency. Thus…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Feb 14, 2026
 </div>
@@ -365,13 +367,7 @@ Feb 14, 2026
 <h5 class="no-anchor card-title listing-title">
 Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation
 </h5>
-<div class="card-text listing-description">
-Imagine a world where robots work hand-in-hand with humans, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with…<strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Feb 14, 2026
 </div>
@@ -390,13 +386,7 @@ Feb 14, 2026
 <h5 class="no-anchor card-title listing-title">
 SHASTA A Simulator for Human and Swarm Team Applications
 </h5>
-<div class="card-text listing-description">
-Human-Swarm Teams uniquely combine the ability of swarms and cognition of humans to achieve complex behaviors. There is a need for a human-in-the-loop simulation framework…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Feb 14, 2026
 </div>
@@ -413,6 +403,7 @@ No matching items
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
