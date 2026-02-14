@@ -137,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle','listing-started',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -165,11 +165,39 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle','listing-started',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-undergraduate'] = new List('listing-undergraduate', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-alumni .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-alumni'] = new List('listing-alumni', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -323,7 +351,7 @@ No matching items
 <h2 class="anchored" data-anchor-id="phd">PhD</h2>
 <div id="listing-phd" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1735107980018" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1771050721421" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
 <a href="../people/phd/ElaheOveisi/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -339,7 +367,31 @@ Elahe Oveisi
 Started
 </td>
 <td class="started">
-August 2023
+Fall 2024
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1771050736739" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
+<a href="../people/phd/Bennett_Dogbey/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../people/phd/Bennett_Dogbey/avatar.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bennett Dogbey
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+Started
+</td>
+<td class="started">
+Spring 2026
 </td>
 </tr>
 </tbody></table>
@@ -357,30 +409,7 @@ No matching items
 <h2 class="anchored" data-anchor-id="masters">Masters</h2>
 <div id="listing-masters" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1758289644003" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
-<a href="../people/master/Bennett_Dogbey/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="../people/master/Bennett_Dogbey/avatar.jpg" class="thumbnail-image card-img" style="height: 225px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bennett Dogbey
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Started
-</td>
-<td class="started">
-&nbsp;
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
+
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -391,11 +420,22 @@ No matching items
 <h2 class="anchored" data-anchor-id="undergraduate">Undergraduate</h2>
 <div id="listing-undergraduate" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1735107980021" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
-<a href="../people/undergraduate/CarsonMcSpadden/index.html" class="quarto-grid-link">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="alumni" class="level2">
+<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
+<div id="listing-alumni" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1771050689441" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
+<a href="../people/alumni/CarsonMcSpadden/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="../people/undergraduate/CarsonMcSpadden/avatar.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="../people/alumni/CarsonMcSpadden/avatar.jpg" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -410,16 +450,24 @@ Started
 Fall 2024
 </td>
 </tr>
+<tr>
+<td>
+Ended
+</td>
+<td class="ended">
+Fall 2025
+</td>
+</tr>
 </tbody></table>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1735107980026" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
-<a href="../people/undergraduate/JacksonBenton/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1771050687956" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+<a href="../people/alumni/JacksonBenton/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="../people/undergraduate/JacksonBenton/avatar.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="../people/alumni/JacksonBenton/avatar.jpg" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -434,6 +482,14 @@ Started
 Fall 2024
 </td>
 </tr>
+<tr>
+<td>
+Ended
+</td>
+<td class="ended">
+Fall 2025
+</td>
+</tr>
 </tbody></table>
 </div>
 </div>
@@ -443,12 +499,6 @@ Fall 2024
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-</section>
-<section id="alumni" class="level2">
-<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
-<div id="alumni">
-
 </div>
 
 

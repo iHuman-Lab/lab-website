@@ -10,10 +10,9 @@
 <atom:link href="https://iHuman-Lab.github.io/lab-website/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Fri, 19 Sep 2025 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 14 Feb 2026 06:00:00 GMT</lastBuildDate>
 <item>
   <title>Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration</title>
-  <dc:creator>Hemanth Manjunatha</dc:creator>
   <link>https://iHuman-Lab.github.io/lab-website/research/tele-operation/</link>
   <description><![CDATA[ 
 
@@ -58,12 +57,11 @@ Research Questions
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/tele-operation/</guid>
-  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/tele-operation/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation</title>
-  <dc:creator>Hemanth Manjunatha</dc:creator>
   <link>https://iHuman-Lab.github.io/lab-website/research/explainability/</link>
   <description><![CDATA[ 
 
@@ -167,12 +165,11 @@ Key Findings
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/explainability/</guid>
-  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/explainability/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>SHASTA A Simulator for Human and Swarm Team Applications</title>
-  <dc:creator>Hemanth Manjunatha</dc:creator>
   <link>https://iHuman-Lab.github.io/lab-website/research/shasta/</link>
   <description><![CDATA[ 
 
@@ -199,12 +196,11 @@ Key Findings
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/shasta/</guid>
-  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/shasta/eeg-eye-tracking.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Selective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games</title>
-  <dc:creator>Hemanth Manjunatha</dc:creator>
   <link>https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/</link>
   <description><![CDATA[ 
 
@@ -232,12 +228,11 @@ Key Findings
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/</guid>
-  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Task Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning</title>
-  <dc:creator>Hemanth Manjunatha</dc:creator>
   <link>https://iHuman-Lab.github.io/lab-website/research/task-difficulty/</link>
   <description><![CDATA[ 
 
@@ -260,12 +255,11 @@ Key Findings
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/task-difficulty/</guid>
-  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/task-difficulty/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography</title>
-  <dc:creator>Hemanth Manjunatha</dc:creator>
   <link>https://iHuman-Lab.github.io/lab-website/research/transfer-learning/</link>
   <description><![CDATA[ 
 
@@ -313,12 +307,11 @@ Research Questions
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/transfer-learning/</guid>
-  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/transfer-learning/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Using Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams</title>
-  <dc:creator>Hemanth Manjunatha</dc:creator>
   <link>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/</link>
   <description><![CDATA[ 
 
@@ -341,7 +334,7 @@ Research Questions
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/</guid>
-  <pubDate>Fri, 19 Sep 2025 05:00:00 GMT</pubDate>
+  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../images/logo_transparent.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -67,9 +69,67 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-</head>
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="iHuman Lab" href="index.xml" data-external="1"></head>
 
 <body class="nav-fixed">
 
@@ -135,22 +195,109 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 
 
 
+<style>
+
+.card {
+  position: relative;
+  overflow: hidden;
+  height: 250px; /* fixed height for uniform grid */
+  background: #252525;
+}
+
+.card img {
+  width: 10%;
+  height: 50px;
+  object-fit: cover;
+  display: block;
+  z-index: 1; /* ensures image stays behind title */
+}
+
+.card-title {
+  position: relative;
+  background: rgba(37, 37, 37, 0.7); /* optional overlay just behind text */
+  font-weight: bold;
+  font-family: Rubik, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  overflow: hidden;
+  text-align: center;
+  z-index: 10;             /* ensures it’s in front of the image */
+  color: #ffffff;
+}
+
+</style>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1771048800000" data-listing-file-modified-sort="1771055366692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
+<div class="thumbnail">
+<p><a href="../news/nvidia/index.html" class="no-external"></a></p><a href="../news/nvidia/index.html" class="no-external">
+<p><img loading="lazy" src="../news/nvidia/nvidia.jpg" class="thumbnail-image" style="height: 200px;"></p>
+</a><p><a href="../news/nvidia/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../news/nvidia/index.html" class="no-external">NVIDIA GPU Grant</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../news/nvidia/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../news/nvidia/index.html" class="no-external">The 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious <strong>𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺</strong>, and we couldn’t be more excited!</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../news/nvidia/index.html" class="no-external">
+<div class="listing-date">
+Feb 14, 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1771048800000" data-listing-file-modified-sort="1771055187007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
+<div class="thumbnail">
+<p><a href="../news/neurable/index.html" class="no-external"></a></p><a href="../news/neurable/index.html" class="no-external">
+<p><img loading="lazy" src="../news/neurable/neurable_logo.jpeg" class="thumbnail-image" style="height: 200px;"></p>
+</a><p><a href="../news/neurable/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../news/neurable/index.html" class="no-external">Neurable Research Grant</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../news/neurable/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../news/neurable/index.html" class="no-external">iHuman Lab Wins Neurable Research Grant to Advance Brain–Computer Interface Research</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../news/neurable/index.html" class="no-external">
+<div class="listing-date">
+Feb 14, 2026
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

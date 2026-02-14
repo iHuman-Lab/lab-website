@@ -72,6 +72,34 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-news .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-news'] = new List('listing-news', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-research .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -229,18 +257,80 @@ window.Quarto = {
 </style>
 <div class="image-container">
 <p><img src="images/campus.jpg"></p>
+<div id="contentframe" style="position:absolute; top: 12%; left: 13%; color: #ffffff; font-family: Rubik; font-size: 36px">
+Welcome to Intelligent Human-Machine Nexus Lab!
 </div>
-<div id="contentframe" style="position:relative; top: 0px; left: 0px; color: #ffffff; font-family: Rubik; font-size: 30px">
-<p>Welcome to Intelligent Human-Machine Nexus Lab!</p>
-</div>
-<div class="text-box">
+<div id="contentframe" style="position:absolute; top: 40%; left: 13%; color: #ffffff; font-family: Rubik; background-color: #252525;
+  color: #ffffff; /* A dark gray text color */
+  padding: 20px;
+  border-radius: 5px;
+  height: auto;
+  width: 50%;
+  font-size: 18px; padding-bottom: 5px;">
 <p>At the iHuman Lab, we are dedicated to unraveling the complexities of interaction between humans and machines, forging pathways that enhance cognitive abilities, augment decision-making processes, and revolutionize technological integration in society.</p>
 </div>
-<section id="research" class="level2">
-<h2 class="anchored" data-anchor-id="research"><a href="./research/index.html">Research</a></h2>
+</div>
+<!-- ## [Research](research/index.qmd) -->
+<div id="listing-news" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1771048800000" data-listing-file-modified-sort="1771055366692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
+<div class="thumbnail">
+<p><a href="./news/nvidia/index.html" class="no-external"></a></p><a href="./news/nvidia/index.html" class="no-external">
+<p><img loading="lazy" src="./news/nvidia/nvidia.jpg" class="thumbnail-image"></p>
+</a><p><a href="./news/nvidia/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./news/nvidia/index.html" class="no-external">NVIDIA GPU Grant</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./news/nvidia/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./news/nvidia/index.html" class="no-external">The 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious <strong>𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺</strong>, and we couldn’t be more excited!</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./news/nvidia/index.html" class="no-external">
+<div class="listing-date">
+Feb 14, 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1771048800000" data-listing-file-modified-sort="1771055187007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
+<div class="thumbnail">
+<p><a href="./news/neurable/index.html" class="no-external"></a></p><a href="./news/neurable/index.html" class="no-external">
+<p><img loading="lazy" src="./news/neurable/neurable_logo.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./news/neurable/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./news/neurable/index.html" class="no-external">Neurable Research Grant</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./news/neurable/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./news/neurable/index.html" class="no-external">iHuman Lab Wins Neurable Research Grant to Advance Brain–Computer Interface Research</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./news/neurable/index.html" class="no-external">
+<div class="listing-date">
+Feb 14, 2026
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 <div id="listing-research" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="human-robot-interaction,python" data-listing-date-sort="1758258000000" data-listing-file-modified-sort="1758289516842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="345">
+<div class="g-col-1" data-index="0" data-categories="human-robot-interaction,python" data-listing-date-sort="1771048800000" data-listing-file-modified-sort="1771050076823" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="345">
 <a href="./research/tele-operation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -255,17 +345,17 @@ In the teleoperated scenario, as the task difficulty increases, the performance 
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Hemanth Manjunatha
+
 </div>
 <div class="listing-date">
-Sep 19, 2025
+Feb 14, 2026
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="human-robot-interaction,python" data-listing-date-sort="1758258000000" data-listing-file-modified-sort="1758289516809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="780">
+<div class="g-col-1" data-index="1" data-categories="human-robot-interaction,python" data-listing-date-sort="1771048800000" data-listing-file-modified-sort="1771047476647" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="780">
 <a href="./research/explainability/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -280,17 +370,17 @@ Imagine a world where robots work hand-in-hand with humans, anticipating our nee
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Hemanth Manjunatha
+
 </div>
 <div class="listing-date">
-Sep 19, 2025
+Feb 14, 2026
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="human-robot-interaction,python" data-listing-date-sort="1758258000000" data-listing-file-modified-sort="1758289516837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
+<div class="g-col-1" data-index="2" data-categories="human-robot-interaction,python" data-listing-date-sort="1771048800000" data-listing-file-modified-sort="1771050076783" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
 <a href="./research/shasta/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -305,10 +395,10 @@ Human-Swarm Teams uniquely combine the ability of swarms and cognition of humans
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Hemanth Manjunatha
+
 </div>
 <div class="listing-date">
-Sep 19, 2025
+Feb 14, 2026
 </div>
 </div>
 </div>
@@ -323,7 +413,6 @@ No matching items
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
