@@ -1,16 +1,5 @@
 [
   {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/nvidia/index.html",
-      "/news/neurable/index.html"
-    ]
-  },
-  {
-    "listing": "/publications/index.html",
-    "items": []
-  },
-  {
     "listing": "/research/index.html",
     "items": [
       "/research/tele-operation/index.html",
@@ -20,6 +9,16 @@
       "/research/task-difficulty/index.html",
       "/research/transfer-learning/index.html",
       "/research/human-swarm-decision/index.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/pi/index.html",
+      "/people/phd/Bennett_Dogbey/index.html",
+      "/people/phd/ElaheOveisi/index.html",
+      "/people/alumni/CarsonMcSpadden/index.html",
+      "/people/alumni/JacksonBenton/index.html"
     ]
   },
   {
@@ -37,13 +36,10 @@
     ]
   },
   {
-    "listing": "/people/index.html",
+    "listing": "/news/index.html",
     "items": [
-      "/people/pi/index.html",
-      "/people/phd/ElaheOveisi/index.html",
-      "/people/phd/Bennett_Dogbey/index.html",
-      "/people/alumni/CarsonMcSpadden/index.html",
-      "/people/alumni/JacksonBenton/index.html"
+      "/news/nvidia/index.html",
+      "/news/neurable/index.html"
     ]
   }
 ]

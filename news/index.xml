@@ -9,8 +9,8 @@
 <link>https://iHuman-Lab.github.io/lab-website/news/</link>
 <atom:link href="https://iHuman-Lab.github.io/lab-website/news/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.57</generator>
-<lastBuildDate>Sat, 14 Feb 2026 06:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Tue, 17 Feb 2026 06:00:00 GMT</lastBuildDate>
 <item>
   <title>NVIDIA GPU Grant</title>
   <link>https://iHuman-Lab.github.io/lab-website/news/nvidia/</link>
@@ -34,7 +34,7 @@
 
  ]]></description>
   <guid>https://iHuman-Lab.github.io/lab-website/news/nvidia/</guid>
-  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
+  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/news/nvidia/nvidia.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -67,7 +67,7 @@
 
  ]]></description>
   <guid>https://iHuman-Lab.github.io/lab-website/news/neurable/</guid>
-  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
+  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/news/neurable/neurable_logo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

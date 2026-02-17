@@ -9,8 +9,8 @@
 <link>https://iHuman-Lab.github.io/lab-website/research/</link>
 <atom:link href="https://iHuman-Lab.github.io/lab-website/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.57</generator>
-<lastBuildDate>Sat, 14 Feb 2026 06:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Tue, 17 Feb 2026 06:00:00 GMT</lastBuildDate>
 <item>
   <title>Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration</title>
   <link>https://iHuman-Lab.github.io/lab-website/research/tele-operation/</link>
@@ -36,7 +36,7 @@
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Research Questions
+<span class="screen-reader-only">Important</span>Research Questions
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -57,7 +57,7 @@ Research Questions
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/tele-operation/</guid>
-  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
+  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/tele-operation/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -82,7 +82,7 @@ Research Questions
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-The Challenge
+<span class="screen-reader-only">Important</span>The Challenge
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -102,7 +102,7 @@ The Challenge
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Research Goal
+<span class="screen-reader-only">Important</span>Research Goal
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -122,7 +122,7 @@ Research Goal
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Key Methods
+<span class="screen-reader-only">Important</span>Key Methods
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -142,7 +142,7 @@ Key Methods
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Key Findings
+<span class="screen-reader-only">Important</span>Key Findings
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -165,7 +165,7 @@ Key Findings
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/explainability/</guid>
-  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
+  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/explainability/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -196,7 +196,7 @@ Key Findings
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/shasta/</guid>
-  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
+  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/shasta/eeg-eye-tracking.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -228,7 +228,7 @@ Key Findings
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/</guid>
-  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
+  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -255,7 +255,7 @@ Key Findings
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/task-difficulty/</guid>
-  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
+  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/task-difficulty/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -283,7 +283,7 @@ Key Findings
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Research Questions
+<span class="screen-reader-only">Important</span>Research Questions
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -307,7 +307,7 @@ Research Questions
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/transfer-learning/</guid>
-  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
+  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/transfer-learning/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -334,7 +334,7 @@ Research Questions
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/</guid>
-  <pubDate>Sat, 14 Feb 2026 06:00:00 GMT</pubDate>
+  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
