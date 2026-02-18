@@ -9,11 +9,11 @@
 <link>https://iHuman-Lab.github.io/lab-website/research/</link>
 <atom:link href="https://iHuman-Lab.github.io/lab-website/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 17 Feb 2026 06:00:00 GMT</lastBuildDate>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Wed, 01 Jan 2025 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration</title>
-  <link>https://iHuman-Lab.github.io/lab-website/research/tele-operation/</link>
+  <title>Human Factor Analysis of Helicopter Accidents using Large Language Models</title>
+  <link>https://iHuman-Lab.github.io/lab-website/research/llm/</link>
   <description><![CDATA[ 
 
 
@@ -21,152 +21,76 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://iHuman-Lab.github.io/lab-website/research/tele-operation/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="https://iHuman-Lab.github.io/lab-website/research/llm/overview.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>In the teleoperated scenario, as the task difficulty increases, the performance of the operator decreases which leads to a decrease in the overall system efficiency. Thus, it is important to predict the change in task difficulty in order to increase system efficiency. However, the task difficulty cannot be predicted as task information is unknown in real-time. Alternatively, the task difficulty can be estimated studying the distribution of reaction time. In this study, the physiological features of the operator are used to classify the reaction time as fast, normal and slow corresponding different levels of task difficulty. The physiological features are extracted from the eye (though eye tracking) and brain (through Electroencephalogram) from the operator performing teleoperation using two drones. Among the calculated features glance ratio and mental workload resulted in maximum classification accuracy when task type information is included.</p>
-</section>
-<section id="architecture" class="level2">
-<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
-<div class="callout callout-style-default callout-important callout-titled" title="Research Questions">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Research Questions
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<section id="using-ai-to-uncover-the-human-factors-behind-helicopter-accidents" class="level1">
+<h1>Using AI to Uncover the Human Factors Behind Helicopter Accidents</h1>
+<p>While helicopter travel is statistically rarer than commercial airline flights, accidents in this sector remain a critical safety concern. From search-and-rescue missions to private charters, these incidents often carry higher fatality rates due to low-altitude operations.</p>
+<p>Recent research from Oklahoma State University, presented at the <strong>ASME 2025 International Mechanical Engineering Congress</strong>, explores how we can move from manual, month-long investigations to rapid, AI-driven analysis using <strong>Large Language Models (LLMs)</strong>.</p>
+<section id="the-challenge-why-human-factors-matter" class="level2">
+<h2 class="anchored" data-anchor-id="the-challenge-why-human-factors-matter">The Challenge: Why Human Factors Matter</h2>
+<p>Safety experts estimate that <strong>human factors</strong>—a blend of psychological states, environmental design, and organizational culture—contribute to over 80% of aviation accidents. Traditionally, investigators use the <strong>Human Factors Analysis and Classification System (HFACS)</strong> to categorize these issues.</p>
+<p>The problem? Manual HFACS analysis is:</p>
 <ul>
-<li>Which physiological modalities, eye, brain activity, or their combination can provide a more accurate classification of the reaction time?</li>
-<li>Do the task type information and individual differences in the task performance influence the classification of reaction time?</li>
+<li><strong>Slow:</strong> Identifying probable causes can take 12–24 months.</li>
+<li><strong>Subjective:</strong> Different experts might interpret the same narrative differently.</li>
+<li><strong>Data-Heavy:</strong> Investigating a decade of reports is a massive undertaking for human teams.</li>
 </ul>
-</div>
-</div>
-<p>The study concluded that both eye features and cognitive features are needed to classify the reaction time effectively. The task type information had a significant influence on the classification accuracy, while the same could not be said with individual difference information. The accuracy of classification was increased when task type information was included as features, indicating that the reaction time depends on the task information.</p>
-<p>These results are in agreement with the Linear Approach to the Threshold with Ergodic Rate (LATER) model, which suggests that reaction time depends on evidence collected and the task difficulty. The classifier trained on the physiological features using reaction time as the label can be used to classify task difficulty well above chance. Such systems can be utilized in Automation Invocation models that utilize appropriate control inputs and control strategies for optimal role allocation in collaborative tasks such as teleoperation.</p>
-<p><code>The present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time</code></p>
+</section>
+<section id="the-solution-prompt-engineering-for-safety" class="level2">
+<h2 class="anchored" data-anchor-id="the-solution-prompt-engineering-for-safety">The Solution: Prompt Engineering for Safety</h2>
+<p>The researchers analyzed 215 fatal helicopter accidents (2012–2022) from the NTSB database. To see if AI could handle the heavy lifting, they tested six different <strong>LLM prompting techniques</strong> to see which could best identify “root causes” from raw accident narratives.</p>
+<section id="the-methods-tested" class="level3">
+<h3 class="anchored" data-anchor-id="the-methods-tested">The Methods Tested:</h3>
+<ol type="1">
+<li><strong>Input-Output (IO):</strong> Simple question and answer.</li>
+<li><strong>Prompting with Explanation (PE):</strong> Providing the AI with context before asking.</li>
+<li><strong>Chain-of-Thought (CoT):</strong> Asking the AI to “think step-by-step.”</li>
+<li><strong>Tree-of-Thought (ToT):</strong> Allowing the AI to explore multiple reasoning paths and backtrack if it hits a dead end.</li>
+<li><strong>Multiple Question Variants (IOM/PEM):</strong> Consolidating all HFACS questions into a single, comprehensive prompt.</li>
+</ol>
+</section>
+</section>
+<section id="results-which-ai-strategy-won" class="level2">
+<h2 class="anchored" data-anchor-id="results-which-ai-strategy-won">Results: Which AI Strategy Won?</h2>
+<p>The study found that <strong>Tree-of-Thought (ToT)</strong> was the clear winner for complex accident analysis.</p>
+<section id="key-findings" class="level3">
+<h3 class="anchored" data-anchor-id="key-findings">Key Findings:</h3>
+<ul>
+<li><strong>High Accuracy:</strong> ToT achieved an <strong>F1-score of &gt;0.9</strong>, meaning it was incredibly reliable at matching the “ground truth” established by human experts.</li>
+<li><strong>Strengths:</strong> The models were exceptionally good at identifying <strong>Skill-Based Errors</strong> and <strong>Physical/Mental Limitations</strong> (with F1-scores near 0.99).</li>
+<li><strong>Weaknesses:</strong> Even the best AI struggled with “subtle” factors. <strong>Communication failures</strong> and <strong>Routine violations</strong> (habitual rule-breaking) were much harder for the models to detect, likely due to the nuance required to read between the lines of a technical report.</li>
+</ul>
+</section>
+</section>
+<section id="where-the-accidents-happen" class="level2">
+<h2 class="anchored" data-anchor-id="where-the-accidents-happen">Where the Accidents Happen</h2>
+<p>The database analysis also revealed interesting trends in helicopter safety within the U.S.:</p>
+<ul>
+<li><strong>Texas</strong> saw the highest frequency of accidents during the study period.</li>
+<li><strong>Personal flights</strong> were more frequently involved in fatal incidents than commercial or rescue operations.</li>
+<li><strong>Decision-making errors</strong> were the most common human factor identified in the reports, appearing in over 100 of the 215 cases analyzed.</li>
+</ul>
+</section>
+<section id="the-future-of-aviation-safety" class="level2">
+<h2 class="anchored" data-anchor-id="the-future-of-aviation-safety">The Future of Aviation Safety</h2>
+<p>This research proves that while AI isn’t ready to replace human investigators entirely—especially for nuanced social and communicative factors—it can act as a powerful <strong>force multiplier</strong>.</p>
+<p>By using optimized prompting like <strong>Tree-of-Thought</strong>, aviation authorities can process thousands of reports in minutes, identifying systemic safety gaps and informing better training for pilots. As LLMs continue to evolve, the gap between human intuition and machine processing is closing, promising a future where we learn from accidents faster than ever before.</p>
+<blockquote class="blockquote">
+<p><strong>Research Citation:</strong> Oveisi, E., &amp; Manjunatha, H. (2025). <em>Human Factor Analysis of Helicopter Accidents using Large Language Models</em>. Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition.</p>
+</blockquote>
 
 
+</section>
 </section>
 
  ]]></description>
   <category>human-robot-interaction</category>
   <category>python</category>
-  <guid>https://iHuman-Lab.github.io/lab-website/research/tele-operation/</guid>
-  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/research/tele-operation/cover.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation</title>
-  <link>https://iHuman-Lab.github.io/lab-website/research/explainability/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://iHuman-Lab.github.io/lab-website/research/explainability/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<p>Imagine a world where robots work hand-in-hand with humans, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with human-robot collaboration poised to transform industries from manufacturing and logistics to healthcare and assistive technologies. But to achieve truly seamless interaction, robots need to understand not only our actions but also our <strong>thoughts and cognitive processes</strong>.</p>
-<p>Enter <strong>electroencephalography (EEG)</strong>, a technique that measures brain activity using sensors on the scalp. EEG offers a window into the brain’s dynamic processes, but interpreting its complex signals remains a challenge. While <strong>deep learning models</strong> have shown success in decoding EEG data [14], they often act as “<strong>black boxes</strong>” – we see the results, but we don’t know <em>how</em> the model arrived at them. This lack of <strong>transparency</strong> hinders our ability to trust and fully utilize these powerful tools.</p>
-<p>Our research addresses the <strong>interpretability</strong> of deep learning models in human-robot co-manipulation. We developed a <strong>novel computational approach</strong> to understand how these models classify a user’s <strong>mental workload</strong> during collaboration with a robot.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="The Challenge">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>The Challenge
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Decoding the complex signals of the brain using deep learning while understanding <em>why</em> the model makes its decisions.</p>
-</div>
-</div>
-<p><strong>A Glimpse into the Experiment</strong></p>
-<p>To study mental workload, we designed an experiment where participants guided a robot’s movements. The tasks involved:</p>
-<ul>
-<li><strong>Gross Motor Control:</strong> Guiding the robot through a horizontal eight-shaped motion.</li>
-<li><strong>Fine Motor Control:</strong> Performing a star-shaped fine motion.</li>
-</ul>
-<p>We also manipulated the robot’s <strong>resistance (damping)</strong> between high (requiring more effort) and low (allowing easier movement) levels. This created conditions where the damping was either appropriate or inappropriate for the specific movement, influencing the user’s mental workload. Our <strong>Convolutional Neural Network (CNN)</strong> model was trained to distinguish between these conditions using raw EEG recordings.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="Research Goal">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Research Goal
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>To enhance the <strong>interpretability</strong> of deep learning models applied to EEG data, specifically in the context of classifying <strong>mental workload</strong> during human-robot co-manipulation.</p>
-</div>
-</div>
-<p><strong>Our Novel Approach: Making the “Black Box” Transparent</strong></p>
-<p>Our key contribution is our method to understand how our deep learning model (a CNN) made its decisions. We used two powerful techniques, adapting methods commonly used in <strong>computer vision</strong>:</p>
-<ul>
-<li><strong>Integrated Gradients:</strong> This method assigns <strong>importance scores</strong> to the input features (EEG data points) by considering the gradient of the output with respect to the input along a path from a baseline input to the actual input. Think of it as tracing back the model’s decision to the original EEG signals [11, 12].</li>
-<li><strong>Ablation Attribution:</strong> Here, we systematically removed parts of the input EEG data (e.g., data from specific electrodes or frequency bands) and observed how the model’s performance changed. If removing a particular feature significantly decreased performance, it indicates that the feature was <strong>important</strong> for the classification.</li>
-</ul>
-<p>By combining these methods, we created a pipeline that extracts <strong>interpretable features</strong> from EEG data, providing unprecedented insight into the brain activity patterns associated with mental workload in human-robot collaboration.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="Key Methods">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Key Methods
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>We used <strong>Integrated Gradients</strong> and <strong>Ablation Attribution</strong> to understand which EEG features were most important to our deep learning model.</p>
-</div>
-</div>
-<p><strong>Decoding the Brain: Key Findings</strong></p>
-<p>Our analysis revealed that the model relied heavily on specific brainwave frequencies and locations:</p>
-<ul>
-<li><strong>Gamma and Beta Bands:</strong> As highlighted in our abstract, the <strong>Gamma and Beta frequency bands</strong> were particularly relevant for classifying mental workload in this visuospatial and motor control-oriented experiment. These <strong>higher-frequency brainwaves</strong> are often associated with active processing of information, attention, and motor control [15].</li>
-<li><strong>Parietal Regions:</strong> Our method also indicated the importance of EEG signals originating from the <strong>parietal regions</strong> of the brain. These areas play a crucial role in <strong>spatial awareness, sensorimotor integration, and attention</strong>.</li>
-</ul>
-<p>These findings strongly suggest that <strong>Gamma and Beta activity over the parietal areas indicates mental workload</strong> when humans co-manipulate a robot, particularly during tasks requiring visual attention and motor coordination.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="Key Findings">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Key Findings
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The model heavily relied on <strong>Gamma and Beta brainwave activity</strong> in the <strong>parietal regions</strong> to assess mental workload.</p>
-</div>
-</div>
-<p><strong>The Path to Smarter Human-Robot Collaboration</strong></p>
-<p>Our ability to interpret deep learning models opens up exciting possibilities:</p>
-<ul>
-<li><strong>Adaptive Robots:</strong> Robots could dynamically adjust their behavior based on a user’s real-time <strong>mental workload</strong>, providing assistance when needed and reducing demands when the user is overloaded.</li>
-<li><strong>Enhanced Training:</strong> Our findings can inform the design of training programs that optimize human-robot interaction and minimize <strong>mental strain</strong>.</li>
-<li><strong>Trustworthy AI:</strong> Understanding how these models work builds greater <strong>trust</strong> in AI-powered systems, paving the way for more seamless and effective collaboration.</li>
-</ul>
-<p>This research represents a significant step towards creating more <strong>intuitive and responsive human-robot interfaces</strong>. By shedding light on the brain activity patterns that underlie collaborative work, we can design robots that are true partners, enhancing human capabilities and improving our lives.</p>
-<p>What are your thoughts on the future of human-robot collaboration? How can <strong>interpretable AI in neurotechnology</strong> address challenges in other domains like healthcare or education?</p>
-
-
-
- ]]></description>
-  <category>human-robot-interaction</category>
-  <category>python</category>
-  <guid>https://iHuman-Lab.github.io/lab-website/research/explainability/</guid>
-  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/research/explainability/cover.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://iHuman-Lab.github.io/lab-website/research/llm/</guid>
+  <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/llm/overview.png" medium="image" type="image/png" height="65" width="144"/>
 </item>
 <item>
   <title>SHASTA A Simulator for Human and Swarm Team Applications</title>
@@ -196,8 +120,8 @@
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/shasta/</guid>
-  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/research/shasta/eeg-eye-tracking.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/shasta/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Selective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games</title>
@@ -228,35 +152,8 @@
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/</guid>
-  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
+  <pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/cover.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Task Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning</title>
-  <link>https://iHuman-Lab.github.io/lab-website/research/task-difficulty/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://iHuman-Lab.github.io/lab-website/research/task-difficulty/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>An experiment was conducted in which the subjects have to guide an robot under admittance control through a predefined trajectory. The damping in the admittance control was changed from low to high during different trials. Due to low damping, the controller might become unstable during the force input from the human subject. To quantify the instability, a frequency domain measure has been extracted from the force data. During the whole experiment scalp EEG was recorded and used to predict whether the robot becomes unstable during the co-manipulation. This was achieved by constructing a regression with EEG features as input and instability index as output. For the prediction model, we are leveraging the deep learning technique namely convolution neural networks.</p>
-
-
-</section>
-
- ]]></description>
-  <category>human-robot-interaction</category>
-  <category>python</category>
-  <guid>https://iHuman-Lab.github.io/lab-website/research/task-difficulty/</guid>
-  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/research/task-difficulty/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography</title>
@@ -283,7 +180,7 @@
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Research Questions
+Research Questions
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -307,8 +204,192 @@
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/transfer-learning/</guid>
-  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
+  <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/transfer-learning/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration</title>
+  <link>https://iHuman-Lab.github.io/lab-website/research/tele-operation/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://iHuman-Lab.github.io/lab-website/research/tele-operation/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>In the teleoperated scenario, as the task difficulty increases, the performance of the operator decreases which leads to a decrease in the overall system efficiency. Thus, it is important to predict the change in task difficulty in order to increase system efficiency. However, the task difficulty cannot be predicted as task information is unknown in real-time. Alternatively, the task difficulty can be estimated studying the distribution of reaction time. In this study, the physiological features of the operator are used to classify the reaction time as fast, normal and slow corresponding different levels of task difficulty. The physiological features are extracted from the eye (though eye tracking) and brain (through Electroencephalogram) from the operator performing teleoperation using two drones. Among the calculated features glance ratio and mental workload resulted in maximum classification accuracy when task type information is included.</p>
+</section>
+<section id="architecture" class="level2">
+<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
+<div class="callout callout-style-default callout-important callout-titled" title="Research Questions">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Research Questions
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Which physiological modalities, eye, brain activity, or their combination can provide a more accurate classification of the reaction time?</li>
+<li>Do the task type information and individual differences in the task performance influence the classification of reaction time?</li>
+</ul>
+</div>
+</div>
+<p>The study concluded that both eye features and cognitive features are needed to classify the reaction time effectively. The task type information had a significant influence on the classification accuracy, while the same could not be said with individual difference information. The accuracy of classification was increased when task type information was included as features, indicating that the reaction time depends on the task information.</p>
+<p>These results are in agreement with the Linear Approach to the Threshold with Ergodic Rate (LATER) model, which suggests that reaction time depends on evidence collected and the task difficulty. The classifier trained on the physiological features using reaction time as the label can be used to classify task difficulty well above chance. Such systems can be utilized in Automation Invocation models that utilize appropriate control inputs and control strategies for optimal role allocation in collaborative tasks such as teleoperation.</p>
+<p><code>The present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time</code></p>
+
+
+</section>
+
+ ]]></description>
+  <category>human-robot-interaction</category>
+  <category>python</category>
+  <guid>https://iHuman-Lab.github.io/lab-website/research/tele-operation/</guid>
+  <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/tele-operation/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Task Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning</title>
+  <link>https://iHuman-Lab.github.io/lab-website/research/task-difficulty/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://iHuman-Lab.github.io/lab-website/research/task-difficulty/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>An experiment was conducted in which the subjects have to guide an robot under admittance control through a predefined trajectory. The damping in the admittance control was changed from low to high during different trials. Due to low damping, the controller might become unstable during the force input from the human subject. To quantify the instability, a frequency domain measure has been extracted from the force data. During the whole experiment scalp EEG was recorded and used to predict whether the robot becomes unstable during the co-manipulation. This was achieved by constructing a regression with EEG features as input and instability index as output. For the prediction model, we are leveraging the deep learning technique namely convolution neural networks.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>human-robot-interaction</category>
+  <category>python</category>
+  <guid>https://iHuman-Lab.github.io/lab-website/research/task-difficulty/</guid>
+  <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/task-difficulty/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of HRI</title>
+  <link>https://iHuman-Lab.github.io/lab-website/research/explainability/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://iHuman-Lab.github.io/lab-website/research/explainability/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>Imagine a world where robots work hand-in-hand with humans, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with human-robot collaboration poised to transform industries from manufacturing and logistics to healthcare and assistive technologies. But to achieve truly seamless interaction, robots need to understand not only our actions but also our <strong>thoughts and cognitive processes</strong>.</p>
+<p>Enter <strong>electroencephalography (EEG)</strong>, a technique that measures brain activity using sensors on the scalp. EEG offers a window into the brain’s dynamic processes, but interpreting its complex signals remains a challenge. While <strong>deep learning models</strong> have shown success in decoding EEG data [14], they often act as “<strong>black boxes</strong>” – we see the results, but we don’t know <em>how</em> the model arrived at them. This lack of <strong>transparency</strong> hinders our ability to trust and fully utilize these powerful tools.</p>
+<p>Our research addresses the <strong>interpretability</strong> of deep learning models in human-robot co-manipulation. We developed a <strong>novel computational approach</strong> to understand how these models classify a user’s <strong>mental workload</strong> during collaboration with a robot.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="The Challenge">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+The Challenge
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Decoding the complex signals of the brain using deep learning while understanding <em>why</em> the model makes its decisions.</p>
+</div>
+</div>
+<p><strong>A Glimpse into the Experiment</strong></p>
+<p>To study mental workload, we designed an experiment where participants guided a robot’s movements. The tasks involved:</p>
+<ul>
+<li><strong>Gross Motor Control:</strong> Guiding the robot through a horizontal eight-shaped motion.</li>
+<li><strong>Fine Motor Control:</strong> Performing a star-shaped fine motion.</li>
+</ul>
+<p>We also manipulated the robot’s <strong>resistance (damping)</strong> between high (requiring more effort) and low (allowing easier movement) levels. This created conditions where the damping was either appropriate or inappropriate for the specific movement, influencing the user’s mental workload. Our <strong>Convolutional Neural Network (CNN)</strong> model was trained to distinguish between these conditions using raw EEG recordings.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Research Goal">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Research Goal
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To enhance the <strong>interpretability</strong> of deep learning models applied to EEG data, specifically in the context of classifying <strong>mental workload</strong> during human-robot co-manipulation.</p>
+</div>
+</div>
+<p><strong>Our Novel Approach: Making the “Black Box” Transparent</strong></p>
+<p>Our key contribution is our method to understand how our deep learning model (a CNN) made its decisions. We used two powerful techniques, adapting methods commonly used in <strong>computer vision</strong>:</p>
+<ul>
+<li><strong>Integrated Gradients:</strong> This method assigns <strong>importance scores</strong> to the input features (EEG data points) by considering the gradient of the output with respect to the input along a path from a baseline input to the actual input. Think of it as tracing back the model’s decision to the original EEG signals [11, 12].</li>
+<li><strong>Ablation Attribution:</strong> Here, we systematically removed parts of the input EEG data (e.g., data from specific electrodes or frequency bands) and observed how the model’s performance changed. If removing a particular feature significantly decreased performance, it indicates that the feature was <strong>important</strong> for the classification.</li>
+</ul>
+<p>By combining these methods, we created a pipeline that extracts <strong>interpretable features</strong> from EEG data, providing unprecedented insight into the brain activity patterns associated with mental workload in human-robot collaboration.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Key Methods">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Methods
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We used <strong>Integrated Gradients</strong> and <strong>Ablation Attribution</strong> to understand which EEG features were most important to our deep learning model.</p>
+</div>
+</div>
+<p><strong>Decoding the Brain: Key Findings</strong></p>
+<p>Our analysis revealed that the model relied heavily on specific brainwave frequencies and locations:</p>
+<ul>
+<li><strong>Gamma and Beta Bands:</strong> As highlighted in our abstract, the <strong>Gamma and Beta frequency bands</strong> were particularly relevant for classifying mental workload in this visuospatial and motor control-oriented experiment. These <strong>higher-frequency brainwaves</strong> are often associated with active processing of information, attention, and motor control [15].</li>
+<li><strong>Parietal Regions:</strong> Our method also indicated the importance of EEG signals originating from the <strong>parietal regions</strong> of the brain. These areas play a crucial role in <strong>spatial awareness, sensorimotor integration, and attention</strong>.</li>
+</ul>
+<p>These findings strongly suggest that <strong>Gamma and Beta activity over the parietal areas indicates mental workload</strong> when humans co-manipulate a robot, particularly during tasks requiring visual attention and motor coordination.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Key Findings">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Findings
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The model heavily relied on <strong>Gamma and Beta brainwave activity</strong> in the <strong>parietal regions</strong> to assess mental workload.</p>
+</div>
+</div>
+<p><strong>The Path to Smarter Human-Robot Collaboration</strong></p>
+<p>Our ability to interpret deep learning models opens up exciting possibilities:</p>
+<ul>
+<li><strong>Adaptive Robots:</strong> Robots could dynamically adjust their behavior based on a user’s real-time <strong>mental workload</strong>, providing assistance when needed and reducing demands when the user is overloaded.</li>
+<li><strong>Enhanced Training:</strong> Our findings can inform the design of training programs that optimize human-robot interaction and minimize <strong>mental strain</strong>.</li>
+<li><strong>Trustworthy AI:</strong> Understanding how these models work builds greater <strong>trust</strong> in AI-powered systems, paving the way for more seamless and effective collaboration.</li>
+</ul>
+<p>This research represents a significant step towards creating more <strong>intuitive and responsive human-robot interfaces</strong>. By shedding light on the brain activity patterns that underlie collaborative work, we can design robots that are true partners, enhancing human capabilities and improving our lives.</p>
+<p>What are your thoughts on the future of human-robot collaboration? How can <strong>interpretable AI in neurotechnology</strong> address challenges in other domains like healthcare or education?</p>
+
+
+
+ ]]></description>
+  <category>human-robot-interaction</category>
+  <category>python</category>
+  <guid>https://iHuman-Lab.github.io/lab-website/research/explainability/</guid>
+  <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/explainability/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Using Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams</title>
@@ -334,7 +415,7 @@
   <category>human-robot-interaction</category>
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/</guid>
-  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

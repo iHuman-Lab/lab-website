@@ -6,14 +6,14 @@
       version="2.0">
 <channel>
 <title>iHuman Lab</title>
-<link>https://iHuman-Lab.github.io/lab-website/news/</link>
-<atom:link href="https://iHuman-Lab.github.io/lab-website/news/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://iHuman-Lab.github.io/lab-website/software/</link>
+<atom:link href="https://iHuman-Lab.github.io/lab-website/software/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
 <lastBuildDate>Wed, 31 Dec 2025 06:00:00 GMT</lastBuildDate>
 <item>
   <title>NVIDIA GPU Grant</title>
-  <link>https://iHuman-Lab.github.io/lab-website/news/nvidia/</link>
+  <link>https://iHuman-Lab.github.io/lab-website/software/nvidia/</link>
   <description><![CDATA[ 
 
 
@@ -21,7 +21,7 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://iHuman-Lab.github.io/lab-website/news/nvidia/rtx_pro.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="https://iHuman-Lab.github.io/lab-website/software/nvidia/rtx_pro.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p><strong>Ending 2025 on a High Note, Kicking Off 2026 with Excitement! 🎉</strong> We’re thrilled to share some fantastic news as we wrap up an amazing year and look forward to even greater things in 2026!</p>
@@ -33,13 +33,13 @@
 
 
  ]]></description>
-  <guid>https://iHuman-Lab.github.io/lab-website/news/nvidia/</guid>
+  <guid>https://iHuman-Lab.github.io/lab-website/software/nvidia/</guid>
   <pubDate>Wed, 31 Dec 2025 06:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/news/nvidia/nvidia.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/software/nvidia/nvidia.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Neurable Research Grant</title>
-  <link>https://iHuman-Lab.github.io/lab-website/news/neurable/</link>
+  <link>https://iHuman-Lab.github.io/lab-website/software/igaze/</link>
   <description><![CDATA[ 
 
 
@@ -47,7 +47,7 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://iHuman-Lab.github.io/lab-website/news/neurable/headphone_eeg.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="https://iHuman-Lab.github.io/lab-website/software/igaze/headphone_eeg.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p>We’re excited to kick off 2026 with some amazing news! The <strong>iHuman Lab at Oklahoma State University</strong> has been selected for the <strong>Neurable Research Grant</strong>, giving our team access to cutting-edge EEG tools to fuel the next wave of brain research.</p>
@@ -66,9 +66,9 @@
 
 
  ]]></description>
-  <guid>https://iHuman-Lab.github.io/lab-website/news/neurable/</guid>
+  <guid>https://iHuman-Lab.github.io/lab-website/software/igaze/</guid>
   <pubDate>Fri, 12 Dec 2025 06:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/news/neurable/neurable_logo.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/software/igaze/neurable_logo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

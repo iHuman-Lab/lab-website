@@ -1,24 +1,9 @@
 [
   {
-    "listing": "/research/index.html",
+    "listing": "/news/index.html",
     "items": [
-      "/research/tele-operation/index.html",
-      "/research/explainability/index.html",
-      "/research/shasta/index.html",
-      "/research/eye-gaze-augmentation/index.html",
-      "/research/task-difficulty/index.html",
-      "/research/transfer-learning/index.html",
-      "/research/human-swarm-decision/index.html"
-    ]
-  },
-  {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/pi/index.html",
-      "/people/phd/Bennett_Dogbey/index.html",
-      "/people/phd/ElaheOveisi/index.html",
-      "/people/alumni/CarsonMcSpadden/index.html",
-      "/people/alumni/JacksonBenton/index.html"
+      "/news/nvidia/index.html",
+      "/news/neurable/index.html"
     ]
   },
   {
@@ -26,20 +11,44 @@
     "items": [
       "/news/nvidia/index.html",
       "/news/neurable/index.html",
-      "/research/tele-operation/index.html",
-      "/research/explainability/index.html",
+      "/research/llm/index.html",
       "/research/shasta/index.html",
       "/research/eye-gaze-augmentation/index.html",
-      "/research/task-difficulty/index.html",
       "/research/transfer-learning/index.html",
+      "/research/tele-operation/index.html",
+      "/research/task-difficulty/index.html",
+      "/research/explainability/index.html",
       "/research/human-swarm-decision/index.html"
     ]
   },
   {
-    "listing": "/news/index.html",
+    "listing": "/research/index.html",
     "items": [
-      "/news/nvidia/index.html",
-      "/news/neurable/index.html"
+      "/research/llm/index.html",
+      "/research/shasta/index.html",
+      "/research/eye-gaze-augmentation/index.html",
+      "/research/transfer-learning/index.html",
+      "/research/tele-operation/index.html",
+      "/research/task-difficulty/index.html",
+      "/research/explainability/index.html",
+      "/research/human-swarm-decision/index.html"
+    ]
+  },
+  {
+    "listing": "/software/index.html",
+    "items": [
+      "/software/nvidia/index.html",
+      "/software/igaze/index.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/pi/index.html",
+      "/people/phd/ElaheOveisi/index.html",
+      "/people/phd/Bennett_Dogbey/index.html",
+      "/people/alumni/CarsonMcSpadden/index.html",
+      "/people/alumni/JacksonBenton/index.html"
     ]
   }
 ]

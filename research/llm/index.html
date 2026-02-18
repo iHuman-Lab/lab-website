@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2020-12-31">
+<meta name="dcterms.date" content="2024-12-31">
 
-<title>Task Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning – iHuman Lab</title>
+<title>Human Factor Analysis of Helicopter Accidents using Large Language Models – iHuman Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -144,7 +144,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#using-ai-to-uncover-the-human-factors-behind-helicopter-accidents" id="toc-using-ai-to-uncover-the-human-factors-behind-helicopter-accidents" class="nav-link active" data-scroll-target="#using-ai-to-uncover-the-human-factors-behind-helicopter-accidents">Using AI to Uncover the Human Factors Behind Helicopter Accidents</a>
+  <ul class="collapse">
+  <li><a href="#the-challenge-why-human-factors-matter" id="toc-the-challenge-why-human-factors-matter" class="nav-link" data-scroll-target="#the-challenge-why-human-factors-matter">The Challenge: Why Human Factors Matter</a></li>
+  <li><a href="#the-solution-prompt-engineering-for-safety" id="toc-the-solution-prompt-engineering-for-safety" class="nav-link" data-scroll-target="#the-solution-prompt-engineering-for-safety">The Solution: Prompt Engineering for Safety</a>
+  <ul class="collapse">
+  <li><a href="#the-methods-tested" id="toc-the-methods-tested" class="nav-link" data-scroll-target="#the-methods-tested">The Methods Tested:</a></li>
+  </ul></li>
+  <li><a href="#results-which-ai-strategy-won" id="toc-results-which-ai-strategy-won" class="nav-link" data-scroll-target="#results-which-ai-strategy-won">Results: Which AI Strategy Won?</a>
+  <ul class="collapse">
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key Findings:</a></li>
+  </ul></li>
+  <li><a href="#where-the-accidents-happen" id="toc-where-the-accidents-happen" class="nav-link" data-scroll-target="#where-the-accidents-happen">Where the Accidents Happen</a></li>
+  <li><a href="#the-future-of-aviation-safety" id="toc-the-future-of-aviation-safety" class="nav-link" data-scroll-target="#the-future-of-aviation-safety">The Future of Aviation Safety</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -153,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Task Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning</h1>
+<h1 class="title">Human Factor Analysis of Helicopter Accidents using Large Language Models</h1>
   <div class="quarto-categories">
     <div class="quarto-category">human-robot-interaction</div>
     <div class="quarto-category">python</div>
@@ -168,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 31, 2020</p>
+      <p class="date">December 31, 2024</p>
     </div>
   </div>
   
@@ -182,14 +195,68 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="overview.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>An experiment was conducted in which the subjects have to guide an robot under admittance control through a predefined trajectory. The damping in the admittance control was changed from low to high during different trials. Due to low damping, the controller might become unstable during the force input from the human subject. To quantify the instability, a frequency domain measure has been extracted from the force data. During the whole experiment scalp EEG was recorded and used to predict whether the robot becomes unstable during the co-manipulation. This was achieved by constructing a regression with EEG features as input and instability index as output. For the prediction model, we are leveraging the deep learning technique namely convolution neural networks.</p>
+<section id="using-ai-to-uncover-the-human-factors-behind-helicopter-accidents" class="level1">
+<h1>Using AI to Uncover the Human Factors Behind Helicopter Accidents</h1>
+<p>While helicopter travel is statistically rarer than commercial airline flights, accidents in this sector remain a critical safety concern. From search-and-rescue missions to private charters, these incidents often carry higher fatality rates due to low-altitude operations.</p>
+<p>Recent research from Oklahoma State University, presented at the <strong>ASME 2025 International Mechanical Engineering Congress</strong>, explores how we can move from manual, month-long investigations to rapid, AI-driven analysis using <strong>Large Language Models (LLMs)</strong>.</p>
+<section id="the-challenge-why-human-factors-matter" class="level2">
+<h2 class="anchored" data-anchor-id="the-challenge-why-human-factors-matter">The Challenge: Why Human Factors Matter</h2>
+<p>Safety experts estimate that <strong>human factors</strong>—a blend of psychological states, environmental design, and organizational culture—contribute to over 80% of aviation accidents. Traditionally, investigators use the <strong>Human Factors Analysis and Classification System (HFACS)</strong> to categorize these issues.</p>
+<p>The problem? Manual HFACS analysis is:</p>
+<ul>
+<li><strong>Slow:</strong> Identifying probable causes can take 12–24 months.</li>
+<li><strong>Subjective:</strong> Different experts might interpret the same narrative differently.</li>
+<li><strong>Data-Heavy:</strong> Investigating a decade of reports is a massive undertaking for human teams.</li>
+</ul>
+</section>
+<section id="the-solution-prompt-engineering-for-safety" class="level2">
+<h2 class="anchored" data-anchor-id="the-solution-prompt-engineering-for-safety">The Solution: Prompt Engineering for Safety</h2>
+<p>The researchers analyzed 215 fatal helicopter accidents (2012–2022) from the NTSB database. To see if AI could handle the heavy lifting, they tested six different <strong>LLM prompting techniques</strong> to see which could best identify “root causes” from raw accident narratives.</p>
+<section id="the-methods-tested" class="level3">
+<h3 class="anchored" data-anchor-id="the-methods-tested">The Methods Tested:</h3>
+<ol type="1">
+<li><strong>Input-Output (IO):</strong> Simple question and answer.</li>
+<li><strong>Prompting with Explanation (PE):</strong> Providing the AI with context before asking.</li>
+<li><strong>Chain-of-Thought (CoT):</strong> Asking the AI to “think step-by-step.”</li>
+<li><strong>Tree-of-Thought (ToT):</strong> Allowing the AI to explore multiple reasoning paths and backtrack if it hits a dead end.</li>
+<li><strong>Multiple Question Variants (IOM/PEM):</strong> Consolidating all HFACS questions into a single, comprehensive prompt.</li>
+</ol>
+</section>
+</section>
+<section id="results-which-ai-strategy-won" class="level2">
+<h2 class="anchored" data-anchor-id="results-which-ai-strategy-won">Results: Which AI Strategy Won?</h2>
+<p>The study found that <strong>Tree-of-Thought (ToT)</strong> was the clear winner for complex accident analysis.</p>
+<section id="key-findings" class="level3">
+<h3 class="anchored" data-anchor-id="key-findings">Key Findings:</h3>
+<ul>
+<li><strong>High Accuracy:</strong> ToT achieved an <strong>F1-score of &gt;0.9</strong>, meaning it was incredibly reliable at matching the “ground truth” established by human experts.</li>
+<li><strong>Strengths:</strong> The models were exceptionally good at identifying <strong>Skill-Based Errors</strong> and <strong>Physical/Mental Limitations</strong> (with F1-scores near 0.99).</li>
+<li><strong>Weaknesses:</strong> Even the best AI struggled with “subtle” factors. <strong>Communication failures</strong> and <strong>Routine violations</strong> (habitual rule-breaking) were much harder for the models to detect, likely due to the nuance required to read between the lines of a technical report.</li>
+</ul>
+</section>
+</section>
+<section id="where-the-accidents-happen" class="level2">
+<h2 class="anchored" data-anchor-id="where-the-accidents-happen">Where the Accidents Happen</h2>
+<p>The database analysis also revealed interesting trends in helicopter safety within the U.S.:</p>
+<ul>
+<li><strong>Texas</strong> saw the highest frequency of accidents during the study period.</li>
+<li><strong>Personal flights</strong> were more frequently involved in fatal incidents than commercial or rescue operations.</li>
+<li><strong>Decision-making errors</strong> were the most common human factor identified in the reports, appearing in over 100 of the 215 cases analyzed.</li>
+</ul>
+</section>
+<section id="the-future-of-aviation-safety" class="level2">
+<h2 class="anchored" data-anchor-id="the-future-of-aviation-safety">The Future of Aviation Safety</h2>
+<p>This research proves that while AI isn’t ready to replace human investigators entirely—especially for nuanced social and communicative factors—it can act as a powerful <strong>force multiplier</strong>.</p>
+<p>By using optimized prompting like <strong>Tree-of-Thought</strong>, aviation authorities can process thousands of reports in minutes, identifying systemic safety gaps and informing better training for pilots. As LLMs continue to evolve, the gap between human intuition and machine processing is closing, promising a future where we learn from accidents faster than ever before.</p>
+<blockquote class="blockquote">
+<p><strong>Research Citation:</strong> Oveisi, E., &amp; Manjunatha, H. (2025). <em>Human Factor Analysis of Helicopter Accidents using Large Language Models</em>. Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition.</p>
+</blockquote>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
