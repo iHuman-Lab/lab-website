@@ -2,23 +2,16 @@
   {
     "listing": "/news/index.html",
     "items": [
+      "/news/idetc/index.html",
       "/news/nvidia/index.html",
       "/news/neurable/index.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/software/index.html",
     "items": [
-      "/news/nvidia/index.html",
-      "/news/neurable/index.html",
-      "/research/llm/index.html",
-      "/research/shasta/index.html",
-      "/research/eye-gaze-augmentation/index.html",
-      "/research/transfer-learning/index.html",
-      "/research/tele-operation/index.html",
-      "/research/task-difficulty/index.html",
-      "/research/explainability/index.html",
-      "/research/human-swarm-decision/index.html"
+      "/software/nvidia/index.html",
+      "/software/igaze/index.html"
     ]
   },
   {
@@ -35,10 +28,19 @@
     ]
   },
   {
-    "listing": "/software/index.html",
+    "listing": "/index.html",
     "items": [
-      "/software/nvidia/index.html",
-      "/software/igaze/index.html"
+      "/news/idetc/index.html",
+      "/news/nvidia/index.html",
+      "/news/neurable/index.html",
+      "/research/llm/index.html",
+      "/research/shasta/index.html",
+      "/research/eye-gaze-augmentation/index.html",
+      "/research/transfer-learning/index.html",
+      "/research/tele-operation/index.html",
+      "/research/task-difficulty/index.html",
+      "/research/explainability/index.html",
+      "/research/human-swarm-decision/index.html"
     ]
   },
   {
