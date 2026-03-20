@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,94 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news'] = new List('listing-news', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 3,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research'] = new List('listing-research', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -234,244 +145,44 @@ window.Quarto = {
 
 
 
-<style>
-
-
-.card {
-  boarder: none;
-  position: relative;
-  background: $gray
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
-
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
-}
-
-.card-title {
-  position: relative;
-  color: #252525;
-  font-family: Rubik, sans-serif;
-  font-size: 1rem;
-  line-height: 1.2;
-  text-align: center;
-  z-index: 10;             /* ensures it’s in front of the image */
-}
-
-.quarto-post .thumbnail img {
-    width: 45% !important;
-}
-
-.listing-date {
-  font-size: 14pt;
-}
-
-.navbar .nav-link i {
-  font-size: 1.4rem;  /* try 1.2rem–1.8rem */
-}
-
-</style>
 <div class="image-container">
-<p><img src="images/campus.jpg"></p>
-<div id="contentframe" style="position:absolute; top: 5%; left: 13%; color: #ffffff; font-family: Rubik; font-size: 36px">
-Welcome to Intelligent Human-Machine Nexus Lab!
+  <img src="images/campus.jpg" alt="OSU Campus">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Welcome to the</div>
+    <div class="hero-title-top">iHuman <span class="hero-title-accent">Lab</span></div>
+  </div>
 </div>
-<div id="contentframe" style="position:absolute; top: 35%; left: 13%; color: #ffffff; font-family: Rubik; background-color: #252525;
-  color: #ffffff; /* A dark gray text color */
-  padding: 20px;
-  border-radius: 5px;
-  height: auto;
-  width: 50%;
-  font-size: 18px; padding-bottom: 5px;">
-<p>At the iHuman Lab, we are dedicated to unraveling the complexities of interaction between humans and machines, forging pathways that enhance cognitive abilities, augment decision-making processes, and revolutionize technological integration in society.</p>
+
+<div class="stats-strip">
+  <a class="stat-item" href="publications/index.html">
+    <div class="stat-number">30<span class="stat-plus">+</span></div>
+    <div class="stat-label">Publications</div>
+  </a>
+  <a class="stat-item" href="people/index.html">
+    <div class="stat-number">10<span class="stat-plus">+</span></div>
+    <div class="stat-label">Team Members</div>
+  </a>
+  <a class="stat-item" href="research/index.html">
+    <div class="stat-number">4</div>
+    <div class="stat-label">Research Areas</div>
+  </a>
+  <a class="stat-item" href="research/index.html">
+    <div class="stat-number">6<span class="stat-plus">+</span></div>
+    <div class="stat-label">Active Projects</div>
+  </a>
 </div>
-</div>
-<section id="news" class="level2">
-<h2 class="anchored" data-anchor-id="news"><a href="./news/index.html">News</a></h2>
-<div id="listing-news" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1767160800000" data-listing-file-modified-sort="1772416740132" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
-<div class="thumbnail">
-<p><a href="./news/idetc/index.html" class="no-external"></a></p><a href="./news/idetc/index.html" class="no-external">
-<p><img loading="lazy" src="./news/idetc/IMG_0443.HEIC" class="thumbnail-image"></p>
-</a><p><a href="./news/idetc/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/idetc/index.html" class="no-external">Graduate Student Receives ASME IDETC Travel Award</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./news/idetc/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./news/idetc/index.html" class="no-external">Elahe Oveisi, a Ph.D.&nbsp;student in the iHuman Lab at Oklahoma State University, received a Graduate Poster Travel Award at the ASME International Design Engineering Technical Conferences (IDETC), where she presented her research on AI-driven human factor analysis in safety-critical aerospace systems.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./news/idetc/index.html" class="no-external">
-<div class="listing-date">
-Dec 31, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1767160800000" data-listing-file-modified-sort="1771387287616" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
-<div class="thumbnail">
-<p><a href="./news/nvidia/index.html" class="no-external"></a></p><a href="./news/nvidia/index.html" class="no-external">
-<p><img loading="lazy" src="./news/nvidia/nvidia.jpg" class="thumbnail-image"></p>
-</a><p><a href="./news/nvidia/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/nvidia/index.html" class="no-external">NVIDIA GPU Grant</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./news/nvidia/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./news/nvidia/index.html" class="no-external">The 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious <strong>𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺</strong>, and we couldn’t be more excited!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./news/nvidia/index.html" class="no-external">
-<div class="listing-date">
-Dec 31, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1765519200000" data-listing-file-modified-sort="1771387351401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
-<div class="thumbnail">
-<p><a href="./news/neurable/index.html" class="no-external"></a></p><a href="./news/neurable/index.html" class="no-external">
-<p><img loading="lazy" src="./news/neurable/neurable_logo.jpeg" class="thumbnail-image"></p>
-</a><p><a href="./news/neurable/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/neurable/index.html" class="no-external">Neurable Research Grant</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./news/neurable/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./news/neurable/index.html" class="no-external">iHuman Lab Wins Neurable Research Grant to Advance Brain–Computer Interface Research</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./news/neurable/index.html" class="no-external">
-<div class="listing-date">
-Dec 12, 2025
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="research" class="level2">
-<h2 class="anchored" data-anchor-id="research"><a href="./research/index.html">Research</a></h2>
-<div id="listing-research" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="human-robot-interaction,python" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1771387124184" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518">
-<a href="./research/llm/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/llm/overview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Human Factor Analysis of Helicopter Accidents using Large Language Models
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="human-robot-interaction,python" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1771389266965" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
-<a href="./research/shasta/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/shasta/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-SHASTA A Simulator for Human and Swarm Team Applications
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="human-robot-interaction,python" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1771387096926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
-<a href="./research/eye-gaze-augmentation/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/eye-gaze-augmentation/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Selective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="human-robot-interaction,python" data-listing-date-sort="1640995200000" data-listing-file-modified-sort="1771387955947" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="422">
-<a href="./research/transfer-learning/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" data-src="./research/transfer-learning/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="human-robot-interaction,python" data-listing-date-sort="1640995200000" data-listing-file-modified-sort="1771387163448" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="345">
-<a href="./research/tele-operation/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" data-src="./research/tele-operation/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="human-robot-interaction,python" data-listing-date-sort="1609459200000" data-listing-file-modified-sort="1771387069844" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
-<a href="./research/task-difficulty/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" data-src="./research/task-difficulty/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Task Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-<nav id="research-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
+
+<div class="home-about">
+  <div class="home-about-eyebrow">Who we are</div>
+  <div class="home-about-heading">Building the future of <span class="hero-title-accent">Human-Machine Interaction</span></div>
+  <p class="home-about-body">We unravel the complexities of human-machine interaction — enhancing cognition, augmenting decision-making, and revolutionizing how people and technology work together. At Oklahoma State University, our work spans brain-computer interfaces, human-robot interaction, AI-assisted decision-making, and cognitive augmentation, with a focus on making technology safer, smarter, and more human.</p>
+  <div class="home-cta-row">
+    <a class="home-cta" href="people/index.html">Meet the Team</a>
+    <a class="home-cta" href="research/index.html">See Our Research</a>
+  </div>
 </div>
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

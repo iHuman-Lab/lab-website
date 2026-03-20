@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-date","listing-draft","listing-image","listing-description","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,7 +129,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="alternate" type="application/rss+xml" title="iHuman Lab" href="index.xml" data-external="1"></head>
+</head>
 
 <body class="nav-fixed">
 
@@ -206,96 +206,72 @@ window.Quarto = {
 
 
 
-<style>
-
-
-.quarto-post .thumbnail img {
-    width: 45% !important;
-}
-
-.listing-date {
-  font-size: 14pt;
-}
-</style>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1767160800000" data-listing-file-modified-sort="1772416740132" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
-<div class="thumbnail">
-<p><a href="../news/idetc/index.html" class="no-external"></a></p><a href="../news/idetc/index.html" class="no-external">
-<p><img loading="lazy" src="../news/idetc/IMG_0443.HEIC" class="thumbnail-image"></p>
-</a><p><a href="../news/idetc/index.html" class="no-external"></a></p>
+<div class="page-banner">
+  <img src="../images/campus_1.jpg" alt="Campus">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Updates from the lab</div>
+    <div class="hero-title-top">Latest <span class="hero-title-accent">News</span></div>
+  </div>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../news/idetc/index.html" class="no-external">Graduate Student Receives ASME IDETC Travel Award</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../news/idetc/index.html" class="no-external"></a>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<div class="news-magazine">
+<div class="news-featured">
+<a class="news-stretched-link" href="../news/idetc/index.html"></a>
+<div class="news-featured-image">
+<img src="../news/idetc/IMG_0443.jpg" alt="Graduate Student Receives ASME IDETC Travel Award" class="news-featured-img">
 </div>
-<div class="listing-description">
-<a href="../news/idetc/index.html" class="no-external">Elahe Oveisi, a Ph.D.&nbsp;student in the iHuman Lab at Oklahoma State University, received a Graduate Poster Travel Award at the ASME International Design Engineering Technical Conferences (IDETC), where she presented her research on AI-driven human factor analysis in safety-critical aerospace systems.</a>
+<div class="news-featured-content">
+<span class="news-latest-badge">Latest</span>
+<div class="news-featured-date">
+December 31, 2025
+</div>
+<div class="news-featured-title">
+Graduate Student Receives ASME IDETC Travel Award
+</div>
+<div class="news-featured-desc">
+Elahe Oveisi, a Ph.D.&nbsp;student in the iHuman Lab at Oklahoma State University, received a Graduate Poster Travel Award at the ASME International Design Engineering Technical Conferences (IDETC), where she presented her research on AI-driven human factor analysis in safety-critical aerospace systems.
+</div>
+<p><span class="news-read-more">Read more →</span></p>
 </div>
 </div>
-<div class="metadata">
-<a href="../news/idetc/index.html" class="no-external">
-<div class="listing-date">
+<div class="news-cards-row">
+<div class="news-card">
+<a class="news-stretched-link" href="../news/nvidia/index.html"></a>
+<div class="news-card-img-wrap">
+<img src="../news/nvidia/nvidia.jpg" alt="NVIDIA GPU Grant" class="news-card-img">
+</div>
+<div class="news-card-body">
+<div class="news-card-date">
 Dec 31, 2025
 </div>
-</a>
+<div class="news-card-title">
+NVIDIA GPU Grant
+</div>
+<div class="news-card-desc">
+The 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious <strong>𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺</strong>, and we couldn’t be more excited!
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1767160800000" data-listing-file-modified-sort="1771387287616" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
-<div class="thumbnail">
-<p><a href="../news/nvidia/index.html" class="no-external"></a></p><a href="../news/nvidia/index.html" class="no-external">
-<p><img loading="lazy" src="../news/nvidia/nvidia.jpg" class="thumbnail-image"></p>
-</a><p><a href="../news/nvidia/index.html" class="no-external"></a></p>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../news/nvidia/index.html" class="no-external">NVIDIA GPU Grant</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../news/nvidia/index.html" class="no-external"></a>
+<div class="news-card">
+<a class="news-stretched-link" href="../news/neurable/index.html"></a>
+<div class="news-card-img-wrap">
+<img src="../news/neurable/neurable_logo.jpeg" alt="Neurable Research Grant" class="news-card-img">
 </div>
-<div class="listing-description">
-<a href="../news/nvidia/index.html" class="no-external">The 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious <strong>𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺</strong>, and we couldn’t be more excited!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../news/nvidia/index.html" class="no-external">
-<div class="listing-date">
-Dec 31, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1765519200000" data-listing-file-modified-sort="1771387351401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
-<div class="thumbnail">
-<p><a href="../news/neurable/index.html" class="no-external"></a></p><a href="../news/neurable/index.html" class="no-external">
-<p><img loading="lazy" src="../news/neurable/neurable_logo.jpeg" class="thumbnail-image"></p>
-</a><p><a href="../news/neurable/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../news/neurable/index.html" class="no-external">Neurable Research Grant</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../news/neurable/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../news/neurable/index.html" class="no-external">iHuman Lab Wins Neurable Research Grant to Advance Brain–Computer Interface Research</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../news/neurable/index.html" class="no-external">
-<div class="listing-date">
+<div class="news-card-body">
+<div class="news-card-date">
 Dec 12, 2025
 </div>
-</a>
+<div class="news-card-title">
+Neurable Research Grant
+</div>
+<div class="news-card-desc">
+iHuman Lab Wins Neurable Research Grant to Advance Brain–Computer Interface Research
+</div>
+</div>
 </div>
 </div>
 </div>

@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-about","listing-image","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -107,9 +107,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-about","listing-image","listing-started","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] }],
       
       searchColumns: [],
     };
@@ -163,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] }],
       
       searchColumns: [],
     };
@@ -191,9 +191,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-about","listing-image","listing-started","listing-ended","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -243,7 +243,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -307,108 +307,78 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 
 
 
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">People</li>
-  </ol>
-</nav>
-<section id="pi" class="level2">
-<h2 class="anchored" data-anchor-id="pi">PI</h2>
-<div id="listing-pi" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1735107980019" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
-<a href="../people/pi/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="../people/pi/avatar.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<div class="page-banner">
+  <img src="../images/campus.jpg" alt="Campus">
+  <div class="hero-content">
+    <div class="hero-eyebrow">The people behind the research</div>
+    <div class="hero-title-top">Meet the <span class="hero-title-accent">Team</span></div>
+  </div>
+</div>
+<div class="people-row">
+<section id="pi" class="level3 people-col">
+<h3 class="anchored" data-anchor-id="pi">PI</h3>
+<div id="listing-pi" class="quarto-listing quarto-listing-container-custom">
+<div class="people-grid">
+<a class="person-card" href="../people/pi/index.html">
+<div class="person-photo-wrap">
+<img src="../people/pi/avatar.jpg" alt="Hemanth Manjunatha" loading="lazy" class="person-photo">
+</div>
+<div class="person-info">
+<div class="person-name">
 Hemanth Manjunatha
-</h5>
 </div>
 </div>
-</a>
-</div>
+</a><p><a class="person-card" href="../people/pi/index.html"></a></p>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
 </section>
-<section id="phd" class="level2">
-<h2 class="anchored" data-anchor-id="phd">PhD</h2>
-<div id="listing-phd" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1771050721421" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<a href="../people/phd/ElaheOveisi/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="../people/phd/ElaheOveisi/avatar.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<section id="phd" class="level3 people-col">
+<h3 class="anchored" data-anchor-id="phd">PhD</h3>
+<div id="listing-phd" class="quarto-listing quarto-listing-container-custom">
+<div class="people-grid">
+<a class="person-card" href="../people/phd/ElaheOveisi/index.html">
+<div class="person-photo-wrap">
+<img src="../people/phd/ElaheOveisi/avatar.jpeg" alt="Elahe Oveisi" loading="lazy" class="person-photo">
+</div>
+<div class="person-info">
+<div class="person-name">
 Elahe Oveisi
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Started
-</td>
-<td class="started">
-Fall 2024
-</td>
-</tr>
-</tbody></table>
 </div>
 </div>
-</a>
+</a><p><a class="person-card" href="../people/phd/ElaheOveisi/index.html"></a></p>
+<a class="person-card" href="../people/phd/Bennett_Dogbey/index.html">
+<div class="person-photo-wrap">
+<img src="../people/phd/Bennett_Dogbey/avatar.jpg" alt="Bennett Dogbey" loading="lazy" class="person-photo">
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1771050736739" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
-<a href="../people/phd/Bennett_Dogbey/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="../people/phd/Bennett_Dogbey/avatar.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<div class="person-info">
+<div class="person-name">
 Bennett Dogbey
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Started
-</td>
-<td class="started">
-Spring 2026
-</td>
-</tr>
-</tbody></table>
 </div>
 </div>
-</a>
-</div>
+</a><p><a class="person-card" href="../people/phd/Bennett_Dogbey/index.html"></a></p>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
 </section>
-<section id="masters" class="level2">
-<h2 class="anchored" data-anchor-id="masters">Masters</h2>
-<div id="listing-masters" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
+<section id="masters" class="level3 people-col">
+<h3 class="anchored" data-anchor-id="masters">Masters</h3>
+<div id="listing-masters" class="quarto-listing quarto-listing-container-custom">
+<div class="people-grid">
 
 </div>
 <div class="listing-no-matching d-none">
@@ -416,10 +386,10 @@ No matching items
 </div>
 </div>
 </section>
-<section id="undergraduate" class="level2">
-<h2 class="anchored" data-anchor-id="undergraduate">Undergraduate</h2>
-<div id="listing-undergraduate" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
+<section id="undergraduate" class="level3 people-col">
+<h3 class="anchored" data-anchor-id="undergraduate">Undergraduate</h3>
+<div id="listing-undergraduate" class="quarto-listing quarto-listing-container-custom">
+<div class="people-grid">
 
 </div>
 <div class="listing-no-matching d-none">
@@ -427,83 +397,40 @@ No matching items
 </div>
 </div>
 </section>
-<section id="alumni" class="level2">
-<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
-<div id="listing-alumni" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1771050689441" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
-<a href="../people/alumni/CarsonMcSpadden/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="../people/alumni/CarsonMcSpadden/avatar.jpg" class="thumbnail-image card-img" style="height: 225px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<section id="alumni" class="level3 people-col">
+<h3 class="anchored" data-anchor-id="alumni">Alumni</h3>
+<div id="listing-alumni" class="quarto-listing quarto-listing-container-custom">
+<div class="people-grid">
+<a class="person-card" href="../people/alumni/CarsonMcSpadden/index.html">
+<div class="person-photo-wrap">
+<img src="../people/alumni/CarsonMcSpadden/avatar.jpg" alt="Carson McSpadden" loading="lazy" class="person-photo">
+</div>
+<div class="person-info">
+<div class="person-name">
 Carson McSpadden
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Started
-</td>
-<td class="started">
-Fall 2024
-</td>
-</tr>
-<tr>
-<td>
-Ended
-</td>
-<td class="ended">
-Fall 2025
-</td>
-</tr>
-</tbody></table>
 </div>
 </div>
-</a>
+</a><p><a class="person-card" href="../people/alumni/CarsonMcSpadden/index.html"></a></p>
+<a class="person-card" href="../people/alumni/JacksonBenton/index.html">
+<div class="person-photo-wrap">
+<img src="../people/alumni/JacksonBenton/avatar.jpg" alt="Jackson Benton" loading="lazy" class="person-photo">
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1771050687956" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
-<a href="../people/alumni/JacksonBenton/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="../people/alumni/JacksonBenton/avatar.jpg" class="thumbnail-image card-img" style="height: 225px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<div class="person-info">
+<div class="person-name">
 Jackson Benton
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Started
-</td>
-<td class="started">
-Fall 2024
-</td>
-</tr>
-<tr>
-<td>
-Ended
-</td>
-<td class="ended">
-Fall 2025
-</td>
-</tr>
-</tbody></table>
 </div>
 </div>
-</a>
-</div>
+</a><p><a class="person-card" href="../people/alumni/JacksonBenton/index.html"></a></p>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
-
-
-
 </section>
+</div>
+
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

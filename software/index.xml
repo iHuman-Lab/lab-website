@@ -10,7 +10,7 @@
 <atom:link href="https://iHuman-Lab.github.io/lab-website/software/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Wed, 31 Dec 2025 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 31 Dec 2025 08:00:00 GMT</lastBuildDate>
 <item>
   <title>NVIDIA GPU Grant</title>
   <link>https://iHuman-Lab.github.io/lab-website/software/nvidia/</link>
@@ -34,7 +34,7 @@
 
  ]]></description>
   <guid>https://iHuman-Lab.github.io/lab-website/software/nvidia/</guid>
-  <pubDate>Wed, 31 Dec 2025 06:00:00 GMT</pubDate>
+  <pubDate>Wed, 31 Dec 2025 08:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/software/nvidia/nvidia.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -67,7 +67,7 @@
 
  ]]></description>
   <guid>https://iHuman-Lab.github.io/lab-website/software/igaze/</guid>
-  <pubDate>Fri, 12 Dec 2025 06:00:00 GMT</pubDate>
+  <pubDate>Fri, 12 Dec 2025 08:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/software/igaze/neurable_logo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
