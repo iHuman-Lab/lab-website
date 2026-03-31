@@ -84,18 +84,18 @@
     "text": "Updates from the lab\n    Latest News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\nLatest\n\nDecember 31, 2025\n\n\nGraduate Student Receives ASME IDETC Travel Award\n\n\nElahe Oveisi, a Ph.D. student in the iHuman Lab at Oklahoma State University, received a Graduate Poster Travel Award at the ASME International Design Engineering Technical Conferences (IDETC), where she presented her research on AI-driven human factor analysis in safety-critical aerospace systems.\n\nRead more →\n\n\n\n\n\n\n\n\n\n\nDec 31, 2025\n\n\nNVIDIA GPU Grant\n\n\nThe 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious 𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺, and we couldn’t be more excited!\n\n\n\n\n\n\n\n\n\n\nDec 12, 2025\n\n\nNeurable Research Grant\n\n\niHuman Lab Wins Neurable Research Grant to Advance Brain–Computer Interface Research\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "software/nvidia/index.html",
-    "href": "software/nvidia/index.html",
-    "title": "NVIDIA GPU Grant",
-    "section": "",
-    "text": "Ending 2025 on a High Note, Kicking Off 2026 with Excitement! 🎉 We’re thrilled to share some fantastic news as we wrap up an amazing year and look forward to even greater things in 2026!\nThe 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious 𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺, and we couldn’t be more excited!\nThis incredible opportunity is made possible by NVIDIA’s support for our cutting-edge work on 𝘕𝘦𝘶𝘳𝘰𝘢𝘥𝘢𝘱𝘵𝘪𝘷𝘦 𝘙𝘰𝗯𝘶𝘴𝘵 𝘛𝘦𝘭𝘦𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 𝘸𝘪𝘵𝘩 𝘍𝘰𝘳𝘮𝘢𝘭 𝘎𝘶𝘢𝘳𝘢𝘯𝘵𝘦𝘦𝘴. With the help of 𝟰× RTX PRO 6000 Blackwell Max-Q GPUs, we’ll be driving innovative research at the intersection of AI, robotics, and human-centered systems.\nWe are incredibly grateful for NVIDIA’s support and are eager to see how this partnership will enhance our research, bringing us closer to solving some of today’s most complex challenges.\nWishing everyone a fantastic start to 2026! 🎆"
-  },
-  {
     "objectID": "software/index.html",
     "href": "software/index.html",
     "title": "iHuman Lab",
     "section": "",
-    "text": "NVIDIA GPU Grant\n\n\n\n\n\nThe 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious 𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺, and we couldn’t be more excited!\n\n\n\n\n\nDec 31, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNeurable Research Grant\n\n\n\n\n\niHuman Lab Wins Neurable Research Grant to Advance Brain–Computer Interface Research\n\n\n\n\n\nDec 12, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "A high-stakes Search and Rescue (SAR) simulation built on MiniGrid. The primary RL training ground for the iHuman Lab, designed for modular research in human-centric navigation and victim recovery.\n\n\nView on GitHub PythonMakefile\n\n\n\n\n\n\n\n\n\n\nA python package to run experiments at iHuman Lab\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nImplementation of world models in Atari using eye-tracking\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nThe central software ecosystem for the iHuman Lab. A modular, high-momentum framework for Intelligent Human-Machine interaction built on ROS 2 and Sugarcoat.\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nProbabilistic differentiable signal temporal logics using recurrent neural networks\n\n\nView on GitHub PythonMakefileShell\n\n\n\n\n\n\n\n\n\n\nUsing Large Language Models to automatically analyze aviation accident reports and classify them according to the Human Factors Analysis and Classification System (HFACS).\n\n\nView on GitHub PythonMakefile\n\n\n\n\n\n\n\n\n\n\nA python package implementing various features extraction method from eye tracking\n\n\nView on GitHub Python\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Welcome to the\n    iHuman Lab\n  \n\n\n\n  \n    30+\n    Publications\n  \n  \n    10+\n    Team Members\n  \n  \n    4\n    Research Areas\n  \n  \n    6+\n    Active Projects\n  \n\n\n\n\n\n  Who we are\n  Building the future of Human-Machine Interaction\n  We unravel the complexities of human-machine interaction — enhancing cognition, augmenting decision-making, and revolutionizing how people and technology work together. At Oklahoma State University, our work spans brain-computer interfaces, human-robot interaction, AI-assisted decision-making, and cognitive augmentation, with a focus on making technology safer, smarter, and more human.\n  \n    Meet the Team\n    See Our Research\n  \n\n\n\n\n\n  View Gallery"
   },
   {
     "objectID": "publications/index.html",
@@ -336,18 +336,11 @@
     "text": "Location\nThe iHuman Lab is located at Oklahoma State University."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "gallery/index.html",
+    "href": "gallery/index.html",
     "title": "iHuman Lab",
     "section": "",
-    "text": "Welcome to the\n    iHuman Lab\n  \n\n\n\n  \n    30+\n    Publications\n  \n  \n    10+\n    Team Members\n  \n  \n    4\n    Research Areas\n  \n  \n    6+\n    Active Projects\n  \n\n\n\n  Who we are\n  Building the future of Human-Machine Interaction\n  We unravel the complexities of human-machine interaction — enhancing cognition, augmenting decision-making, and revolutionizing how people and technology work together. At Oklahoma State University, our work spans brain-computer interfaces, human-robot interaction, AI-assisted decision-making, and cognitive augmentation, with a focus on making technology safer, smarter, and more human.\n  \n    Meet the Team\n    See Our Research"
-  },
-  {
-    "objectID": "software/igaze/index.html",
-    "href": "software/igaze/index.html",
-    "title": "Neurable Research Grant",
-    "section": "",
-    "text": "We’re excited to kick off 2026 with some amazing news! The iHuman Lab at Oklahoma State University has been selected for the Neurable Research Grant, giving our team access to cutting-edge EEG tools to fuel the next wave of brain research.\nThe Neurable Research Grant program is designed to make professional-grade neurotechnology accessible to researchers worldwide. With the Neurable Research Kit, a compact 12-channel EEG device with research-grade precision, our lab will explore innovative projects at the intersection of neuroscience, AI, and human-centered systems.\nThis grant empowers us to:\n\nUse high-quality EEG devices with 24-bit precision and 500 Hz sampling rate, ensuring reliable neural data.\nConduct research with professional-grade tools and perpetual licenses—no subscriptions, no hidden costs.\nAccelerate ethics approval and data collection with complete IRB support.\nJoin a global network of researchers democratizing brain–computer interface research.\n\nWe’re thrilled to leverage this opportunity to push boundaries in cognition, AI-driven neural modeling, and neuroadaptive technologies, and to contribute to discoveries that could have real-world impact.\nA huge thank you to Neurable for supporting academic research and enabling labs like ours to explore the frontiers of brain–computer interfaces.\nHere’s to an exciting year ahead—stay tuned for updates on our research journey!"
+    "text": "Life at the lab\n    Gallery"
   },
   {
     "objectID": "news/idetc/index.html#ihuman-lab-ph.d.-student-receives-asme-idetc-travel-award",

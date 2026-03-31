@@ -10,8 +10,13 @@
   {
     "listing": "/software/index.html",
     "items": [
-      "/software/nvidia/index.html",
-      "/software/igaze/index.html"
+      "/software/repos/rescue-grid/index.html",
+      "/software/repos/ixp/index.html",
+      "/software/repos/eye-world/index.html",
+      "/software/repos/irobot/index.html",
+      "/software/repos/probabilistic-dstl/index.html",
+      "/software/repos/llm-hfacs/index.html",
+      "/software/repos/igaze/index.html"
     ]
   },
   {

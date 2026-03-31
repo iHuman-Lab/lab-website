@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../images/logo.png" rel="icon" type="image/png">
+<link href="../images/logos/logo.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description','listing-github','listing-repo_languages','listing-path',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-date","listing-draft","listing-image","listing-description","listing-github","listing-repo_languages","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,7 +129,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="alternate" type="application/rss+xml" title="iHuman Lab" href="index.xml" data-external="1"></head>
+</head>
 
 <body class="nav-fixed">
 
@@ -139,7 +139,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logo.png" alt="" class="navbar-logo">
+    <img src="../images/logos/logo.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">iHuman Lab</span>
@@ -172,6 +172,14 @@ window.Quarto = {
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../software"> 
+<span class="menu-text">Software</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../gallery"> 
+<span class="menu-text">Gallery</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../contact"> 
 <span class="menu-text">Join</span></a>
   </li>  
@@ -198,79 +206,115 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
+    
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
 
 
 
-<style>
-
-
-.quarto-post .thumbnail img {
-    width: 45% !important;
-}
-
-.listing-date {
-  font-size: 14pt;
-}
-</style>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1767168000000" data-listing-file-modified-sort="1771387640454" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
-<div class="thumbnail">
-<p><a href="../software/nvidia/index.html" class="no-external"></a></p><a href="../software/nvidia/index.html" class="no-external">
-<p><img loading="lazy" src="../software/nvidia/nvidia.jpg" class="thumbnail-image"></p>
-</a><p><a href="../software/nvidia/index.html" class="no-external"></a></p>
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<div class="software-grid">
+<div class="software-card">
+<a class="software-stretched-link" href="https://github.com/iHuman-Lab/rescue-grid" target="_blank" rel="noopener"></a>
+<div class="software-card-img-wrap">
+<p><img src="../software/repos/rescue-grid/cover.png" alt="rescue-grid" class="software-card-img" loading="lazy"></p>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../software/nvidia/index.html" class="no-external">NVIDIA GPU Grant</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../software/nvidia/index.html" class="no-external"></a>
+<div class="software-card-body">
+<div class="software-card-desc">
+A high-stakes Search and Rescue (SAR) simulation built on MiniGrid. The primary RL training ground for the iHuman Lab, designed for modular research in human-centric navigation and victim recovery.
 </div>
-<div class="listing-description">
-<a href="../software/nvidia/index.html" class="no-external">The 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious <strong>𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺</strong>, and we couldn’t be more excited!</a>
+<div class="software-card-footer">
+<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span><span class="software-lang-badge">Makefile</span></p>
 </div>
 </div>
-<div class="metadata">
-<a href="../software/nvidia/index.html" class="no-external">
-<div class="listing-date">
-Dec 31, 2025
 </div>
-</a>
+<div class="software-card">
+<a class="software-stretched-link" href="https://github.com/iHuman-Lab/ixp" target="_blank" rel="noopener"></a>
+<div class="software-card-img-wrap">
+<p><img src="../software/repos/ixp/cover.png" alt="ixp" class="software-card-img" loading="lazy"></p>
 </div>
+<div class="software-card-body">
+<div class="software-card-desc">
+A python package to run experiments at iHuman Lab
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1765526400000" data-listing-file-modified-sort="1771387640423" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
-<div class="thumbnail">
-<p><a href="../software/igaze/index.html" class="no-external"></a></p><a href="../software/igaze/index.html" class="no-external">
-<p><img loading="lazy" src="../software/igaze/neurable_logo.jpeg" class="thumbnail-image"></p>
-</a><p><a href="../software/igaze/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../software/igaze/index.html" class="no-external">Neurable Research Grant</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../software/igaze/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../software/igaze/index.html" class="no-external">iHuman Lab Wins Neurable Research Grant to Advance Brain–Computer Interface Research</a>
+<div class="software-card-footer">
+<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span></p>
 </div>
 </div>
-<div class="metadata">
-<a href="../software/igaze/index.html" class="no-external">
-<div class="listing-date">
-Dec 12, 2025
 </div>
-</a>
+<div class="software-card">
+<a class="software-stretched-link" href="https://github.com/iHuman-Lab/eye-world" target="_blank" rel="noopener"></a>
+<div class="software-card-img-wrap">
+<p><img src="../software/repos/eye-world/cover.png" alt="eye-world" class="software-card-img" loading="lazy"></p>
+</div>
+<div class="software-card-body">
+<div class="software-card-desc">
+Implementation of world models in Atari using eye-tracking
+</div>
+<div class="software-card-footer">
+<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span></p>
+</div>
+</div>
+</div>
+<div class="software-card">
+<a class="software-stretched-link" href="https://github.com/iHuman-Lab/irobot" target="_blank" rel="noopener"></a>
+<div class="software-card-img-wrap">
+<p><img src="../software/repos/irobot/cover.png" alt="irobot" class="software-card-img" loading="lazy"></p>
+</div>
+<div class="software-card-body">
+<div class="software-card-desc">
+The central software ecosystem for the iHuman Lab. A modular, high-momentum framework for Intelligent Human-Machine interaction built on ROS 2 and Sugarcoat.
+</div>
+<div class="software-card-footer">
+<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span></p>
+</div>
+</div>
+</div>
+<div class="software-card">
+<a class="software-stretched-link" href="https://github.com/iHuman-Lab/probabilistic-dstl" target="_blank" rel="noopener"></a>
+<div class="software-card-img-wrap">
+<p><img src="../software/repos/probabilistic-dstl/cover.png" alt="probabilistic-dstl" class="software-card-img" loading="lazy"></p>
+</div>
+<div class="software-card-body">
+<div class="software-card-desc">
+Probabilistic differentiable signal temporal logics using recurrent neural networks
+</div>
+<div class="software-card-footer">
+<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span><span class="software-lang-badge">Makefile</span><span class="software-lang-badge">Shell</span></p>
+</div>
+</div>
+</div>
+<div class="software-card">
+<a class="software-stretched-link" href="https://github.com/iHuman-Lab/llm-hfacs" target="_blank" rel="noopener"></a>
+<div class="software-card-img-wrap">
+<p><img src="../software/repos/llm-hfacs/cover.png" alt="llm-hfacs" class="software-card-img" loading="lazy"></p>
+</div>
+<div class="software-card-body">
+<div class="software-card-desc">
+Using Large Language Models to automatically analyze aviation accident reports and classify them according to the Human Factors Analysis and Classification System (HFACS).
+</div>
+<div class="software-card-footer">
+<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span><span class="software-lang-badge">Makefile</span></p>
+</div>
+</div>
+</div>
+<div class="software-card">
+<a class="software-stretched-link" href="https://github.com/iHuman-Lab/igaze" target="_blank" rel="noopener"></a>
+<div class="software-card-img-wrap">
+<p><img src="../software/repos/igaze/cover.png" alt="igaze" class="software-card-img" loading="lazy"></p>
+</div>
+<div class="software-card-body">
+<div class="software-card-desc">
+A python package implementing various features extraction method from eye tracking
+</div>
+<div class="software-card-footer">
+<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span></p>
+</div>
 </div>
 </div>
 </div>
@@ -712,7 +756,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../images/logo_text.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:65.0%"></p>
+<p><img src="../images/logos/logo_text.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:65.0%"></p>
 </figure>
 </div>
 </div>
