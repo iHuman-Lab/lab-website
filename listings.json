@@ -1,7 +1,18 @@
 [
   {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/pi/index.html",
+      "/people/phd/ElaheOveisi/index.html",
+      "/people/phd/Bennett_Dogbey/index.html",
+      "/people/alumni/CarsonMcSpadden/index.html",
+      "/people/alumni/JacksonBenton/index.html"
+    ]
+  },
+  {
     "listing": "/news/index.html",
     "items": [
+      "/news/research_symposium/index.html",
       "/news/idetc/index.html",
       "/news/nvidia/index.html",
       "/news/neurable/index.html"
@@ -10,13 +21,14 @@
   {
     "listing": "/software/index.html",
     "items": [
-      "/software/repos/rescue-grid/index.html",
+      "/software/repos/rescue-analysis/index.html",
+      "/software/repos/igaze/index.html",
       "/software/repos/ixp/index.html",
+      "/software/repos/rescue-grid/index.html",
       "/software/repos/eye-world/index.html",
       "/software/repos/irobot/index.html",
       "/software/repos/probabilistic-dstl/index.html",
-      "/software/repos/llm-hfacs/index.html",
-      "/software/repos/igaze/index.html"
+      "/software/repos/llm-hfacs/index.html"
     ]
   },
   {
@@ -33,13 +45,10 @@
     ]
   },
   {
-    "listing": "/people/index.html",
+    "listing": "/outreach/index.html",
     "items": [
-      "/people/pi/index.html",
-      "/people/phd/ElaheOveisi/index.html",
-      "/people/phd/Bennett_Dogbey/index.html",
-      "/people/alumni/CarsonMcSpadden/index.html",
-      "/people/alumni/JacksonBenton/index.html"
+      "/outreach/smc2026/index.html",
+      "/outreach/physio_workshop/index.html"
     ]
   }
 ]

@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/people/alumni/JacksonBenton/index.html</loc>
-    <lastmod>2026-02-14T06:31:27.956Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/outreach/smc2026/index.html</loc>
+    <lastmod>2026-04-23T03:19:37.798Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/people/pi/index.html</loc>
-    <lastmod>2024-12-25T06:26:20.019Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/outreach/physio_workshop/index.html</loc>
+    <lastmod>2026-04-23T03:52:06.130Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/people/phd/Bennett_Dogbey/index.html</loc>
-    <lastmod>2026-02-14T06:32:16.739Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/people/alumni/CarsonMcSpadden/index.html</loc>
+    <lastmod>2026-02-14T06:31:29.441Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/people/index.html</loc>
+    <lastmod>2026-03-31T04:26:57.390Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/people/phd/ElaheOveisi/index.html</loc>
+    <lastmod>2026-02-14T06:32:01.421Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/news/nvidia/index.html</loc>
@@ -26,83 +34,87 @@
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/repos/llm-hfacs/index.html</loc>
-    <lastmod>2026-03-31T19:40:31.097Z</lastmod>
+    <lastmod>2026-04-23T03:50:51.816Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/repos/igaze/index.html</loc>
-    <lastmod>2026-03-31T19:40:31.489Z</lastmod>
+    <lastmod>2026-04-23T03:50:52.192Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/software/repos/eye-world/index.html</loc>
-    <lastmod>2026-03-31T19:40:30.717Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/software/repos/ixp/index.html</loc>
+    <lastmod>2026-04-23T03:50:50.604Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/index.html</loc>
-    <lastmod>2026-03-31T19:40:31.546Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/software/repos/irobot/index.html</loc>
+    <lastmod>2026-04-23T03:50:51.631Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/publications/index.html</loc>
-    <lastmod>2026-03-31T04:27:04.627Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/index.html</loc>
-    <lastmod>2026-02-18T03:58:16.926Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/index.html</loc>
-    <lastmod>2026-02-18T03:58:12.112Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/research/index.html</loc>
-    <lastmod>2026-03-31T04:27:10.859Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/research/task-difficulty/index.html</loc>
-    <lastmod>2026-02-18T03:57:49.844Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/research/shasta/index.html</loc>
-    <lastmod>2026-02-18T04:34:26.965Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/research/llm/index.html</loc>
-    <lastmod>2026-02-18T03:58:44.184Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/research/transfer-learning/index.html</loc>
-    <lastmod>2026-02-18T04:12:35.947Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/research/explainability/index.html</loc>
-    <lastmod>2026-02-18T03:58:23.844Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/research/tele-operation/index.html</loc>
-    <lastmod>2026-02-18T03:59:23.448Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/gallery/index.html</loc>
+    <lastmod>2026-04-23T03:52:48.922Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/contact/index.html</loc>
     <lastmod>2026-03-31T04:27:07.798Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/gallery/index.html</loc>
-    <lastmod>2026-03-31T19:40:31.544Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/research/tele-operation/index.html</loc>
+    <lastmod>2026-02-18T03:59:23.448Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/software/repos/irobot/index.html</loc>
-    <lastmod>2026-03-31T19:40:30.900Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/research/explainability/index.html</loc>
+    <lastmod>2026-02-18T03:58:23.844Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/software/repos/ixp/index.html</loc>
-    <lastmod>2026-03-31T19:40:30.324Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/research/transfer-learning/index.html</loc>
+    <lastmod>2026-02-18T04:12:35.947Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/research/llm/index.html</loc>
+    <lastmod>2026-02-18T03:58:44.184Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/research/shasta/index.html</loc>
+    <lastmod>2026-02-18T04:34:26.965Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/research/task-difficulty/index.html</loc>
+    <lastmod>2026-02-18T03:57:49.844Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/research/index.html</loc>
+    <lastmod>2026-03-31T04:27:10.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/index.html</loc>
+    <lastmod>2026-02-18T03:58:12.112Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/index.html</loc>
+    <lastmod>2026-02-18T03:58:16.926Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/publications/index.html</loc>
+    <lastmod>2026-03-31T04:27:04.627Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/index.html</loc>
+    <lastmod>2026-04-23T03:52:48.922Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/software/repos/eye-world/index.html</loc>
+    <lastmod>2026-04-23T03:50:51.384Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/software/repos/rescue-analysis/index.html</loc>
+    <lastmod>2026-04-23T03:50:50.854Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/repos/probabilistic-dstl/index.html</loc>
-    <lastmod>2026-03-31T19:40:31.293Z</lastmod>
+    <lastmod>2026-04-23T03:50:52.015Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/repos/rescue-grid/index.html</loc>
-    <lastmod>2026-03-31T19:40:30.512Z</lastmod>
+    <lastmod>2026-04-23T03:50:51.124Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/news/idetc/index.html</loc>
@@ -113,15 +125,23 @@
     <lastmod>2026-02-18T04:02:31.401Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/people/phd/ElaheOveisi/index.html</loc>
-    <lastmod>2026-02-14T06:32:01.421Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/news/research_symposium/index.html</loc>
+    <lastmod>2026-04-23T02:44:21.933Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/people/index.html</loc>
-    <lastmod>2026-03-31T04:26:57.390Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/people/phd/Bennett_Dogbey/index.html</loc>
+    <lastmod>2026-02-14T06:32:16.739Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/people/alumni/CarsonMcSpadden/index.html</loc>
-    <lastmod>2026-02-14T06:31:29.441Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/people/pi/index.html</loc>
+    <lastmod>2024-12-25T06:26:20.019Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/people/alumni/JacksonBenton/index.html</loc>
+    <lastmod>2026-02-14T06:31:27.956Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/outreach/index.html</loc>
+    <lastmod>2026-04-23T03:19:50.973Z</lastmod>
   </url>
 </urlset>
