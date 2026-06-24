@@ -28,102 +28,102 @@
     "text": "Venue\nHyatt Regency Bellevue, Bellevue, WA, USA"
   },
   {
-    "objectID": "outreach/physio_workshop/index.html",
-    "href": "outreach/physio_workshop/index.html",
-    "title": "Physiological Assessment of Human-Machine Teaming",
+    "objectID": "outreach/index.html",
+    "href": "outreach/index.html",
+    "title": "iHuman Lab",
     "section": "",
-    "text": "This workshop emphasizes the essential concept of physiological assessment of human-machine collaboration. We explore how individuals share cognitive and physiological states during interactions with intelligent autonomous systems.\nThe session covers traditional models typically used to measure cognitive states, while also introducing new techniques for real-time assessment — such as physiological metrics that maintain task continuity.\nTopics include:\n\nHuman information-processing frameworks from both individual and team perspectives\nApplication domains: aviation and search and rescue\nPhysiological data (EEG and eye tracking) for assessing cognitive and neurophysiological states\nRelationships between physiological markers and key human–machine teaming constructs: trust, mental workload, and task performance"
+    "text": "Engaging beyond the lab\n    Outreach & Impact\n  \n\n\n\n\n\n\n\nWorkshops & Tutorials\n\n\n\n\n\n\nClosing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing\n\n\n\n\nConcept-to-implementation tutorial covering the SHaSTA and HAI-SAR open-source platforms, bridging interaction design, physiological sensing (EEG & eye-tracking), and evaluation methodologies for human-centered autonomous systems.\n\n\n📍IEEE SMC 2026, Bellevue WA 📅October 2026\n\n\n\nHalf-Day Tutorial\nConference site ↗\n\n\n\n\n\n\nPhysiological Assessment of Human-Machine Teaming\n\n\n\n\nWorkshop exploring physiological and cognitive assessment during human-machine collaboration, including EEG, eye tracking, and real-time methods across domains such as aviation and search and rescue.\n\n\n📍NeuroErgonomics 2026, Boston MA 📅July 2026\n\n\n\nWorkshop\nConference site ↗\n\n\n\n\nK-12 & Public Outreach\n\n\n\n\n\nLab” class=“outreach-card-img” /&gt;\n\n\n\nCEAT Discovery DayiHuman Lab\n\n\n\n\nAn introduction to the iHuman Lab for K–12 students covering brain-computer interfaces, human-robot interaction, eye-gaze AI, and how to pursue a career in research.\n\n\n📍Oklahoma State University, Stillwater OK 📅June 2026\n\n\n\nDiscovery Day\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "outreach/physio_workshop/index.html#overview",
-    "href": "outreach/physio_workshop/index.html#overview",
-    "title": "Physiological Assessment of Human-Machine Teaming",
+    "objectID": "people/alumni/JacksonBenton/index.html",
+    "href": "people/alumni/JacksonBenton/index.html",
+    "title": "Jackson Benton",
     "section": "",
-    "text": "This workshop emphasizes the essential concept of physiological assessment of human-machine collaboration. We explore how individuals share cognitive and physiological states during interactions with intelligent autonomous systems.\nThe session covers traditional models typically used to measure cognitive states, while also introducing new techniques for real-time assessment — such as physiological metrics that maintain task continuity.\nTopics include:\n\nHuman information-processing frameworks from both individual and team perspectives\nApplication domains: aviation and search and rescue\nPhysiological data (EEG and eye tracking) for assessing cognitive and neurophysiological states\nRelationships between physiological markers and key human–machine teaming constructs: trust, mental workload, and task performance"
+    "text": "B.S. in Aerospace and Mechanical Engineering Oklahoma State University | 2021–2026"
   },
   {
-    "objectID": "outreach/physio_workshop/index.html#format",
-    "href": "outreach/physio_workshop/index.html#format",
-    "title": "Physiological Assessment of Human-Machine Teaming",
-    "section": "Format",
-    "text": "Format\nThe workshop begins with short presentations from members of the organizing team sharing their ongoing research on physiological assessments of human–machine teaming. This is followed by guided small-group discussions, with each group sharing key insights with the broader audience to compare perspectives, surface challenges, and identify common themes and open questions."
-  },
-  {
-    "objectID": "outreach/physio_workshop/index.html#who-should-attend",
-    "href": "outreach/physio_workshop/index.html#who-should-attend",
-    "title": "Physiological Assessment of Human-Machine Teaming",
-    "section": "Who Should Attend",
-    "text": "Who Should Attend\nResearchers and graduate students working in human factors, human–AI interaction, autonomy, and related fields."
-  },
-  {
-    "objectID": "people/alumni/CarsonMcSpadden/index.html",
-    "href": "people/alumni/CarsonMcSpadden/index.html",
-    "title": "Carson McSpadden",
+    "objectID": "people/alumni/JacksonBenton/index.html#education",
+    "href": "people/alumni/JacksonBenton/index.html#education",
+    "title": "Jackson Benton",
     "section": "",
-    "text": "B.S in Computer and Electrical Engineering | Oklahoma State University, Stillwater, OK | 2024-2027"
+    "text": "B.S. in Aerospace and Mechanical Engineering Oklahoma State University | 2021–2026"
   },
   {
-    "objectID": "people/alumni/CarsonMcSpadden/index.html#education",
-    "href": "people/alumni/CarsonMcSpadden/index.html#education",
-    "title": "Carson McSpadden",
-    "section": "",
-    "text": "B.S in Computer and Electrical Engineering | Oklahoma State University, Stillwater, OK | 2024-2027"
-  },
-  {
-    "objectID": "people/alumni/CarsonMcSpadden/index.html#research-interest",
-    "href": "people/alumni/CarsonMcSpadden/index.html#research-interest",
-    "title": "Carson McSpadden",
+    "objectID": "people/alumni/JacksonBenton/index.html#research-interest",
+    "href": "people/alumni/JacksonBenton/index.html#research-interest",
+    "title": "Jackson Benton",
     "section": "Research Interest",
-    "text": "Research Interest\nDeep Learning | Human-Robot Interactions | Digital Circuit and System Design"
+    "text": "Research Interest\n\nAerodynamics and propulsion systems\nThermodynamics and mechanical systems\nAI and machine learning for autonomous systems"
   },
   {
-    "objectID": "people/index.html",
-    "href": "people/index.html",
-    "title": "iHuman Lab",
+    "objectID": "people/pi/index.html",
+    "href": "people/pi/index.html",
+    "title": "Hemanth Manjunatha",
     "section": "",
-    "text": "The people behind the research\n    Meet the Team\n  \n\n\n\nPI\n\n\n\n\n\n\n\n\nHemanth Manjunatha\n\n\n\n\n\nNo matching items\n\n\n\n\nPhD\n\n\n\n\n\n\n\n\nElahe Oveisi\n\n\n\n\n\n\n\n\n\nBennett Dogbey\n\n\n\n\n\nNo matching items\n\n\n\n\nMasters\n\n\n\n\n\nNo matching items\n\n\n\n\nUndergraduate\n\n\n\n\n\nNo matching items\n\n\n\n\nAlumni\n\n\n\n\n\n\n\n\nCarson McSpadden\n\n\n\n\n\n\n\n\n\nJackson Benton\n\n\n\n\n\nNo matching items"
+    "text": "I am glad you landed on this tiny corner of the internet"
   },
   {
-    "objectID": "people/phd/ElaheOveisi/index.html",
-    "href": "people/phd/ElaheOveisi/index.html",
-    "title": "Elahe Oveisi",
+    "objectID": "people/pi/index.html#hello",
+    "href": "people/pi/index.html#hello",
+    "title": "Hemanth Manjunatha",
     "section": "",
-    "text": "Oklahoma State University PhD in Aerospace and Mechanical Engineering"
+    "text": "I am glad you landed on this tiny corner of the internet"
   },
   {
-    "objectID": "people/phd/ElaheOveisi/index.html#education",
-    "href": "people/phd/ElaheOveisi/index.html#education",
-    "title": "Elahe Oveisi",
+    "objectID": "people/pi/index.html#education",
+    "href": "people/pi/index.html#education",
+    "title": "Hemanth Manjunatha",
+    "section": "Education",
+    "text": "Education\nPhD in Mechanical and Aerospace Engineering University at Buffalo, USA | 2016–2021\nM.S. in Mechanical and Aerospace Engineering University at Buffalo, USA | 2015–2017\nB.S. in Mechanical Engineering National Institute of Engineering, India | 2010–2014"
+  },
+  {
+    "objectID": "people/pi/index.html#research-interest",
+    "href": "people/pi/index.html#research-interest",
+    "title": "Hemanth Manjunatha",
+    "section": "Research Interest",
+    "text": "Research Interest\n\nSafe Learning based Cyber Physical Systems\nBrain Machine Interfaces\nHuman-Robot Interaction\nRobotics & Haptics\nTelerehabilitation"
+  },
+  {
+    "objectID": "people/phd/Bennett_Dogbey/index.html",
+    "href": "people/phd/Bennett_Dogbey/index.html",
+    "title": "Bennett Dogbey",
     "section": "",
-    "text": "Oklahoma State University PhD in Aerospace and Mechanical Engineering"
+    "text": "MSc in Mechanical & Aerospace Engineering (in progress) Oklahoma State University | 2026–present\nBSc in Aerospace Engineering Kwame Nkrumah University of Science & Technology | 2022"
   },
   {
-    "objectID": "people/phd/ElaheOveisi/index.html#research-interests",
-    "href": "people/phd/ElaheOveisi/index.html#research-interests",
-    "title": "Elahe Oveisi",
-    "section": "Research Interests",
-    "text": "Research Interests\nInterested in “Human Machine Interaction,” “Aviation Safety,” and “Human Factors” in Autonomous Systems."
-  },
-  {
-    "objectID": "news/nvidia/index.html",
-    "href": "news/nvidia/index.html",
-    "title": "NVIDIA GPU Grant",
+    "objectID": "people/phd/Bennett_Dogbey/index.html#education",
+    "href": "people/phd/Bennett_Dogbey/index.html#education",
+    "title": "Bennett Dogbey",
     "section": "",
-    "text": "Ending 2025 on a High Note, Kicking Off 2026 with Excitement! 🎉 We’re thrilled to share some fantastic news as we wrap up an amazing year and look forward to even greater things in 2026!\nThe 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious 𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺, and we couldn’t be more excited!\nThis incredible opportunity is made possible by NVIDIA’s support for our cutting-edge work on 𝘕𝘦𝘶𝘳𝘰𝘢𝘥𝘢𝘱𝘵𝘪𝘷𝘦 𝘙𝘰𝗯𝘶𝘴𝘵 𝘛𝘦𝘭𝘦𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 𝘸𝘪𝘵𝘩 𝘍𝘰𝘳𝘮𝘢𝘭 𝘎𝘶𝘢𝘳𝘢𝘯𝘵𝘦𝘦𝘴. With the help of 𝟰× RTX PRO 6000 Blackwell Max-Q GPUs, we’ll be driving innovative research at the intersection of AI, robotics, and human-centered systems.\nWe are incredibly grateful for NVIDIA’s support and are eager to see how this partnership will enhance our research, bringing us closer to solving some of today’s most complex challenges.\nWishing everyone a fantastic start to 2026! 🎆"
+    "text": "MSc in Mechanical & Aerospace Engineering (in progress) Oklahoma State University | 2026–present\nBSc in Aerospace Engineering Kwame Nkrumah University of Science & Technology | 2022"
   },
   {
-    "objectID": "news/index.html",
-    "href": "news/index.html",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "Updates from the lab\n    Latest News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\nLatest\n\nApril 22, 2026\n\n\nUndergraduate Students Present Space Robotics Research at OSU Symposium\n\n\nThree undergraduate students from the iHuman Lab at Oklahoma State University presented their work on a gravity-compensated teleoperated space robotics system at the OSU Undergraduate Research Symposium.\n\nRead more →\n\n\n\n\n\n\n\n\n\n\nDec 31, 2025\n\n\nGraduate Student Receives ASME IDETC Travel Award\n\n\nElahe Oveisi, a Ph.D. student in the iHuman Lab at Oklahoma State University, received a Graduate Poster Travel Award at the ASME International Design Engineering Technical Conferences (IDETC), where she presented her research on AI-driven human factor analysis in safety-critical aerospace systems.\n\n\n\n\n\n\n\n\n\n\nDec 31, 2025\n\n\nNVIDIA GPU Grant\n\n\nThe 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious 𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺, and we couldn’t be more excited!\n\n\n\n\n\n\n\n\n\n\nDec 12, 2025\n\n\nNeurable Research Grant\n\n\niHuman Lab Wins Neurable Research Grant to Advance Brain–Computer Interface Research\n\n\n\n\n\n\nNo matching items"
+    "objectID": "people/phd/Bennett_Dogbey/index.html#research-interest",
+    "href": "people/phd/Bennett_Dogbey/index.html#research-interest",
+    "title": "Bennett Dogbey",
+    "section": "Research Interest",
+    "text": "Research Interest\n\nSafe and robust autonomy\nFormal verification and control synthesis\nLearning-based control for UAV systems"
   },
   {
-    "objectID": "software/index.html",
-    "href": "software/index.html",
-    "title": "iHuman Lab",
+    "objectID": "news/research_symposium/index.html#ihuman-lab-undergraduates-showcase-space-robotics-system-at-osu-research-symposium",
+    "href": "news/research_symposium/index.html#ihuman-lab-undergraduates-showcase-space-robotics-system-at-osu-research-symposium",
+    "title": "Undergraduate Students Present Space Robotics Research at OSU Symposium",
+    "section": "iHuman Lab Undergraduates Showcase Space Robotics System at OSU Research Symposium",
+    "text": "iHuman Lab Undergraduates Showcase Space Robotics System at OSU Research Symposium\nWe are proud to share that three undergraduate researchers from the iHuman Lab — Ibrahim Taha, Nathaniel Veld, and James Ashton Wayne — presented their work at the Oklahoma State University Undergraduate Research Symposium.\nTheir project, “Design and Development of a Gravity-Compensated Teleoperated Space Robotics System,” tackled one of the fundamental challenges in space robotics: testing robot manipulation under realistic, free-floating conditions here on Earth.\n\nThe Challenge\nRobots operating in space must contend with microgravity, communication delays, and high-risk environments — all of which make precise control exceptionally difficult. Most ground-based testbeds use fixed platforms that fail to capture the dynamic nature of space operations, limiting the realism of experiments.\n\n\nWhat They Built\nThe team designed and fabricated a moving-base platform for the ALOHA 2 robot that simulates free-floating motion dynamics. Key aspects of the system include:\n\nA belt-driven linear motion system that allows the robot base to travel along a single axis, replicating the unconstrained movement of a spacecraft\nA structural frame that supports the robot while maintaining stability during operation\nCustom components manufactured using waterjet cutting and 3D printing for precision fit and assembly\n\nThe design was validated through CAD modeling and simulation before physical fabrication, and the assembled system was demonstrated as a functional platform for teleoperation research in dynamic environments.\n\n\nLooking Ahead\nWhile the mechanical system is fully operational, the team identified integrating motor control and sensors as the critical next step for enabling precise, repeatable motion. Future development will also include ROS 2 integration to support teleoperation workflows and automation, bringing the platform closer to realistic space robotics experimentation.\nThis project establishes a strong foundation for ongoing research in the iHuman Lab on human-robot teaming and teleoperation in challenging environments.\nCongratulations to Ibrahim, Nathaniel, and James on an outstanding presentation!"
+  },
+  {
+    "objectID": "news/neurable/index.html",
+    "href": "news/neurable/index.html",
+    "title": "Neurable Research Grant",
     "section": "",
-    "text": "A software project from the iHuman Lab.\n\n\nView on GitHub MakefilePythonShell\n\n\n\n\n\n\n\n\n\n\nA python package implementing various features extraction method from eye tracking\n\n\nView on GitHub\n\n\n\n\n\n\n\n\n\n\nA python package to run experiments at iHuman Lab\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nA high-stakes Search and Rescue (SAR) simulation built on MiniGrid. The primary RL training ground for the iHuman Lab, designed for modular research in human-centric navigation and victim recovery.\n\n\nView on GitHub PythonMakefile\n\n\n\n\n\n\n\n\n\n\nImplementation of world models in Atari using eye-tracking\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nThe central software ecosystem for the iHuman Lab. A modular, high-momentum framework for Intelligent Human-Machine interaction built on ROS 2 and Sugarcoat.\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nProbabilistic differentiable signal temporal logics using recurrent neural networks\n\n\nView on GitHub\n\n\n\n\n\n\n\n\n\n\nUsing Large Language Models to automatically analyze aviation accident reports and classify them according to the Human Factors Analysis and Classification System (HFACS).\n\n\nView on GitHub\n\n\n\n\n\nNo matching items"
+    "text": "We’re excited to kick off 2026 with some amazing news! The iHuman Lab at Oklahoma State University has been selected for the Neurable Research Grant, giving our team access to cutting-edge EEG tools to fuel the next wave of brain research.\nThe Neurable Research Grant program is designed to make professional-grade neurotechnology accessible to researchers worldwide. With the Neurable Research Kit, a compact 12-channel EEG device with research-grade precision, our lab will explore innovative projects at the intersection of neuroscience, AI, and human-centered systems.\nThis grant empowers us to:\n\nUse high-quality EEG devices with 24-bit precision and 500 Hz sampling rate, ensuring reliable neural data.\nConduct research with professional-grade tools and perpetual licenses—no subscriptions, no hidden costs.\nAccelerate ethics approval and data collection with complete IRB support.\nJoin a global network of researchers democratizing brain–computer interface research.\n\nWe’re thrilled to leverage this opportunity to push boundaries in cognition, AI-driven neural modeling, and neuroadaptive technologies, and to contribute to discoveries that could have real-world impact.\nA huge thank you to Neurable for supporting academic research and enabling labs like ours to explore the frontiers of brain–computer interfaces.\nHere’s to an exciting year ahead—stay tuned for updates on our research journey!"
+  },
+  {
+    "objectID": "news/idetc/index.html#ihuman-lab-ph.d.-student-receives-asme-idetc-travel-award",
+    "href": "news/idetc/index.html#ihuman-lab-ph.d.-student-receives-asme-idetc-travel-award",
+    "title": "Graduate Student Receives ASME IDETC Travel Award",
+    "section": "iHuman Lab Ph.D. Student Receives ASME IDETC Travel Award",
+    "text": "iHuman Lab Ph.D. Student Receives ASME IDETC Travel Award\nGraduate students in the iHuman Lab continue to earn national recognition for their research excellence. Elahe Oveisi, a Ph.D. student in the lab, received a Graduate Poster Travel Award at the American Society of Mechanical Engineers International Design Engineering Technical Conferences (IDETC).\nAt the conference, she presented her paper titled “Human Factor Analysis of Helicopter Accidents using Large Language Models.” Her research explores the integration of advanced AI techniques with human factors analysis to better understand and mitigate risks in safety-critical aerospace systems. By leveraging large language models to analyze accident data, her work contributes to improving safety assessment methodologies and advancing intelligent decision-support tools for complex engineering environments.\nThis achievement reflects the iHuman Lab’s continued commitment to innovation at the intersection of artificial intelligence, human-centered design, and safety-critical systems research."
   },
   {
     "objectID": "gallery/index.html",
@@ -378,101 +378,150 @@
     "text": "Welcome to the\n    iHuman Lab\n  \n\n\n\n  \n    30+\n    Publications\n  \n  \n    10+\n    Team Members\n  \n  \n    4\n    Research Areas\n  \n  \n    6+\n    Active Projects\n  \n\n\n\n\n\n  Who we are\n  Building the future of Human-Machine Interaction\n  We unravel the complexities of human-machine interaction — enhancing cognition, augmenting decision-making, and revolutionizing how people and technology work together. At Oklahoma State University, our work spans brain-computer interfaces, human-robot interaction, AI-assisted decision-making, and cognitive augmentation, with a focus on making technology safer, smarter, and more human.\n  \n    Meet the Team\n    See Our Research\n  \n\n\n\n\n\n  View Gallery"
   },
   {
-    "objectID": "news/idetc/index.html#ihuman-lab-ph.d.-student-receives-asme-idetc-travel-award",
-    "href": "news/idetc/index.html#ihuman-lab-ph.d.-student-receives-asme-idetc-travel-award",
-    "title": "Graduate Student Receives ASME IDETC Travel Award",
-    "section": "iHuman Lab Ph.D. Student Receives ASME IDETC Travel Award",
-    "text": "iHuman Lab Ph.D. Student Receives ASME IDETC Travel Award\nGraduate students in the iHuman Lab continue to earn national recognition for their research excellence. Elahe Oveisi, a Ph.D. student in the lab, received a Graduate Poster Travel Award at the American Society of Mechanical Engineers International Design Engineering Technical Conferences (IDETC).\nAt the conference, she presented her paper titled “Human Factor Analysis of Helicopter Accidents using Large Language Models.” Her research explores the integration of advanced AI techniques with human factors analysis to better understand and mitigate risks in safety-critical aerospace systems. By leveraging large language models to analyze accident data, her work contributes to improving safety assessment methodologies and advancing intelligent decision-support tools for complex engineering environments.\nThis achievement reflects the iHuman Lab’s continued commitment to innovation at the intersection of artificial intelligence, human-centered design, and safety-critical systems research."
-  },
-  {
-    "objectID": "news/neurable/index.html",
-    "href": "news/neurable/index.html",
-    "title": "Neurable Research Grant",
-    "section": "",
-    "text": "We’re excited to kick off 2026 with some amazing news! The iHuman Lab at Oklahoma State University has been selected for the Neurable Research Grant, giving our team access to cutting-edge EEG tools to fuel the next wave of brain research.\nThe Neurable Research Grant program is designed to make professional-grade neurotechnology accessible to researchers worldwide. With the Neurable Research Kit, a compact 12-channel EEG device with research-grade precision, our lab will explore innovative projects at the intersection of neuroscience, AI, and human-centered systems.\nThis grant empowers us to:\n\nUse high-quality EEG devices with 24-bit precision and 500 Hz sampling rate, ensuring reliable neural data.\nConduct research with professional-grade tools and perpetual licenses—no subscriptions, no hidden costs.\nAccelerate ethics approval and data collection with complete IRB support.\nJoin a global network of researchers democratizing brain–computer interface research.\n\nWe’re thrilled to leverage this opportunity to push boundaries in cognition, AI-driven neural modeling, and neuroadaptive technologies, and to contribute to discoveries that could have real-world impact.\nA huge thank you to Neurable for supporting academic research and enabling labs like ours to explore the frontiers of brain–computer interfaces.\nHere’s to an exciting year ahead—stay tuned for updates on our research journey!"
-  },
-  {
-    "objectID": "news/research_symposium/index.html#ihuman-lab-undergraduates-showcase-space-robotics-system-at-osu-research-symposium",
-    "href": "news/research_symposium/index.html#ihuman-lab-undergraduates-showcase-space-robotics-system-at-osu-research-symposium",
-    "title": "Undergraduate Students Present Space Robotics Research at OSU Symposium",
-    "section": "iHuman Lab Undergraduates Showcase Space Robotics System at OSU Research Symposium",
-    "text": "iHuman Lab Undergraduates Showcase Space Robotics System at OSU Research Symposium\nWe are proud to share that three undergraduate researchers from the iHuman Lab — Ibrahim Taha, Nathaniel Veld, and James Ashton Wayne — presented their work at the Oklahoma State University Undergraduate Research Symposium.\nTheir project, “Design and Development of a Gravity-Compensated Teleoperated Space Robotics System,” tackled one of the fundamental challenges in space robotics: testing robot manipulation under realistic, free-floating conditions here on Earth.\n\nThe Challenge\nRobots operating in space must contend with microgravity, communication delays, and high-risk environments — all of which make precise control exceptionally difficult. Most ground-based testbeds use fixed platforms that fail to capture the dynamic nature of space operations, limiting the realism of experiments.\n\n\nWhat They Built\nThe team designed and fabricated a moving-base platform for the ALOHA 2 robot that simulates free-floating motion dynamics. Key aspects of the system include:\n\nA belt-driven linear motion system that allows the robot base to travel along a single axis, replicating the unconstrained movement of a spacecraft\nA structural frame that supports the robot while maintaining stability during operation\nCustom components manufactured using waterjet cutting and 3D printing for precision fit and assembly\n\nThe design was validated through CAD modeling and simulation before physical fabrication, and the assembled system was demonstrated as a functional platform for teleoperation research in dynamic environments.\n\n\nLooking Ahead\nWhile the mechanical system is fully operational, the team identified integrating motor control and sensors as the critical next step for enabling precise, repeatable motion. Future development will also include ROS 2 integration to support teleoperation workflows and automation, bringing the platform closer to realistic space robotics experimentation.\nThis project establishes a strong foundation for ongoing research in the iHuman Lab on human-robot teaming and teleoperation in challenging environments.\nCongratulations to Ibrahim, Nathaniel, and James on an outstanding presentation!"
-  },
-  {
-    "objectID": "people/phd/Bennett_Dogbey/index.html",
-    "href": "people/phd/Bennett_Dogbey/index.html",
-    "title": "Bennett Dogbey",
-    "section": "",
-    "text": "MSc (in progress), Mechanical & Aerospace Engineering, Oklahoma State University\nBSc Aerospace Engineering, 2022, Kwame Nkrumah University of Science & Technology"
-  },
-  {
-    "objectID": "people/phd/Bennett_Dogbey/index.html#education",
-    "href": "people/phd/Bennett_Dogbey/index.html#education",
-    "title": "Bennett Dogbey",
-    "section": "",
-    "text": "MSc (in progress), Mechanical & Aerospace Engineering, Oklahoma State University\nBSc Aerospace Engineering, 2022, Kwame Nkrumah University of Science & Technology"
-  },
-  {
-    "objectID": "people/phd/Bennett_Dogbey/index.html#research-interest",
-    "href": "people/phd/Bennett_Dogbey/index.html#research-interest",
-    "title": "Bennett Dogbey",
-    "section": "Research Interest",
-    "text": "Research Interest\n\nSafe and robust autonomy\nFormal verification and control synthesis,\nLearning-based control for UAV systems"
-  },
-  {
-    "objectID": "people/pi/index.html",
-    "href": "people/pi/index.html",
-    "title": "Hemanth Manjunatha",
-    "section": "",
-    "text": "I am glad you landed on this tiny corner of the internet"
-  },
-  {
-    "objectID": "people/pi/index.html#hello",
-    "href": "people/pi/index.html#hello",
-    "title": "Hemanth Manjunatha",
-    "section": "",
-    "text": "I am glad you landed on this tiny corner of the internet"
-  },
-  {
-    "objectID": "people/pi/index.html#education",
-    "href": "people/pi/index.html#education",
-    "title": "Hemanth Manjunatha",
-    "section": "Education",
-    "text": "Education\nPhD in Mechanical and Aerospace Engineering University at Buffalo, USA | 2016–2021\nM.S. in Mechanical and Aerospace Engineering University at Buffalo, USA | 2015–2017\nB.S. in Mechanical Engineering National Institute of Engineering, India | 2010–2014"
-  },
-  {
-    "objectID": "people/pi/index.html#research-interest",
-    "href": "people/pi/index.html#research-interest",
-    "title": "Hemanth Manjunatha",
-    "section": "Research Interest",
-    "text": "Research Interest\nSafe Learning based Cyber Physical Systems | Brain Machine Interfaces | Human-Robot Interaction | Robotics | Haptics | Telerehabilitation"
-  },
-  {
-    "objectID": "people/alumni/JacksonBenton/index.html",
-    "href": "people/alumni/JacksonBenton/index.html",
-    "title": "Jackson Benton",
-    "section": "",
-    "text": "Oklahoma State University B.S. in Aerospace and Mechanical Engineering August 2021 - May 2026"
-  },
-  {
-    "objectID": "people/alumni/JacksonBenton/index.html#education",
-    "href": "people/alumni/JacksonBenton/index.html#education",
-    "title": "Jackson Benton",
-    "section": "",
-    "text": "Oklahoma State University B.S. in Aerospace and Mechanical Engineering August 2021 - May 2026"
-  },
-  {
-    "objectID": "people/alumni/JacksonBenton/index.html#research-interest",
-    "href": "people/alumni/JacksonBenton/index.html#research-interest",
-    "title": "Jackson Benton",
-    "section": "Research Interest",
-    "text": "Research Interest\nInterested in aerodynamics, propulsion systems, and thermodynamics, with a focus on improving aerospace and mechanical systems. Also exploring AI and machine learning for autonomous systems."
-  },
-  {
-    "objectID": "outreach/index.html",
-    "href": "outreach/index.html",
+    "objectID": "software/index.html",
+    "href": "software/index.html",
     "title": "iHuman Lab",
     "section": "",
-    "text": "Engaging beyond the lab\n    Outreach & Impact\n  \n\n\n\n\n\n\n\nWorkshops & Tutorials\n\n\n\n\n\n\nClosing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing\n\n\n\n\nConcept-to-implementation tutorial covering the SHaSTA and HAI-SAR open-source platforms, bridging interaction design, physiological sensing (EEG & eye-tracking), and evaluation methodologies for human-centered autonomous systems.\n\n\n📍IEEE SMC 2026, Bellevue WA 📅October 2026\n\n\n\nHalf-Day Tutorial\nConference site ↗\n\n\n\n\n\n\nPhysiological Assessment of Human-Machine Teaming\n\n\n\n\nWorkshop exploring physiological and cognitive assessment during human-machine collaboration, including EEG, eye tracking, and real-time methods across domains such as aviation and search and rescue.\n\n\n📍NeuroErgonomics 2026, Boston MA 📅July 2026\n\n\n\nWorkshop\nConference site ↗\n\n\n\n\nK-12 & Public Outreach\n\n\n\n🔬\n\n\nComing soon — we are actively planning K-12 and public engagement activities. Check back for updates!\n\n\n\nNo matching items"
+    "text": "Statistical analysis for LLM guided search and rescue mission\n\n\nView on GitHub MakefilePythonShell\n\n\n\n\n\n\n\n\n\n\nA software project from the iHuman Lab.\n\n\nView on GitHub PythonMakefileShell\n\n\n\n\n\n\n\n\n\n\nImplementation of world models in Atari using eye-tracking\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nProbabilistic differentiable signal temporal logics using recurrent neural networks\n\n\nView on GitHub PythonMakefileShell\n\n\n\n\n\n\n\n\n\n\nUsing Large Language Models to automatically analyze aviation accident reports and classify them according to the Human Factors Analysis and Classification System (HFACS).\n\n\nView on GitHub PythonMakefile\n\n\n\n\n\n\n\n\n\n\nThe central software ecosystem for the iHuman Lab. A modular, high-momentum framework for Intelligent Human-Machine interaction built on ROS 2 and Sugarcoat.\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nA python package implementing various features extraction method from eye tracking\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nA high-stakes Search and Rescue (SAR) simulation built on MiniGrid. The primary RL training ground for the iHuman Lab, designed for modular research in human-centric navigation and victim recovery.\n\n\nView on GitHub PythonMakefile\n\n\n\n\n\n\n\n\n\n\nA python package to run experiments at iHuman Lab\n\n\nView on GitHub Python\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Updates from the lab\n    Latest News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\nLatest\n\nApril 22, 2026\n\n\nUndergraduate Students Present Space Robotics Research at OSU Symposium\n\n\nThree undergraduate students from the iHuman Lab at Oklahoma State University presented their work on a gravity-compensated teleoperated space robotics system at the OSU Undergraduate Research Symposium.\n\nRead more →\n\n\n\n\n\n\n\n\n\n\nDec 31, 2025\n\n\nGraduate Student Receives ASME IDETC Travel Award\n\n\nElahe Oveisi, a Ph.D. student in the iHuman Lab at Oklahoma State University, received a Graduate Poster Travel Award at the ASME International Design Engineering Technical Conferences (IDETC), where she presented her research on AI-driven human factor analysis in safety-critical aerospace systems.\n\n\n\n\n\n\n\n\n\n\nDec 31, 2025\n\n\nNVIDIA GPU Grant\n\n\nThe 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious 𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺, and we couldn’t be more excited!\n\n\n\n\n\n\n\n\n\n\nDec 12, 2025\n\n\nNeurable Research Grant\n\n\niHuman Lab Wins Neurable Research Grant to Advance Brain–Computer Interface Research\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news/nvidia/index.html",
+    "href": "news/nvidia/index.html",
+    "title": "NVIDIA GPU Grant",
+    "section": "",
+    "text": "Ending 2025 on a High Note, Kicking Off 2026 with Excitement! 🎉 We’re thrilled to share some fantastic news as we wrap up an amazing year and look forward to even greater things in 2026!\nThe 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious 𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺, and we couldn’t be more excited!\nThis incredible opportunity is made possible by NVIDIA’s support for our cutting-edge work on 𝘕𝘦𝘶𝘳𝘰𝘢𝘥𝘢𝘱𝘵𝘪𝘷𝘦 𝘙𝘰𝗯𝘶𝘴𝘵 𝘛𝘦𝘭𝘦𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 𝘸𝘪𝘵𝘩 𝘍𝘰𝘳𝘮𝘢𝘭 𝘎𝘶𝘢𝘳𝘢𝘯𝘵𝘦𝘦𝘴. With the help of 𝟰× RTX PRO 6000 Blackwell Max-Q GPUs, we’ll be driving innovative research at the intersection of AI, robotics, and human-centered systems.\nWe are incredibly grateful for NVIDIA’s support and are eager to see how this partnership will enhance our research, bringing us closer to solving some of today’s most complex challenges.\nWishing everyone a fantastic start to 2026! 🎆"
+  },
+  {
+    "objectID": "people/phd/ElaheOveisi/index.html",
+    "href": "people/phd/ElaheOveisi/index.html",
+    "title": "Elahe Oveisi",
+    "section": "",
+    "text": "PhD in Aerospace and Mechanical Engineering Oklahoma State University | 2024–present"
+  },
+  {
+    "objectID": "people/phd/ElaheOveisi/index.html#education",
+    "href": "people/phd/ElaheOveisi/index.html#education",
+    "title": "Elahe Oveisi",
+    "section": "",
+    "text": "PhD in Aerospace and Mechanical Engineering Oklahoma State University | 2024–present"
+  },
+  {
+    "objectID": "people/phd/ElaheOveisi/index.html#research-interest",
+    "href": "people/phd/ElaheOveisi/index.html#research-interest",
+    "title": "Elahe Oveisi",
+    "section": "Research Interest",
+    "text": "Research Interest\n\nHuman-Machine Interaction\nAviation Safety\nHuman Factors in Autonomous Systems"
+  },
+  {
+    "objectID": "people/index.html",
+    "href": "people/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "The people behind the research\n    Meet the Team\n  \n\n\n\nPI\n\n\n\n\n\n\n\n\nHemanth Manjunatha\n\n\n\n\n\nNo matching items\n\n\n\n\nPhD\n\n\n\n\n\n\n\n\nElahe Oveisi\n\n\n\n\n\n\n\n\n\nBennett Dogbey\n\n\n\n\n\nNo matching items\n\n\n\n\nMasters\n\n\n\n\n\nNo matching items\n\n\n\n\nUndergraduate\n\n\n\n\n\nNo matching items\n\n\n\n\nAlumni\n\n\n\n\n\n\n\n\nCarson McSpadden\n\n\n\n\n\n\n\n\n\nJackson Benton\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/alumni/CarsonMcSpadden/index.html",
+    "href": "people/alumni/CarsonMcSpadden/index.html",
+    "title": "Carson McSpadden",
+    "section": "",
+    "text": "B.S. in Computer and Electrical Engineering Oklahoma State University, Stillwater OK | 2024–2027"
+  },
+  {
+    "objectID": "people/alumni/CarsonMcSpadden/index.html#education",
+    "href": "people/alumni/CarsonMcSpadden/index.html#education",
+    "title": "Carson McSpadden",
+    "section": "",
+    "text": "B.S. in Computer and Electrical Engineering Oklahoma State University, Stillwater OK | 2024–2027"
+  },
+  {
+    "objectID": "people/alumni/CarsonMcSpadden/index.html#research-interest",
+    "href": "people/alumni/CarsonMcSpadden/index.html#research-interest",
+    "title": "Carson McSpadden",
+    "section": "Research Interest",
+    "text": "Research Interest\n\nDeep Learning\nHuman-Robot Interaction\nDigital Circuit and System Design"
+  },
+  {
+    "objectID": "outreach/physio_workshop/index.html",
+    "href": "outreach/physio_workshop/index.html",
+    "title": "Physiological Assessment of Human-Machine Teaming",
+    "section": "",
+    "text": "This workshop emphasizes the essential concept of physiological assessment of human-machine collaboration. We explore how individuals share cognitive and physiological states during interactions with intelligent autonomous systems.\nThe session covers traditional models typically used to measure cognitive states, while also introducing new techniques for real-time assessment — such as physiological metrics that maintain task continuity.\nTopics include:\n\nHuman information-processing frameworks from both individual and team perspectives\nApplication domains: aviation and search and rescue\nPhysiological data (EEG and eye tracking) for assessing cognitive and neurophysiological states\nRelationships between physiological markers and key human–machine teaming constructs: trust, mental workload, and task performance"
+  },
+  {
+    "objectID": "outreach/physio_workshop/index.html#overview",
+    "href": "outreach/physio_workshop/index.html#overview",
+    "title": "Physiological Assessment of Human-Machine Teaming",
+    "section": "",
+    "text": "This workshop emphasizes the essential concept of physiological assessment of human-machine collaboration. We explore how individuals share cognitive and physiological states during interactions with intelligent autonomous systems.\nThe session covers traditional models typically used to measure cognitive states, while also introducing new techniques for real-time assessment — such as physiological metrics that maintain task continuity.\nTopics include:\n\nHuman information-processing frameworks from both individual and team perspectives\nApplication domains: aviation and search and rescue\nPhysiological data (EEG and eye tracking) for assessing cognitive and neurophysiological states\nRelationships between physiological markers and key human–machine teaming constructs: trust, mental workload, and task performance"
+  },
+  {
+    "objectID": "outreach/physio_workshop/index.html#format",
+    "href": "outreach/physio_workshop/index.html#format",
+    "title": "Physiological Assessment of Human-Machine Teaming",
+    "section": "Format",
+    "text": "Format\nThe workshop begins with short presentations from members of the organizing team sharing their ongoing research on physiological assessments of human–machine teaming. This is followed by guided small-group discussions, with each group sharing key insights with the broader audience to compare perspectives, surface challenges, and identify common themes and open questions."
+  },
+  {
+    "objectID": "outreach/physio_workshop/index.html#who-should-attend",
+    "href": "outreach/physio_workshop/index.html#who-should-attend",
+    "title": "Physiological Assessment of Human-Machine Teaming",
+    "section": "Who Should Attend",
+    "text": "Who Should Attend\nResearchers and graduate students working in human factors, human–AI interaction, autonomy, and related fields."
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#who-are-we",
+    "href": "outreach/discovery-day/index.html#who-are-we",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Who Are We?",
+    "text": "Who Are We?\n\n\n\nWe build technology that understands you.\n\nNot just your commands — your attention, your stress, even your mistakes before they happen.\n\nBrain · AI · Robotics — working together.\n\n\n\n\n10+\n\n\nResearchers\n\n\n\n\n30+\n\n\nPublications\n\n\n\n\n4\n\n\nResearch Areas\n\n\n\n\n6+\n\n\nActive Projects"
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#what-if-a-robot-could-read-your-mind",
+    "href": "outreach/discovery-day/index.html#what-if-a-robot-could-read-your-mind",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "What If a Robot Could Read Your Mind?",
+    "text": "What If a Robot Could Read Your Mind?\n\n\n\nA headset — but instead of music, it reads your brainwaves.\n\n\nStressed? → Robot slows down.\nOverwhelmed? → Robot takes over.\nZoning out? → Robot asks for attention.\n\n\nThe robot adapts to you. Not the other way around."
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#what-do-your-eyes-reveal",
+    "href": "outreach/discovery-day/index.html#what-do-your-eyes-reveal",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "What Do Your Eyes Reveal?",
+    "text": "What Do Your Eyes Reveal?\n\n\n\nIn 200 milliseconds, your eyes reveal exactly what you’re thinking.\n\nExperts see differently — a surgeon’s gaze, a pilot’s scan, a drone operator’s focus.\nWe recorded those eye movements and trained AI to copy them exactly.\n\nNow the AI sees like the best human in the room."
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#could-you-control-50-drones-at-once",
+    "href": "outreach/discovery-day/index.html#could-you-control-50-drones-at-once",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Could You Control 50 Drones at Once?",
+    "text": "Could You Control 50 Drones at Once?\n\n\n\nDisaster strikes. One person. 50 drones. No room for error.\n\nWhat happens to your brain under that pressure?\nWe track brain signals in real time to find out — and build AI that steps in before you hit your limit.\n\nBecause in a rescue mission, hesitation costs lives."
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#could-you-control-a-robot-on-the-moon",
+    "href": "outreach/discovery-day/index.html#could-you-control-a-robot-on-the-moon",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Could You Control a Robot on the Moon?",
+    "text": "Could You Control a Robot on the Moon?\n\n\n\nYour signal takes 1.3 seconds to reach the Moon.\n\nThat’s 1.3 seconds your robot is completely on its own.\nWe build robots smart enough to survive that gap — and study how humans stay in control when the stakes are this high.\n\nYou on Earth. Robot on the Moon. One team."
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#real-impact",
+    "href": "outreach/discovery-day/index.html#real-impact",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Real Impact",
+    "text": "Real Impact\n\n\n\n\n\n\n\n\nSearch & Rescue\n\n\nFind survivors faster when every second counts\n\n\n\n\n\n\n\n\n\n\nManufacturing\n\n\nRobots that work with you, not instead of you\n\n\n\n\n\n\n\n\n\n\nAviation Safety\n\n\nAI that learns from decades of accident reports\n\n\n\n\n\n\n\n\n\n\nHealthcare\n\n\nTech that adapts to patients, not the other way around\n\n\n\n\n\nSmarter Machines·Safer Humans·Better World"
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#section",
+    "href": "outreach/discovery-day/index.html#section",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "",
+    "text": "This Could Be You\n\n\nEvery researcher in this lab was once sitting where you are. If any of this sparked something — come talk to us.\n\n\nQuestions?\n\n\nhemanth.manjunatha@okstate.edu\n\n\n\n\n\n\niHuman Lab · Oklahoma State University"
   }
 ]
