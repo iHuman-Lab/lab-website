@@ -11,8 +11,8 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <meta name="dcterms.date" content="2026-01-01">
-  <title>iHuman Lab – iHuman Lab</title>
+  <meta name="dcterms.date" content="2026-07-13">
+  <title>iHuman Lab – Rescue-Grid An Open Platform for Human-Machine Teaming</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+      }
+    pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+    div.sourceCode
+      { color: #f8f8f2;  }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #f8f8f2; } /* Normal */
+    code span.al { color: #f07178; background-color: #2a0f15; font-weight: bold; } /* Alert */
+    code span.an { color: #d4d0ab; } /* Annotation */
+    code span.at { color: #00e0e0; } /* Attribute */
+    code span.bn { color: #d4d0ab; } /* BaseN */
+    code span.bu { color: #abe338; } /* BuiltIn */
+    code span.cf { color: #ffa07a; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #abe338; } /* Char */
+    code span.cn { color: #ffd700; } /* Constant */
+    code span.co { color: #f8f8f2; font-style: italic; } /* Comment */
+    code span.cv { color: #ffd700; } /* CommentVar */
+    code span.do { color: #f8f8f2; } /* Documentation */
+    code span.dt { color: #ffa07a; } /* DataType */
+    code span.dv { color: #d4d0ab; } /* DecVal */
+    code span.er { color: #f07178; text-decoration: underline; } /* Error */
+    code span.ex { color: #00e0e0; font-weight: bold; } /* Extension */
+    code span.fl { color: #d4d0ab; } /* Float */
+    code span.fu { color: #ffa07a; } /* Function */
+    code span.im { color: #abe338; } /* Import */
+    code span.in { color: #d4d0ab; } /* Information */
+    code span.kw { color: #ffa07a; font-weight: bold; } /* Keyword */
+    code span.op { color: #ffa07a; } /* Operator */
+    code span.ot { color: #00e0e0; } /* Other */
+    code span.pp { color: #dcc6e0; } /* Preprocessor */
+    code span.re { color: #00e0e0; background-color: #f8f8f2; } /* RegionMarker */
+    code span.sc { color: #abe338; } /* SpecialChar */
+    code span.ss { color: #abe338; } /* SpecialString */
+    code span.st { color: #abe338; } /* String */
+    code span.va { color: #00e0e0; } /* Variable */
+    code span.vs { color: #abe338; } /* VerbatimString */
+    code span.wa { color: #dcc6e0; } /* Warning */
   </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -354,204 +419,318 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-color="#252525" data-background-image="../../images/campus/campus.jpg" data-background-opacity="0.3" class="quarto-title-block center">
-  <h1 class="title">iHuman <span class="accent">Lab</span></h1>
-  <p class="subtitle">Where Humans and Machines Learn to Work Together</p>
+<section id="title-slide" data-background-color="#252525" data-background-image="screenshots/fullview.png" data-background-opacity="0.25" class="quarto-title-block center">
+  <h1 class="title">Rescue-Grid<br>An Open Platform for <span class="accent">Human-Machine Teaming</span></h1>
+  <p class="subtitle">From Workshop Prototype to Reusable Research Infrastructure</p>
 
 <div class="quarto-title-authors">
 </div>
 
-  <p class="date">2026-01-01</p>
+  <p class="date">2026-07-13</p>
 </section>
-<section id="what-we-do" class="slide level2" data-background-color="#252525">
-<h2>What We <span class="accent">Do</span></h2>
+<section id="why-we-built-another-sim" class="slide level2" data-background-color="#252525">
+<h2>Why We Built <span class="accent">Another</span> Sim</h2>
 <div class="columns">
 <div class="column" style="width:55%;">
 <div class="hook">
-<p>We build technology that understands <span class="accent">you</span></p>
+<p>Studying trust and workload needs a task you can <span class="accent">control</span> — and repeat.</p>
 </div>
-<p>Not just your commands — your <strong>attention</strong>, your <strong>stress</strong>, even your <strong>mistakes</strong> <em>before they happen</em>.</p>
+<p>Real disasters aren’t reproducible. Field studies can’t isolate one variable at a time, and they definitely can’t be replayed frame-by-frame in analysis.</p>
+<p>We needed a SAR task that was <strong>hard enough to matter</strong>, <strong>controllable enough to manipulate</strong>, and <strong>instrumented enough to measure</strong>.</p>
 <div class="punchline">
-<p><span class="accent">Brain</span> · <span class="accent">AI</span> · <span class="accent">Robotics</span> — working together.</p>
-</div>
-<div style="display:grid; grid-template-columns:repeat(2,1fr); gap:1rem 2rem; margin-top:1.2rem;">
-<div style="border-left:3px solid #EC672C; padding-left:0.8rem;">
-<div style="font-size:2.2rem; font-weight:900; color:#EC672C; line-height:1;">
-10+
-</div>
-<div style="font-size:0.85rem; color:rgba(255,255,255,0.55); text-transform:uppercase; letter-spacing:1.5px; margin-top:0.2rem;">
-Researchers
-</div>
-</div>
-<div style="border-left:3px solid #EC672C; padding-left:0.8rem;">
-<div style="font-size:2.2rem; font-weight:900; color:#EC672C; line-height:1;">
-30+
-</div>
-<div style="font-size:0.85rem; color:rgba(255,255,255,0.55); text-transform:uppercase; letter-spacing:1.5px; margin-top:0.2rem;">
-Publications
-</div>
-</div>
-<div style="border-left:3px solid #EC672C; padding-left:0.8rem;">
-<div style="font-size:2.2rem; font-weight:900; color:#EC672C; line-height:1;">
-4
-</div>
-<div style="font-size:0.85rem; color:rgba(255,255,255,0.55); text-transform:uppercase; letter-spacing:1.5px; margin-top:0.2rem;">
-Research Areas
-</div>
-</div>
-<div style="border-left:3px solid #EC672C; padding-left:0.8rem;">
-<div style="font-size:2.2rem; font-weight:900; color:#EC672C; line-height:1;">
-6+
-</div>
-<div style="font-size:0.85rem; color:rgba(255,255,255,0.55); text-transform:uppercase; letter-spacing:1.5px; margin-top:0.2rem;">
-Active Projects
-</div>
-</div>
+<p>So we built <span class="accent">Rescue-Grid</span>.</p>
 </div>
 </div><div class="column" style="width:45%;">
-<p><img data-src="../../images/work/377A0918.jpg"></p>
+<p><img data-src="screenshots/fullview.png"></p>
 </div></div>
 </section>
-<section id="what-if-a-robot-could-read-your-mind" class="slide level2" data-background-color="#252525">
-<h2>What If a Robot Could Read Your <span class="accent">Mind</span>?</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
+<section id="from-concept-to-testbed" class="slide level2" data-background-color="#252525">
+<h2>From <span class="accent">Concept</span> to Testbed</h2>
 <div class="hook">
-<p>A headset — but instead of music, it reads your <strong>brainwaves</strong>.</p>
+<p>Everything from Part 1 is a config parameter or a log field here.</p>
 </div>
 <ul>
-<li><em>Stressed?</em> → <strong>Robot slows down.</strong></li>
-<li><em>Overwhelmed?</em> → <strong>Robot takes over.</strong></li>
-<li><em>Zoning out?</em> → <strong>Robot asks for attention.</strong></li>
+<li><strong>Situational Awareness</strong> — swappable camera views (full grid → FOV cone) control what’s perceivable; victim health depletes while visible, forcing perceive · comprehend · project</li>
+<li><strong>Trust</strong> — the optional LLM assistant offers a suggestion each step; accept/reject is logged automatically, a behavioral trust signal, not just a post-task survey</li>
+<li><strong>Mental Workload</strong> — real vs.&nbsp;decoy victims, lava density, room count are the same demand-vs-capacity dials NASA-TLX asks about, except here they’re <code>build_sar_env()</code> arguments</li>
+<li><strong>Physiological Measurement</strong> — every game state syncs to Tobii (or any sensor you register) over one LSL clock, so fixations and pupil size line up frame-by-frame with gameplay</li>
 </ul>
 <div class="punchline">
-<p>The robot adapts to <span class="accent">you</span>. Not the other way around.</p>
+<p>Part 1 asked what to measure. Rescue-Grid is <span class="accent">where</span> you measure it.</p>
 </div>
-</div><div class="column" style="width:50%;">
-<p><img data-src="../../images/work/377A0907.jpg"></p>
+</section>
+<section id="the-game" class="slide level2" data-background-color="#252525">
+<h2>The <span class="accent">Game</span></h2>
+<div class="columns">
+<div class="column" style="width:35%;">
+<div class="hook">
+<p>A building on fire. Real victims. Fake ones too.</p>
+</div>
+<ul>
+<li>Multi-room building, locked doors + keys</li>
+<li>Real victims vs.&nbsp;decoy victims — pick up the wrong one, take a penalty</li>
+<li>Lava hazards, and victim health that <strong>depletes while visible</strong></li>
+<li>Optional LLM assistant you can call on for a suggestion</li>
+</ul>
+<div class="punchline">
+<p>Built on <span class="accent">MiniGrid</span> + Gymnasium — so it’s RL-ready from day one.</p>
+</div>
+</div><div class="column" style="width:65%;">
+<video data-autoplay="" loop="" muted="" playsinline="" src="screenshots/Media2.mov" style="width:100%; border-radius:6px; box-shadow:0 4px 20px rgba(0,0,0,0.4);">
+</video>
 </div></div>
 </section>
-<section id="your-eyes-give-away-everything" class="slide level2" data-background-color="#252525">
-<h2>Your Eyes Give Away <span class="accent">Everything</span></h2>
+<section id="ten-lines-to-a-running-environment" class="slide level2" data-background-color="#252525">
+<h2>Ten Lines to a Running <span class="accent">Environment</span></h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="hook">
-<p>In <span class="accent">200 milliseconds</span>, your eyes reveal exactly what you’re thinking.</p>
+<p>It’s a standard Gymnasium environment underneath.</p>
 </div>
-<p>Experts see <em>differently</em>. A <strong>surgeon’s gaze</strong>. A <strong>pilot’s scan</strong>. A <strong>drone operator’s</strong> focus.</p>
-<p>We recorded those eye movements → trained AI to copy them.</p>
+<p><code>reset()</code> / <code>step()</code> / <code>render()</code> — nothing exotic. Drop in your own policy, or drive it by hand.</p>
 <div class="punchline">
-<p>Now the AI sees like the <em>best human in the room</em>.</p>
+<p>If you know Gymnasium, you already <span class="accent">know</span> Rescue-Grid.</p>
 </div>
 </div><div class="column" style="width:50%;">
-<p><img data-src="../../images/work/377A0891.jpg"></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">from</span> game.sar.env <span class="im">import</span> build_sar_env</span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a>env <span class="op">=</span> build_sar_env(</span>
+<span id="cb1-4"><a></a>    screen_size<span class="op">=</span><span class="dv">800</span>,</span>
+<span id="cb1-5"><a></a>    num_rows<span class="op">=</span><span class="dv">2</span>, num_cols<span class="op">=</span><span class="dv">2</span>,</span>
+<span id="cb1-6"><a></a>    num_real_victims<span class="op">=</span><span class="dv">3</span>,</span>
+<span id="cb1-7"><a></a>    num_fake_victims<span class="op">=</span><span class="dv">3</span>,</span>
+<span id="cb1-8"><a></a>    lava_per_room<span class="op">=</span><span class="dv">2</span>,</span>
+<span id="cb1-9"><a></a>)</span>
+<span id="cb1-10"><a></a></span>
+<span id="cb1-11"><a></a>obs, info <span class="op">=</span> env.reset(seed<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb1-12"><a></a><span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">200</span>):</span>
+<span id="cb1-13"><a></a>    action <span class="op">=</span> env.action_space.sample()</span>
+<span id="cb1-14"><a></a>    obs, reward, terminated, truncated, info <span class="op">=</span> env.step(action)</span>
+<span id="cb1-15"><a></a>    <span class="cf">if</span> terminated <span class="kw">or</span> truncated:</span>
+<span id="cb1-16"><a></a>        obs, info <span class="op">=</span> env.reset()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div>
 </section>
-<section id="could-you-control-50-drones-at-once" class="slide level2" data-background-color="#252525">
-<h2>Could You Control <span class="accent">50 Drones</span> at Once?</h2>
+<section id="engine-architecture-one-step-start-to-finish" class="slide level2" data-background-color="#252525">
+<h2>Engine <span class="accent">Architecture</span>: One Step, Start to Finish</h2>
+<div class="hook">
+<p>Every frame follows the same path — input to pixels.</p>
+</div>
+<div class="flow-diagram">
+<div class="flow-step">
+<strong>Keyboard Input</strong>
+</div>
+<div class="flow-arrow">
+▼
+</div>
+<div class="flow-step">
+<strong>PickupVictimEnv.step(action)</strong><br>move / rescue · deplete health · check mission state
+</div>
+<div class="flow-arrow">
+▼
+</div>
+<div class="flow-step">
+<strong>GameObservation.process()</strong><br>encodes grid, position, mission status
+</div>
+<div class="flow-arrow">
+▼
+</div>
+<div class="flow-step">
+<strong>SAREnvGUI.render()</strong><br>camera crop + info panel + chat panel
+</div>
+</div>
+</section>
+<section id="extensible-by-design" class="slide level2" data-background-color="#252525">
+<h2><span class="accent">Extensible</span> By Design</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li><strong>Strategy</strong> — 5 swappable camera views: full grid, agent-centered, first-person, FOV cone</li>
+<li><strong>Factory</strong> — <code>build_sar_env()</code> assembles a fully configured mission from a few parameters</li>
+<li><strong>Template Method</strong> — <code>SARLevelGen</code> defines level-gen hooks; subclass it for a new level type</li>
+<li><strong>Pluggable Placers</strong> — <code>VictimPlacer</code> / <code>LavaPlacer</code> swap placement logic without touching the engine</li>
+</ul>
+<div class="punchline">
+<p>Change the <span class="accent">scenario</span>, not the source code.</p>
+</div>
+</div><div class="column" style="width:45%;">
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="co"># Strategy: swap the camera at runtime</span></span>
+<span id="cb2-2"><a></a>env.switch_camera(AgentFOVCamera())</span>
+<span id="cb2-3"><a></a></span>
+<span id="cb2-4"><a></a><span class="co"># Factory: reconfigure the mission</span></span>
+<span id="cb2-5"><a></a>env <span class="op">=</span> build_sar_env(</span>
+<span id="cb2-6"><a></a>    num_real_victims<span class="op">=</span><span class="dv">6</span>,</span>
+<span id="cb2-7"><a></a>    num_fake_victims<span class="op">=</span><span class="dv">12</span>,</span>
+<span id="cb2-8"><a></a>    lava_per_room<span class="op">=</span><span class="dv">8</span>,</span>
+<span id="cb2-9"><a></a>    locked_room_prob<span class="op">=</span><span class="fl">0.5</span>,</span>
+<span id="cb2-10"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div>
+</section>
+<section id="how-lsl-and-ixp-talk-to-each-other" class="slide level2" data-background-color="#252525">
+<h2>How <span class="accent">LSL</span> and <code>ixp</code> Talk to Each Other</h2>
+<div class="hook">
+<p>Two independent streams. One shared clock.</p>
+</div>
+<div class="flow-diagram">
+<div class="flow-branch">
+<div class="flow-step">
+<strong>SARGameTrial</strong><br>read_data() every frame
+</div>
+<div class="flow-step">
+<strong>Tobii Eye Tracker</strong><br>gaze samples
+</div>
+</div>
+<div class="flow-arrow">
+▼
+</div>
+<div class="flow-step">
+<strong>LSL</strong> — Lab Streaming Layer<br>synchronized clock across both streams
+</div>
+<div class="flow-arrow">
+▼
+</div>
+<div class="flow-step">
+<strong>Recorded Session</strong> → replayed frame-by-frame with <code>replay.py</code>
+</div>
+</div>
+</section>
+<section id="what-is-ixp" class="slide level2" data-background-color="#252525">
+<h2>What Is <span class="accent"><code>ixp</code></span>?</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="hook">
-<p>Disaster strikes. <span class="accent">One person</span>. 50 drones. No room for error.</p>
+<p>Behavioral experiments have a shape: setup, tasks, sensors, teardown.</p>
 </div>
-<p>What happens to your <strong>brain</strong> under that pressure?</p>
-<p>We track brain signals <em>in real time</em> to find out — and build AI that steps in <strong>before you hit your limit</strong>.</p>
+<p><code>ixp</code> is iHuman Lab’s experiment engine — an <code>Experiment</code> runs a sequence of <code>Task</code>s, each broken into <code>Block</code>s of <code>Trial</code>s, predefined or randomized order.</p>
+<p>Sensors record in <strong>parallel</strong> with tasks via Ray, and everything streams to a synchronized LSL clock — no manual timestamp alignment.</p>
 <div class="punchline">
-<p>Because in a rescue mission, <em>hesitation costs lives</em>.</p>
+<p>Rescue-Grid didn’t reinvent this — it just <span class="accent">registered</span> as a Task.</p>
 </div>
 </div><div class="column" style="width:50%;">
-<p><img data-src="../../images/work/377A0919.jpeg"></p>
+<div class="flow-diagram">
+<div class="flow-step">
+<strong>experiment.run()</strong>
+</div>
+<div class="flow-arrow">
+▼
+</div>
+<div class="flow-step">
+<strong>Start Sensors</strong> (parallel, non-blocking)
+</div>
+<div class="flow-arrow">
+▼
+</div>
+<div class="flow-step">
+<strong>Tasks → Blocks → Trials</strong><br>run sequentially, push LSL markers
+</div>
+<div class="flow-arrow">
+▼
+</div>
+<div class="flow-step">
+<strong>Stop Sensors</strong> → <strong>experiment.close()</strong>
+</div>
+</div>
 </div></div>
 </section>
-<section id="control-a-robot-on-the-moon" class="slide level2" data-background-color="#252525">
-<h2>Control a Robot on the <span class="accent">Moon</span></h2>
+<section id="rescue-grid-is-a-task-inside-ixp" class="slide level2" data-background-color="#252525">
+<h2>Rescue-Grid Is a <span class="accent">Task</span> Inside <code>ixp</code></h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="hook">
-<p>Your signal takes <span class="accent">1.3 seconds</span> to reach the Moon.</p>
+<p><code>ixp</code> orchestrates the session — Rescue-Grid just plugs in.</p>
 </div>
-<p>That’s <strong>1.3 seconds</strong> your robot is <em>completely on its own</em>.</p>
-<p>We build robots smart enough to <strong>survive that gap</strong> — and study how humans stay in control when the stakes are <em>this high</em>.</p>
+<p><code>ixp.Experiment</code> runs an ordered sequence of <strong>Tasks</strong>, calibrates <strong>sensors</strong>, and drives everything to completion. Rescue-Grid supplies one <code>Task</code> (<code>SARGame</code>) whose trials stream to their own LSL outlet.</p>
 <div class="punchline">
-<p>You on Earth. Robot on the Moon. <span class="accent">One team.</span></p>
+<p>Your sensor could be the <span class="accent">next</span> one registered.</p>
 </div>
 </div><div class="column" style="width:50%;">
-<p><img data-src="../../images/work/377A0920.jpeg"></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="kw">class</span> SARGame(Task):</span>
+<span id="cb3-2"><a></a>    <span class="kw">def</span> get_data_signature(<span class="va">self</span>):</span>
+<span id="cb3-3"><a></a>        <span class="cf">return</span> {</span>
+<span id="cb3-4"><a></a>            <span class="st">"name"</span>: <span class="st">"SARGame"</span>,</span>
+<span id="cb3-5"><a></a>            <span class="st">"type"</span>: <span class="st">"GameState"</span>,</span>
+<span id="cb3-6"><a></a>            <span class="st">"channel_format"</span>: <span class="st">"string"</span>,</span>
+<span id="cb3-7"><a></a>            <span class="st">"source_id"</span>: <span class="st">"rescue-grid-sar-game"</span>,</span>
+<span id="cb3-8"><a></a>        }</span>
+<span id="cb3-9"><a></a></span>
+<span id="cb3-10"><a></a><span class="kw">class</span> SARGameTrial(LSLTrial):</span>
+<span id="cb3-11"><a></a>    <span class="kw">def</span> read_data(<span class="va">self</span>):</span>
+<span id="cb3-12"><a></a>        state <span class="op">=</span> {<span class="op">**</span><span class="va">self</span>.gui.user.obs,</span>
+<span id="cb3-13"><a></a>                  <span class="st">"action"</span>: <span class="va">self</span>.gui.user.last_action,</span>
+<span id="cb3-14"><a></a>                  <span class="st">"reward"</span>: <span class="va">self</span>.gui.user.last_reward}</span>
+<span id="cb3-15"><a></a>        <span class="cf">return</span> [ujson.dumps(state)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div>
 </section>
-<section id="real-impact" class="slide level2" data-background-color="#252525">
-<h2>Real <span class="accent">Impact</span></h2>
-<div class="impact-grid">
-<div class="impact-card">
-<img src="https://images.unsplash.com/photo-1692176961746-e3b5aeb9669a?w=1200&amp;h=900&amp;fit=crop&amp;auto=format&amp;q=90">
-<div class="impact-overlay">
-
+<section id="use-it-in-your-study" class="slide level2" data-background-color="#252525">
+<h2>Use It In <span class="accent">Your</span> Study</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="hook">
+<p>Two entry points, depending on how deep you want to go.</p>
 </div>
-<div class="impact-text">
-<div class="impact-label">
-Search &amp; Rescue
+<p><strong>Just the environment</strong> — for a scripted study or RL training, no <code>ixp</code> required.</p>
+<p><strong>Full experiment</strong> — wire in your own sensor (EEG, GSR, whatever you’re measuring) exactly the way Tobii is wired in today.</p>
+</div><div class="column" style="width:50%;">
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="co"># (a) minimal — no ixp, just Gymnasium</span></span>
+<span id="cb4-2"><a></a><span class="im">from</span> game.sar.env <span class="im">import</span> build_sar_env</span>
+<span id="cb4-3"><a></a></span>
+<span id="cb4-4"><a></a>env <span class="op">=</span> build_sar_env(num_rows<span class="op">=</span><span class="dv">3</span>, num_cols<span class="op">=</span><span class="dv">3</span>)</span>
+<span id="cb4-5"><a></a>obs, info <span class="op">=</span> env.reset()</span>
+<span id="cb4-6"><a></a><span class="co"># plug in your own policy or logging here</span></span>
+<span id="cb4-7"><a></a></span>
+<span id="cb4-8"><a></a><span class="co"># (b) full ixp experiment</span></span>
+<span id="cb4-9"><a></a><span class="im">from</span> ixp.experiment <span class="im">import</span> Experiment</span>
+<span id="cb4-10"><a></a><span class="im">from</span> experiment.game <span class="im">import</span> SARGame</span>
+<span id="cb4-11"><a></a></span>
+<span id="cb4-12"><a></a>experiment <span class="op">=</span> Experiment(config)</span>
+<span id="cb4-13"><a></a>experiment.register_sensor(</span>
+<span id="cb4-14"><a></a>    <span class="st">"MyEEG"</span>, sensor_cls<span class="op">=</span>MyEEGSensor, sensor_config<span class="op">=</span>{}</span>
+<span id="cb4-15"><a></a>)</span>
+<span id="cb4-16"><a></a>experiment.add_task(</span>
+<span id="cb4-17"><a></a>    name<span class="op">=</span><span class="st">"main_game"</span>, task_cls<span class="op">=</span>SARGame,</span>
+<span id="cb4-18"><a></a>    task_config<span class="op">=</span>{<span class="st">"config"</span>: config[<span class="st">"game"</span>]}, order<span class="op">=</span><span class="dv">1</span>,</span>
+<span id="cb4-19"><a></a>)</span>
+<span id="cb4-20"><a></a>experiment.run()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div>
+</section>
+<section id="it-already-produced-a-paper" class="slide level2" data-background-color="#252525">
+<h2>It Already <span class="accent">Produced</span> a Paper</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<div class="hook">
+<p>LLM guidance changed <em>where</em> people looked — not just how well they did.</p>
 </div>
-<div class="impact-desc">
-Find survivors faster when every second counts
+<ul>
+<li><strong>No</strong> performance gain — victims rescued per step didn’t budge</li>
+<li>Attention shifted to the chat panel — an <strong>attention-guidance trade-off</strong></li>
+<li>Gaze narrowed too: shorter saccades, more localized, text-driven looking</li>
+</ul>
+<div class="punchline">
+<p>IEEE SMC 2026 — <span class="accent">Oveisi &amp; Manjunatha</span></p>
 </div>
+</div><div class="column" style="width:45%;">
+<p><img data-src="../../research/human-llm-sar/cover.jpg"></p>
+</div></div>
+</section>
+<section id="come-find-us-at-neuroergonomics" class="slide level2" data-background-color="#252525">
+<h2>Come Find Us at <span class="accent">NeuroErgonomics</span></h2>
+<div class="hook">
+<p>Same platform, a different question — see you at the session.</p>
 </div>
-</div>
-<div class="impact-card">
-<img src="https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=1200&amp;h=900&amp;fit=crop&amp;auto=format&amp;q=90">
-<div class="impact-overlay">
-
-</div>
-<div class="impact-text">
-<div class="impact-label">
-Manufacturing
-</div>
-<div class="impact-desc">
-Robots that work with you, not instead of you
-</div>
-</div>
-</div>
-<div class="impact-card">
-<img src="https://images.unsplash.com/photo-1552773346-ca6976a5d4ca?w=1200&amp;h=900&amp;fit=crop&amp;auto=format&amp;q=90">
-<div class="impact-overlay">
-
-</div>
-<div class="impact-text">
-<div class="impact-label">
-Aviation Safety
-</div>
-<div class="impact-desc">
-AI that learns from decades of accident reports
-</div>
-</div>
-</div>
-<div class="impact-card">
-<img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&amp;h=900&amp;fit=crop&amp;auto=format&amp;q=90">
-<div class="impact-overlay">
-
-</div>
-<div class="impact-text">
-<div class="impact-label">
-Healthcare
-</div>
-<div class="impact-desc">
-Tech that adapts to patients, not the other way around
-</div>
-</div>
-</div>
-</div>
-<div class="impact-tagline">
-<p><span class="impact-tagline-phrase">Smarter <span>Machines</span></span><span class="impact-tagline-dot">·</span><span class="impact-tagline-phrase">Safer <span>Humans</span></span><span class="impact-tagline-dot">·</span><span class="impact-tagline-phrase">Better <span>World</span></span></p>
-</div>
+<ul>
+<li><strong>Wednesday, July 15 — Sessions 4–6</strong></li>
+<li><strong>Session 6: Human–Robot &amp; Human–AI Teaming</strong> (Chair: Alexander von Lühmann)</li>
+<li><em>LLM-Mediated Communication in Human–AI Teaming: A Physiological Monitoring Study for Search and Rescue</em></li>
+</ul>
 </section>
 <section id="section" class="slide level2" data-background-image="../../images/campus/campus_2.jpg" data-background-opacity="0.25" data-background-color="#252525">
 <h2></h2>
 <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; height:80vh; text-align:center;">
 <p><img data-src="../../images/logos/logo.png" style="max-height:110px; border-radius:0 !important; box-shadow:none !important;"></p>
 <div style="font-family:'Rubik',sans-serif; font-size:2.8rem; font-weight:900; color:#ffffff; margin-top:0.8rem;">
-<p>This Could Be <span style="color:#EC672C;">You</span></p>
+<p>Fork It. <span style="color:#EC672C;">Build Your Study.</span></p>
 </div>
-<div style="font-size:1.75rem; color:rgba(255,255,255,0.65); margin-top:0.5rem; max-width:700px; line-height:1.6;">
-<p>Every researcher in this lab was once sitting where you are. If any of this sparked something — <strong>come talk to us</strong>.</p>
+<div style="font-size:1.5rem; color:rgba(255,255,255,0.65); margin-top:0.5rem; max-width:700px; line-height:1.6;">
+<p>github.com/iHuman-Lab/rescue-grid</p>
 </div>
 <div style="font-size:1.5rem; color:#EC672C; margin-top:1.2rem; font-weight:700;">
 <p>Questions?</p>
@@ -867,7 +1046,7 @@ Tech that adapts to patients, not the other way around
       }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
+          var filterRegex = new RegExp("https:\/\/iHuman-Lab\.github\.io\/lab-website\/");
         var isInternal = (href) => {
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }

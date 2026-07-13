@@ -1,38 +1,143 @@
 [
   {
-    "objectID": "outreach/smc2026/index.html",
-    "href": "outreach/smc2026/index.html",
-    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "objectID": "outreach/physio-workshop/index.html#why-we-built-another-sim",
+    "href": "outreach/physio-workshop/index.html#why-we-built-another-sim",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Why We Built Another Sim",
+    "text": "Why We Built Another Sim\n\n\n\nStudying trust and workload needs a task you can control — and repeat.\n\nReal disasters aren’t reproducible. Field studies can’t isolate one variable at a time, and they definitely can’t be replayed frame-by-frame in analysis.\nWe needed a SAR task that was hard enough to matter, controllable enough to manipulate, and instrumented enough to measure.\n\nSo we built Rescue-Grid."
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#from-concept-to-testbed",
+    "href": "outreach/physio-workshop/index.html#from-concept-to-testbed",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "From Concept to Testbed",
+    "text": "From Concept to Testbed\n\nEverything from Part 1 is a config parameter or a log field here.\n\n\nSituational Awareness — swappable camera views (full grid → FOV cone) control what’s perceivable; victim health depletes while visible, forcing perceive · comprehend · project\nTrust — the optional LLM assistant offers a suggestion each step; accept/reject is logged automatically, a behavioral trust signal, not just a post-task survey\nMental Workload — real vs. decoy victims, lava density, room count are the same demand-vs-capacity dials NASA-TLX asks about, except here they’re build_sar_env() arguments\nPhysiological Measurement — every game state syncs to Tobii (or any sensor you register) over one LSL clock, so fixations and pupil size line up frame-by-frame with gameplay\n\n\nPart 1 asked what to measure. Rescue-Grid is where you measure it."
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#the-game",
+    "href": "outreach/physio-workshop/index.html#the-game",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "The Game",
+    "text": "The Game\n\n\n\nA building on fire. Real victims. Fake ones too.\n\n\nMulti-room building, locked doors + keys\nReal victims vs. decoy victims — pick up the wrong one, take a penalty\nLava hazards, and victim health that depletes while visible\nOptional LLM assistant you can call on for a suggestion\n\n\nBuilt on MiniGrid + Gymnasium — so it’s RL-ready from day one."
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#ten-lines-to-a-running-environment",
+    "href": "outreach/physio-workshop/index.html#ten-lines-to-a-running-environment",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Ten Lines to a Running Environment",
+    "text": "Ten Lines to a Running Environment\n\n\n\nIt’s a standard Gymnasium environment underneath.\n\nreset() / step() / render() — nothing exotic. Drop in your own policy, or drive it by hand.\n\nIf you know Gymnasium, you already know Rescue-Grid.\n\n\nfrom game.sar.env import build_sar_env\n\nenv = build_sar_env(\n    screen_size=800,\n    num_rows=2, num_cols=2,\n    num_real_victims=3,\n    num_fake_victims=3,\n    lava_per_room=2,\n)\n\nobs, info = env.reset(seed=42)\nfor _ in range(200):\n    action = env.action_space.sample()\n    obs, reward, terminated, truncated, info = env.step(action)\n    if terminated or truncated:\n        obs, info = env.reset()"
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#engine-architecture-one-step-start-to-finish",
+    "href": "outreach/physio-workshop/index.html#engine-architecture-one-step-start-to-finish",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Engine Architecture: One Step, Start to Finish",
+    "text": "Engine Architecture: One Step, Start to Finish\n\nEvery frame follows the same path — input to pixels.\n\n\n\nKeyboard Input\n\n\n▼\n\n\nPickupVictimEnv.step(action)move / rescue · deplete health · check mission state\n\n\n▼\n\n\nGameObservation.process()encodes grid, position, mission status\n\n\n▼\n\n\nSAREnvGUI.render()camera crop + info panel + chat panel"
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#extensible-by-design",
+    "href": "outreach/physio-workshop/index.html#extensible-by-design",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Extensible By Design",
+    "text": "Extensible By Design\n\n\n\nStrategy — 5 swappable camera views: full grid, agent-centered, first-person, FOV cone\nFactory — build_sar_env() assembles a fully configured mission from a few parameters\nTemplate Method — SARLevelGen defines level-gen hooks; subclass it for a new level type\nPluggable Placers — VictimPlacer / LavaPlacer swap placement logic without touching the engine\n\n\nChange the scenario, not the source code.\n\n\n# Strategy: swap the camera at runtime\nenv.switch_camera(AgentFOVCamera())\n\n# Factory: reconfigure the mission\nenv = build_sar_env(\n    num_real_victims=6,\n    num_fake_victims=12,\n    lava_per_room=8,\n    locked_room_prob=0.5,\n)"
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#how-lsl-and-ixp-talk-to-each-other",
+    "href": "outreach/physio-workshop/index.html#how-lsl-and-ixp-talk-to-each-other",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "How LSL and ixp Talk to Each Other",
+    "text": "How LSL and ixp Talk to Each Other\n\nTwo independent streams. One shared clock.\n\n\n\n\nSARGameTrialread_data() every frame\n\n\nTobii Eye Trackergaze samples\n\n\n\n▼\n\n\nLSL — Lab Streaming Layersynchronized clock across both streams\n\n\n▼\n\n\nRecorded Session → replayed frame-by-frame with replay.py"
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#what-is-ixp",
+    "href": "outreach/physio-workshop/index.html#what-is-ixp",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "What Is ixp?",
+    "text": "What Is ixp?\n\n\n\nBehavioral experiments have a shape: setup, tasks, sensors, teardown.\n\nixp is iHuman Lab’s experiment engine — an Experiment runs a sequence of Tasks, each broken into Blocks of Trials, predefined or randomized order.\nSensors record in parallel with tasks via Ray, and everything streams to a synchronized LSL clock — no manual timestamp alignment.\n\nRescue-Grid didn’t reinvent this — it just registered as a Task.\n\n\n\n\nexperiment.run()\n\n\n▼\n\n\nStart Sensors (parallel, non-blocking)\n\n\n▼\n\n\nTasks → Blocks → Trialsrun sequentially, push LSL markers\n\n\n▼\n\n\nStop Sensors → experiment.close()"
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#rescue-grid-is-a-task-inside-ixp",
+    "href": "outreach/physio-workshop/index.html#rescue-grid-is-a-task-inside-ixp",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Rescue-Grid Is a Task Inside ixp",
+    "text": "Rescue-Grid Is a Task Inside ixp\n\n\n\nixp orchestrates the session — Rescue-Grid just plugs in.\n\nixp.Experiment runs an ordered sequence of Tasks, calibrates sensors, and drives everything to completion. Rescue-Grid supplies one Task (SARGame) whose trials stream to their own LSL outlet.\n\nYour sensor could be the next one registered.\n\n\nclass SARGame(Task):\n    def get_data_signature(self):\n        return {\n            \"name\": \"SARGame\",\n            \"type\": \"GameState\",\n            \"channel_format\": \"string\",\n            \"source_id\": \"rescue-grid-sar-game\",\n        }\n\nclass SARGameTrial(LSLTrial):\n    def read_data(self):\n        state = {**self.gui.user.obs,\n                  \"action\": self.gui.user.last_action,\n                  \"reward\": self.gui.user.last_reward}\n        return [ujson.dumps(state)]"
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#use-it-in-your-study",
+    "href": "outreach/physio-workshop/index.html#use-it-in-your-study",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Use It In Your Study",
+    "text": "Use It In Your Study\n\n\n\nTwo entry points, depending on how deep you want to go.\n\nJust the environment — for a scripted study or RL training, no ixp required.\nFull experiment — wire in your own sensor (EEG, GSR, whatever you’re measuring) exactly the way Tobii is wired in today.\n\n# (a) minimal — no ixp, just Gymnasium\nfrom game.sar.env import build_sar_env\n\nenv = build_sar_env(num_rows=3, num_cols=3)\nobs, info = env.reset()\n# plug in your own policy or logging here\n\n# (b) full ixp experiment\nfrom ixp.experiment import Experiment\nfrom experiment.game import SARGame\n\nexperiment = Experiment(config)\nexperiment.register_sensor(\n    \"MyEEG\", sensor_cls=MyEEGSensor, sensor_config={}\n)\nexperiment.add_task(\n    name=\"main_game\", task_cls=SARGame,\n    task_config={\"config\": config[\"game\"]}, order=1,\n)\nexperiment.run()"
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#it-already-produced-a-paper",
+    "href": "outreach/physio-workshop/index.html#it-already-produced-a-paper",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "It Already Produced a Paper",
+    "text": "It Already Produced a Paper\n\n\n\nLLM guidance changed where people looked — not just how well they did.\n\n\nNo performance gain — victims rescued per step didn’t budge\nAttention shifted to the chat panel — an attention-guidance trade-off\nGaze narrowed too: shorter saccades, more localized, text-driven looking\n\n\nIEEE SMC 2026 — Oveisi & Manjunatha"
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#come-find-us-at-neuroergonomics",
+    "href": "outreach/physio-workshop/index.html#come-find-us-at-neuroergonomics",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Come Find Us at NeuroErgonomics",
+    "text": "Come Find Us at NeuroErgonomics\n\nSame platform, a different question — see you at the session.\n\n\nWednesday, July 15 — Sessions 4–6\nSession 6: Human–Robot & Human–AI Teaming (Chair: Alexander von Lühmann)\nLLM-Mediated Communication in Human–AI Teaming: A Physiological Monitoring Study for Search and Rescue"
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#section",
+    "href": "outreach/physio-workshop/index.html#section",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
     "section": "",
-    "text": "This half-day tutorial at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026) presents a unified, systems-level perspective on closing the human-AI loop — the bidirectional information exchange between autonomous agents and human cognitive states.\nThe tutorial follows a concept-to-implementation structure combining lectures, architectural walkthroughs, and guided demonstrations built around two open-source research platforms:\n\nSHaSTA (Scalable Human-Swarm Teaming Platform) — A modular framework supporting scalable supervision, reinforcement learning integration, and flexible robot and environment modeling.\nHAI-SAR (Human-AI Interaction Platform) — A search-and-rescue environment designed for adaptive AI communication and granular behavioral/physiological logging.\n\nTopics progress from interaction design principles to system architectures, interface design, physiological sensing (EEG and eye-tracking), and evaluation methodologies, with emphasis on reusable design patterns and experimental rigor."
+    "text": "Fork It. Build Your Study.\n\n\ngithub.com/iHuman-Lab/rescue-grid\n\n\nQuestions?\n\n\nhemanth.manjunatha@okstate.edu\n\n\n\n\n\n\niHuman Lab · Oklahoma State University"
   },
   {
-    "objectID": "outreach/smc2026/index.html#overview",
-    "href": "outreach/smc2026/index.html#overview",
-    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "objectID": "outreach/discovery-day/index.html#who-are-we",
+    "href": "outreach/discovery-day/index.html#who-are-we",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Who Are We?",
+    "text": "Who Are We?\n\n\n\nWe build technology that understands you.\n\nNot just your commands — your attention, your stress, even your mistakes before they happen.\n\nBrain · AI · Robotics — working together.\n\n\n\n\n10+\n\n\nResearchers\n\n\n\n\n30+\n\n\nPublications\n\n\n\n\n4\n\n\nResearch Areas\n\n\n\n\n6+\n\n\nActive Projects"
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#what-if-a-robot-could-read-your-mind",
+    "href": "outreach/discovery-day/index.html#what-if-a-robot-could-read-your-mind",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "What If a Robot Could Read Your Mind?",
+    "text": "What If a Robot Could Read Your Mind?\n\n\n\nA headset — but instead of music, it reads your brainwaves.\n\n\nStressed? → Robot slows down.\nOverwhelmed? → Robot takes over.\nZoning out? → Robot asks for attention.\n\n\nThe robot adapts to you. Not the other way around."
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#what-do-your-eyes-reveal",
+    "href": "outreach/discovery-day/index.html#what-do-your-eyes-reveal",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "What Do Your Eyes Reveal?",
+    "text": "What Do Your Eyes Reveal?\n\n\n\nIn 200 milliseconds, your eyes reveal exactly what you’re thinking.\n\nExperts see differently — a surgeon’s gaze, a pilot’s scan, a drone operator’s focus.\nWe recorded those eye movements and trained AI to copy them exactly.\n\nNow the AI sees like the best human in the room."
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#could-you-control-50-drones-at-once",
+    "href": "outreach/discovery-day/index.html#could-you-control-50-drones-at-once",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Could You Control 50 Drones at Once?",
+    "text": "Could You Control 50 Drones at Once?\n\n\n\nDisaster strikes. One person. 50 drones. No room for error.\n\nWhat happens to your brain under that pressure?\nWe track brain signals in real time to find out — and build AI that steps in before you hit your limit.\n\nBecause in a rescue mission, hesitation costs lives."
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#could-you-control-a-robot-on-the-moon",
+    "href": "outreach/discovery-day/index.html#could-you-control-a-robot-on-the-moon",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Could You Control a Robot on the Moon?",
+    "text": "Could You Control a Robot on the Moon?\n\n\n\nYour signal takes 1.3 seconds to reach the Moon.\n\nThat’s 1.3 seconds your robot is completely on its own.\nWe build robots smart enough to survive that gap — and study how humans stay in control when the stakes are this high.\n\nYou on Earth. Robot on the Moon. One team."
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#real-impact",
+    "href": "outreach/discovery-day/index.html#real-impact",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Real Impact",
+    "text": "Real Impact\n\n\n\n\n\n\n\n\nSearch & Rescue\n\n\nFind survivors faster when every second counts\n\n\n\n\n\n\n\n\n\n\nManufacturing\n\n\nRobots that work with you, not instead of you\n\n\n\n\n\n\n\n\n\n\nAviation Safety\n\n\nAI that learns from decades of accident reports\n\n\n\n\n\n\n\n\n\n\nHealthcare\n\n\nTech that adapts to patients, not the other way around\n\n\n\n\n\nSmarter Machines·Safer Humans·Better World"
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#section",
+    "href": "outreach/discovery-day/index.html#section",
+    "title": "CEAT Discovery DayiHuman Lab",
     "section": "",
-    "text": "This half-day tutorial at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026) presents a unified, systems-level perspective on closing the human-AI loop — the bidirectional information exchange between autonomous agents and human cognitive states.\nThe tutorial follows a concept-to-implementation structure combining lectures, architectural walkthroughs, and guided demonstrations built around two open-source research platforms:\n\nSHaSTA (Scalable Human-Swarm Teaming Platform) — A modular framework supporting scalable supervision, reinforcement learning integration, and flexible robot and environment modeling.\nHAI-SAR (Human-AI Interaction Platform) — A search-and-rescue environment designed for adaptive AI communication and granular behavioral/physiological logging.\n\nTopics progress from interaction design principles to system architectures, interface design, physiological sensing (EEG and eye-tracking), and evaluation methodologies, with emphasis on reusable design patterns and experimental rigor."
-  },
-  {
-    "objectID": "outreach/smc2026/index.html#who-should-attend",
-    "href": "outreach/smc2026/index.html#who-should-attend",
-    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
-    "section": "Who Should Attend",
-    "text": "Who Should Attend\nResearchers and practitioners in Human-Machine Systems, Cybernetics, and Systems Science seeking to build rigorous, reproducible, and human-centered autonomous systems. Participants are expected to have basic familiarity with autonomous systems or robotics and working knowledge of Python (OOP). No prior experience with swarm systems, physiological sensing, or human-subject experimentation is required."
-  },
-  {
-    "objectID": "outreach/smc2026/index.html#venue",
-    "href": "outreach/smc2026/index.html#venue",
-    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
-    "section": "Venue",
-    "text": "Venue\nHyatt Regency Bellevue, Bellevue, WA, USA"
-  },
-  {
-    "objectID": "outreach/index.html",
-    "href": "outreach/index.html",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "Engaging beyond the lab\n    Outreach & Impact\n  \n\n\n\n\n\n\n\nWorkshops & Tutorials\n\n\n\n\n\n\nClosing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing\n\n\n\n\nConcept-to-implementation tutorial covering the SHaSTA and HAI-SAR open-source platforms, bridging interaction design, physiological sensing (EEG & eye-tracking), and evaluation methodologies for human-centered autonomous systems.\n\n\n📍IEEE SMC 2026, Bellevue WA 📅October 2026\n\n\n\nHalf-Day Tutorial\nConference site ↗\n\n\n\n\n\n\nPhysiological Assessment of Human-Machine Teaming\n\n\n\n\nWorkshop exploring physiological and cognitive assessment during human-machine collaboration, including EEG, eye tracking, and real-time methods across domains such as aviation and search and rescue.\n\n\n📍NeuroErgonomics 2026, Boston MA 📅July 2026\n\n\n\nWorkshop\nConference site ↗\n\n\n\n\nK-12 & Public Outreach\n\n\n\n\n\nLab” class=“outreach-card-img” /&gt;\n\n\n\nCEAT Discovery DayiHuman Lab\n\n\n\n\nAn introduction to the iHuman Lab for K–12 students covering brain-computer interfaces, human-robot interaction, eye-gaze AI, and how to pursue a career in research.\n\n\n📍Oklahoma State University, Stillwater OK 📅June 2026\n\n\n\nDiscovery Day\n\n\n\n\nNo matching items"
+    "text": "This Could Be You\n\n\nEvery researcher in this lab was once sitting where you are. If any of this sparked something — come talk to us.\n\n\nQuestions?\n\n\nhemanth.manjunatha@okstate.edu\n\n\n\n\n\n\niHuman Lab · Oklahoma State University"
   },
   {
     "objectID": "people/alumni/JacksonBenton/index.html",
@@ -196,18 +301,53 @@
     "text": "Imagine a world where robots work hand-in-hand with humans, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with human-robot collaboration poised to transform industries from manufacturing and logistics to healthcare and assistive technologies. But to achieve truly seamless interaction, robots need to understand not only our actions but also our thoughts and cognitive processes.\nEnter electroencephalography (EEG), a technique that measures brain activity using sensors on the scalp. EEG offers a window into the brain’s dynamic processes, but interpreting its complex signals remains a challenge. While deep learning models have shown success in decoding EEG data [14], they often act as “black boxes” – we see the results, but we don’t know how the model arrived at them. This lack of transparency hinders our ability to trust and fully utilize these powerful tools.\nOur research addresses the interpretability of deep learning models in human-robot co-manipulation. We developed a novel computational approach to understand how these models classify a user’s mental workload during collaboration with a robot.\n\n\n\n\n\n\nThe Challenge\n\n\n\nDecoding the complex signals of the brain using deep learning while understanding why the model makes its decisions.\n\n\nA Glimpse into the Experiment\nTo study mental workload, we designed an experiment where participants guided a robot’s movements. The tasks involved:\n\nGross Motor Control: Guiding the robot through a horizontal eight-shaped motion.\nFine Motor Control: Performing a star-shaped fine motion.\n\nWe also manipulated the robot’s resistance (damping) between high (requiring more effort) and low (allowing easier movement) levels. This created conditions where the damping was either appropriate or inappropriate for the specific movement, influencing the user’s mental workload. Our Convolutional Neural Network (CNN) model was trained to distinguish between these conditions using raw EEG recordings.\n\n\n\n\n\n\nResearch Goal\n\n\n\nTo enhance the interpretability of deep learning models applied to EEG data, specifically in the context of classifying mental workload during human-robot co-manipulation.\n\n\nOur Novel Approach: Making the “Black Box” Transparent\nOur key contribution is our method to understand how our deep learning model (a CNN) made its decisions. We used two powerful techniques, adapting methods commonly used in computer vision:\n\nIntegrated Gradients: This method assigns importance scores to the input features (EEG data points) by considering the gradient of the output with respect to the input along a path from a baseline input to the actual input. Think of it as tracing back the model’s decision to the original EEG signals [11, 12].\nAblation Attribution: Here, we systematically removed parts of the input EEG data (e.g., data from specific electrodes or frequency bands) and observed how the model’s performance changed. If removing a particular feature significantly decreased performance, it indicates that the feature was important for the classification.\n\nBy combining these methods, we created a pipeline that extracts interpretable features from EEG data, providing unprecedented insight into the brain activity patterns associated with mental workload in human-robot collaboration.\n\n\n\n\n\n\nKey Methods\n\n\n\nWe used Integrated Gradients and Ablation Attribution to understand which EEG features were most important to our deep learning model.\n\n\nDecoding the Brain: Key Findings\nOur analysis revealed that the model relied heavily on specific brainwave frequencies and locations:\n\nGamma and Beta Bands: As highlighted in our abstract, the Gamma and Beta frequency bands were particularly relevant for classifying mental workload in this visuospatial and motor control-oriented experiment. These higher-frequency brainwaves are often associated with active processing of information, attention, and motor control [15].\nParietal Regions: Our method also indicated the importance of EEG signals originating from the parietal regions of the brain. These areas play a crucial role in spatial awareness, sensorimotor integration, and attention.\n\nThese findings strongly suggest that Gamma and Beta activity over the parietal areas indicates mental workload when humans co-manipulate a robot, particularly during tasks requiring visual attention and motor coordination.\n\n\n\n\n\n\nKey Findings\n\n\n\nThe model heavily relied on Gamma and Beta brainwave activity in the parietal regions to assess mental workload.\n\n\nThe Path to Smarter Human-Robot Collaboration\nOur ability to interpret deep learning models opens up exciting possibilities:\n\nAdaptive Robots: Robots could dynamically adjust their behavior based on a user’s real-time mental workload, providing assistance when needed and reducing demands when the user is overloaded.\nEnhanced Training: Our findings can inform the design of training programs that optimize human-robot interaction and minimize mental strain.\nTrustworthy AI: Understanding how these models work builds greater trust in AI-powered systems, paving the way for more seamless and effective collaboration.\n\nThis research represents a significant step towards creating more intuitive and responsive human-robot interfaces. By shedding light on the brain activity patterns that underlie collaborative work, we can design robots that are true partners, enhancing human capabilities and improving our lives.\nWhat are your thoughts on the future of human-robot collaboration? How can interpretable AI in neurotechnology address challenges in other domains like healthcare or education?"
   },
   {
-    "objectID": "research/transfer-learning/index.html#abstract",
-    "href": "research/transfer-learning/index.html#abstract",
-    "title": "Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography",
+    "objectID": "research/human-llm-sar/index.html#abstract",
+    "href": "research/human-llm-sar/index.html#abstract",
+    "title": "LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation",
     "section": "Abstract",
-    "text": "Abstract\nEfficient human-robot collaboration during physical interaction requires estimating the human state for optimal role allocation and load sharing. Machine learning (ML) methods are gaining popularity for estimating the interaction parameters from physiological signals. However, due to individual differences, the ML models might not generalize well to new subjects. In this study, we present a convolution neural network (CNN) model to predict motor control difficulty using surface electromyography (sEMG) from human upper-limb during physical human-robot interaction (pHRI) task and present a transfer learning approach to transfer a learned model to new subjects.\nTwenty six individuals participated in a pHRI experiment where a subject guides the robot’s end-effector with different levels of motor control difficulty. The motor control difficulty is varied by changing the damping parameter of the robot from low to high and constraining the motion to gross and fine movements. A CNN network with raw sEMG as input is used to classify the motor control difficulty.\nThe CNN’s transfer learning approach is compared against Riemann geometry-based Procrustes analysis (RPA). With very few labeled samples from new subjects, we demonstrate that the CNN-based transfer learning approach (avg. 69.77%) outperforms the RPA transfer learning (avg. 59.20%).\nMoreover, we observe that the subject’s skill level in the pre-trained model has no significant effect on the transfer learning performance of the new users.\n\n\n\n\n\n\nResearch Questions\n\n\n\n\nWhich physiological modalities, eye, brain activity, or their combination can provide a more accurate classification of the reaction time?\nDo the task type information and individual differences in the task performance influence the classification of reaction time?"
+    "text": "Abstract\nHuman-AI teaming (HAT) increasingly involves AI systems that provide real-time, context-aware guidance in complex tasks. While such systems can improve performance, their effectiveness depends on how they shape human cognition and behavior. In particular, AI assistance can introduce cognitive demands and influence attention, planning, and interaction with the task environment, with effects that can vary across levels of expertise.\nThis work investigates these mechanisms in a simulated search and rescue (SAR) environment. We compare human performance under two LLM (Large Language Model)-guided conditions and a no-LLM baseline, and analyze interaction at multiple levels, including task performance, eye-tracking measures, and planning behavior.\nResults indicate that LLM guidance enhanced task efficiency (higher rewards and victims-per-step) but did not increase total victims saved. Eye-tracking data revealed an attention-guidance trade-off, with visual resources shifting to the chat interface alongside increased pupil size variability. Expertise moderated this effect: novices exhibited passive AI reliance, whereas experts maintained a “verification loop” through persistent environmental scanning.\nThese findings suggest that LLM-mediated teaming efficacy depends on the operator’s ability to cross-reference AI guidance with ground truth to maintain situational awareness."
   },
   {
-    "objectID": "research/transfer-learning/index.html#results",
-    "href": "research/transfer-learning/index.html#results",
-    "title": "Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography",
+    "objectID": "research/human-llm-sar/index.html#key-findings",
+    "href": "research/human-llm-sar/index.html#key-findings",
+    "title": "LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nLLM guidance significantly improved task efficiency (victims-per-step, total rewards) but not total victims rescued\nParticipants allocated more visual attention to the chat interface and less to the task environment under LLM support\nIncreased pupil size variability under LLM conditions indicates elevated cognitive load during guidance integration\nExperts maintained a dual-attention strategy — monitoring both the environment and AI guidance (verification loop)\nNovices relied more heavily on the LLM, reducing situational awareness"
+  },
+  {
+    "objectID": "research/human-llm-sar/index.html#methods",
+    "href": "research/human-llm-sar/index.html#methods",
+    "title": "LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation",
+    "section": "Methods",
+    "text": "Methods\n\nTask: Grid-based, partially observable search-and-rescue (SAR) environment built on MiniGrid\nConditions: Two LLM-guided conditions + one no-LLM baseline (within-subjects, 15 min/trial)\nEye Tracking: Tobii system — fixation count, fixation duration, saccade amplitude, AOI dwell time, pupil diameter STD\nIndividual Differences: Multiple Object Tracking (MOT) + Visual Search (VS) tasks; K-means clustering into Expert/Novice groups\nAnalysis: Linear mixed-effects models with Benjamini–Hochberg FDR correction\nParticipants: 13 participants, Oklahoma State University (IRB-26-40-STW)"
+  },
+  {
+    "objectID": "research/human-llm-sar/index.html#publication",
+    "href": "research/human-llm-sar/index.html#publication",
+    "title": "LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation",
+    "section": "Publication",
+    "text": "Publication\nElahe Oveisi and Hemanth Manjunatha\nIEEE International Conference on Systems, Man, and Cybernetics (SMC), 2026"
+  },
+  {
+    "objectID": "research/task-difficulty/index.html#abstract",
+    "href": "research/task-difficulty/index.html#abstract",
+    "title": "Task Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning",
+    "section": "Abstract",
+    "text": "Abstract\nAn experiment was conducted in which the subjects have to guide an robot under admittance control through a predefined trajectory. The damping in the admittance control was changed from low to high during different trials. Due to low damping, the controller might become unstable during the force input from the human subject. To quantify the instability, a frequency domain measure has been extracted from the force data. During the whole experiment scalp EEG was recorded and used to predict whether the robot becomes unstable during the co-manipulation. This was achieved by constructing a regression with EEG features as input and instability index as output. For the prediction model, we are leveraging the deep learning technique namely convolution neural networks."
+  },
+  {
+    "objectID": "research/shasta/index.html#abstract",
+    "href": "research/shasta/index.html#abstract",
+    "title": "SHASTA A Simulator for Human and Swarm Team Applications",
+    "section": "Abstract",
+    "text": "Abstract\nHuman-Swarm Teams uniquely combine the ability of swarms and cognition of humans to achieve complex behaviors. There is a need for a human-in-the-loop simulation framework that can capture both the human’s action and cognition while interacting with the swarm of robots as well as the actions of the swarm itself to study the unique characteristics of a human-swarm team. In this paper, we present , an open-source simulation platform to study human-swarm applications. The platform provides a unified interface for humans and learning algorithms to command/learn swarm robot behaviors. The higher level swarm behavior is achieved by including single robot and swarm primitives such as formation control and path planning. SHASTA provides a unique ability to collect physiological information from humans and time synchronize it with swarm simulation. Using search-and-rescue as an example, we demonstrate the scalability and utility ofSHASTA in simulating human-swarm applications. We also demonstrate its ability to integrate physiological measurements as part of the simulation through a detailed human-study."
+  },
+  {
+    "objectID": "research/shasta/index.html#results",
+    "href": "research/shasta/index.html#results",
+    "title": "SHASTA A Simulator for Human and Swarm Team Applications",
     "section": "Results",
-    "text": "Results\nThe study concluded that both eye features and cognitive features are needed to classify the reaction time effectively. The task type information had a significant influence on the classification accuracy, while the same could not be said with individual difference information. The accuracy of classification was increased when task type information was included as features, indicating that the reaction time depends on the task information.\nThese results are in agreement with the Linear Approach to the Threshold with Ergodic Rate (LATER) model, which suggests that reaction time depends on evidence collected and the task difficulty. The classifier trained on the physiological features using reaction time as the label can be used to classify task difficulty well above chance. Such systems can be utilized in Automation Invocation models that utilize appropriate control inputs and control strategies for optimal role allocation in collaborative tasks such as teleoperation.\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
+    "text": "Results\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
   },
   {
     "objectID": "research/llm/index.html#the-challenge-why-human-factors-matter",
@@ -245,32 +385,25 @@
     "text": "The Future of Aviation Safety\nThis research proves that while AI isn’t ready to replace human investigators entirely—especially for nuanced social and communicative factors—it can act as a powerful force multiplier.\nBy using optimized prompting like Tree-of-Thought, aviation authorities can process thousands of reports in minutes, identifying systemic safety gaps and informing better training for pilots. As LLMs continue to evolve, the gap between human intuition and machine processing is closing, promising a future where we learn from accidents faster than ever before.\n\nResearch Citation: Oveisi, E., & Manjunatha, H. (2025). Human Factor Analysis of Helicopter Accidents using Large Language Models. Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition."
   },
   {
-    "objectID": "research/shasta/index.html#abstract",
-    "href": "research/shasta/index.html#abstract",
-    "title": "SHASTA A Simulator for Human and Swarm Team Applications",
+    "objectID": "research/transfer-learning/index.html#abstract",
+    "href": "research/transfer-learning/index.html#abstract",
+    "title": "Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography",
     "section": "Abstract",
-    "text": "Abstract\nHuman-Swarm Teams uniquely combine the ability of swarms and cognition of humans to achieve complex behaviors. There is a need for a human-in-the-loop simulation framework that can capture both the human’s action and cognition while interacting with the swarm of robots as well as the actions of the swarm itself to study the unique characteristics of a human-swarm team. In this paper, we present , an open-source simulation platform to study human-swarm applications. The platform provides a unified interface for humans and learning algorithms to command/learn swarm robot behaviors. The higher level swarm behavior is achieved by including single robot and swarm primitives such as formation control and path planning. SHASTA provides a unique ability to collect physiological information from humans and time synchronize it with swarm simulation. Using search-and-rescue as an example, we demonstrate the scalability and utility ofSHASTA in simulating human-swarm applications. We also demonstrate its ability to integrate physiological measurements as part of the simulation through a detailed human-study."
+    "text": "Abstract\nEfficient human-robot collaboration during physical interaction requires estimating the human state for optimal role allocation and load sharing. Machine learning (ML) methods are gaining popularity for estimating the interaction parameters from physiological signals. However, due to individual differences, the ML models might not generalize well to new subjects. In this study, we present a convolution neural network (CNN) model to predict motor control difficulty using surface electromyography (sEMG) from human upper-limb during physical human-robot interaction (pHRI) task and present a transfer learning approach to transfer a learned model to new subjects.\nTwenty six individuals participated in a pHRI experiment where a subject guides the robot’s end-effector with different levels of motor control difficulty. The motor control difficulty is varied by changing the damping parameter of the robot from low to high and constraining the motion to gross and fine movements. A CNN network with raw sEMG as input is used to classify the motor control difficulty.\nThe CNN’s transfer learning approach is compared against Riemann geometry-based Procrustes analysis (RPA). With very few labeled samples from new subjects, we demonstrate that the CNN-based transfer learning approach (avg. 69.77%) outperforms the RPA transfer learning (avg. 59.20%).\nMoreover, we observe that the subject’s skill level in the pre-trained model has no significant effect on the transfer learning performance of the new users.\n\n\n\n\n\n\nResearch Questions\n\n\n\n\nWhich physiological modalities, eye, brain activity, or their combination can provide a more accurate classification of the reaction time?\nDo the task type information and individual differences in the task performance influence the classification of reaction time?"
   },
   {
-    "objectID": "research/shasta/index.html#results",
-    "href": "research/shasta/index.html#results",
-    "title": "SHASTA A Simulator for Human and Swarm Team Applications",
+    "objectID": "research/transfer-learning/index.html#results",
+    "href": "research/transfer-learning/index.html#results",
+    "title": "Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography",
     "section": "Results",
-    "text": "Results\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
-  },
-  {
-    "objectID": "research/task-difficulty/index.html#abstract",
-    "href": "research/task-difficulty/index.html#abstract",
-    "title": "Task Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning",
-    "section": "Abstract",
-    "text": "Abstract\nAn experiment was conducted in which the subjects have to guide an robot under admittance control through a predefined trajectory. The damping in the admittance control was changed from low to high during different trials. Due to low damping, the controller might become unstable during the force input from the human subject. To quantify the instability, a frequency domain measure has been extracted from the force data. During the whole experiment scalp EEG was recorded and used to predict whether the robot becomes unstable during the co-manipulation. This was achieved by constructing a regression with EEG features as input and instability index as output. For the prediction model, we are leveraging the deep learning technique namely convolution neural networks."
+    "text": "Results\nThe study concluded that both eye features and cognitive features are needed to classify the reaction time effectively. The task type information had a significant influence on the classification accuracy, while the same could not be said with individual difference information. The accuracy of classification was increased when task type information was included as features, indicating that the reaction time depends on the task information.\nThese results are in agreement with the Linear Approach to the Threshold with Ergodic Rate (LATER) model, which suggests that reaction time depends on evidence collected and the task difficulty. The classifier trained on the physiological features using reaction time as the label can be used to classify task difficulty well above chance. Such systems can be utilized in Automation Invocation models that utilize appropriate control inputs and control strategies for optimal role allocation in collaborative tasks such as teleoperation.\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
   },
   {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "iHuman Lab",
     "section": "",
-    "text": "Explore our work\n    Research @iHuman\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman Factor Analysis of Helicopter Accidents using Large Language Models\n\n\n\n\n\n\n\n\n\n\n\n\n\nSHASTA A Simulator for Human and Swarm Team Applications\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography\n\n\n\n\n\n\n\n\n\n\n\n\n\nClassification of Reaction Time in Simulated Multiple Robot Tele-Exploration\n\n\n\n\n\n\n\n\n\n\n\n\n\nTask Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of HRI\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Explore our work\n    Research @iHuman\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman Factor Analysis of Helicopter Accidents using Large Language Models\n\n\n\n\n\n\n\n\n\n\n\n\n\nSHASTA A Simulator for Human and Swarm Team Applications\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography\n\n\n\n\n\n\n\n\n\n\n\n\n\nClassification of Reaction Time in Simulated Multiple Robot Tele-Exploration\n\n\n\n\n\n\n\n\n\n\n\n\n\nTask Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of HRI\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/human-swarm-decision/index.html",
@@ -448,80 +581,38 @@
     "text": "Research Interest\n\nDeep Learning\nHuman-Robot Interaction\nDigital Circuit and System Design"
   },
   {
-    "objectID": "outreach/physio_workshop/index.html",
-    "href": "outreach/physio_workshop/index.html",
-    "title": "Physiological Assessment of Human-Machine Teaming",
+    "objectID": "outreach/index.html",
+    "href": "outreach/index.html",
+    "title": "iHuman Lab",
     "section": "",
-    "text": "This workshop emphasizes the essential concept of physiological assessment of human-machine collaboration. We explore how individuals share cognitive and physiological states during interactions with intelligent autonomous systems.\nThe session covers traditional models typically used to measure cognitive states, while also introducing new techniques for real-time assessment — such as physiological metrics that maintain task continuity.\nTopics include:\n\nHuman information-processing frameworks from both individual and team perspectives\nApplication domains: aviation and search and rescue\nPhysiological data (EEG and eye tracking) for assessing cognitive and neurophysiological states\nRelationships between physiological markers and key human–machine teaming constructs: trust, mental workload, and task performance"
+    "text": "Engaging beyond the lab\n    Outreach & Impact\n  \n\n\n\n\n\n\n\nWorkshops & Tutorials\n\n\n\n\n\n\nClosing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing\n\n\n\n\nConcept-to-implementation tutorial covering the SHaSTA and HAI-SAR open-source platforms, bridging interaction design, physiological sensing (EEG & eye-tracking), and evaluation methodologies for human-centered autonomous systems.\n\n\n📍IEEE SMC 2026, Bellevue WA 📅October 2026\n\n\n\nHalf-Day Tutorial\nConference site ↗\n\n\n\n\n\nHuman-Machine Teaming” class=“outreach-card-img” /&gt;\n\n\n\nRescue-GridAn Open Platform for Human-Machine Teaming\n\n\n\n\nA tour of Rescue-Grid, a MiniGrid/Gymnasium-based search-and-rescue simulation built for studying human-AI teaming — covering its architecture, LSL/ixp research instrumentation, and how to extend it for your own study.\n\n\n📍NeuroErgonomics 2026, Boston MA 📅July 2026\n\n\n\nWorkshop\nConference site ↗\n\n\n\n\nK-12 & Public Outreach\n\n\n\n\n\nLab” class=“outreach-card-img” /&gt;\n\n\n\nCEAT Discovery DayiHuman Lab\n\n\n\n\nAn introduction to the iHuman Lab for K–12 students covering brain-computer interfaces, human-robot interaction, eye-gaze AI, and how to pursue a career in research.\n\n\n📍Oklahoma State University, Stillwater OK 📅June 2026\n\n\n\nDiscovery Day\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "outreach/physio_workshop/index.html#overview",
-    "href": "outreach/physio_workshop/index.html#overview",
-    "title": "Physiological Assessment of Human-Machine Teaming",
+    "objectID": "outreach/smc2026/index.html",
+    "href": "outreach/smc2026/index.html",
+    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
     "section": "",
-    "text": "This workshop emphasizes the essential concept of physiological assessment of human-machine collaboration. We explore how individuals share cognitive and physiological states during interactions with intelligent autonomous systems.\nThe session covers traditional models typically used to measure cognitive states, while also introducing new techniques for real-time assessment — such as physiological metrics that maintain task continuity.\nTopics include:\n\nHuman information-processing frameworks from both individual and team perspectives\nApplication domains: aviation and search and rescue\nPhysiological data (EEG and eye tracking) for assessing cognitive and neurophysiological states\nRelationships between physiological markers and key human–machine teaming constructs: trust, mental workload, and task performance"
+    "text": "This half-day tutorial at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026) presents a unified, systems-level perspective on closing the human-AI loop — the bidirectional information exchange between autonomous agents and human cognitive states.\nThe tutorial follows a concept-to-implementation structure combining lectures, architectural walkthroughs, and guided demonstrations built around two open-source research platforms:\n\nSHaSTA (Scalable Human-Swarm Teaming Platform) — A modular framework supporting scalable supervision, reinforcement learning integration, and flexible robot and environment modeling.\nHAI-SAR (Human-AI Interaction Platform) — A search-and-rescue environment designed for adaptive AI communication and granular behavioral/physiological logging.\n\nTopics progress from interaction design principles to system architectures, interface design, physiological sensing (EEG and eye-tracking), and evaluation methodologies, with emphasis on reusable design patterns and experimental rigor."
   },
   {
-    "objectID": "outreach/physio_workshop/index.html#format",
-    "href": "outreach/physio_workshop/index.html#format",
-    "title": "Physiological Assessment of Human-Machine Teaming",
-    "section": "Format",
-    "text": "Format\nThe workshop begins with short presentations from members of the organizing team sharing their ongoing research on physiological assessments of human–machine teaming. This is followed by guided small-group discussions, with each group sharing key insights with the broader audience to compare perspectives, surface challenges, and identify common themes and open questions."
+    "objectID": "outreach/smc2026/index.html#overview",
+    "href": "outreach/smc2026/index.html#overview",
+    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "section": "",
+    "text": "This half-day tutorial at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026) presents a unified, systems-level perspective on closing the human-AI loop — the bidirectional information exchange between autonomous agents and human cognitive states.\nThe tutorial follows a concept-to-implementation structure combining lectures, architectural walkthroughs, and guided demonstrations built around two open-source research platforms:\n\nSHaSTA (Scalable Human-Swarm Teaming Platform) — A modular framework supporting scalable supervision, reinforcement learning integration, and flexible robot and environment modeling.\nHAI-SAR (Human-AI Interaction Platform) — A search-and-rescue environment designed for adaptive AI communication and granular behavioral/physiological logging.\n\nTopics progress from interaction design principles to system architectures, interface design, physiological sensing (EEG and eye-tracking), and evaluation methodologies, with emphasis on reusable design patterns and experimental rigor."
   },
   {
-    "objectID": "outreach/physio_workshop/index.html#who-should-attend",
-    "href": "outreach/physio_workshop/index.html#who-should-attend",
-    "title": "Physiological Assessment of Human-Machine Teaming",
+    "objectID": "outreach/smc2026/index.html#who-should-attend",
+    "href": "outreach/smc2026/index.html#who-should-attend",
+    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
     "section": "Who Should Attend",
-    "text": "Who Should Attend\nResearchers and graduate students working in human factors, human–AI interaction, autonomy, and related fields."
+    "text": "Who Should Attend\nResearchers and practitioners in Human-Machine Systems, Cybernetics, and Systems Science seeking to build rigorous, reproducible, and human-centered autonomous systems. Participants are expected to have basic familiarity with autonomous systems or robotics and working knowledge of Python (OOP). No prior experience with swarm systems, physiological sensing, or human-subject experimentation is required."
   },
   {
-    "objectID": "outreach/discovery-day/index.html#who-are-we",
-    "href": "outreach/discovery-day/index.html#who-are-we",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "Who Are We?",
-    "text": "Who Are We?\n\n\n\nWe build technology that understands you.\n\nNot just your commands — your attention, your stress, even your mistakes before they happen.\n\nBrain · AI · Robotics — working together.\n\n\n\n\n10+\n\n\nResearchers\n\n\n\n\n30+\n\n\nPublications\n\n\n\n\n4\n\n\nResearch Areas\n\n\n\n\n6+\n\n\nActive Projects"
-  },
-  {
-    "objectID": "outreach/discovery-day/index.html#what-if-a-robot-could-read-your-mind",
-    "href": "outreach/discovery-day/index.html#what-if-a-robot-could-read-your-mind",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "What If a Robot Could Read Your Mind?",
-    "text": "What If a Robot Could Read Your Mind?\n\n\n\nA headset — but instead of music, it reads your brainwaves.\n\n\nStressed? → Robot slows down.\nOverwhelmed? → Robot takes over.\nZoning out? → Robot asks for attention.\n\n\nThe robot adapts to you. Not the other way around."
-  },
-  {
-    "objectID": "outreach/discovery-day/index.html#what-do-your-eyes-reveal",
-    "href": "outreach/discovery-day/index.html#what-do-your-eyes-reveal",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "What Do Your Eyes Reveal?",
-    "text": "What Do Your Eyes Reveal?\n\n\n\nIn 200 milliseconds, your eyes reveal exactly what you’re thinking.\n\nExperts see differently — a surgeon’s gaze, a pilot’s scan, a drone operator’s focus.\nWe recorded those eye movements and trained AI to copy them exactly.\n\nNow the AI sees like the best human in the room."
-  },
-  {
-    "objectID": "outreach/discovery-day/index.html#could-you-control-50-drones-at-once",
-    "href": "outreach/discovery-day/index.html#could-you-control-50-drones-at-once",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "Could You Control 50 Drones at Once?",
-    "text": "Could You Control 50 Drones at Once?\n\n\n\nDisaster strikes. One person. 50 drones. No room for error.\n\nWhat happens to your brain under that pressure?\nWe track brain signals in real time to find out — and build AI that steps in before you hit your limit.\n\nBecause in a rescue mission, hesitation costs lives."
-  },
-  {
-    "objectID": "outreach/discovery-day/index.html#could-you-control-a-robot-on-the-moon",
-    "href": "outreach/discovery-day/index.html#could-you-control-a-robot-on-the-moon",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "Could You Control a Robot on the Moon?",
-    "text": "Could You Control a Robot on the Moon?\n\n\n\nYour signal takes 1.3 seconds to reach the Moon.\n\nThat’s 1.3 seconds your robot is completely on its own.\nWe build robots smart enough to survive that gap — and study how humans stay in control when the stakes are this high.\n\nYou on Earth. Robot on the Moon. One team."
-  },
-  {
-    "objectID": "outreach/discovery-day/index.html#real-impact",
-    "href": "outreach/discovery-day/index.html#real-impact",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "Real Impact",
-    "text": "Real Impact\n\n\n\n\n\n\n\n\nSearch & Rescue\n\n\nFind survivors faster when every second counts\n\n\n\n\n\n\n\n\n\n\nManufacturing\n\n\nRobots that work with you, not instead of you\n\n\n\n\n\n\n\n\n\n\nAviation Safety\n\n\nAI that learns from decades of accident reports\n\n\n\n\n\n\n\n\n\n\nHealthcare\n\n\nTech that adapts to patients, not the other way around\n\n\n\n\n\nSmarter Machines·Safer Humans·Better World"
-  },
-  {
-    "objectID": "outreach/discovery-day/index.html#section",
-    "href": "outreach/discovery-day/index.html#section",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "",
-    "text": "This Could Be You\n\n\nEvery researcher in this lab was once sitting where you are. If any of this sparked something — come talk to us.\n\n\nQuestions?\n\n\nhemanth.manjunatha@okstate.edu\n\n\n\n\n\n\niHuman Lab · Oklahoma State University"
+    "objectID": "outreach/smc2026/index.html#venue",
+    "href": "outreach/smc2026/index.html#venue",
+    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "section": "Venue",
+    "text": "Venue\nHyatt Regency Bellevue, Bellevue, WA, USA"
   }
 ]

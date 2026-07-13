@@ -1,15 +1,8 @@
 [
   {
-    "listing": "/outreach/index.html",
-    "items": [
-      "/outreach/smc2026/index.html",
-      "/outreach/physio_workshop/index.html",
-      "/outreach/discovery-day/index.html"
-    ]
-  },
-  {
     "listing": "/research/index.html",
     "items": [
+      "/research/human-llm-sar/index.html",
       "/research/llm/index.html",
       "/research/shasta/index.html",
       "/research/eye-gaze-augmentation/index.html",
@@ -51,6 +44,14 @@
       "/people/phd/Bennett_Dogbey/index.html",
       "/people/alumni/CarsonMcSpadden/index.html",
       "/people/alumni/JacksonBenton/index.html"
+    ]
+  },
+  {
+    "listing": "/outreach/index.html",
+    "items": [
+      "/outreach/smc2026/index.html",
+      "/outreach/physio-workshop/index.html",
+      "/outreach/discovery-day/index.html"
     ]
   }
 ]

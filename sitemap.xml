@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/outreach/smc2026/index.html</loc>
-    <lastmod>2026-04-23T03:19:37.798Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/outreach/physio-workshop/index.html</loc>
+    <lastmod>2026-07-13T01:33:52.388Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/outreach/index.html</loc>
-    <lastmod>2026-04-23T03:19:50.973Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/outreach/discovery-day/index.html</loc>
+    <lastmod>2026-06-24T19:17:16.659Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/people/alumni/JacksonBenton/index.html</loc>
@@ -34,23 +34,23 @@
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/repos/rescue-grid/index.html</loc>
-    <lastmod>2026-06-24T18:58:24.531Z</lastmod>
+    <lastmod>2026-07-13T01:07:49.072Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/repos/probabilistic-dstl/index.html</loc>
-    <lastmod>2026-06-24T18:58:23.905Z</lastmod>
+    <lastmod>2026-07-13T01:07:47.840Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/repos/rescue-analysis/index.html</loc>
-    <lastmod>2026-06-24T18:58:24.397Z</lastmod>
+    <lastmod>2026-07-13T01:07:48.824Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/repos/eye-world/index.html</loc>
-    <lastmod>2026-06-24T18:58:24.965Z</lastmod>
+    <lastmod>2026-07-13T01:07:49.571Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/repos/probabilistic-dstl-cov/index.html</loc>
-    <lastmod>2026-06-24T18:58:23.758Z</lastmod>
+    <lastmod>2026-07-13T01:07:48.332Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/gallery/index.html</loc>
@@ -69,20 +69,24 @@
     <lastmod>2026-02-18T03:58:23.844Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/research/transfer-learning/index.html</loc>
-    <lastmod>2026-02-18T04:12:35.947Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/index.html</loc>
+    <lastmod>2026-06-25T08:03:53.476Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/research/llm/index.html</loc>
-    <lastmod>2026-02-18T03:58:44.184Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/research/task-difficulty/index.html</loc>
+    <lastmod>2026-02-18T03:57:49.844Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/research/shasta/index.html</loc>
     <lastmod>2026-02-18T04:34:26.965Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/research/task-difficulty/index.html</loc>
-    <lastmod>2026-02-18T03:57:49.844Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/research/llm/index.html</loc>
+    <lastmod>2026-02-18T03:58:44.184Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iHuman-Lab.github.io/lab-website/research/transfer-learning/index.html</loc>
+    <lastmod>2026-02-18T04:12:35.947Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/research/index.html</loc>
@@ -106,19 +110,19 @@
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/repos/irobot/index.html</loc>
-    <lastmod>2026-06-24T18:58:24.161Z</lastmod>
+    <lastmod>2026-07-13T01:07:48.578Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/repos/ixp/index.html</loc>
-    <lastmod>2026-06-24T18:58:25.108Z</lastmod>
+    <lastmod>2026-07-13T01:07:49.821Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/repos/igaze/index.html</loc>
-    <lastmod>2026-06-24T18:58:24.814Z</lastmod>
+    <lastmod>2026-07-13T01:07:49.317Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/repos/llm-hfacs/index.html</loc>
-    <lastmod>2026-06-24T18:58:24.667Z</lastmod>
+    <lastmod>2026-07-13T01:07:48.088Z</lastmod>
   </url>
   <url>
     <loc>https://iHuman-Lab.github.io/lab-website/software/index.html</loc>
@@ -145,11 +149,11 @@
     <lastmod>2026-06-24T19:20:33.690Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/outreach/physio_workshop/index.html</loc>
-    <lastmod>2026-04-23T03:52:06.130Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/outreach/index.html</loc>
+    <lastmod>2026-04-23T03:19:50.973Z</lastmod>
   </url>
   <url>
-    <loc>https://iHuman-Lab.github.io/lab-website/outreach/discovery-day/index.html</loc>
-    <lastmod>2026-06-24T19:17:16.659Z</lastmod>
+    <loc>https://iHuman-Lab.github.io/lab-website/outreach/smc2026/index.html</loc>
+    <lastmod>2026-04-23T03:19:37.798Z</lastmod>
   </url>
 </urlset>

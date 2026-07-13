@@ -10,7 +10,65 @@
 <atom:link href="https://iHuman-Lab.github.io/lab-website/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Wed, 01 Jan 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 25 Jun 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation</title>
+  <link>https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Human-AI teaming (HAT) increasingly involves AI systems that provide real-time, context-aware guidance in complex tasks. While such systems can improve performance, their effectiveness depends on how they shape human cognition and behavior. In particular, AI assistance can introduce cognitive demands and influence attention, planning, and interaction with the task environment, with effects that can vary across levels of expertise.</p>
+<p>This work investigates these mechanisms in a simulated search and rescue (SAR) environment. We compare human performance under two LLM (Large Language Model)-guided conditions and a no-LLM baseline, and analyze interaction at multiple levels, including task performance, eye-tracking measures, and planning behavior.</p>
+<p>Results indicate that LLM guidance enhanced task efficiency (higher rewards and victims-per-step) but did not increase total victims saved. Eye-tracking data revealed an <strong>attention-guidance trade-off</strong>, with visual resources shifting to the chat interface alongside increased pupil size variability. Expertise moderated this effect: novices exhibited passive AI reliance, whereas experts maintained a <strong>“verification loop”</strong> through persistent environmental scanning.</p>
+<p>These findings suggest that LLM-mediated teaming efficacy depends on the operator’s ability to cross-reference AI guidance with ground truth to maintain situational awareness.</p>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
+<ul>
+<li>LLM guidance significantly improved <strong>task efficiency</strong> (victims-per-step, total rewards) but not total victims rescued</li>
+<li>Participants allocated <strong>more visual attention to the chat interface</strong> and less to the task environment under LLM support</li>
+<li><strong>Increased pupil size variability</strong> under LLM conditions indicates elevated cognitive load during guidance integration</li>
+<li><strong>Experts</strong> maintained a dual-attention strategy — monitoring both the environment and AI guidance (verification loop)</li>
+<li><strong>Novices</strong> relied more heavily on the LLM, reducing situational awareness</li>
+</ul>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<ul>
+<li><strong>Task</strong>: Grid-based, partially observable search-and-rescue (SAR) environment built on MiniGrid</li>
+<li><strong>Conditions</strong>: Two LLM-guided conditions + one no-LLM baseline (within-subjects, 15 min/trial)</li>
+<li><strong>Eye Tracking</strong>: Tobii system — fixation count, fixation duration, saccade amplitude, AOI dwell time, pupil diameter STD</li>
+<li><strong>Individual Differences</strong>: Multiple Object Tracking (MOT) + Visual Search (VS) tasks; K-means clustering into Expert/Novice groups</li>
+<li><strong>Analysis</strong>: Linear mixed-effects models with Benjamini–Hochberg FDR correction</li>
+<li><strong>Participants</strong>: 13 participants, Oklahoma State University (IRB-26-40-STW)</li>
+</ul>
+</section>
+<section id="publication" class="level2">
+<h2 class="anchored" data-anchor-id="publication">Publication</h2>
+<p><strong>Elahe Oveisi</strong> and <strong>Hemanth Manjunatha</strong></p>
+<p><em>IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2026</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>human-robot-interaction</category>
+  <category>eye-tracking</category>
+  <category>large-language-models</category>
+  <category>search-and-rescue</category>
+  <guid>https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/</guid>
+  <pubDate>Thu, 25 Jun 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Human Factor Analysis of Helicopter Accidents using Large Language Models</title>
   <link>https://iHuman-Lab.github.io/lab-website/research/llm/</link>
