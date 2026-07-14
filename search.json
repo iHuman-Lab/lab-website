@@ -1,140 +1,112 @@
 [
   {
-    "objectID": "outreach/physio-workshop/index.html#why-we-built-another-sim",
-    "href": "outreach/physio-workshop/index.html#why-we-built-another-sim",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "Why We Built Another Sim",
-    "text": "Why We Built Another Sim\n\n\n\nStudying trust and workload needs a task you can control — and repeat.\n\nReal disasters aren’t reproducible. Field studies can’t isolate one variable at a time, and they definitely can’t be replayed frame-by-frame in analysis.\nWe needed a SAR task that was hard enough to matter, controllable enough to manipulate, and instrumented enough to measure.\n\nSo we built Rescue-Grid."
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#from-concept-to-testbed",
-    "href": "outreach/physio-workshop/index.html#from-concept-to-testbed",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "From Concept to Testbed",
-    "text": "From Concept to Testbed\n\nEverything from Part 1 is a config parameter or a log field here.\n\n\nSituational Awareness — swappable camera views (full grid → FOV cone) control what’s perceivable; victim health depletes while visible, forcing perceive · comprehend · project\nTrust — the optional LLM assistant offers a suggestion each step; accept/reject is logged automatically, a behavioral trust signal, not just a post-task survey\nMental Workload — real vs. decoy victims, lava density, room count are the same demand-vs-capacity dials NASA-TLX asks about, except here they’re build_sar_env() arguments\nPhysiological Measurement — every game state syncs to Tobii (or any sensor you register) over one LSL clock, so fixations and pupil size line up frame-by-frame with gameplay\n\n\nPart 1 asked what to measure. Rescue-Grid is where you measure it."
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#the-game",
-    "href": "outreach/physio-workshop/index.html#the-game",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "The Game",
-    "text": "The Game\n\n\n\nA building on fire. Real victims. Fake ones too.\n\n\nMulti-room building, locked doors + keys\nReal victims vs. decoy victims — pick up the wrong one, take a penalty\nLava hazards, and victim health that depletes while visible\nOptional LLM assistant you can call on for a suggestion\n\n\nBuilt on MiniGrid + Gymnasium — so it’s RL-ready from day one."
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#ten-lines-to-a-running-environment",
-    "href": "outreach/physio-workshop/index.html#ten-lines-to-a-running-environment",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "Ten Lines to a Running Environment",
-    "text": "Ten Lines to a Running Environment\n\n\n\nIt’s a standard Gymnasium environment underneath.\n\nreset() / step() / render() — nothing exotic. Drop in your own policy, or drive it by hand.\n\nIf you know Gymnasium, you already know Rescue-Grid.\n\n\nfrom game.sar.env import build_sar_env\n\nenv = build_sar_env(\n    screen_size=800,\n    num_rows=2, num_cols=2,\n    num_real_victims=3,\n    num_fake_victims=3,\n    lava_per_room=2,\n)\n\nobs, info = env.reset(seed=42)\nfor _ in range(200):\n    action = env.action_space.sample()\n    obs, reward, terminated, truncated, info = env.step(action)\n    if terminated or truncated:\n        obs, info = env.reset()"
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#engine-architecture-one-step-start-to-finish",
-    "href": "outreach/physio-workshop/index.html#engine-architecture-one-step-start-to-finish",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "Engine Architecture: One Step, Start to Finish",
-    "text": "Engine Architecture: One Step, Start to Finish\n\nEvery frame follows the same path — input to pixels.\n\n\n\nKeyboard Input\n\n\n▼\n\n\nPickupVictimEnv.step(action)move / rescue · deplete health · check mission state\n\n\n▼\n\n\nGameObservation.process()encodes grid, position, mission status\n\n\n▼\n\n\nSAREnvGUI.render()camera crop + info panel + chat panel"
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#extensible-by-design",
-    "href": "outreach/physio-workshop/index.html#extensible-by-design",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "Extensible By Design",
-    "text": "Extensible By Design\n\n\n\nStrategy — 5 swappable camera views: full grid, agent-centered, first-person, FOV cone\nFactory — build_sar_env() assembles a fully configured mission from a few parameters\nTemplate Method — SARLevelGen defines level-gen hooks; subclass it for a new level type\nPluggable Placers — VictimPlacer / LavaPlacer swap placement logic without touching the engine\n\n\nChange the scenario, not the source code.\n\n\n# Strategy: swap the camera at runtime\nenv.switch_camera(AgentFOVCamera())\n\n# Factory: reconfigure the mission\nenv = build_sar_env(\n    num_real_victims=6,\n    num_fake_victims=12,\n    lava_per_room=8,\n    locked_room_prob=0.5,\n)"
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#how-lsl-and-ixp-talk-to-each-other",
-    "href": "outreach/physio-workshop/index.html#how-lsl-and-ixp-talk-to-each-other",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "How LSL and ixp Talk to Each Other",
-    "text": "How LSL and ixp Talk to Each Other\n\nTwo independent streams. One shared clock.\n\n\n\n\nSARGameTrialread_data() every frame\n\n\nTobii Eye Trackergaze samples\n\n\n\n▼\n\n\nLSL — Lab Streaming Layersynchronized clock across both streams\n\n\n▼\n\n\nRecorded Session → replayed frame-by-frame with replay.py"
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#what-is-ixp",
-    "href": "outreach/physio-workshop/index.html#what-is-ixp",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "What Is ixp?",
-    "text": "What Is ixp?\n\n\n\nBehavioral experiments have a shape: setup, tasks, sensors, teardown.\n\nixp is iHuman Lab’s experiment engine — an Experiment runs a sequence of Tasks, each broken into Blocks of Trials, predefined or randomized order.\nSensors record in parallel with tasks via Ray, and everything streams to a synchronized LSL clock — no manual timestamp alignment.\n\nRescue-Grid didn’t reinvent this — it just registered as a Task.\n\n\n\n\nexperiment.run()\n\n\n▼\n\n\nStart Sensors (parallel, non-blocking)\n\n\n▼\n\n\nTasks → Blocks → Trialsrun sequentially, push LSL markers\n\n\n▼\n\n\nStop Sensors → experiment.close()"
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#rescue-grid-is-a-task-inside-ixp",
-    "href": "outreach/physio-workshop/index.html#rescue-grid-is-a-task-inside-ixp",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "Rescue-Grid Is a Task Inside ixp",
-    "text": "Rescue-Grid Is a Task Inside ixp\n\n\n\nixp orchestrates the session — Rescue-Grid just plugs in.\n\nixp.Experiment runs an ordered sequence of Tasks, calibrates sensors, and drives everything to completion. Rescue-Grid supplies one Task (SARGame) whose trials stream to their own LSL outlet.\n\nYour sensor could be the next one registered.\n\n\nclass SARGame(Task):\n    def get_data_signature(self):\n        return {\n            \"name\": \"SARGame\",\n            \"type\": \"GameState\",\n            \"channel_format\": \"string\",\n            \"source_id\": \"rescue-grid-sar-game\",\n        }\n\nclass SARGameTrial(LSLTrial):\n    def read_data(self):\n        state = {**self.gui.user.obs,\n                  \"action\": self.gui.user.last_action,\n                  \"reward\": self.gui.user.last_reward}\n        return [ujson.dumps(state)]"
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#use-it-in-your-study",
-    "href": "outreach/physio-workshop/index.html#use-it-in-your-study",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "Use It In Your Study",
-    "text": "Use It In Your Study\n\n\n\nTwo entry points, depending on how deep you want to go.\n\nJust the environment — for a scripted study or RL training, no ixp required.\nFull experiment — wire in your own sensor (EEG, GSR, whatever you’re measuring) exactly the way Tobii is wired in today.\n\n# (a) minimal — no ixp, just Gymnasium\nfrom game.sar.env import build_sar_env\n\nenv = build_sar_env(num_rows=3, num_cols=3)\nobs, info = env.reset()\n# plug in your own policy or logging here\n\n# (b) full ixp experiment\nfrom ixp.experiment import Experiment\nfrom experiment.game import SARGame\n\nexperiment = Experiment(config)\nexperiment.register_sensor(\n    \"MyEEG\", sensor_cls=MyEEGSensor, sensor_config={}\n)\nexperiment.add_task(\n    name=\"main_game\", task_cls=SARGame,\n    task_config={\"config\": config[\"game\"]}, order=1,\n)\nexperiment.run()"
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#it-already-produced-a-paper",
-    "href": "outreach/physio-workshop/index.html#it-already-produced-a-paper",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "It Already Produced a Paper",
-    "text": "It Already Produced a Paper\n\n\n\nLLM guidance changed where people looked — not just how well they did.\n\n\nNo performance gain — victims rescued per step didn’t budge\nAttention shifted to the chat panel — an attention-guidance trade-off\nGaze narrowed too: shorter saccades, more localized, text-driven looking\n\n\nIEEE SMC 2026 — Oveisi & Manjunatha"
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#come-find-us-at-neuroergonomics",
-    "href": "outreach/physio-workshop/index.html#come-find-us-at-neuroergonomics",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "Come Find Us at NeuroErgonomics",
-    "text": "Come Find Us at NeuroErgonomics\n\nSame platform, a different question — see you at the session.\n\n\nWednesday, July 15 — Sessions 4–6\nSession 6: Human–Robot & Human–AI Teaming (Chair: Alexander von Lühmann)\nLLM-Mediated Communication in Human–AI Teaming: A Physiological Monitoring Study for Search and Rescue"
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#section",
-    "href": "outreach/physio-workshop/index.html#section",
+    "objectID": "outreach/physio-workshop/index.html",
+    "href": "outreach/physio-workshop/index.html",
     "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
     "section": "",
-    "text": "Fork It. Build Your Study.\n\n\ngithub.com/iHuman-Lab/rescue-grid\n\n\nQuestions?\n\n\nhemanth.manjunatha@okstate.edu\n\n\n\n\n\n\niHuman Lab · Oklahoma State University"
+    "text": "View the Presentation ↗"
   },
   {
-    "objectID": "outreach/discovery-day/index.html#who-are-we",
-    "href": "outreach/discovery-day/index.html#who-are-we",
+    "objectID": "outreach/physio-workshop/index.html#overview",
+    "href": "outreach/physio-workshop/index.html#overview",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Overview",
+    "text": "Overview\nRescue-Grid is a MiniGrid/Gymnasium-based search-and-rescue simulation built for studying human-AI teaming under controlled, repeatable conditions. This workshop walks through the platform’s architecture, its LSL/ixp research instrumentation, and how to extend it for your own study — from a scripted RL environment to a full physiological experiment with eye-tracking and custom sensors."
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#topics-covered",
+    "href": "outreach/physio-workshop/index.html#topics-covered",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Topics Covered",
+    "text": "Topics Covered\n\nEnvironment design — swappable camera views, real vs. decoy victims, and configurable difficulty as build_sar_env() parameters\nTrust and workload measurement — an optional LLM assistant whose suggestions are logged automatically as a behavioral trust signal\nLSL instrumentation — synchronizing game state with Tobii eye-tracking (or any registered sensor) on one shared clock\nixp integration — how Rescue-Grid plugs into iHuman Lab’s experiment engine as a Task\nExtending the platform — swappable cameras, factories, and placers for building your own scenarios"
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#related-work",
+    "href": "outreach/physio-workshop/index.html#related-work",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Related Work",
+    "text": "Related Work\nThis platform produced a study on LLM-mediated communication in human-AI teaming, presented as LLM-Mediated Communication in Human–AI Teaming: A Physiological Monitoring Study for Search and Rescue (Oveisi & Manjunatha)."
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#venue",
+    "href": "outreach/physio-workshop/index.html#venue",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Venue",
+    "text": "Venue\nNeuroErgonomics 2026, Boston, MA — Wednesday, July 15, Session 6: Human–Robot & Human–AI Teaming"
+  },
+  {
+    "objectID": "outreach/smc2026/index.html",
+    "href": "outreach/smc2026/index.html",
+    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "section": "",
+    "text": "This half-day tutorial at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026) presents a unified, systems-level perspective on closing the human-AI loop — the bidirectional information exchange between autonomous agents and human cognitive states.\nThe tutorial follows a concept-to-implementation structure combining lectures, architectural walkthroughs, and guided demonstrations built around two open-source research platforms:\n\nSHaSTA (Scalable Human-Swarm Teaming Platform) — A modular framework supporting scalable supervision, reinforcement learning integration, and flexible robot and environment modeling.\nHAI-SAR (Human-AI Interaction Platform) — A search-and-rescue environment designed for adaptive AI communication and granular behavioral/physiological logging.\n\nTopics progress from interaction design principles to system architectures, interface design, physiological sensing (EEG and eye-tracking), and evaluation methodologies, with emphasis on reusable design patterns and experimental rigor."
+  },
+  {
+    "objectID": "outreach/smc2026/index.html#overview",
+    "href": "outreach/smc2026/index.html#overview",
+    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "section": "",
+    "text": "This half-day tutorial at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026) presents a unified, systems-level perspective on closing the human-AI loop — the bidirectional information exchange between autonomous agents and human cognitive states.\nThe tutorial follows a concept-to-implementation structure combining lectures, architectural walkthroughs, and guided demonstrations built around two open-source research platforms:\n\nSHaSTA (Scalable Human-Swarm Teaming Platform) — A modular framework supporting scalable supervision, reinforcement learning integration, and flexible robot and environment modeling.\nHAI-SAR (Human-AI Interaction Platform) — A search-and-rescue environment designed for adaptive AI communication and granular behavioral/physiological logging.\n\nTopics progress from interaction design principles to system architectures, interface design, physiological sensing (EEG and eye-tracking), and evaluation methodologies, with emphasis on reusable design patterns and experimental rigor."
+  },
+  {
+    "objectID": "outreach/smc2026/index.html#who-should-attend",
+    "href": "outreach/smc2026/index.html#who-should-attend",
+    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "section": "Who Should Attend",
+    "text": "Who Should Attend\nResearchers and practitioners in Human-Machine Systems, Cybernetics, and Systems Science seeking to build rigorous, reproducible, and human-centered autonomous systems. Participants are expected to have basic familiarity with autonomous systems or robotics and working knowledge of Python (OOP). No prior experience with swarm systems, physiological sensing, or human-subject experimentation is required."
+  },
+  {
+    "objectID": "outreach/smc2026/index.html#venue",
+    "href": "outreach/smc2026/index.html#venue",
+    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "section": "Venue",
+    "text": "Venue\nHyatt Regency Bellevue, Bellevue, WA, USA"
+  },
+  {
+    "objectID": "outreach/discovery-day/slides.html#who-are-we",
+    "href": "outreach/discovery-day/slides.html#who-are-we",
     "title": "CEAT Discovery DayiHuman Lab",
     "section": "Who Are We?",
     "text": "Who Are We?\n\n\n\nWe build technology that understands you.\n\nNot just your commands — your attention, your stress, even your mistakes before they happen.\n\nBrain · AI · Robotics — working together.\n\n\n\n\n10+\n\n\nResearchers\n\n\n\n\n30+\n\n\nPublications\n\n\n\n\n4\n\n\nResearch Areas\n\n\n\n\n6+\n\n\nActive Projects"
   },
   {
-    "objectID": "outreach/discovery-day/index.html#what-if-a-robot-could-read-your-mind",
-    "href": "outreach/discovery-day/index.html#what-if-a-robot-could-read-your-mind",
+    "objectID": "outreach/discovery-day/slides.html#what-if-a-robot-could-read-your-mind",
+    "href": "outreach/discovery-day/slides.html#what-if-a-robot-could-read-your-mind",
     "title": "CEAT Discovery DayiHuman Lab",
     "section": "What If a Robot Could Read Your Mind?",
     "text": "What If a Robot Could Read Your Mind?\n\n\n\nA headset — but instead of music, it reads your brainwaves.\n\n\nStressed? → Robot slows down.\nOverwhelmed? → Robot takes over.\nZoning out? → Robot asks for attention.\n\n\nThe robot adapts to you. Not the other way around."
   },
   {
-    "objectID": "outreach/discovery-day/index.html#what-do-your-eyes-reveal",
-    "href": "outreach/discovery-day/index.html#what-do-your-eyes-reveal",
+    "objectID": "outreach/discovery-day/slides.html#what-do-your-eyes-reveal",
+    "href": "outreach/discovery-day/slides.html#what-do-your-eyes-reveal",
     "title": "CEAT Discovery DayiHuman Lab",
     "section": "What Do Your Eyes Reveal?",
     "text": "What Do Your Eyes Reveal?\n\n\n\nIn 200 milliseconds, your eyes reveal exactly what you’re thinking.\n\nExperts see differently — a surgeon’s gaze, a pilot’s scan, a drone operator’s focus.\nWe recorded those eye movements and trained AI to copy them exactly.\n\nNow the AI sees like the best human in the room."
   },
   {
-    "objectID": "outreach/discovery-day/index.html#could-you-control-50-drones-at-once",
-    "href": "outreach/discovery-day/index.html#could-you-control-50-drones-at-once",
+    "objectID": "outreach/discovery-day/slides.html#could-you-control-50-drones-at-once",
+    "href": "outreach/discovery-day/slides.html#could-you-control-50-drones-at-once",
     "title": "CEAT Discovery DayiHuman Lab",
     "section": "Could You Control 50 Drones at Once?",
     "text": "Could You Control 50 Drones at Once?\n\n\n\nDisaster strikes. One person. 50 drones. No room for error.\n\nWhat happens to your brain under that pressure?\nWe track brain signals in real time to find out — and build AI that steps in before you hit your limit.\n\nBecause in a rescue mission, hesitation costs lives."
   },
   {
-    "objectID": "outreach/discovery-day/index.html#could-you-control-a-robot-on-the-moon",
-    "href": "outreach/discovery-day/index.html#could-you-control-a-robot-on-the-moon",
+    "objectID": "outreach/discovery-day/slides.html#could-you-control-a-robot-on-the-moon",
+    "href": "outreach/discovery-day/slides.html#could-you-control-a-robot-on-the-moon",
     "title": "CEAT Discovery DayiHuman Lab",
     "section": "Could You Control a Robot on the Moon?",
     "text": "Could You Control a Robot on the Moon?\n\n\n\nYour signal takes 1.3 seconds to reach the Moon.\n\nThat’s 1.3 seconds your robot is completely on its own.\nWe build robots smart enough to survive that gap — and study how humans stay in control when the stakes are this high.\n\nYou on Earth. Robot on the Moon. One team."
   },
   {
-    "objectID": "outreach/discovery-day/index.html#real-impact",
-    "href": "outreach/discovery-day/index.html#real-impact",
+    "objectID": "outreach/discovery-day/slides.html#real-impact",
+    "href": "outreach/discovery-day/slides.html#real-impact",
     "title": "CEAT Discovery DayiHuman Lab",
     "section": "Real Impact",
     "text": "Real Impact\n\n\n\n\n\n\n\n\nSearch & Rescue\n\n\nFind survivors faster when every second counts\n\n\n\n\n\n\n\n\n\n\nManufacturing\n\n\nRobots that work with you, not instead of you\n\n\n\n\n\n\n\n\n\n\nAviation Safety\n\n\nAI that learns from decades of accident reports\n\n\n\n\n\n\n\n\n\n\nHealthcare\n\n\nTech that adapts to patients, not the other way around\n\n\n\n\n\nSmarter Machines·Safer Humans·Better World"
   },
   {
-    "objectID": "outreach/discovery-day/index.html#section",
-    "href": "outreach/discovery-day/index.html#section",
+    "objectID": "outreach/discovery-day/slides.html#section",
+    "href": "outreach/discovery-day/slides.html#section",
     "title": "CEAT Discovery DayiHuman Lab",
     "section": "",
     "text": "This Could Be You\n\n\nEvery researcher in this lab was once sitting where you are. If any of this sparked something — come talk to us.\n\n\nQuestions?\n\n\nhemanth.manjunatha@okstate.edu\n\n\n\n\n\n\niHuman Lab · Oklahoma State University"
@@ -585,34 +557,125 @@
     "href": "outreach/index.html",
     "title": "iHuman Lab",
     "section": "",
-    "text": "Engaging beyond the lab\n    Outreach & Impact\n  \n\n\n\n\n\n\n\nWorkshops & Tutorials\n\n\n\n\n\n\nClosing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing\n\n\n\n\nConcept-to-implementation tutorial covering the SHaSTA and HAI-SAR open-source platforms, bridging interaction design, physiological sensing (EEG & eye-tracking), and evaluation methodologies for human-centered autonomous systems.\n\n\n📍IEEE SMC 2026, Bellevue WA 📅October 2026\n\n\n\nHalf-Day Tutorial\nConference site ↗\n\n\n\n\n\nHuman-Machine Teaming” class=“outreach-card-img” /&gt;\n\n\n\nRescue-GridAn Open Platform for Human-Machine Teaming\n\n\n\n\nA tour of Rescue-Grid, a MiniGrid/Gymnasium-based search-and-rescue simulation built for studying human-AI teaming — covering its architecture, LSL/ixp research instrumentation, and how to extend it for your own study.\n\n\n📍NeuroErgonomics 2026, Boston MA 📅July 2026\n\n\n\nWorkshop\nConference site ↗\n\n\n\n\nK-12 & Public Outreach\n\n\n\n\n\nLab” class=“outreach-card-img” /&gt;\n\n\n\nCEAT Discovery DayiHuman Lab\n\n\n\n\nAn introduction to the iHuman Lab for K–12 students covering brain-computer interfaces, human-robot interaction, eye-gaze AI, and how to pursue a career in research.\n\n\n📍Oklahoma State University, Stillwater OK 📅June 2026\n\n\n\nDiscovery Day\n\n\n\n\nNo matching items"
+    "text": "Engaging beyond the lab\n    Outreach & Impact\n  \n\n\n\n\n\n\n\nWorkshops & Tutorials\n\n\n\n\n\n\nClosing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing\n\n\n\n\nConcept-to-implementation tutorial covering the SHaSTA and HAI-SAR open-source platforms, bridging interaction design, physiological sensing (EEG & eye-tracking), and evaluation methodologies for human-centered autonomous systems.\n\n\n📍IEEE SMC 2026, Bellevue WA 📅October 2026\n\n\n\nHalf-Day TutorialConference site ↗\n\n\n\n\n\n\n\n\n\nRescue-GridAn Open Platform for Human-Machine Teaming\n\n\n\n\nA tour of Rescue-Grid, a MiniGrid/Gymnasium-based search-and-rescue simulation built for studying human-AI teaming — covering its architecture, LSL/ixp research instrumentation, and how to extend it for your own study.\n\n\n📍NeuroErgonomics 2026, Boston MA 📅July 2026\n\n\n\nWorkshopConference site ↗\n\n\n\n\nK-12 & Public Outreach\n\n\n\n\n\n\n\n\n\nCEAT Discovery DayiHuman Lab\n\n\n\n\nAn introduction to the iHuman Lab for K–12 students covering brain-computer interfaces, human-robot interaction, eye-gaze AI, and how to pursue a career in research.\n\n\n📍Oklahoma State University, Stillwater OK 📅June 2026\n\n\n\nDiscovery Day\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "outreach/smc2026/index.html",
-    "href": "outreach/smc2026/index.html",
-    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "objectID": "outreach/discovery-day/index.html",
+    "href": "outreach/discovery-day/index.html",
+    "title": "CEAT Discovery DayiHuman Lab",
     "section": "",
-    "text": "This half-day tutorial at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026) presents a unified, systems-level perspective on closing the human-AI loop — the bidirectional information exchange between autonomous agents and human cognitive states.\nThe tutorial follows a concept-to-implementation structure combining lectures, architectural walkthroughs, and guided demonstrations built around two open-source research platforms:\n\nSHaSTA (Scalable Human-Swarm Teaming Platform) — A modular framework supporting scalable supervision, reinforcement learning integration, and flexible robot and environment modeling.\nHAI-SAR (Human-AI Interaction Platform) — A search-and-rescue environment designed for adaptive AI communication and granular behavioral/physiological logging.\n\nTopics progress from interaction design principles to system architectures, interface design, physiological sensing (EEG and eye-tracking), and evaluation methodologies, with emphasis on reusable design patterns and experimental rigor."
+    "text": "View the Presentation ↗"
   },
   {
-    "objectID": "outreach/smc2026/index.html#overview",
-    "href": "outreach/smc2026/index.html#overview",
-    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
-    "section": "",
-    "text": "This half-day tutorial at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026) presents a unified, systems-level perspective on closing the human-AI loop — the bidirectional information exchange between autonomous agents and human cognitive states.\nThe tutorial follows a concept-to-implementation structure combining lectures, architectural walkthroughs, and guided demonstrations built around two open-source research platforms:\n\nSHaSTA (Scalable Human-Swarm Teaming Platform) — A modular framework supporting scalable supervision, reinforcement learning integration, and flexible robot and environment modeling.\nHAI-SAR (Human-AI Interaction Platform) — A search-and-rescue environment designed for adaptive AI communication and granular behavioral/physiological logging.\n\nTopics progress from interaction design principles to system architectures, interface design, physiological sensing (EEG and eye-tracking), and evaluation methodologies, with emphasis on reusable design patterns and experimental rigor."
+    "objectID": "outreach/discovery-day/index.html#overview",
+    "href": "outreach/discovery-day/index.html#overview",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Overview",
+    "text": "Overview\nCEAT Discovery Day brings K–12 students to campus for a hands-on look at how the iHuman Lab builds technology that understands people — not just their commands, but their attention, stress, and mistakes before they happen. Students get an introduction to brain-computer interfaces, human-robot interaction, and eye-gaze AI, drawn from the lab’s ongoing research in search-and-rescue robotics, aviation safety, manufacturing, and healthcare."
   },
   {
-    "objectID": "outreach/smc2026/index.html#who-should-attend",
-    "href": "outreach/smc2026/index.html#who-should-attend",
-    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
-    "section": "Who Should Attend",
-    "text": "Who Should Attend\nResearchers and practitioners in Human-Machine Systems, Cybernetics, and Systems Science seeking to build rigorous, reproducible, and human-centered autonomous systems. Participants are expected to have basic familiarity with autonomous systems or robotics and working knowledge of Python (OOP). No prior experience with swarm systems, physiological sensing, or human-subject experimentation is required."
+    "objectID": "outreach/discovery-day/index.html#what-students-will-see",
+    "href": "outreach/discovery-day/index.html#what-students-will-see",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "What Students Will See",
+    "text": "What Students Will See\n\nBrain-computer interfaces — how brain signals can be read in real time to detect stress and workload\nHuman-robot teaming — robots that adapt to the person operating them, including teleoperation over high-latency links\nEye-gaze AI — training models to see the way expert operators do, from surgeons to drone pilots\nPathways into research — how to get involved in human-centered AI and robotics research as a student"
   },
   {
-    "objectID": "outreach/smc2026/index.html#venue",
-    "href": "outreach/smc2026/index.html#venue",
-    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "objectID": "outreach/discovery-day/index.html#venue",
+    "href": "outreach/discovery-day/index.html#venue",
+    "title": "CEAT Discovery DayiHuman Lab",
     "section": "Venue",
-    "text": "Venue\nHyatt Regency Bellevue, Bellevue, WA, USA"
+    "text": "Venue\nOklahoma State University, Stillwater, OK"
+  },
+  {
+    "objectID": "outreach/physio-workshop/slides.html#why-we-built-another-sim",
+    "href": "outreach/physio-workshop/slides.html#why-we-built-another-sim",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Why We Built Another Sim",
+    "text": "Why We Built Another Sim\n\n\n\nStudying trust and workload needs a task you can control — and repeat.\n\nReal disasters aren’t reproducible. Field studies can’t isolate one variable at a time, and they definitely can’t be replayed frame-by-frame in analysis.\nWe needed a SAR task that was hard enough to matter, controllable enough to manipulate, and instrumented enough to measure.\n\nSo we built Rescue-Grid."
+  },
+  {
+    "objectID": "outreach/physio-workshop/slides.html#from-concept-to-testbed",
+    "href": "outreach/physio-workshop/slides.html#from-concept-to-testbed",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "From Concept to Testbed",
+    "text": "From Concept to Testbed\n\nEverything from Part 1 is a config parameter or a log field here.\n\n\nSituational Awareness — swappable camera views (full grid → FOV cone) control what’s perceivable; victim health depletes while visible, forcing perceive · comprehend · project\nTrust — the optional LLM assistant offers a suggestion each step; accept/reject is logged automatically, a behavioral trust signal, not just a post-task survey\nMental Workload — real vs. decoy victims, lava density, room count are the same demand-vs-capacity dials NASA-TLX asks about, except here they’re build_sar_env() arguments\nPhysiological Measurement — every game state syncs to Tobii (or any sensor you register) over one LSL clock, so fixations and pupil size line up frame-by-frame with gameplay\n\n\nPart 1 asked what to measure. Rescue-Grid is where you measure it."
+  },
+  {
+    "objectID": "outreach/physio-workshop/slides.html#the-game",
+    "href": "outreach/physio-workshop/slides.html#the-game",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "The Game",
+    "text": "The Game\n\n\n\nA building on fire. Real victims. Fake ones too.\n\n\nMulti-room building, locked doors + keys\nReal victims vs. decoy victims — pick up the wrong one, take a penalty\nLava hazards, and victim health that depletes while visible\nOptional LLM assistant you can call on for a suggestion\n\n\nBuilt on MiniGrid + Gymnasium — so it’s RL-ready from day one."
+  },
+  {
+    "objectID": "outreach/physio-workshop/slides.html#ten-lines-to-a-running-environment",
+    "href": "outreach/physio-workshop/slides.html#ten-lines-to-a-running-environment",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Ten Lines to a Running Environment",
+    "text": "Ten Lines to a Running Environment\n\n\n\nIt’s a standard Gymnasium environment underneath.\n\nreset() / step() / render() — nothing exotic. Drop in your own policy, or drive it by hand.\n\nIf you know Gymnasium, you already know Rescue-Grid.\n\n\nfrom game.sar.env import build_sar_env\n\nenv = build_sar_env(\n    screen_size=800,\n    num_rows=2, num_cols=2,\n    num_real_victims=3,\n    num_fake_victims=3,\n    lava_per_room=2,\n)\n\nobs, info = env.reset(seed=42)\nfor _ in range(200):\n    action = env.action_space.sample()\n    obs, reward, terminated, truncated, info = env.step(action)\n    if terminated or truncated:\n        obs, info = env.reset()"
+  },
+  {
+    "objectID": "outreach/physio-workshop/slides.html#engine-architecture-one-step-start-to-finish",
+    "href": "outreach/physio-workshop/slides.html#engine-architecture-one-step-start-to-finish",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Engine Architecture: One Step, Start to Finish",
+    "text": "Engine Architecture: One Step, Start to Finish\n\nEvery frame follows the same path — input to pixels.\n\n\n\nKeyboard Input\n\n\n▼\n\n\nPickupVictimEnv.step(action)move / rescue · deplete health · check mission state\n\n\n▼\n\n\nGameObservation.process()encodes grid, position, mission status\n\n\n▼\n\n\nSAREnvGUI.render()camera crop + info panel + chat panel"
+  },
+  {
+    "objectID": "outreach/physio-workshop/slides.html#extensible-by-design",
+    "href": "outreach/physio-workshop/slides.html#extensible-by-design",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Extensible By Design",
+    "text": "Extensible By Design\n\n\n\nStrategy — 5 swappable camera views: full grid, agent-centered, first-person, FOV cone\nFactory — build_sar_env() assembles a fully configured mission from a few parameters\nTemplate Method — SARLevelGen defines level-gen hooks; subclass it for a new level type\nPluggable Placers — VictimPlacer / LavaPlacer swap placement logic without touching the engine\n\n\nChange the scenario, not the source code.\n\n\n# Strategy: swap the camera at runtime\nenv.switch_camera(AgentFOVCamera())\n\n# Factory: reconfigure the mission\nenv = build_sar_env(\n    num_real_victims=6,\n    num_fake_victims=12,\n    lava_per_room=8,\n    locked_room_prob=0.5,\n)"
+  },
+  {
+    "objectID": "outreach/physio-workshop/slides.html#how-lsl-and-ixp-talk-to-each-other",
+    "href": "outreach/physio-workshop/slides.html#how-lsl-and-ixp-talk-to-each-other",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "How LSL and ixp Talk to Each Other",
+    "text": "How LSL and ixp Talk to Each Other\n\nTwo independent streams. One shared clock.\n\n\n\n\nSARGameTrialread_data() every frame\n\n\nTobii Eye Trackergaze samples\n\n\n\n▼\n\n\nLSL — Lab Streaming Layersynchronized clock across both streams\n\n\n▼\n\n\nRecorded Session → replayed frame-by-frame with replay.py"
+  },
+  {
+    "objectID": "outreach/physio-workshop/slides.html#what-is-ixp",
+    "href": "outreach/physio-workshop/slides.html#what-is-ixp",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "What Is ixp?",
+    "text": "What Is ixp?\n\n\n\nBehavioral experiments have a shape: setup, tasks, sensors, teardown.\n\nixp is iHuman Lab’s experiment engine — an Experiment runs a sequence of Tasks, each broken into Blocks of Trials, predefined or randomized order.\nSensors record in parallel with tasks via Ray, and everything streams to a synchronized LSL clock — no manual timestamp alignment.\n\nRescue-Grid didn’t reinvent this — it just registered as a Task.\n\n\n\n\nexperiment.run()\n\n\n▼\n\n\nStart Sensors (parallel, non-blocking)\n\n\n▼\n\n\nTasks → Blocks → Trialsrun sequentially, push LSL markers\n\n\n▼\n\n\nStop Sensors → experiment.close()"
+  },
+  {
+    "objectID": "outreach/physio-workshop/slides.html#rescue-grid-is-a-task-inside-ixp",
+    "href": "outreach/physio-workshop/slides.html#rescue-grid-is-a-task-inside-ixp",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Rescue-Grid Is a Task Inside ixp",
+    "text": "Rescue-Grid Is a Task Inside ixp\n\n\n\nixp orchestrates the session — Rescue-Grid just plugs in.\n\nixp.Experiment runs an ordered sequence of Tasks, calibrates sensors, and drives everything to completion. Rescue-Grid supplies one Task (SARGame) whose trials stream to their own LSL outlet.\n\nYour sensor could be the next one registered.\n\n\nclass SARGame(Task):\n    def get_data_signature(self):\n        return {\n            \"name\": \"SARGame\",\n            \"type\": \"GameState\",\n            \"channel_format\": \"string\",\n            \"source_id\": \"rescue-grid-sar-game\",\n        }\n\nclass SARGameTrial(LSLTrial):\n    def read_data(self):\n        state = {**self.gui.user.obs,\n                  \"action\": self.gui.user.last_action,\n                  \"reward\": self.gui.user.last_reward}\n        return [ujson.dumps(state)]"
+  },
+  {
+    "objectID": "outreach/physio-workshop/slides.html#use-it-in-your-study",
+    "href": "outreach/physio-workshop/slides.html#use-it-in-your-study",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Use It In Your Study",
+    "text": "Use It In Your Study\n\n\n\nTwo entry points, depending on how deep you want to go.\n\nJust the environment — for a scripted study or RL training, no ixp required.\nFull experiment — wire in your own sensor (EEG, GSR, whatever you’re measuring) exactly the way Tobii is wired in today.\n\n# (a) minimal — no ixp, just Gymnasium\nfrom game.sar.env import build_sar_env\n\nenv = build_sar_env(num_rows=3, num_cols=3)\nobs, info = env.reset()\n# plug in your own policy or logging here\n\n# (b) full ixp experiment\nfrom ixp.experiment import Experiment\nfrom experiment.game import SARGame\n\nexperiment = Experiment(config)\nexperiment.register_sensor(\n    \"MyEEG\", sensor_cls=MyEEGSensor, sensor_config={}\n)\nexperiment.add_task(\n    name=\"main_game\", task_cls=SARGame,\n    task_config={\"config\": config[\"game\"]}, order=1,\n)\nexperiment.run()"
+  },
+  {
+    "objectID": "outreach/physio-workshop/slides.html#it-already-produced-a-paper",
+    "href": "outreach/physio-workshop/slides.html#it-already-produced-a-paper",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "It Already Produced a Paper",
+    "text": "It Already Produced a Paper\n\n\n\nLLM guidance changed where people looked — not just how well they did.\n\n\nNo performance gain — victims rescued per step didn’t budge\nAttention shifted to the chat panel — an attention-guidance trade-off\nGaze narrowed too: shorter saccades, more localized, text-driven looking\n\n\nIEEE SMC 2026 — Oveisi & Manjunatha"
+  },
+  {
+    "objectID": "outreach/physio-workshop/slides.html#come-find-us-at-neuroergonomics",
+    "href": "outreach/physio-workshop/slides.html#come-find-us-at-neuroergonomics",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Come Find Us at NeuroErgonomics",
+    "text": "Come Find Us at NeuroErgonomics\n\nSame platform, a different question — see you at the session.\n\n\nWednesday, July 15 — Sessions 4–6\nSession 6: Human–Robot & Human–AI Teaming (Chair: Alexander von Lühmann)\nLLM-Mediated Communication in Human–AI Teaming: A Physiological Monitoring Study for Search and Rescue"
+  },
+  {
+    "objectID": "outreach/physio-workshop/slides.html#section",
+    "href": "outreach/physio-workshop/slides.html#section",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "",
+    "text": "Fork It. Build Your Study.\n\n\ngithub.com/iHuman-Lab/rescue-grid\n\n\nQuestions?\n\n\nhemanth.manjunatha@okstate.edu\n\n\n\n\n\n\niHuman Lab · Oklahoma State University"
   }
 ]
