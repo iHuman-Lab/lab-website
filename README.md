@@ -62,7 +62,12 @@ python scripts/update_gallery.py
 
 ## 📦 Deployment
 
-Ships to the `gh-pages` branch. One command, no drama:
+Every push to `main` triggers [`.github/workflows/publish.yml`](.github/workflows/publish.yml),
+which renders the site and publishes it to the `gh-pages` branch automatically —
+no manual step needed. You can also trigger it by hand from the
+Actions tab (`workflow_dispatch`).
+
+To publish from your machine instead, one command, no drama:
 
 ```sh
 quarto publish gh-pages
