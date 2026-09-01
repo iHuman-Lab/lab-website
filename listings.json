@@ -1,24 +1,25 @@
 [
   {
-    "listing": "/outreach/index.html",
-    "items": [
-      "/outreach/smc2026/index.html",
-      "/outreach/physio-workshop/index.html",
-      "/outreach/discovery-day/index.html"
-    ]
-  },
-  {
     "listing": "/research/index.html",
     "items": [
       "/research/human-llm-sar/index.html",
       "/research/llm/index.html",
       "/research/shasta/index.html",
       "/research/eye-gaze-augmentation/index.html",
-      "/research/transfer-learning/index.html",
       "/research/tele-operation/index.html",
-      "/research/task-difficulty/index.html",
+      "/research/transfer-learning/index.html",
       "/research/explainability/index.html",
+      "/research/task-difficulty/index.html",
       "/research/human-swarm-decision/index.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/research_symposium/index.html",
+      "/news/idetc/index.html",
+      "/news/nvidia/index.html",
+      "/news/neurable/index.html"
     ]
   },
   {
@@ -38,23 +39,22 @@
     ]
   },
   {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/research_symposium/index.html",
-      "/news/idetc/index.html",
-      "/news/nvidia/index.html",
-      "/news/neurable/index.html"
-    ]
-  },
-  {
     "listing": "/people/index.html",
     "items": [
       "/people/pi/index.html",
-      "/people/phd/ElaheOveisi/index.html",
       "/people/phd/Bennett_Dogbey/index.html",
+      "/people/phd/ElaheOveisi/index.html",
       "/people/master/Priyankan Vettivel/index.html",
       "/people/alumni/CarsonMcSpadden/index.html",
       "/people/alumni/JacksonBenton/index.html"
+    ]
+  },
+  {
+    "listing": "/outreach/index.html",
+    "items": [
+      "/outreach/smc2026/index.html",
+      "/outreach/physio-workshop/index.html",
+      "/outreach/discovery-day/index.html"
     ]
   }
 ]

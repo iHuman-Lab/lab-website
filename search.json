@@ -1,5 +1,82 @@
 [
   {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Manjunatha, Hemanth and Memar Amirhossein H and Esfahani, Ehsan Tarkesh. Estimating Motor Control Difficulty in Human--Robot Fine Co-Manipulation Tasks Using Brain Activities. Vol. 25. No. 5. pp. 051004. American Society of Mechanical Engineers. Journal\n\n\nDistefano, Joseph P and Manjunatha Hemanth and Thammineni, Chaithanya and Dalland Kristian and Esfahani, Ehsan T. Gaze-guided contrastive unsupervised representations learning. Vol. 37. No. 28. pp. 23381--23393. Springer London. Journal\n\n\nOveisi, Elahe and Manjunatha. Human Factor Analysis of Helicopter Accidents Using Large Language Models. Vol. 89213. pp. V02BT02A028. Conference"
+  },
+  {
+    "objectID": "publications/index.html#2025",
+    "href": "publications/index.html#2025",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Manjunatha, Hemanth and Memar Amirhossein H and Esfahani, Ehsan Tarkesh. Estimating Motor Control Difficulty in Human--Robot Fine Co-Manipulation Tasks Using Brain Activities. Vol. 25. No. 5. pp. 051004. American Society of Mechanical Engineers. Journal\n\n\nDistefano, Joseph P and Manjunatha Hemanth and Thammineni, Chaithanya and Dalland Kristian and Esfahani, Ehsan T. Gaze-guided contrastive unsupervised representations learning. Vol. 37. No. 28. pp. 23381--23393. Springer London. Journal\n\n\nOveisi, Elahe and Manjunatha. Human Factor Analysis of Helicopter Accidents Using Large Language Models. Vol. 89213. pp. V02BT02A028. Conference"
+  },
+  {
+    "objectID": "publications/index.html#2024",
+    "href": "publications/index.html#2024",
+    "title": "iHuman Lab",
+    "section": "2024",
+    "text": "2024\n\nKrisshnaKumar, Prajit and Paul Steve and Manjunatha, Hemanth and Gupta Ria and Esfahani, Ehsan and Chowdhury. A Talent-infused Reinforcement Learning Approach to CoDesign of Tactical UAV Swarm.  \n\n\nManjunatha, Hemanth and KrisshnaKumar Prajit and Distefano, Joseph P and Jani Apurv and Behjat, Amir and Ghassemi Payam and Chowdhury, Souma and Dantu Karthik and Esfahani, Ehsan T. SHaSTA: An open-source simulator for human and swarm team applications.  \n\n\nKrisshnaKumar, Prajit and Paul Steve and Manjunatha, Hemanth and Corra Mary and Esfahani, Ehsan and Chowdhury. Towards physically talented aerial robots with tactically smart swarm behavior thereof: An efficient co-design approach.  arXiv\n\n\nKrisshnaKumar, Prajit and Paul Steve and Manjunatha, Hemanth and Corra Mary and Esfahani, Ehsan and Chowdhury. Towards physically talented aerial robots with intelligent swarm behavior thereof: an efficient co-design approach. Vol. 88360. pp. V03AT03A014. Conference"
+  },
+  {
+    "objectID": "publications/index.html#2023",
+    "href": "publications/index.html#2023",
+    "title": "iHuman Lab",
+    "section": "2023",
+    "text": "2023\n\nJujjavarapu, Sri Sadhan and Manjunatha Hemanth and Esfahani, Ehsan Tarkesh. A variable stiffness end-of-arm tooling mechanism to enhance dynamic task capabilities of robotic manipulators. Vol. 15. No. 6. pp. 061003. American Society of Mechanical Engineers. Journal\n\n\nThammineni, Chaitanya and Manjunatha Hemanth and Esfahani, Ehsan T. Selective eye-gaze augmentation to enhance imitation learning in atari games. Vol. 35. No. 32. pp. 23401--23410. Springer London London. Journal\n\n\nManjunatha, Hemanth and Pak Andrey and Filev, Dimitar and Tsiotras. Karnet: Kalman filter augmented recurrent neural network for learning world models in autonomous driving tasks.  arXiv\n\n\nManjunatha, Hemanth and Tsiotras. Beyond one model fits all: ensemble deep learning for autonomous vehicles.  arXiv"
+  },
+  {
+    "objectID": "publications/index.html#2022",
+    "href": "publications/index.html#2022",
+    "title": "iHuman Lab",
+    "section": "2022",
+    "text": "2022\n\nManjunatha, Hemanth and Jujjavarapu Sri Sadhan and Esfahani, Ehsan T. Transfer learning of motor difficulty classification in physical human--robot interaction using electromyography. Vol. 22. No. 5. pp. 050908. American Society of Mechanical Engineers. Journal\n\n\nManjunatha, Hemanth and Pak Andrey and Tsiotras, Panagiotis. Improving Autonomous Driving Policy Generalization via Neural Network Over-Parameterization.  Conference\n\n\nPak, Andrey and Manjunatha Hemanth and Filev, Dimitar and Tsiotras. Carnet: A dynamic autoencoder for learning latent dynamics in autonomous driving tasks.  arXiv\n\n\nManjunatha, Hemanth. Improving Autonomous Driving Policy Generalization via Auxiliary Tasks and Latent Modeling.  Conference"
+  },
+  {
+    "objectID": "publications/index.html#2021",
+    "href": "publications/index.html#2021",
+    "title": "iHuman Lab",
+    "section": "2021",
+    "text": "2021\n\nManjunatha, Hemanth and Esfahani. Extracting interpretable EEG features from a deep learning model to assess the quality of human-robot co-manipulation. pp. 339--342. Conference\n\n\nDistefano, Joseph P and Manjunatha Hemanth and Chowdhury, Souma and Dantu Karthik and Doermann, David and Esfahani. Using physiological information to classify task difficulty in human-swarm interaction. pp. 1198--1203. Conference\n\n\nManjunatha, Hemanth and Pareek Shrey and Jujjavarapu, Sri Sadhan and Ghobadi Mostafa and Kesavadas, Thenkurussi and Esfahani. Upper limb home-based robotic rehabilitation during COVID-19 outbreak. Vol. 8. pp. 612834. Frontiers Media SA. Journal\n\n\nBehjat, Amir and Manjunatha Hemanth and Kumar, Prajit Krisshna and Jani Apurv and Collins, Leighton and Ghassemi Payam and Distefano, Joseph and Doermann David and Dantu, Karthik and Esfahani. Learning robot swarm tactics over complex adversarial environments. pp. 83--91. Conference\n\n\nManjunatha, Hemanth. Addressing Stability, Transferability, and Interpretability Issues in Physical Human-Robot Interaction Using Physiological Data and Deep Learning."
+  },
+  {
+    "objectID": "publications/index.html#2020",
+    "href": "publications/index.html#2020",
+    "title": "iHuman Lab",
+    "section": "2020",
+    "text": "2020\n\nManjunatha, Hemanth and Jujjavarapu Sri Sadhan and Esfahani, Ehsan T. Classification of motor control difficulty using EMG in physical human-robot interaction. pp. 2708--2713. Conference\n\n\nManjunatha, Hemanth and Pareek Shrey and Memar, Amirhossein H and Kesavadas Thenkurussi and Esfahani, Ehsan T. Effect of haptic assistance strategy on mental engagement in fine motor tasks. Vol. 5. No. 01n02. pp. 2041004. World Scientific. Journal\n\n\nManjunatha, Hemanth and Esfahani. Application of reinforcement and deep learning techniques in brain--machine interfaces. pp. 1--14. Springer International Publishing Cham. Conference\n\n\nManjunatha, Hemanth and Distefano Joseph P and Jani, Apurv and Ghassemi Payam and Chowdhury, Souma and Dantu Karthik and Doermann, David and Esfahani. Using physiological measurements to analyze the tactical decisions in human swarm teams. pp. 256--261. Conference"
+  },
+  {
+    "objectID": "publications/index.html#2019",
+    "href": "publications/index.html#2019",
+    "title": "iHuman Lab",
+    "section": "2019",
+    "text": "2019\n\nPareek, Shrey and Manjunath Hemanth and Esfahani, Ehsan T and Kesavadas. MyoTrack: Tracking subject participation in robotic rehabilitation using sEMG and IMU. pp. 1--7. Conference\n\n\nPareek, Shrey and Manjunath Hemanth and Esfahani, Ehsan T and Kesavadas. Myotrack: Realtime estimation of subject participation in robotic rehabilitation using semg and imu. Vol. 7. pp. 76030--76041. IEEE. Journal"
+  },
+  {
+    "objectID": "publications/index.html#2018",
+    "href": "publications/index.html#2018",
+    "title": "iHuman Lab",
+    "section": "2018",
+    "text": "2018\n\nZhang, Binbin and Huang Jida and Rai, Rahul and Manjunatha. A Sequential Sampling Algorithm for Multistage Static Coverage Problems. Vol. 18. No. 2. pp. 021016. American Society of Mechanical Engineers. Journal\n\n\nManjunatha, Hemanth and Memar Amir and Esfahani, Ehsan. Classification of Task Type and Reaction Time of Operator in Simulated Multiple Robot Tele-Exploration."
+  },
+  {
+    "objectID": "publications/index.html#2016",
+    "href": "publications/index.html#2016",
+    "title": "iHuman Lab",
+    "section": "2016",
+    "text": "2016\n\nManjunatha, Hemanth and Huang Jida and Zhang, Binbin and Rai. A Sequential Sampling Algorithm for Multi-Stage Static Coverage Problems. Vol. 50114. pp. V02BT03A029. Conference"
+  },
+  {
+    "objectID": "publications/index.html#misc",
+    "href": "publications/index.html#misc",
+    "title": "iHuman Lab",
+    "section": "Misc",
+    "text": "Misc\n\nKrisshnaKumar, Prajit and Paul Steve and Behjat, Amir and Manjunatha Hemanth and Maurer, Nathan and Esfahani Ehsan and Chowdhury, Souma. Comparative Exploration of Three Approaches to Learning Heterogeneous Robot Swarm Operations over Abstracted Complex Adversarial Environments."
+  },
+  {
     "objectID": "outreach/physio-workshop/foundations.html#about-me",
     "href": "outreach/physio-workshop/foundations.html#about-me",
     "title": "Beyond the SurveyReal-Time Physiological Sensing for Human-Machine Teaming",
@@ -105,6 +182,531 @@
     "text": "Thanks!\n\n\nQuestions?\n\n\nhemanth.manjunatha@okstate.edu"
   },
   {
+    "objectID": "outreach/physio-workshop/index.html",
+    "href": "outreach/physio-workshop/index.html",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "",
+    "text": "Part 1: Foundations ↗ Part 2: Case Study ↗"
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#overview",
+    "href": "outreach/physio-workshop/index.html#overview",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Overview",
+    "text": "Overview\nThis workshop runs in two parts. Part 1: Foundations covers the principles of human-AI teaming — situational awareness, mental workload, and trust — and how each is measured, including with physiological sensing (eye tracking, EEG). Part 2: Case Study is a tour of Rescue-Grid, a MiniGrid/Gymnasium-based search-and-rescue simulation built for studying human-AI teaming under controlled, repeatable conditions, covering its architecture, LSL/ixp research instrumentation, and how to extend it for your own study — from a scripted RL environment to a full physiological experiment with eye-tracking and custom sensors."
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#topics-covered",
+    "href": "outreach/physio-workshop/index.html#topics-covered",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Topics Covered",
+    "text": "Topics Covered\n\nEnvironment design — swappable camera views, real vs. decoy victims, and configurable difficulty as build_sar_env() parameters\nTrust and workload measurement — an optional LLM assistant whose suggestions are logged automatically as a behavioral trust signal\nLSL instrumentation — synchronizing game state with Tobii eye-tracking (or any registered sensor) on one shared clock\nixp integration — how Rescue-Grid plugs into iHuman Lab’s experiment engine as a Task\nExtending the platform — swappable cameras, factories, and placers for building your own scenarios"
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#related-work",
+    "href": "outreach/physio-workshop/index.html#related-work",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Related Work",
+    "text": "Related Work\nThis platform produced a study on LLM-mediated communication in human-AI teaming, presented as LLM-Mediated Communication in Human–AI Teaming: A Physiological Monitoring Study for Search and Rescue (Oveisi & Manjunatha)."
+  },
+  {
+    "objectID": "outreach/physio-workshop/index.html#venue",
+    "href": "outreach/physio-workshop/index.html#venue",
+    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
+    "section": "Venue",
+    "text": "Venue\nNeuroErgonomics 2026, Boston, MA — Wednesday, July 15, Session 6: Human–Robot & Human–AI Teaming"
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html",
+    "href": "outreach/discovery-day/index.html",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "",
+    "text": "View the Presentation ↗"
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#overview",
+    "href": "outreach/discovery-day/index.html#overview",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Overview",
+    "text": "Overview\nCEAT Discovery Day brings K–12 students to campus for a hands-on look at how the iHuman Lab builds technology that understands people — not just their commands, but their attention, stress, and mistakes before they happen. Students get an introduction to brain-computer interfaces, human-robot interaction, and eye-gaze AI, drawn from the lab’s ongoing research in search-and-rescue robotics, aviation safety, manufacturing, and healthcare."
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#what-students-will-see",
+    "href": "outreach/discovery-day/index.html#what-students-will-see",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "What Students Will See",
+    "text": "What Students Will See\n\nBrain-computer interfaces — how brain signals can be read in real time to detect stress and workload\nHuman-robot teaming — robots that adapt to the person operating them, including teleoperation over high-latency links\nEye-gaze AI — training models to see the way expert operators do, from surgeons to drone pilots\nPathways into research — how to get involved in human-centered AI and robotics research as a student"
+  },
+  {
+    "objectID": "outreach/discovery-day/index.html#venue",
+    "href": "outreach/discovery-day/index.html#venue",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Venue",
+    "text": "Venue\nOklahoma State University, Stillwater, OK"
+  },
+  {
+    "objectID": "people/master/Priyankan Vettivel/index.html",
+    "href": "people/master/Priyankan Vettivel/index.html",
+    "title": "Priyankan Vettivel",
+    "section": "",
+    "text": "MSc in Mechanical & Aerospace Engineering (in progress) Oklahoma State University, Oklahoma | August 2026 – present\nBSc(Hons) in Electronic and Telecommunication Engineering University of Moratuwa, Sri Lanka | March 2022 – June 2026"
+  },
+  {
+    "objectID": "people/master/Priyankan Vettivel/index.html#education",
+    "href": "people/master/Priyankan Vettivel/index.html#education",
+    "title": "Priyankan Vettivel",
+    "section": "",
+    "text": "MSc in Mechanical & Aerospace Engineering (in progress) Oklahoma State University, Oklahoma | August 2026 – present\nBSc(Hons) in Electronic and Telecommunication Engineering University of Moratuwa, Sri Lanka | March 2022 – June 2026"
+  },
+  {
+    "objectID": "people/master/Priyankan Vettivel/index.html#research-interest",
+    "href": "people/master/Priyankan Vettivel/index.html#research-interest",
+    "title": "Priyankan Vettivel",
+    "section": "Research Interest",
+    "text": "Research Interest\n\nLearning based methods\nHuman-in-the-loop Intelligent Systems\nReinforcement Learning"
+  },
+  {
+    "objectID": "people/phd/ElaheOveisi/index.html",
+    "href": "people/phd/ElaheOveisi/index.html",
+    "title": "Elahe Oveisi",
+    "section": "",
+    "text": "PhD in Aerospace and Mechanical Engineering Oklahoma State University | 2024–present"
+  },
+  {
+    "objectID": "people/phd/ElaheOveisi/index.html#education",
+    "href": "people/phd/ElaheOveisi/index.html#education",
+    "title": "Elahe Oveisi",
+    "section": "",
+    "text": "PhD in Aerospace and Mechanical Engineering Oklahoma State University | 2024–present"
+  },
+  {
+    "objectID": "people/phd/ElaheOveisi/index.html#research-interest",
+    "href": "people/phd/ElaheOveisi/index.html#research-interest",
+    "title": "Elahe Oveisi",
+    "section": "Research Interest",
+    "text": "Research Interest\n\nHuman-Machine Interaction\nAviation Safety\nHuman Factors in Autonomous Systems"
+  },
+  {
+    "objectID": "people/pi/index.html",
+    "href": "people/pi/index.html",
+    "title": "Hemanth Manjunatha",
+    "section": "",
+    "text": "I am glad you landed on this tiny corner of the internet"
+  },
+  {
+    "objectID": "people/pi/index.html#hello",
+    "href": "people/pi/index.html#hello",
+    "title": "Hemanth Manjunatha",
+    "section": "",
+    "text": "I am glad you landed on this tiny corner of the internet"
+  },
+  {
+    "objectID": "people/pi/index.html#education",
+    "href": "people/pi/index.html#education",
+    "title": "Hemanth Manjunatha",
+    "section": "Education",
+    "text": "Education\nPhD in Mechanical and Aerospace Engineering University at Buffalo, USA | 2016–2021\nM.S. in Mechanical and Aerospace Engineering University at Buffalo, USA | 2015–2017\nB.S. in Mechanical Engineering National Institute of Engineering, India | 2010–2014"
+  },
+  {
+    "objectID": "people/pi/index.html#research-interest",
+    "href": "people/pi/index.html#research-interest",
+    "title": "Hemanth Manjunatha",
+    "section": "Research Interest",
+    "text": "Research Interest\n\nSafe Learning based Cyber Physical Systems\nBrain Machine Interfaces\nHuman-Robot Interaction\nRobotics & Haptics\nTelerehabilitation"
+  },
+  {
+    "objectID": "people/alumni/CarsonMcSpadden/index.html",
+    "href": "people/alumni/CarsonMcSpadden/index.html",
+    "title": "Carson McSpadden",
+    "section": "",
+    "text": "B.S. in Computer and Electrical Engineering Oklahoma State University, Stillwater OK | 2024–2027"
+  },
+  {
+    "objectID": "people/alumni/CarsonMcSpadden/index.html#education",
+    "href": "people/alumni/CarsonMcSpadden/index.html#education",
+    "title": "Carson McSpadden",
+    "section": "",
+    "text": "B.S. in Computer and Electrical Engineering Oklahoma State University, Stillwater OK | 2024–2027"
+  },
+  {
+    "objectID": "people/alumni/CarsonMcSpadden/index.html#research-interest",
+    "href": "people/alumni/CarsonMcSpadden/index.html#research-interest",
+    "title": "Carson McSpadden",
+    "section": "Research Interest",
+    "text": "Research Interest\n\nDeep Learning\nHuman-Robot Interaction\nDigital Circuit and System Design"
+  },
+  {
+    "objectID": "research/human-swarm-decision/index.html",
+    "href": "research/human-swarm-decision/index.html",
+    "title": "Using Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams",
+    "section": "",
+    "text": "Abstract\nHuman-Swarm interaction has attracted a lot of attention for their applications in areas such as exploration, rescue, surveillance, and interplanetary exploration. When humans assume a supervisory or tactician role in managing the robot swarm, the humans’ (physiological) state significantly affects the mission performance. In this work, we explore the physiological correlates with the user’s tactical decisions in a simulated search and rescue mission. The mission consists of supervising three groups of unmanned aerial vehicles and three groups of unmanned ground vehicles to search for a target building. The mission complexity is increased by introducing static adversarial teams. Due to the adversarial team’s presence, the user should employ different tactics to search for a target. While the user interacts with the swarm, brain activity in forms of electroencephalogram (EEG) and eye movements are recorded. 20 participants, with prior experience in playing real-time strategy games, took part in the study. A linear mixed effect model is used to study the correlated physiological features and tactical decisions. Six features are extracted from the physiological data: engagement level, mental workload, Fz-Pz coherence, Fz-O1 coherence, pupil size, and the number of gaze fixations. The results show that mental engagement and Fz-O1 coherence are the important factors in predicting the tactical decisions. Specifically, Fz-O1 coherence in Beta (22.5-30 Hz) and Gamma (38-42 Hz) band is found to be significant."
+  },
+  {
+    "objectID": "research/human-llm-sar/index.html#abstract",
+    "href": "research/human-llm-sar/index.html#abstract",
+    "title": "LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation",
+    "section": "Abstract",
+    "text": "Abstract\nHuman-AI teaming (HAT) increasingly involves AI systems that provide real-time, context-aware guidance in complex tasks. While such systems can improve performance, their effectiveness depends on how they shape human cognition and behavior. In particular, AI assistance can introduce cognitive demands and influence attention, planning, and interaction with the task environment, with effects that can vary across levels of expertise.\nThis work investigates these mechanisms in a simulated search and rescue (SAR) environment. We compare human performance under two LLM (Large Language Model)-guided conditions and a no-LLM baseline, and analyze interaction at multiple levels, including task performance, eye-tracking measures, and planning behavior.\nResults indicate that LLM guidance enhanced task efficiency (higher rewards and victims-per-step) but did not increase total victims saved. Eye-tracking data revealed an attention-guidance trade-off, with visual resources shifting to the chat interface alongside increased pupil size variability. Expertise moderated this effect: novices exhibited passive AI reliance, whereas experts maintained a “verification loop” through persistent environmental scanning.\nThese findings suggest that LLM-mediated teaming efficacy depends on the operator’s ability to cross-reference AI guidance with ground truth to maintain situational awareness."
+  },
+  {
+    "objectID": "research/human-llm-sar/index.html#key-findings",
+    "href": "research/human-llm-sar/index.html#key-findings",
+    "title": "LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nLLM guidance significantly improved task efficiency (victims-per-step, total rewards) but not total victims rescued\nParticipants allocated more visual attention to the chat interface and less to the task environment under LLM support\nIncreased pupil size variability under LLM conditions indicates elevated cognitive load during guidance integration\nExperts maintained a dual-attention strategy — monitoring both the environment and AI guidance (verification loop)\nNovices relied more heavily on the LLM, reducing situational awareness"
+  },
+  {
+    "objectID": "research/human-llm-sar/index.html#methods",
+    "href": "research/human-llm-sar/index.html#methods",
+    "title": "LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation",
+    "section": "Methods",
+    "text": "Methods\n\nTask: Grid-based, partially observable search-and-rescue (SAR) environment built on MiniGrid\nConditions: Two LLM-guided conditions + one no-LLM baseline (within-subjects, 15 min/trial)\nEye Tracking: Tobii system — fixation count, fixation duration, saccade amplitude, AOI dwell time, pupil diameter STD\nIndividual Differences: Multiple Object Tracking (MOT) + Visual Search (VS) tasks; K-means clustering into Expert/Novice groups\nAnalysis: Linear mixed-effects models with Benjamini–Hochberg FDR correction\nParticipants: 13 participants, Oklahoma State University (IRB-26-40-STW)"
+  },
+  {
+    "objectID": "research/human-llm-sar/index.html#publication",
+    "href": "research/human-llm-sar/index.html#publication",
+    "title": "LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation",
+    "section": "Publication",
+    "text": "Publication\nElahe Oveisi and Hemanth Manjunatha\nIEEE International Conference on Systems, Man, and Cybernetics (SMC), 2026"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Explore our work\n    Research @iHuman\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation\n\n\n\n\n\n\n\n\n\n\n\n\nHuman Factor Analysis of Helicopter Accidents using Large Language Models\n\n\n\n\n\n\n\n\n\n\n\n\nSHASTA A Simulator for Human and Swarm Team Applications\n\n\n\n\n\n\n\n\n\n\n\n\nSelective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games\n\n\n\n\n\n\n\n\n\n\n\n\nClassification of Reaction Time in Simulated Multiple Robot Tele-Exploration\n\n\n\n\n\n\n\n\n\n\n\n\nTransfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography\n\n\n\n\n\n\n\n\n\n\n\n\nExtracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of HRI\n\n\n\n\n\n\n\n\n\n\n\n\nTask Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/transfer-learning/index.html#abstract",
+    "href": "research/transfer-learning/index.html#abstract",
+    "title": "Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography",
+    "section": "Abstract",
+    "text": "Abstract\nEfficient human-robot collaboration during physical interaction requires estimating the human state for optimal role allocation and load sharing. Machine learning (ML) methods are gaining popularity for estimating the interaction parameters from physiological signals. However, due to individual differences, the ML models might not generalize well to new subjects. In this study, we present a convolution neural network (CNN) model to predict motor control difficulty using surface electromyography (sEMG) from human upper-limb during physical human-robot interaction (pHRI) task and present a transfer learning approach to transfer a learned model to new subjects.\nTwenty six individuals participated in a pHRI experiment where a subject guides the robot’s end-effector with different levels of motor control difficulty. The motor control difficulty is varied by changing the damping parameter of the robot from low to high and constraining the motion to gross and fine movements. A CNN network with raw sEMG as input is used to classify the motor control difficulty.\nThe CNN’s transfer learning approach is compared against Riemann geometry-based Procrustes analysis (RPA). With very few labeled samples from new subjects, we demonstrate that the CNN-based transfer learning approach (avg. 69.77%) outperforms the RPA transfer learning (avg. 59.20%).\nMoreover, we observe that the subject’s skill level in the pre-trained model has no significant effect on the transfer learning performance of the new users.\n\n\n\n\n\n\nImportantResearch Questions\n\n\n\n\nWhich physiological modalities, eye, brain activity, or their combination can provide a more accurate classification of the reaction time?\nDo the task type information and individual differences in the task performance influence the classification of reaction time?"
+  },
+  {
+    "objectID": "research/transfer-learning/index.html#results",
+    "href": "research/transfer-learning/index.html#results",
+    "title": "Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography",
+    "section": "Results",
+    "text": "Results\nThe study concluded that both eye features and cognitive features are needed to classify the reaction time effectively. The task type information had a significant influence on the classification accuracy, while the same could not be said with individual difference information. The accuracy of classification was increased when task type information was included as features, indicating that the reaction time depends on the task information.\nThese results are in agreement with the Linear Approach to the Threshold with Ergodic Rate (LATER) model, which suggests that reaction time depends on evidence collected and the task difficulty. The classifier trained on the physiological features using reaction time as the label can be used to classify task difficulty well above chance. Such systems can be utilized in Automation Invocation models that utilize appropriate control inputs and control strategies for optimal role allocation in collaborative tasks such as teleoperation.\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
+  },
+  {
+    "objectID": "research/tele-operation/index.html#abstract",
+    "href": "research/tele-operation/index.html#abstract",
+    "title": "Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration",
+    "section": "Abstract",
+    "text": "Abstract\nIn the teleoperated scenario, as the task difficulty increases, the performance of the operator decreases which leads to a decrease in the overall system efficiency. Thus, it is important to predict the change in task difficulty in order to increase system efficiency. However, the task difficulty cannot be predicted as task information is unknown in real-time. Alternatively, the task difficulty can be estimated studying the distribution of reaction time. In this study, the physiological features of the operator are used to classify the reaction time as fast, normal and slow corresponding different levels of task difficulty. The physiological features are extracted from the eye (though eye tracking) and brain (through Electroencephalogram) from the operator performing teleoperation using two drones. Among the calculated features glance ratio and mental workload resulted in maximum classification accuracy when task type information is included."
+  },
+  {
+    "objectID": "research/tele-operation/index.html#architecture",
+    "href": "research/tele-operation/index.html#architecture",
+    "title": "Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration",
+    "section": "Architecture",
+    "text": "Architecture\n\n\n\n\n\n\nImportantResearch Questions\n\n\n\n\nWhich physiological modalities, eye, brain activity, or their combination can provide a more accurate classification of the reaction time?\nDo the task type information and individual differences in the task performance influence the classification of reaction time?\n\n\n\nThe study concluded that both eye features and cognitive features are needed to classify the reaction time effectively. The task type information had a significant influence on the classification accuracy, while the same could not be said with individual difference information. The accuracy of classification was increased when task type information was included as features, indicating that the reaction time depends on the task information.\nThese results are in agreement with the Linear Approach to the Threshold with Ergodic Rate (LATER) model, which suggests that reaction time depends on evidence collected and the task difficulty. The classifier trained on the physiological features using reaction time as the label can be used to classify task difficulty well above chance. Such systems can be utilized in Automation Invocation models that utilize appropriate control inputs and control strategies for optimal role allocation in collaborative tasks such as teleoperation.\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Become part of the lab\n    Join iHuman\nWe are always looking for motivated, creative, and driven students to join the iHuman Lab at Oklahoma State University. Our research sits at the intersection of human-centered computing, AI, and robotics. We value curiosity, collaboration, and initiative."
+  },
+  {
+    "objectID": "contact/index.html#research-opportunities",
+    "href": "contact/index.html#research-opportunities",
+    "title": "iHuman Lab",
+    "section": "Research Opportunities",
+    "text": "Research Opportunities\nWe typically recruit: PhD students, MS students, and Undergraduate researchers students in:\n\nMechanical and Aerospace Engineering\nElectrical & Computer Science Engineering\nHuman-Computer Interaction\nAI / Machine Learning\nRelated disciplines"
+  },
+  {
+    "objectID": "contact/index.html#what-we-look-for",
+    "href": "contact/index.html#what-we-look-for",
+    "title": "iHuman Lab",
+    "section": "What We Look For",
+    "text": "What We Look For\nSuccessful lab members typically demonstrate:\n\nStrong programming skills\nResearch curiosity and initiative\nInterest in human-centered AI\nSolid communication and teamwork skills\n\nPrior research experience is helpful but not required."
+  },
+  {
+    "objectID": "contact/index.html#how-to-apply",
+    "href": "contact/index.html#how-to-apply",
+    "title": "iHuman Lab",
+    "section": "How to Apply",
+    "text": "How to Apply\nIf you are interested in joining the lab:\n\nPrepare your CV\nInclude an unofficial transcript\nWrite a short research statement describing:\n\nYour research interests\nWhy you want to join the iHuman Lab\nYour long-term goals"
+  },
+  {
+    "objectID": "contact/index.html#contact",
+    "href": "contact/index.html#contact",
+    "title": "iHuman Lab",
+    "section": "Contact",
+    "text": "Contact\nPlease email the following materials with the subject line:\n\nProspective Student – [Your Name] to ihuman.research.lab@gmail.com\n\nAlternatively, you may contact us directly through the School of Mechanical and Aerospace Engineering at Oklahoma State University."
+  },
+  {
+    "objectID": "contact/index.html#location",
+    "href": "contact/index.html#location",
+    "title": "iHuman Lab",
+    "section": "Location",
+    "text": "Location\nThe iHuman Lab is located at Oklahoma State University."
+  },
+  {
+    "objectID": "news/research_symposium/index.html#ihuman-lab-undergraduates-showcase-space-robotics-system-at-osu-research-symposium",
+    "href": "news/research_symposium/index.html#ihuman-lab-undergraduates-showcase-space-robotics-system-at-osu-research-symposium",
+    "title": "Undergraduate Students Present Space Robotics Research at OSU Symposium",
+    "section": "iHuman Lab Undergraduates Showcase Space Robotics System at OSU Research Symposium",
+    "text": "iHuman Lab Undergraduates Showcase Space Robotics System at OSU Research Symposium\nWe are proud to share that three undergraduate researchers from the iHuman Lab — Ibrahim Taha, Nathaniel Veld, and James Ashton Wayne — presented their work at the Oklahoma State University Undergraduate Research Symposium.\nTheir project, “Design and Development of a Gravity-Compensated Teleoperated Space Robotics System,” tackled one of the fundamental challenges in space robotics: testing robot manipulation under realistic, free-floating conditions here on Earth.\n\nThe Challenge\nRobots operating in space must contend with microgravity, communication delays, and high-risk environments — all of which make precise control exceptionally difficult. Most ground-based testbeds use fixed platforms that fail to capture the dynamic nature of space operations, limiting the realism of experiments.\n\n\nWhat They Built\nThe team designed and fabricated a moving-base platform for the ALOHA 2 robot that simulates free-floating motion dynamics. Key aspects of the system include:\n\nA belt-driven linear motion system that allows the robot base to travel along a single axis, replicating the unconstrained movement of a spacecraft\nA structural frame that supports the robot while maintaining stability during operation\nCustom components manufactured using waterjet cutting and 3D printing for precision fit and assembly\n\nThe design was validated through CAD modeling and simulation before physical fabrication, and the assembled system was demonstrated as a functional platform for teleoperation research in dynamic environments.\n\n\nLooking Ahead\nWhile the mechanical system is fully operational, the team identified integrating motor control and sensors as the critical next step for enabling precise, repeatable motion. Future development will also include ROS 2 integration to support teleoperation workflows and automation, bringing the platform closer to realistic space robotics experimentation.\nThis project establishes a strong foundation for ongoing research in the iHuman Lab on human-robot teaming and teleoperation in challenging environments.\nCongratulations to Ibrahim, Nathaniel, and James on an outstanding presentation!"
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Updates from the lab\n    Latest News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\nLatest\n\nApril 22, 2026\n\n\nUndergraduate Students Present Space Robotics Research at OSU Symposium\n\n\nThree undergraduate students from the iHuman Lab at Oklahoma State University presented their work on a gravity-compensated teleoperated space robotics system at the OSU Undergraduate Research Symposium.\n\nRead more →\n\n\n\n\n\n\n\n\n\n\nDec 31, 2025\n\n\nGraduate Student Receives ASME IDETC Travel Award\n\n\nElahe Oveisi, a Ph.D. student in the iHuman Lab at Oklahoma State University, received a Graduate Poster Travel Award at the ASME International Design Engineering Technical Conferences (IDETC), where she presented her research on AI-driven human factor analysis in safety-critical aerospace systems.\n\n\n\n\n\n\n\n\n\n\nDec 31, 2025\n\n\nNVIDIA GPU Grant\n\n\nThe 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious 𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺, and we couldn’t be more excited!\n\n\n\n\n\n\n\n\n\n\nDec 12, 2025\n\n\nNeurable Research Grant\n\n\niHuman Lab Wins Neurable Research Grant to Advance Brain–Computer Interface Research\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "gallery/index.html",
+    "href": "gallery/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Life at the lab\n    Gallery"
+  },
+  {
+    "objectID": "news/idetc/index.html#ihuman-lab-ph.d.-student-receives-asme-idetc-travel-award",
+    "href": "news/idetc/index.html#ihuman-lab-ph.d.-student-receives-asme-idetc-travel-award",
+    "title": "Graduate Student Receives ASME IDETC Travel Award",
+    "section": "iHuman Lab Ph.D. Student Receives ASME IDETC Travel Award",
+    "text": "iHuman Lab Ph.D. Student Receives ASME IDETC Travel Award\nGraduate students in the iHuman Lab continue to earn national recognition for their research excellence. Elahe Oveisi, a Ph.D. student in the lab, received a Graduate Poster Travel Award at the American Society of Mechanical Engineers International Design Engineering Technical Conferences (IDETC).\nAt the conference, she presented her paper titled “Human Factor Analysis of Helicopter Accidents using Large Language Models.” Her research explores the integration of advanced AI techniques with human factors analysis to better understand and mitigate risks in safety-critical aerospace systems. By leveraging large language models to analyze accident data, her work contributes to improving safety assessment methodologies and advancing intelligent decision-support tools for complex engineering environments.\nThis achievement reflects the iHuman Lab’s continued commitment to innovation at the intersection of artificial intelligence, human-centered design, and safety-critical systems research."
+  },
+  {
+    "objectID": "news/neurable/index.html",
+    "href": "news/neurable/index.html",
+    "title": "Neurable Research Grant",
+    "section": "",
+    "text": "We’re excited to kick off 2026 with some amazing news! The iHuman Lab at Oklahoma State University has been selected for the Neurable Research Grant, giving our team access to cutting-edge EEG tools to fuel the next wave of brain research.\nThe Neurable Research Grant program is designed to make professional-grade neurotechnology accessible to researchers worldwide. With the Neurable Research Kit, a compact 12-channel EEG device with research-grade precision, our lab will explore innovative projects at the intersection of neuroscience, AI, and human-centered systems.\nThis grant empowers us to:\n\nUse high-quality EEG devices with 24-bit precision and 500 Hz sampling rate, ensuring reliable neural data.\nConduct research with professional-grade tools and perpetual licenses—no subscriptions, no hidden costs.\nAccelerate ethics approval and data collection with complete IRB support.\nJoin a global network of researchers democratizing brain–computer interface research.\n\nWe’re thrilled to leverage this opportunity to push boundaries in cognition, AI-driven neural modeling, and neuroadaptive technologies, and to contribute to discoveries that could have real-world impact.\nA huge thank you to Neurable for supporting academic research and enabling labs like ours to explore the frontiers of brain–computer interfaces.\nHere’s to an exciting year ahead—stay tuned for updates on our research journey!"
+  },
+  {
+    "objectID": "news/nvidia/index.html",
+    "href": "news/nvidia/index.html",
+    "title": "NVIDIA GPU Grant",
+    "section": "",
+    "text": "Ending 2025 on a High Note, Kicking Off 2026 with Excitement! 🎉 We’re thrilled to share some fantastic news as we wrap up an amazing year and look forward to even greater things in 2026!\nThe 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious 𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺, and we couldn’t be more excited!\nThis incredible opportunity is made possible by NVIDIA’s support for our cutting-edge work on 𝘕𝘦𝘶𝘳𝘰𝘢𝘥𝘢𝘱𝘵𝘪𝘷𝘦 𝘙𝘰𝗯𝘶𝘴𝘵 𝘛𝘦𝘭𝘦𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 𝘸𝘪𝘵𝘩 𝘍𝘰𝘳𝘮𝘢𝘭 𝘎𝘶𝘢𝘳𝘢𝘯𝘵𝘦𝘦𝘴. With the help of 𝟰× RTX PRO 6000 Blackwell Max-Q GPUs, we’ll be driving innovative research at the intersection of AI, robotics, and human-centered systems.\nWe are incredibly grateful for NVIDIA’s support and are eager to see how this partnership will enhance our research, bringing us closer to solving some of today’s most complex challenges.\nWishing everyone a fantastic start to 2026! 🎆"
+  },
+  {
+    "objectID": "software/index.html",
+    "href": "software/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "A modular grid-based Search and Rescue simulation platform for studying human–AI teaming, built on MiniGrid.\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nStatistical analysis for LLM guided search and rescue mission\n\n\nView on GitHub MakefilePythonShell\n\n\n\n\n\n\n\n\n\n\nProbabilistic differentiable signal temporal logics using recurrent neural networks\n\n\nView on GitHub PythonMakefileShell\n\n\n\n\n\n\n\n\n\n\nA software project from the iHuman Lab.\n\n\nView on GitHub SCSS\n\n\n\n\n\n\n\n\n\n\nImplementation of world models in Atari using eye-tracking\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nA software project from the iHuman Lab.\n\n\nView on GitHub PythonMakefileShell\n\n\n\n\n\n\n\n\n\n\nUsing Large Language Models to automatically analyze aviation accident reports and classify them according to the Human Factors Analysis and Classification System (HFACS).\n\n\nView on GitHub PythonMakefile\n\n\n\n\n\n\n\n\n\n\nThe central software ecosystem for the iHuman Lab. A modular, high-momentum framework for Intelligent Human-Machine interaction built on ROS 2 and Sugarcoat.\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nA python package implementing various features extraction method from eye tracking\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nA high-stakes Search and Rescue (SAR) simulation built on MiniGrid. The primary RL training ground for the iHuman Lab, designed for modular research in human-centric navigation and victim recovery.\n\n\nView on GitHub PythonMakefile\n\n\n\n\n\n\n\n\n\n\nA python package to run experiments at iHuman Lab\n\n\nView on GitHub Python\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/llm/index.html#the-challenge-why-human-factors-matter",
+    "href": "research/llm/index.html#the-challenge-why-human-factors-matter",
+    "title": "Human Factor Analysis of Helicopter Accidents using Large Language Models",
+    "section": "The Challenge: Why Human Factors Matter",
+    "text": "The Challenge: Why Human Factors Matter\nSafety experts estimate that human factors—a blend of psychological states, environmental design, and organizational culture—contribute to over 80% of aviation accidents. Traditionally, investigators use the Human Factors Analysis and Classification System (HFACS) to categorize these issues.\nThe problem? Manual HFACS analysis is:\n\nSlow: Identifying probable causes can take 12–24 months.\nSubjective: Different experts might interpret the same narrative differently.\nData-Heavy: Investigating a decade of reports is a massive undertaking for human teams."
+  },
+  {
+    "objectID": "research/llm/index.html#the-solution-prompt-engineering-for-safety",
+    "href": "research/llm/index.html#the-solution-prompt-engineering-for-safety",
+    "title": "Human Factor Analysis of Helicopter Accidents using Large Language Models",
+    "section": "The Solution: Prompt Engineering for Safety",
+    "text": "The Solution: Prompt Engineering for Safety\nThe researchers analyzed 215 fatal helicopter accidents (2012–2022) from the NTSB database. To see if AI could handle the heavy lifting, they tested six different LLM prompting techniques to see which could best identify “root causes” from raw accident narratives.\n\nThe Methods Tested:\n\nInput-Output (IO): Simple question and answer.\nPrompting with Explanation (PE): Providing the AI with context before asking.\nChain-of-Thought (CoT): Asking the AI to “think step-by-step.”\nTree-of-Thought (ToT): Allowing the AI to explore multiple reasoning paths and backtrack if it hits a dead end.\nMultiple Question Variants (IOM/PEM): Consolidating all HFACS questions into a single, comprehensive prompt."
+  },
+  {
+    "objectID": "research/llm/index.html#results-which-ai-strategy-won",
+    "href": "research/llm/index.html#results-which-ai-strategy-won",
+    "title": "Human Factor Analysis of Helicopter Accidents using Large Language Models",
+    "section": "Results: Which AI Strategy Won?",
+    "text": "Results: Which AI Strategy Won?\nThe study found that Tree-of-Thought (ToT) was the clear winner for complex accident analysis.\n\nKey Findings:\n\nHigh Accuracy: ToT achieved an F1-score of &gt;0.9, meaning it was incredibly reliable at matching the “ground truth” established by human experts.\nStrengths: The models were exceptionally good at identifying Skill-Based Errors and Physical/Mental Limitations (with F1-scores near 0.99).\nWeaknesses: Even the best AI struggled with “subtle” factors. Communication failures and Routine violations (habitual rule-breaking) were much harder for the models to detect, likely due to the nuance required to read between the lines of a technical report."
+  },
+  {
+    "objectID": "research/llm/index.html#where-the-accidents-happen",
+    "href": "research/llm/index.html#where-the-accidents-happen",
+    "title": "Human Factor Analysis of Helicopter Accidents using Large Language Models",
+    "section": "Where the Accidents Happen",
+    "text": "Where the Accidents Happen\nThe database analysis also revealed interesting trends in helicopter safety within the U.S.:\n\nTexas saw the highest frequency of accidents during the study period.\nPersonal flights were more frequently involved in fatal incidents than commercial or rescue operations.\nDecision-making errors were the most common human factor identified in the reports, appearing in over 100 of the 215 cases analyzed."
+  },
+  {
+    "objectID": "research/llm/index.html#the-future-of-aviation-safety",
+    "href": "research/llm/index.html#the-future-of-aviation-safety",
+    "title": "Human Factor Analysis of Helicopter Accidents using Large Language Models",
+    "section": "The Future of Aviation Safety",
+    "text": "The Future of Aviation Safety\nThis research proves that while AI isn’t ready to replace human investigators entirely—especially for nuanced social and communicative factors—it can act as a powerful force multiplier.\nBy using optimized prompting like Tree-of-Thought, aviation authorities can process thousands of reports in minutes, identifying systemic safety gaps and informing better training for pilots. As LLMs continue to evolve, the gap between human intuition and machine processing is closing, promising a future where we learn from accidents faster than ever before.\n\nResearch Citation: Oveisi, E., & Manjunatha, H. (2025). Human Factor Analysis of Helicopter Accidents using Large Language Models. Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition."
+  },
+  {
+    "objectID": "research/eye-gaze-augmentation/index.html#abstract",
+    "href": "research/eye-gaze-augmentation/index.html#abstract",
+    "title": "Selective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games",
+    "section": "Abstract",
+    "text": "Abstract\nThis paper presents the selective use of eye-gaze information in learning human actions in Atari games. Extensive evidence suggests that our eye movements convey a wealth of information about the direction of our attention and mental states and encode the information necessary to complete a task. Based on this evidence, we hypothesize that selective use of eye-gaze, as a clue for attention direction, will enhance the learning from demonstration. For this purpose, we propose a selective eye-gaze augmentation (SEA) network that learns when to use the eye-gaze information. The proposed network architecture consists of three sub-networks: gaze prediction, gating, and action prediction network. Using the prior 4 game frames, a gaze map is predicted by the gaze prediction network, which is used for augmenting the input frame. The gating network will determine whether the predicted gaze map should be used in learning and is fed to the final network to predict the action at the current frame. To validate this approach, we use publicly available Atari Human Eye-Tracking And Demonstration (Atari-HEAD) dataset consists of 20 Atari games with 28 million human demonstrations and 328 million eye-gazes (over game frames) collected from four subjects. We demonstrate the efficacy of selective eye-gaze augmentation compared to the state of the art Attention Guided Imitation Learning (AGIL), Behavior Cloning (BC).\nThe results indicate that the selective augmentation approach (the SEA network) performs significantly better than the AGIL and BC. Moreover, to demonstrate the significance of selective use of gaze through the gating network, we compare our approach with the random selection of the gaze. Even in this case, the SEA network performs significantly better, validating the advantage of selectively using the gaze in demonstration learning."
+  },
+  {
+    "objectID": "research/eye-gaze-augmentation/index.html#results",
+    "href": "research/eye-gaze-augmentation/index.html#results",
+    "title": "Selective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games",
+    "section": "Results",
+    "text": "Results\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
+  },
+  {
+    "objectID": "research/shasta/index.html#abstract",
+    "href": "research/shasta/index.html#abstract",
+    "title": "SHASTA A Simulator for Human and Swarm Team Applications",
+    "section": "Abstract",
+    "text": "Abstract\nHuman-Swarm Teams uniquely combine the ability of swarms and cognition of humans to achieve complex behaviors. There is a need for a human-in-the-loop simulation framework that can capture both the human’s action and cognition while interacting with the swarm of robots as well as the actions of the swarm itself to study the unique characteristics of a human-swarm team. In this paper, we present , an open-source simulation platform to study human-swarm applications. The platform provides a unified interface for humans and learning algorithms to command/learn swarm robot behaviors. The higher level swarm behavior is achieved by including single robot and swarm primitives such as formation control and path planning. SHASTA provides a unique ability to collect physiological information from humans and time synchronize it with swarm simulation. Using search-and-rescue as an example, we demonstrate the scalability and utility ofSHASTA in simulating human-swarm applications. We also demonstrate its ability to integrate physiological measurements as part of the simulation through a detailed human-study."
+  },
+  {
+    "objectID": "research/shasta/index.html#results",
+    "href": "research/shasta/index.html#results",
+    "title": "SHASTA A Simulator for Human and Swarm Team Applications",
+    "section": "Results",
+    "text": "Results\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
+  },
+  {
+    "objectID": "research/explainability/index.html",
+    "href": "research/explainability/index.html",
+    "title": "Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of HRI",
+    "section": "",
+    "text": "Imagine a world where robots work hand-in-hand with humans, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with human-robot collaboration poised to transform industries from manufacturing and logistics to healthcare and assistive technologies. But to achieve truly seamless interaction, robots need to understand not only our actions but also our thoughts and cognitive processes.\nEnter electroencephalography (EEG), a technique that measures brain activity using sensors on the scalp. EEG offers a window into the brain’s dynamic processes, but interpreting its complex signals remains a challenge. While deep learning models have shown success in decoding EEG data [14], they often act as “black boxes” – we see the results, but we don’t know how the model arrived at them. This lack of transparency hinders our ability to trust and fully utilize these powerful tools.\nOur research addresses the interpretability of deep learning models in human-robot co-manipulation. We developed a novel computational approach to understand how these models classify a user’s mental workload during collaboration with a robot.\n\n\n\n\n\n\nImportantThe Challenge\n\n\n\nDecoding the complex signals of the brain using deep learning while understanding why the model makes its decisions.\n\n\nA Glimpse into the Experiment\nTo study mental workload, we designed an experiment where participants guided a robot’s movements. The tasks involved:\n\nGross Motor Control: Guiding the robot through a horizontal eight-shaped motion.\nFine Motor Control: Performing a star-shaped fine motion.\n\nWe also manipulated the robot’s resistance (damping) between high (requiring more effort) and low (allowing easier movement) levels. This created conditions where the damping was either appropriate or inappropriate for the specific movement, influencing the user’s mental workload. Our Convolutional Neural Network (CNN) model was trained to distinguish between these conditions using raw EEG recordings.\n\n\n\n\n\n\nImportantResearch Goal\n\n\n\nTo enhance the interpretability of deep learning models applied to EEG data, specifically in the context of classifying mental workload during human-robot co-manipulation.\n\n\nOur Novel Approach: Making the “Black Box” Transparent\nOur key contribution is our method to understand how our deep learning model (a CNN) made its decisions. We used two powerful techniques, adapting methods commonly used in computer vision:\n\nIntegrated Gradients: This method assigns importance scores to the input features (EEG data points) by considering the gradient of the output with respect to the input along a path from a baseline input to the actual input. Think of it as tracing back the model’s decision to the original EEG signals [11, 12].\nAblation Attribution: Here, we systematically removed parts of the input EEG data (e.g., data from specific electrodes or frequency bands) and observed how the model’s performance changed. If removing a particular feature significantly decreased performance, it indicates that the feature was important for the classification.\n\nBy combining these methods, we created a pipeline that extracts interpretable features from EEG data, providing unprecedented insight into the brain activity patterns associated with mental workload in human-robot collaboration.\n\n\n\n\n\n\nImportantKey Methods\n\n\n\nWe used Integrated Gradients and Ablation Attribution to understand which EEG features were most important to our deep learning model.\n\n\nDecoding the Brain: Key Findings\nOur analysis revealed that the model relied heavily on specific brainwave frequencies and locations:\n\nGamma and Beta Bands: As highlighted in our abstract, the Gamma and Beta frequency bands were particularly relevant for classifying mental workload in this visuospatial and motor control-oriented experiment. These higher-frequency brainwaves are often associated with active processing of information, attention, and motor control [15].\nParietal Regions: Our method also indicated the importance of EEG signals originating from the parietal regions of the brain. These areas play a crucial role in spatial awareness, sensorimotor integration, and attention.\n\nThese findings strongly suggest that Gamma and Beta activity over the parietal areas indicates mental workload when humans co-manipulate a robot, particularly during tasks requiring visual attention and motor coordination.\n\n\n\n\n\n\nImportantKey Findings\n\n\n\nThe model heavily relied on Gamma and Beta brainwave activity in the parietal regions to assess mental workload.\n\n\nThe Path to Smarter Human-Robot Collaboration\nOur ability to interpret deep learning models opens up exciting possibilities:\n\nAdaptive Robots: Robots could dynamically adjust their behavior based on a user’s real-time mental workload, providing assistance when needed and reducing demands when the user is overloaded.\nEnhanced Training: Our findings can inform the design of training programs that optimize human-robot interaction and minimize mental strain.\nTrustworthy AI: Understanding how these models work builds greater trust in AI-powered systems, paving the way for more seamless and effective collaboration.\n\nThis research represents a significant step towards creating more intuitive and responsive human-robot interfaces. By shedding light on the brain activity patterns that underlie collaborative work, we can design robots that are true partners, enhancing human capabilities and improving our lives.\nWhat are your thoughts on the future of human-robot collaboration? How can interpretable AI in neurotechnology address challenges in other domains like healthcare or education?"
+  },
+  {
+    "objectID": "research/task-difficulty/index.html#abstract",
+    "href": "research/task-difficulty/index.html#abstract",
+    "title": "Task Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning",
+    "section": "Abstract",
+    "text": "Abstract\nAn experiment was conducted in which the subjects have to guide an robot under admittance control through a predefined trajectory. The damping in the admittance control was changed from low to high during different trials. Due to low damping, the controller might become unstable during the force input from the human subject. To quantify the instability, a frequency domain measure has been extracted from the force data. During the whole experiment scalp EEG was recorded and used to predict whether the robot becomes unstable during the co-manipulation. This was achieved by constructing a regression with EEG features as input and instability index as output. For the prediction model, we are leveraging the deep learning technique namely convolution neural networks."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "Welcome to the\n    iHuman Lab\n  \n\n\n\n  \n    30+\n    Publications\n  \n  \n    10+\n    Team Members\n  \n  \n    4\n    Research Areas\n  \n  \n    6+\n    Active Projects\n  \n\n\n\n\n\n  Who we are\n  Building the future of Human-Machine Interaction\n  We unravel the complexities of human-machine interaction — enhancing cognition, augmenting decision-making, and revolutionizing how people and technology work together. At Oklahoma State University, our work spans brain-computer interfaces, human-robot interaction, AI-assisted decision-making, and cognitive augmentation, with a focus on making technology safer, smarter, and more human.\n  \n    Meet the Team\n    See Our Research\n  \n\n\n\n\n\n  View Gallery"
+  },
+  {
+    "objectID": "people/alumni/JacksonBenton/index.html",
+    "href": "people/alumni/JacksonBenton/index.html",
+    "title": "Jackson Benton",
+    "section": "",
+    "text": "B.S. in Aerospace and Mechanical Engineering Oklahoma State University | 2021–2026"
+  },
+  {
+    "objectID": "people/alumni/JacksonBenton/index.html#education",
+    "href": "people/alumni/JacksonBenton/index.html#education",
+    "title": "Jackson Benton",
+    "section": "",
+    "text": "B.S. in Aerospace and Mechanical Engineering Oklahoma State University | 2021–2026"
+  },
+  {
+    "objectID": "people/alumni/JacksonBenton/index.html#research-interest",
+    "href": "people/alumni/JacksonBenton/index.html#research-interest",
+    "title": "Jackson Benton",
+    "section": "Research Interest",
+    "text": "Research Interest\n\nAerodynamics and propulsion systems\nThermodynamics and mechanical systems\nAI and machine learning for autonomous systems"
+  },
+  {
+    "objectID": "people/phd/Bennett_Dogbey/index.html",
+    "href": "people/phd/Bennett_Dogbey/index.html",
+    "title": "Bennett Dogbey",
+    "section": "",
+    "text": "MSc in Mechanical & Aerospace Engineering (in progress) Oklahoma State University | 2026–present\nBSc in Aerospace Engineering Kwame Nkrumah University of Science & Technology | 2022"
+  },
+  {
+    "objectID": "people/phd/Bennett_Dogbey/index.html#education",
+    "href": "people/phd/Bennett_Dogbey/index.html#education",
+    "title": "Bennett Dogbey",
+    "section": "",
+    "text": "MSc in Mechanical & Aerospace Engineering (in progress) Oklahoma State University | 2026–present\nBSc in Aerospace Engineering Kwame Nkrumah University of Science & Technology | 2022"
+  },
+  {
+    "objectID": "people/phd/Bennett_Dogbey/index.html#research-interest",
+    "href": "people/phd/Bennett_Dogbey/index.html#research-interest",
+    "title": "Bennett Dogbey",
+    "section": "Research Interest",
+    "text": "Research Interest\n\nSafe and robust autonomy\nFormal verification and control synthesis\nLearning-based control for UAV systems"
+  },
+  {
+    "objectID": "people/index.html",
+    "href": "people/index.html",
+    "title": "iHuman Lab",
+    "section": "",
+    "text": "The people behind the research\n    Meet the Team\n  \n\n\n\nPI\n\n\n\n\n\n\n\n\nHemanth Manjunatha\n\n\n\n\nNo matching items\n\n\n\nPhD\n\n\n\n\n\n\n\n\nBennett Dogbey\n\n\n\n\n\n\n\n\n\nElahe Oveisi\n\n\n\n\nNo matching items\n\n\n\nMasters\n\n\n\n\n\n\n\n\nPriyankan Vettivel\n\n\n\n\nNo matching items\n\n\n\nUndergraduate\n\n\n\n\nNo matching items\n\n\n\nAlumni\n\n\n\n\n\n\n\n\nCarson McSpadden\n\n\n\n\n\n\n\n\n\nJackson Benton\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "outreach/smc2026/index.html",
+    "href": "outreach/smc2026/index.html",
+    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "section": "",
+    "text": "This half-day tutorial at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026) presents a unified, systems-level perspective on closing the human-AI loop — the bidirectional information exchange between autonomous agents and human cognitive states.\nThe tutorial follows a concept-to-implementation structure combining lectures, architectural walkthroughs, and guided demonstrations built around two open-source research platforms:\n\nSHaSTA (Scalable Human-Swarm Teaming Platform) — A modular framework supporting scalable supervision, reinforcement learning integration, and flexible robot and environment modeling.\nHAI-SAR (Human-AI Interaction Platform) — A search-and-rescue environment designed for adaptive AI communication and granular behavioral/physiological logging.\n\nTopics progress from interaction design principles to system architectures, interface design, physiological sensing (EEG and eye-tracking), and evaluation methodologies, with emphasis on reusable design patterns and experimental rigor."
+  },
+  {
+    "objectID": "outreach/smc2026/index.html#overview",
+    "href": "outreach/smc2026/index.html#overview",
+    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "section": "",
+    "text": "This half-day tutorial at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026) presents a unified, systems-level perspective on closing the human-AI loop — the bidirectional information exchange between autonomous agents and human cognitive states.\nThe tutorial follows a concept-to-implementation structure combining lectures, architectural walkthroughs, and guided demonstrations built around two open-source research platforms:\n\nSHaSTA (Scalable Human-Swarm Teaming Platform) — A modular framework supporting scalable supervision, reinforcement learning integration, and flexible robot and environment modeling.\nHAI-SAR (Human-AI Interaction Platform) — A search-and-rescue environment designed for adaptive AI communication and granular behavioral/physiological logging.\n\nTopics progress from interaction design principles to system architectures, interface design, physiological sensing (EEG and eye-tracking), and evaluation methodologies, with emphasis on reusable design patterns and experimental rigor."
+  },
+  {
+    "objectID": "outreach/smc2026/index.html#who-should-attend",
+    "href": "outreach/smc2026/index.html#who-should-attend",
+    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "section": "Who Should Attend",
+    "text": "Who Should Attend\nResearchers and practitioners in Human-Machine Systems, Cybernetics, and Systems Science seeking to build rigorous, reproducible, and human-centered autonomous systems. Participants are expected to have basic familiarity with autonomous systems or robotics and working knowledge of Python (OOP). No prior experience with swarm systems, physiological sensing, or human-subject experimentation is required."
+  },
+  {
+    "objectID": "outreach/smc2026/index.html#venue",
+    "href": "outreach/smc2026/index.html#venue",
+    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
+    "section": "Venue",
+    "text": "Venue\nHyatt Regency Bellevue, Bellevue, WA, USA"
+  },
+  {
+    "objectID": "outreach/discovery-day/slides.html#who-are-we",
+    "href": "outreach/discovery-day/slides.html#who-are-we",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Who Are We?",
+    "text": "Who Are We?\n\n\n\nWe build technology that understands you.\n\nNot just your commands — your attention, your stress, even your mistakes before they happen.\n\nBrain · AI · Robotics — working together.\n\n\n\n\n10+\n\n\nResearchers\n\n\n\n\n30+\n\n\nPublications\n\n\n\n\n4\n\n\nResearch Areas\n\n\n\n\n6+\n\n\nActive Projects"
+  },
+  {
+    "objectID": "outreach/discovery-day/slides.html#what-if-a-robot-could-read-your-mind",
+    "href": "outreach/discovery-day/slides.html#what-if-a-robot-could-read-your-mind",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "What If a Robot Could Read Your Mind?",
+    "text": "What If a Robot Could Read Your Mind?\n\n\n\nA headset — but instead of music, it reads your brainwaves.\n\n\nStressed? → Robot slows down.\nOverwhelmed? → Robot takes over.\nZoning out? → Robot asks for attention.\n\n\nThe robot adapts to you. Not the other way around."
+  },
+  {
+    "objectID": "outreach/discovery-day/slides.html#what-do-your-eyes-reveal",
+    "href": "outreach/discovery-day/slides.html#what-do-your-eyes-reveal",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "What Do Your Eyes Reveal?",
+    "text": "What Do Your Eyes Reveal?\n\n\n\nIn 200 milliseconds, your eyes reveal exactly what you’re thinking.\n\nExperts see differently — a surgeon’s gaze, a pilot’s scan, a drone operator’s focus.\nWe recorded those eye movements and trained AI to copy them exactly.\n\nNow the AI sees like the best human in the room."
+  },
+  {
+    "objectID": "outreach/discovery-day/slides.html#could-you-control-50-drones-at-once",
+    "href": "outreach/discovery-day/slides.html#could-you-control-50-drones-at-once",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Could You Control 50 Drones at Once?",
+    "text": "Could You Control 50 Drones at Once?\n\n\n\nDisaster strikes. One person. 50 drones. No room for error.\n\nWhat happens to your brain under that pressure?\nWe track brain signals in real time to find out — and build AI that steps in before you hit your limit.\n\nBecause in a rescue mission, hesitation costs lives."
+  },
+  {
+    "objectID": "outreach/discovery-day/slides.html#could-you-control-a-robot-on-the-moon",
+    "href": "outreach/discovery-day/slides.html#could-you-control-a-robot-on-the-moon",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Could You Control a Robot on the Moon?",
+    "text": "Could You Control a Robot on the Moon?\n\n\n\nYour signal takes 1.3 seconds to reach the Moon.\n\nThat’s 1.3 seconds your robot is completely on its own.\nWe build robots smart enough to survive that gap — and study how humans stay in control when the stakes are this high.\n\nYou on Earth. Robot on the Moon. One team."
+  },
+  {
+    "objectID": "outreach/discovery-day/slides.html#real-impact",
+    "href": "outreach/discovery-day/slides.html#real-impact",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "Real Impact",
+    "text": "Real Impact\n\n\n\n\n\n\n\n\nSearch & Rescue\n\n\nFind survivors faster when every second counts\n\n\n\n\n\n\n\n\n\n\nManufacturing\n\n\nRobots that work with you, not instead of you\n\n\n\n\n\n\n\n\n\n\nAviation Safety\n\n\nAI that learns from decades of accident reports\n\n\n\n\n\n\n\n\n\n\nHealthcare\n\n\nTech that adapts to patients, not the other way around\n\n\n\n\n\nSmarter Machines·Safer Humans·Better World"
+  },
+  {
+    "objectID": "outreach/discovery-day/slides.html#section",
+    "href": "outreach/discovery-day/slides.html#section",
+    "title": "CEAT Discovery DayiHuman Lab",
+    "section": "",
+    "text": "This Could Be You\n\n\nEvery researcher in this lab was once sitting where you are. If any of this sparked something — come talk to us.\n\n\nQuestions?\n\n\nhemanth.manjunatha@okstate.edu"
+  },
+  {
     "objectID": "outreach/physio-workshop/case-study.html#why-we-built-another-sim",
     "href": "outreach/physio-workshop/case-study.html#why-we-built-another-sim",
     "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
@@ -196,612 +798,10 @@
     "text": "Fork It. Build Your Study.\n\n\ngithub.com/iHuman-Lab/rescue-grid\n\n\nQuestions?\n\n\nhemanth.manjunatha@okstate.edu"
   },
   {
-    "objectID": "outreach/discovery-day/index.html",
-    "href": "outreach/discovery-day/index.html",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "",
-    "text": "View the Presentation ↗"
-  },
-  {
-    "objectID": "outreach/discovery-day/index.html#overview",
-    "href": "outreach/discovery-day/index.html#overview",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "Overview",
-    "text": "Overview\nCEAT Discovery Day brings K–12 students to campus for a hands-on look at how the iHuman Lab builds technology that understands people — not just their commands, but their attention, stress, and mistakes before they happen. Students get an introduction to brain-computer interfaces, human-robot interaction, and eye-gaze AI, drawn from the lab’s ongoing research in search-and-rescue robotics, aviation safety, manufacturing, and healthcare."
-  },
-  {
-    "objectID": "outreach/discovery-day/index.html#what-students-will-see",
-    "href": "outreach/discovery-day/index.html#what-students-will-see",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "What Students Will See",
-    "text": "What Students Will See\n\nBrain-computer interfaces — how brain signals can be read in real time to detect stress and workload\nHuman-robot teaming — robots that adapt to the person operating them, including teleoperation over high-latency links\nEye-gaze AI — training models to see the way expert operators do, from surgeons to drone pilots\nPathways into research — how to get involved in human-centered AI and robotics research as a student"
-  },
-  {
-    "objectID": "outreach/discovery-day/index.html#venue",
-    "href": "outreach/discovery-day/index.html#venue",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "Venue",
-    "text": "Venue\nOklahoma State University, Stillwater, OK"
-  },
-  {
     "objectID": "outreach/index.html",
     "href": "outreach/index.html",
     "title": "iHuman Lab",
     "section": "",
     "text": "Engaging beyond the lab\n    Outreach & Impact\n  \n\n\n\n\n\n\n\nWorkshops & Tutorials\n\n\n\n\n\n\nClosing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing\n\n\n\n\nConcept-to-implementation tutorial covering the SHaSTA and HAI-SAR open-source platforms, bridging interaction design, physiological sensing (EEG & eye-tracking), and evaluation methodologies for human-centered autonomous systems.\n\n\n📍IEEE SMC 2026, Bellevue WA 📅October 2026\n\n\n\nHalf-Day TutorialConference site ↗\n\n\n\n\n\n\n\n\n\nRescue-GridAn Open Platform for Human-Machine Teaming\n\n\n\n\nA tour of Rescue-Grid, a MiniGrid/Gymnasium-based search-and-rescue simulation built for studying human-AI teaming — covering its architecture, LSL/ixp research instrumentation, and how to extend it for your own study.\n\n\n📍NeuroErgonomics 2026, Boston MA 📅July 2026\n\n\n\nWorkshopConference site ↗\n\n\n\n\nK-12 & Public Outreach\n\n\n\n\n\n\n\n\n\nCEAT Discovery DayiHuman Lab\n\n\n\n\nAn introduction to the iHuman Lab for K–12 students covering brain-computer interfaces, human-robot interaction, eye-gaze AI, and how to pursue a career in research.\n\n\n📍Oklahoma State University, Stillwater OK 📅June 2026\n\n\n\nDiscovery Day\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people/alumni/CarsonMcSpadden/index.html",
-    "href": "people/alumni/CarsonMcSpadden/index.html",
-    "title": "Carson McSpadden",
-    "section": "",
-    "text": "B.S. in Computer and Electrical Engineering Oklahoma State University, Stillwater OK | 2024–2027"
-  },
-  {
-    "objectID": "people/alumni/CarsonMcSpadden/index.html#education",
-    "href": "people/alumni/CarsonMcSpadden/index.html#education",
-    "title": "Carson McSpadden",
-    "section": "",
-    "text": "B.S. in Computer and Electrical Engineering Oklahoma State University, Stillwater OK | 2024–2027"
-  },
-  {
-    "objectID": "people/alumni/CarsonMcSpadden/index.html#research-interest",
-    "href": "people/alumni/CarsonMcSpadden/index.html#research-interest",
-    "title": "Carson McSpadden",
-    "section": "Research Interest",
-    "text": "Research Interest\n\nDeep Learning\nHuman-Robot Interaction\nDigital Circuit and System Design"
-  },
-  {
-    "objectID": "people/pi/index.html",
-    "href": "people/pi/index.html",
-    "title": "Hemanth Manjunatha",
-    "section": "",
-    "text": "I am glad you landed on this tiny corner of the internet"
-  },
-  {
-    "objectID": "people/pi/index.html#hello",
-    "href": "people/pi/index.html#hello",
-    "title": "Hemanth Manjunatha",
-    "section": "",
-    "text": "I am glad you landed on this tiny corner of the internet"
-  },
-  {
-    "objectID": "people/pi/index.html#education",
-    "href": "people/pi/index.html#education",
-    "title": "Hemanth Manjunatha",
-    "section": "Education",
-    "text": "Education\nPhD in Mechanical and Aerospace Engineering University at Buffalo, USA | 2016–2021\nM.S. in Mechanical and Aerospace Engineering University at Buffalo, USA | 2015–2017\nB.S. in Mechanical Engineering National Institute of Engineering, India | 2010–2014"
-  },
-  {
-    "objectID": "people/pi/index.html#research-interest",
-    "href": "people/pi/index.html#research-interest",
-    "title": "Hemanth Manjunatha",
-    "section": "Research Interest",
-    "text": "Research Interest\n\nSafe Learning based Cyber Physical Systems\nBrain Machine Interfaces\nHuman-Robot Interaction\nRobotics & Haptics\nTelerehabilitation"
-  },
-  {
-    "objectID": "people/phd/Bennett_Dogbey/index.html",
-    "href": "people/phd/Bennett_Dogbey/index.html",
-    "title": "Bennett Dogbey",
-    "section": "",
-    "text": "MSc in Mechanical & Aerospace Engineering (in progress) Oklahoma State University | 2026–present\nBSc in Aerospace Engineering Kwame Nkrumah University of Science & Technology | 2022"
-  },
-  {
-    "objectID": "people/phd/Bennett_Dogbey/index.html#education",
-    "href": "people/phd/Bennett_Dogbey/index.html#education",
-    "title": "Bennett Dogbey",
-    "section": "",
-    "text": "MSc in Mechanical & Aerospace Engineering (in progress) Oklahoma State University | 2026–present\nBSc in Aerospace Engineering Kwame Nkrumah University of Science & Technology | 2022"
-  },
-  {
-    "objectID": "people/phd/Bennett_Dogbey/index.html#research-interest",
-    "href": "people/phd/Bennett_Dogbey/index.html#research-interest",
-    "title": "Bennett Dogbey",
-    "section": "Research Interest",
-    "text": "Research Interest\n\nSafe and robust autonomy\nFormal verification and control synthesis\nLearning-based control for UAV systems"
-  },
-  {
-    "objectID": "news/research_symposium/index.html#ihuman-lab-undergraduates-showcase-space-robotics-system-at-osu-research-symposium",
-    "href": "news/research_symposium/index.html#ihuman-lab-undergraduates-showcase-space-robotics-system-at-osu-research-symposium",
-    "title": "Undergraduate Students Present Space Robotics Research at OSU Symposium",
-    "section": "iHuman Lab Undergraduates Showcase Space Robotics System at OSU Research Symposium",
-    "text": "iHuman Lab Undergraduates Showcase Space Robotics System at OSU Research Symposium\nWe are proud to share that three undergraduate researchers from the iHuman Lab — Ibrahim Taha, Nathaniel Veld, and James Ashton Wayne — presented their work at the Oklahoma State University Undergraduate Research Symposium.\nTheir project, “Design and Development of a Gravity-Compensated Teleoperated Space Robotics System,” tackled one of the fundamental challenges in space robotics: testing robot manipulation under realistic, free-floating conditions here on Earth.\n\nThe Challenge\nRobots operating in space must contend with microgravity, communication delays, and high-risk environments — all of which make precise control exceptionally difficult. Most ground-based testbeds use fixed platforms that fail to capture the dynamic nature of space operations, limiting the realism of experiments.\n\n\nWhat They Built\nThe team designed and fabricated a moving-base platform for the ALOHA 2 robot that simulates free-floating motion dynamics. Key aspects of the system include:\n\nA belt-driven linear motion system that allows the robot base to travel along a single axis, replicating the unconstrained movement of a spacecraft\nA structural frame that supports the robot while maintaining stability during operation\nCustom components manufactured using waterjet cutting and 3D printing for precision fit and assembly\n\nThe design was validated through CAD modeling and simulation before physical fabrication, and the assembled system was demonstrated as a functional platform for teleoperation research in dynamic environments.\n\n\nLooking Ahead\nWhile the mechanical system is fully operational, the team identified integrating motor control and sensors as the critical next step for enabling precise, repeatable motion. Future development will also include ROS 2 integration to support teleoperation workflows and automation, bringing the platform closer to realistic space robotics experimentation.\nThis project establishes a strong foundation for ongoing research in the iHuman Lab on human-robot teaming and teleoperation in challenging environments.\nCongratulations to Ibrahim, Nathaniel, and James on an outstanding presentation!"
-  },
-  {
-    "objectID": "news/neurable/index.html",
-    "href": "news/neurable/index.html",
-    "title": "Neurable Research Grant",
-    "section": "",
-    "text": "We’re excited to kick off 2026 with some amazing news! The iHuman Lab at Oklahoma State University has been selected for the Neurable Research Grant, giving our team access to cutting-edge EEG tools to fuel the next wave of brain research.\nThe Neurable Research Grant program is designed to make professional-grade neurotechnology accessible to researchers worldwide. With the Neurable Research Kit, a compact 12-channel EEG device with research-grade precision, our lab will explore innovative projects at the intersection of neuroscience, AI, and human-centered systems.\nThis grant empowers us to:\n\nUse high-quality EEG devices with 24-bit precision and 500 Hz sampling rate, ensuring reliable neural data.\nConduct research with professional-grade tools and perpetual licenses—no subscriptions, no hidden costs.\nAccelerate ethics approval and data collection with complete IRB support.\nJoin a global network of researchers democratizing brain–computer interface research.\n\nWe’re thrilled to leverage this opportunity to push boundaries in cognition, AI-driven neural modeling, and neuroadaptive technologies, and to contribute to discoveries that could have real-world impact.\nA huge thank you to Neurable for supporting academic research and enabling labs like ours to explore the frontiers of brain–computer interfaces.\nHere’s to an exciting year ahead—stay tuned for updates on our research journey!"
-  },
-  {
-    "objectID": "news/idetc/index.html#ihuman-lab-ph.d.-student-receives-asme-idetc-travel-award",
-    "href": "news/idetc/index.html#ihuman-lab-ph.d.-student-receives-asme-idetc-travel-award",
-    "title": "Graduate Student Receives ASME IDETC Travel Award",
-    "section": "iHuman Lab Ph.D. Student Receives ASME IDETC Travel Award",
-    "text": "iHuman Lab Ph.D. Student Receives ASME IDETC Travel Award\nGraduate students in the iHuman Lab continue to earn national recognition for their research excellence. Elahe Oveisi, a Ph.D. student in the lab, received a Graduate Poster Travel Award at the American Society of Mechanical Engineers International Design Engineering Technical Conferences (IDETC).\nAt the conference, she presented her paper titled “Human Factor Analysis of Helicopter Accidents using Large Language Models.” Her research explores the integration of advanced AI techniques with human factors analysis to better understand and mitigate risks in safety-critical aerospace systems. By leveraging large language models to analyze accident data, her work contributes to improving safety assessment methodologies and advancing intelligent decision-support tools for complex engineering environments.\nThis achievement reflects the iHuman Lab’s continued commitment to innovation at the intersection of artificial intelligence, human-centered design, and safety-critical systems research."
-  },
-  {
-    "objectID": "gallery/index.html",
-    "href": "gallery/index.html",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "Life at the lab\n    Gallery"
-  },
-  {
-    "objectID": "contact/index.html",
-    "href": "contact/index.html",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "Become part of the lab\n    Join iHuman\nWe are always looking for motivated, creative, and driven students to join the iHuman Lab at Oklahoma State University. Our research sits at the intersection of human-centered computing, AI, and robotics. We value curiosity, collaboration, and initiative."
-  },
-  {
-    "objectID": "contact/index.html#research-opportunities",
-    "href": "contact/index.html#research-opportunities",
-    "title": "iHuman Lab",
-    "section": "Research Opportunities",
-    "text": "Research Opportunities\nWe typically recruit: PhD students, MS students, and Undergraduate researchers students in:\n\nMechanical and Aerospace Engineering\nElectrical & Computer Science Engineering\nHuman-Computer Interaction\nAI / Machine Learning\nRelated disciplines"
-  },
-  {
-    "objectID": "contact/index.html#what-we-look-for",
-    "href": "contact/index.html#what-we-look-for",
-    "title": "iHuman Lab",
-    "section": "What We Look For",
-    "text": "What We Look For\nSuccessful lab members typically demonstrate:\n\nStrong programming skills\nResearch curiosity and initiative\nInterest in human-centered AI\nSolid communication and teamwork skills\n\nPrior research experience is helpful but not required."
-  },
-  {
-    "objectID": "contact/index.html#how-to-apply",
-    "href": "contact/index.html#how-to-apply",
-    "title": "iHuman Lab",
-    "section": "How to Apply",
-    "text": "How to Apply\nIf you are interested in joining the lab:\n\nPrepare your CV\nInclude an unofficial transcript\nWrite a short research statement describing:\n\nYour research interests\nWhy you want to join the iHuman Lab\nYour long-term goals"
-  },
-  {
-    "objectID": "contact/index.html#contact",
-    "href": "contact/index.html#contact",
-    "title": "iHuman Lab",
-    "section": "Contact",
-    "text": "Contact\nPlease email the following materials with the subject line:\n\nProspective Student – [Your Name] to ihuman.research.lab@gmail.com\n\nAlternatively, you may contact us directly through the School of Mechanical and Aerospace Engineering at Oklahoma State University."
-  },
-  {
-    "objectID": "contact/index.html#location",
-    "href": "contact/index.html#location",
-    "title": "iHuman Lab",
-    "section": "Location",
-    "text": "Location\nThe iHuman Lab is located at Oklahoma State University."
-  },
-  {
-    "objectID": "research/tele-operation/index.html#abstract",
-    "href": "research/tele-operation/index.html#abstract",
-    "title": "Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration",
-    "section": "Abstract",
-    "text": "Abstract\nIn the teleoperated scenario, as the task difficulty increases, the performance of the operator decreases which leads to a decrease in the overall system efficiency. Thus, it is important to predict the change in task difficulty in order to increase system efficiency. However, the task difficulty cannot be predicted as task information is unknown in real-time. Alternatively, the task difficulty can be estimated studying the distribution of reaction time. In this study, the physiological features of the operator are used to classify the reaction time as fast, normal and slow corresponding different levels of task difficulty. The physiological features are extracted from the eye (though eye tracking) and brain (through Electroencephalogram) from the operator performing teleoperation using two drones. Among the calculated features glance ratio and mental workload resulted in maximum classification accuracy when task type information is included."
-  },
-  {
-    "objectID": "research/tele-operation/index.html#architecture",
-    "href": "research/tele-operation/index.html#architecture",
-    "title": "Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration",
-    "section": "Architecture",
-    "text": "Architecture\n\n\n\n\n\n\nImportantResearch Questions\n\n\n\n\nWhich physiological modalities, eye, brain activity, or their combination can provide a more accurate classification of the reaction time?\nDo the task type information and individual differences in the task performance influence the classification of reaction time?\n\n\n\nThe study concluded that both eye features and cognitive features are needed to classify the reaction time effectively. The task type information had a significant influence on the classification accuracy, while the same could not be said with individual difference information. The accuracy of classification was increased when task type information was included as features, indicating that the reaction time depends on the task information.\nThese results are in agreement with the Linear Approach to the Threshold with Ergodic Rate (LATER) model, which suggests that reaction time depends on evidence collected and the task difficulty. The classifier trained on the physiological features using reaction time as the label can be used to classify task difficulty well above chance. Such systems can be utilized in Automation Invocation models that utilize appropriate control inputs and control strategies for optimal role allocation in collaborative tasks such as teleoperation.\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
-  },
-  {
-    "objectID": "research/explainability/index.html",
-    "href": "research/explainability/index.html",
-    "title": "Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of HRI",
-    "section": "",
-    "text": "Imagine a world where robots work hand-in-hand with humans, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with human-robot collaboration poised to transform industries from manufacturing and logistics to healthcare and assistive technologies. But to achieve truly seamless interaction, robots need to understand not only our actions but also our thoughts and cognitive processes.\nEnter electroencephalography (EEG), a technique that measures brain activity using sensors on the scalp. EEG offers a window into the brain’s dynamic processes, but interpreting its complex signals remains a challenge. While deep learning models have shown success in decoding EEG data [14], they often act as “black boxes” – we see the results, but we don’t know how the model arrived at them. This lack of transparency hinders our ability to trust and fully utilize these powerful tools.\nOur research addresses the interpretability of deep learning models in human-robot co-manipulation. We developed a novel computational approach to understand how these models classify a user’s mental workload during collaboration with a robot.\n\n\n\n\n\n\nImportantThe Challenge\n\n\n\nDecoding the complex signals of the brain using deep learning while understanding why the model makes its decisions.\n\n\nA Glimpse into the Experiment\nTo study mental workload, we designed an experiment where participants guided a robot’s movements. The tasks involved:\n\nGross Motor Control: Guiding the robot through a horizontal eight-shaped motion.\nFine Motor Control: Performing a star-shaped fine motion.\n\nWe also manipulated the robot’s resistance (damping) between high (requiring more effort) and low (allowing easier movement) levels. This created conditions where the damping was either appropriate or inappropriate for the specific movement, influencing the user’s mental workload. Our Convolutional Neural Network (CNN) model was trained to distinguish between these conditions using raw EEG recordings.\n\n\n\n\n\n\nImportantResearch Goal\n\n\n\nTo enhance the interpretability of deep learning models applied to EEG data, specifically in the context of classifying mental workload during human-robot co-manipulation.\n\n\nOur Novel Approach: Making the “Black Box” Transparent\nOur key contribution is our method to understand how our deep learning model (a CNN) made its decisions. We used two powerful techniques, adapting methods commonly used in computer vision:\n\nIntegrated Gradients: This method assigns importance scores to the input features (EEG data points) by considering the gradient of the output with respect to the input along a path from a baseline input to the actual input. Think of it as tracing back the model’s decision to the original EEG signals [11, 12].\nAblation Attribution: Here, we systematically removed parts of the input EEG data (e.g., data from specific electrodes or frequency bands) and observed how the model’s performance changed. If removing a particular feature significantly decreased performance, it indicates that the feature was important for the classification.\n\nBy combining these methods, we created a pipeline that extracts interpretable features from EEG data, providing unprecedented insight into the brain activity patterns associated with mental workload in human-robot collaboration.\n\n\n\n\n\n\nImportantKey Methods\n\n\n\nWe used Integrated Gradients and Ablation Attribution to understand which EEG features were most important to our deep learning model.\n\n\nDecoding the Brain: Key Findings\nOur analysis revealed that the model relied heavily on specific brainwave frequencies and locations:\n\nGamma and Beta Bands: As highlighted in our abstract, the Gamma and Beta frequency bands were particularly relevant for classifying mental workload in this visuospatial and motor control-oriented experiment. These higher-frequency brainwaves are often associated with active processing of information, attention, and motor control [15].\nParietal Regions: Our method also indicated the importance of EEG signals originating from the parietal regions of the brain. These areas play a crucial role in spatial awareness, sensorimotor integration, and attention.\n\nThese findings strongly suggest that Gamma and Beta activity over the parietal areas indicates mental workload when humans co-manipulate a robot, particularly during tasks requiring visual attention and motor coordination.\n\n\n\n\n\n\nImportantKey Findings\n\n\n\nThe model heavily relied on Gamma and Beta brainwave activity in the parietal regions to assess mental workload.\n\n\nThe Path to Smarter Human-Robot Collaboration\nOur ability to interpret deep learning models opens up exciting possibilities:\n\nAdaptive Robots: Robots could dynamically adjust their behavior based on a user’s real-time mental workload, providing assistance when needed and reducing demands when the user is overloaded.\nEnhanced Training: Our findings can inform the design of training programs that optimize human-robot interaction and minimize mental strain.\nTrustworthy AI: Understanding how these models work builds greater trust in AI-powered systems, paving the way for more seamless and effective collaboration.\n\nThis research represents a significant step towards creating more intuitive and responsive human-robot interfaces. By shedding light on the brain activity patterns that underlie collaborative work, we can design robots that are true partners, enhancing human capabilities and improving our lives.\nWhat are your thoughts on the future of human-robot collaboration? How can interpretable AI in neurotechnology address challenges in other domains like healthcare or education?"
-  },
-  {
-    "objectID": "research/human-llm-sar/index.html#abstract",
-    "href": "research/human-llm-sar/index.html#abstract",
-    "title": "LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation",
-    "section": "Abstract",
-    "text": "Abstract\nHuman-AI teaming (HAT) increasingly involves AI systems that provide real-time, context-aware guidance in complex tasks. While such systems can improve performance, their effectiveness depends on how they shape human cognition and behavior. In particular, AI assistance can introduce cognitive demands and influence attention, planning, and interaction with the task environment, with effects that can vary across levels of expertise.\nThis work investigates these mechanisms in a simulated search and rescue (SAR) environment. We compare human performance under two LLM (Large Language Model)-guided conditions and a no-LLM baseline, and analyze interaction at multiple levels, including task performance, eye-tracking measures, and planning behavior.\nResults indicate that LLM guidance enhanced task efficiency (higher rewards and victims-per-step) but did not increase total victims saved. Eye-tracking data revealed an attention-guidance trade-off, with visual resources shifting to the chat interface alongside increased pupil size variability. Expertise moderated this effect: novices exhibited passive AI reliance, whereas experts maintained a “verification loop” through persistent environmental scanning.\nThese findings suggest that LLM-mediated teaming efficacy depends on the operator’s ability to cross-reference AI guidance with ground truth to maintain situational awareness."
-  },
-  {
-    "objectID": "research/human-llm-sar/index.html#key-findings",
-    "href": "research/human-llm-sar/index.html#key-findings",
-    "title": "LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation",
-    "section": "Key Findings",
-    "text": "Key Findings\n\nLLM guidance significantly improved task efficiency (victims-per-step, total rewards) but not total victims rescued\nParticipants allocated more visual attention to the chat interface and less to the task environment under LLM support\nIncreased pupil size variability under LLM conditions indicates elevated cognitive load during guidance integration\nExperts maintained a dual-attention strategy — monitoring both the environment and AI guidance (verification loop)\nNovices relied more heavily on the LLM, reducing situational awareness"
-  },
-  {
-    "objectID": "research/human-llm-sar/index.html#methods",
-    "href": "research/human-llm-sar/index.html#methods",
-    "title": "LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation",
-    "section": "Methods",
-    "text": "Methods\n\nTask: Grid-based, partially observable search-and-rescue (SAR) environment built on MiniGrid\nConditions: Two LLM-guided conditions + one no-LLM baseline (within-subjects, 15 min/trial)\nEye Tracking: Tobii system — fixation count, fixation duration, saccade amplitude, AOI dwell time, pupil diameter STD\nIndividual Differences: Multiple Object Tracking (MOT) + Visual Search (VS) tasks; K-means clustering into Expert/Novice groups\nAnalysis: Linear mixed-effects models with Benjamini–Hochberg FDR correction\nParticipants: 13 participants, Oklahoma State University (IRB-26-40-STW)"
-  },
-  {
-    "objectID": "research/human-llm-sar/index.html#publication",
-    "href": "research/human-llm-sar/index.html#publication",
-    "title": "LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation",
-    "section": "Publication",
-    "text": "Publication\nElahe Oveisi and Hemanth Manjunatha\nIEEE International Conference on Systems, Man, and Cybernetics (SMC), 2026"
-  },
-  {
-    "objectID": "research/task-difficulty/index.html#abstract",
-    "href": "research/task-difficulty/index.html#abstract",
-    "title": "Task Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning",
-    "section": "Abstract",
-    "text": "Abstract\nAn experiment was conducted in which the subjects have to guide an robot under admittance control through a predefined trajectory. The damping in the admittance control was changed from low to high during different trials. Due to low damping, the controller might become unstable during the force input from the human subject. To quantify the instability, a frequency domain measure has been extracted from the force data. During the whole experiment scalp EEG was recorded and used to predict whether the robot becomes unstable during the co-manipulation. This was achieved by constructing a regression with EEG features as input and instability index as output. For the prediction model, we are leveraging the deep learning technique namely convolution neural networks."
-  },
-  {
-    "objectID": "research/shasta/index.html#abstract",
-    "href": "research/shasta/index.html#abstract",
-    "title": "SHASTA A Simulator for Human and Swarm Team Applications",
-    "section": "Abstract",
-    "text": "Abstract\nHuman-Swarm Teams uniquely combine the ability of swarms and cognition of humans to achieve complex behaviors. There is a need for a human-in-the-loop simulation framework that can capture both the human’s action and cognition while interacting with the swarm of robots as well as the actions of the swarm itself to study the unique characteristics of a human-swarm team. In this paper, we present , an open-source simulation platform to study human-swarm applications. The platform provides a unified interface for humans and learning algorithms to command/learn swarm robot behaviors. The higher level swarm behavior is achieved by including single robot and swarm primitives such as formation control and path planning. SHASTA provides a unique ability to collect physiological information from humans and time synchronize it with swarm simulation. Using search-and-rescue as an example, we demonstrate the scalability and utility ofSHASTA in simulating human-swarm applications. We also demonstrate its ability to integrate physiological measurements as part of the simulation through a detailed human-study."
-  },
-  {
-    "objectID": "research/shasta/index.html#results",
-    "href": "research/shasta/index.html#results",
-    "title": "SHASTA A Simulator for Human and Swarm Team Applications",
-    "section": "Results",
-    "text": "Results\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
-  },
-  {
-    "objectID": "research/llm/index.html#the-challenge-why-human-factors-matter",
-    "href": "research/llm/index.html#the-challenge-why-human-factors-matter",
-    "title": "Human Factor Analysis of Helicopter Accidents using Large Language Models",
-    "section": "The Challenge: Why Human Factors Matter",
-    "text": "The Challenge: Why Human Factors Matter\nSafety experts estimate that human factors—a blend of psychological states, environmental design, and organizational culture—contribute to over 80% of aviation accidents. Traditionally, investigators use the Human Factors Analysis and Classification System (HFACS) to categorize these issues.\nThe problem? Manual HFACS analysis is:\n\nSlow: Identifying probable causes can take 12–24 months.\nSubjective: Different experts might interpret the same narrative differently.\nData-Heavy: Investigating a decade of reports is a massive undertaking for human teams."
-  },
-  {
-    "objectID": "research/llm/index.html#the-solution-prompt-engineering-for-safety",
-    "href": "research/llm/index.html#the-solution-prompt-engineering-for-safety",
-    "title": "Human Factor Analysis of Helicopter Accidents using Large Language Models",
-    "section": "The Solution: Prompt Engineering for Safety",
-    "text": "The Solution: Prompt Engineering for Safety\nThe researchers analyzed 215 fatal helicopter accidents (2012–2022) from the NTSB database. To see if AI could handle the heavy lifting, they tested six different LLM prompting techniques to see which could best identify “root causes” from raw accident narratives.\n\nThe Methods Tested:\n\nInput-Output (IO): Simple question and answer.\nPrompting with Explanation (PE): Providing the AI with context before asking.\nChain-of-Thought (CoT): Asking the AI to “think step-by-step.”\nTree-of-Thought (ToT): Allowing the AI to explore multiple reasoning paths and backtrack if it hits a dead end.\nMultiple Question Variants (IOM/PEM): Consolidating all HFACS questions into a single, comprehensive prompt."
-  },
-  {
-    "objectID": "research/llm/index.html#results-which-ai-strategy-won",
-    "href": "research/llm/index.html#results-which-ai-strategy-won",
-    "title": "Human Factor Analysis of Helicopter Accidents using Large Language Models",
-    "section": "Results: Which AI Strategy Won?",
-    "text": "Results: Which AI Strategy Won?\nThe study found that Tree-of-Thought (ToT) was the clear winner for complex accident analysis.\n\nKey Findings:\n\nHigh Accuracy: ToT achieved an F1-score of &gt;0.9, meaning it was incredibly reliable at matching the “ground truth” established by human experts.\nStrengths: The models were exceptionally good at identifying Skill-Based Errors and Physical/Mental Limitations (with F1-scores near 0.99).\nWeaknesses: Even the best AI struggled with “subtle” factors. Communication failures and Routine violations (habitual rule-breaking) were much harder for the models to detect, likely due to the nuance required to read between the lines of a technical report."
-  },
-  {
-    "objectID": "research/llm/index.html#where-the-accidents-happen",
-    "href": "research/llm/index.html#where-the-accidents-happen",
-    "title": "Human Factor Analysis of Helicopter Accidents using Large Language Models",
-    "section": "Where the Accidents Happen",
-    "text": "Where the Accidents Happen\nThe database analysis also revealed interesting trends in helicopter safety within the U.S.:\n\nTexas saw the highest frequency of accidents during the study period.\nPersonal flights were more frequently involved in fatal incidents than commercial or rescue operations.\nDecision-making errors were the most common human factor identified in the reports, appearing in over 100 of the 215 cases analyzed."
-  },
-  {
-    "objectID": "research/llm/index.html#the-future-of-aviation-safety",
-    "href": "research/llm/index.html#the-future-of-aviation-safety",
-    "title": "Human Factor Analysis of Helicopter Accidents using Large Language Models",
-    "section": "The Future of Aviation Safety",
-    "text": "The Future of Aviation Safety\nThis research proves that while AI isn’t ready to replace human investigators entirely—especially for nuanced social and communicative factors—it can act as a powerful force multiplier.\nBy using optimized prompting like Tree-of-Thought, aviation authorities can process thousands of reports in minutes, identifying systemic safety gaps and informing better training for pilots. As LLMs continue to evolve, the gap between human intuition and machine processing is closing, promising a future where we learn from accidents faster than ever before.\n\nResearch Citation: Oveisi, E., & Manjunatha, H. (2025). Human Factor Analysis of Helicopter Accidents using Large Language Models. Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition."
-  },
-  {
-    "objectID": "research/transfer-learning/index.html#abstract",
-    "href": "research/transfer-learning/index.html#abstract",
-    "title": "Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography",
-    "section": "Abstract",
-    "text": "Abstract\nEfficient human-robot collaboration during physical interaction requires estimating the human state for optimal role allocation and load sharing. Machine learning (ML) methods are gaining popularity for estimating the interaction parameters from physiological signals. However, due to individual differences, the ML models might not generalize well to new subjects. In this study, we present a convolution neural network (CNN) model to predict motor control difficulty using surface electromyography (sEMG) from human upper-limb during physical human-robot interaction (pHRI) task and present a transfer learning approach to transfer a learned model to new subjects.\nTwenty six individuals participated in a pHRI experiment where a subject guides the robot’s end-effector with different levels of motor control difficulty. The motor control difficulty is varied by changing the damping parameter of the robot from low to high and constraining the motion to gross and fine movements. A CNN network with raw sEMG as input is used to classify the motor control difficulty.\nThe CNN’s transfer learning approach is compared against Riemann geometry-based Procrustes analysis (RPA). With very few labeled samples from new subjects, we demonstrate that the CNN-based transfer learning approach (avg. 69.77%) outperforms the RPA transfer learning (avg. 59.20%).\nMoreover, we observe that the subject’s skill level in the pre-trained model has no significant effect on the transfer learning performance of the new users.\n\n\n\n\n\n\nImportantResearch Questions\n\n\n\n\nWhich physiological modalities, eye, brain activity, or their combination can provide a more accurate classification of the reaction time?\nDo the task type information and individual differences in the task performance influence the classification of reaction time?"
-  },
-  {
-    "objectID": "research/transfer-learning/index.html#results",
-    "href": "research/transfer-learning/index.html#results",
-    "title": "Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography",
-    "section": "Results",
-    "text": "Results\nThe study concluded that both eye features and cognitive features are needed to classify the reaction time effectively. The task type information had a significant influence on the classification accuracy, while the same could not be said with individual difference information. The accuracy of classification was increased when task type information was included as features, indicating that the reaction time depends on the task information.\nThese results are in agreement with the Linear Approach to the Threshold with Ergodic Rate (LATER) model, which suggests that reaction time depends on evidence collected and the task difficulty. The classifier trained on the physiological features using reaction time as the label can be used to classify task difficulty well above chance. Such systems can be utilized in Automation Invocation models that utilize appropriate control inputs and control strategies for optimal role allocation in collaborative tasks such as teleoperation.\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
-  },
-  {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "Explore our work\n    Research @iHuman\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation\n\n\n\n\n\n\n\n\n\n\n\n\nHuman Factor Analysis of Helicopter Accidents using Large Language Models\n\n\n\n\n\n\n\n\n\n\n\n\nSHASTA A Simulator for Human and Swarm Team Applications\n\n\n\n\n\n\n\n\n\n\n\n\nSelective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games\n\n\n\n\n\n\n\n\n\n\n\n\nTransfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography\n\n\n\n\n\n\n\n\n\n\n\n\nClassification of Reaction Time in Simulated Multiple Robot Tele-Exploration\n\n\n\n\n\n\n\n\n\n\n\n\nTask Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning\n\n\n\n\n\n\n\n\n\n\n\n\nExtracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of HRI\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/human-swarm-decision/index.html",
-    "href": "research/human-swarm-decision/index.html",
-    "title": "Using Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams",
-    "section": "",
-    "text": "Abstract\nHuman-Swarm interaction has attracted a lot of attention for their applications in areas such as exploration, rescue, surveillance, and interplanetary exploration. When humans assume a supervisory or tactician role in managing the robot swarm, the humans’ (physiological) state significantly affects the mission performance. In this work, we explore the physiological correlates with the user’s tactical decisions in a simulated search and rescue mission. The mission consists of supervising three groups of unmanned aerial vehicles and three groups of unmanned ground vehicles to search for a target building. The mission complexity is increased by introducing static adversarial teams. Due to the adversarial team’s presence, the user should employ different tactics to search for a target. While the user interacts with the swarm, brain activity in forms of electroencephalogram (EEG) and eye movements are recorded. 20 participants, with prior experience in playing real-time strategy games, took part in the study. A linear mixed effect model is used to study the correlated physiological features and tactical decisions. Six features are extracted from the physiological data: engagement level, mental workload, Fz-Pz coherence, Fz-O1 coherence, pupil size, and the number of gaze fixations. The results show that mental engagement and Fz-O1 coherence are the important factors in predicting the tactical decisions. Specifically, Fz-O1 coherence in Beta (22.5-30 Hz) and Gamma (38-42 Hz) band is found to be significant."
-  },
-  {
-    "objectID": "research/eye-gaze-augmentation/index.html#abstract",
-    "href": "research/eye-gaze-augmentation/index.html#abstract",
-    "title": "Selective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games",
-    "section": "Abstract",
-    "text": "Abstract\nThis paper presents the selective use of eye-gaze information in learning human actions in Atari games. Extensive evidence suggests that our eye movements convey a wealth of information about the direction of our attention and mental states and encode the information necessary to complete a task. Based on this evidence, we hypothesize that selective use of eye-gaze, as a clue for attention direction, will enhance the learning from demonstration. For this purpose, we propose a selective eye-gaze augmentation (SEA) network that learns when to use the eye-gaze information. The proposed network architecture consists of three sub-networks: gaze prediction, gating, and action prediction network. Using the prior 4 game frames, a gaze map is predicted by the gaze prediction network, which is used for augmenting the input frame. The gating network will determine whether the predicted gaze map should be used in learning and is fed to the final network to predict the action at the current frame. To validate this approach, we use publicly available Atari Human Eye-Tracking And Demonstration (Atari-HEAD) dataset consists of 20 Atari games with 28 million human demonstrations and 328 million eye-gazes (over game frames) collected from four subjects. We demonstrate the efficacy of selective eye-gaze augmentation compared to the state of the art Attention Guided Imitation Learning (AGIL), Behavior Cloning (BC).\nThe results indicate that the selective augmentation approach (the SEA network) performs significantly better than the AGIL and BC. Moreover, to demonstrate the significance of selective use of gaze through the gating network, we compare our approach with the random selection of the gaze. Even in this case, the SEA network performs significantly better, validating the advantage of selectively using the gaze in demonstration learning."
-  },
-  {
-    "objectID": "research/eye-gaze-augmentation/index.html#results",
-    "href": "research/eye-gaze-augmentation/index.html#results",
-    "title": "Selective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games",
-    "section": "Results",
-    "text": "Results\nThe present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time"
-  },
-  {
-    "objectID": "publications/index.html",
-    "href": "publications/index.html",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "Manjunatha, Hemanth and Memar Amirhossein H and Esfahani, Ehsan Tarkesh. Estimating Motor Control Difficulty in Human--Robot Fine Co-Manipulation Tasks Using Brain Activities. Vol. 25. No. 5. pp. 051004. American Society of Mechanical Engineers. Journal\n\n\nDistefano, Joseph P and Manjunatha Hemanth and Thammineni, Chaithanya and Dalland Kristian and Esfahani, Ehsan T. Gaze-guided contrastive unsupervised representations learning. Vol. 37. No. 28. pp. 23381--23393. Springer London. Journal\n\n\nOveisi, Elahe and Manjunatha. Human Factor Analysis of Helicopter Accidents Using Large Language Models. Vol. 89213. pp. V02BT02A028. Conference"
-  },
-  {
-    "objectID": "publications/index.html#2025",
-    "href": "publications/index.html#2025",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "Manjunatha, Hemanth and Memar Amirhossein H and Esfahani, Ehsan Tarkesh. Estimating Motor Control Difficulty in Human--Robot Fine Co-Manipulation Tasks Using Brain Activities. Vol. 25. No. 5. pp. 051004. American Society of Mechanical Engineers. Journal\n\n\nDistefano, Joseph P and Manjunatha Hemanth and Thammineni, Chaithanya and Dalland Kristian and Esfahani, Ehsan T. Gaze-guided contrastive unsupervised representations learning. Vol. 37. No. 28. pp. 23381--23393. Springer London. Journal\n\n\nOveisi, Elahe and Manjunatha. Human Factor Analysis of Helicopter Accidents Using Large Language Models. Vol. 89213. pp. V02BT02A028. Conference"
-  },
-  {
-    "objectID": "publications/index.html#2024",
-    "href": "publications/index.html#2024",
-    "title": "iHuman Lab",
-    "section": "2024",
-    "text": "2024\n\nKrisshnaKumar, Prajit and Paul Steve and Manjunatha, Hemanth and Gupta Ria and Esfahani, Ehsan and Chowdhury. A Talent-infused Reinforcement Learning Approach to CoDesign of Tactical UAV Swarm.  \n\n\nManjunatha, Hemanth and KrisshnaKumar Prajit and Distefano, Joseph P and Jani Apurv and Behjat, Amir and Ghassemi Payam and Chowdhury, Souma and Dantu Karthik and Esfahani, Ehsan T. SHaSTA: An open-source simulator for human and swarm team applications.  \n\n\nKrisshnaKumar, Prajit and Paul Steve and Manjunatha, Hemanth and Corra Mary and Esfahani, Ehsan and Chowdhury. Towards physically talented aerial robots with tactically smart swarm behavior thereof: An efficient co-design approach.  arXiv\n\n\nKrisshnaKumar, Prajit and Paul Steve and Manjunatha, Hemanth and Corra Mary and Esfahani, Ehsan and Chowdhury. Towards physically talented aerial robots with intelligent swarm behavior thereof: an efficient co-design approach. Vol. 88360. pp. V03AT03A014. Conference"
-  },
-  {
-    "objectID": "publications/index.html#2023",
-    "href": "publications/index.html#2023",
-    "title": "iHuman Lab",
-    "section": "2023",
-    "text": "2023\n\nJujjavarapu, Sri Sadhan and Manjunatha Hemanth and Esfahani, Ehsan Tarkesh. A variable stiffness end-of-arm tooling mechanism to enhance dynamic task capabilities of robotic manipulators. Vol. 15. No. 6. pp. 061003. American Society of Mechanical Engineers. Journal\n\n\nThammineni, Chaitanya and Manjunatha Hemanth and Esfahani, Ehsan T. Selective eye-gaze augmentation to enhance imitation learning in atari games. Vol. 35. No. 32. pp. 23401--23410. Springer London London. Journal\n\n\nManjunatha, Hemanth and Pak Andrey and Filev, Dimitar and Tsiotras. Karnet: Kalman filter augmented recurrent neural network for learning world models in autonomous driving tasks.  arXiv\n\n\nManjunatha, Hemanth and Tsiotras. Beyond one model fits all: ensemble deep learning for autonomous vehicles.  arXiv"
-  },
-  {
-    "objectID": "publications/index.html#2022",
-    "href": "publications/index.html#2022",
-    "title": "iHuman Lab",
-    "section": "2022",
-    "text": "2022\n\nManjunatha, Hemanth and Jujjavarapu Sri Sadhan and Esfahani, Ehsan T. Transfer learning of motor difficulty classification in physical human--robot interaction using electromyography. Vol. 22. No. 5. pp. 050908. American Society of Mechanical Engineers. Journal\n\n\nManjunatha, Hemanth and Pak Andrey and Tsiotras, Panagiotis. Improving Autonomous Driving Policy Generalization via Neural Network Over-Parameterization.  Conference\n\n\nPak, Andrey and Manjunatha Hemanth and Filev, Dimitar and Tsiotras. Carnet: A dynamic autoencoder for learning latent dynamics in autonomous driving tasks.  arXiv\n\n\nManjunatha, Hemanth. Improving Autonomous Driving Policy Generalization via Auxiliary Tasks and Latent Modeling.  Conference"
-  },
-  {
-    "objectID": "publications/index.html#2021",
-    "href": "publications/index.html#2021",
-    "title": "iHuman Lab",
-    "section": "2021",
-    "text": "2021\n\nManjunatha, Hemanth and Esfahani. Extracting interpretable EEG features from a deep learning model to assess the quality of human-robot co-manipulation. pp. 339--342. Conference\n\n\nDistefano, Joseph P and Manjunatha Hemanth and Chowdhury, Souma and Dantu Karthik and Doermann, David and Esfahani. Using physiological information to classify task difficulty in human-swarm interaction. pp. 1198--1203. Conference\n\n\nManjunatha, Hemanth and Pareek Shrey and Jujjavarapu, Sri Sadhan and Ghobadi Mostafa and Kesavadas, Thenkurussi and Esfahani. Upper limb home-based robotic rehabilitation during COVID-19 outbreak. Vol. 8. pp. 612834. Frontiers Media SA. Journal\n\n\nBehjat, Amir and Manjunatha Hemanth and Kumar, Prajit Krisshna and Jani Apurv and Collins, Leighton and Ghassemi Payam and Distefano, Joseph and Doermann David and Dantu, Karthik and Esfahani. Learning robot swarm tactics over complex adversarial environments. pp. 83--91. Conference\n\n\nManjunatha, Hemanth. Addressing Stability, Transferability, and Interpretability Issues in Physical Human-Robot Interaction Using Physiological Data and Deep Learning."
-  },
-  {
-    "objectID": "publications/index.html#2020",
-    "href": "publications/index.html#2020",
-    "title": "iHuman Lab",
-    "section": "2020",
-    "text": "2020\n\nManjunatha, Hemanth and Jujjavarapu Sri Sadhan and Esfahani, Ehsan T. Classification of motor control difficulty using EMG in physical human-robot interaction. pp. 2708--2713. Conference\n\n\nManjunatha, Hemanth and Pareek Shrey and Memar, Amirhossein H and Kesavadas Thenkurussi and Esfahani, Ehsan T. Effect of haptic assistance strategy on mental engagement in fine motor tasks. Vol. 5. No. 01n02. pp. 2041004. World Scientific. Journal\n\n\nManjunatha, Hemanth and Esfahani. Application of reinforcement and deep learning techniques in brain--machine interfaces. pp. 1--14. Springer International Publishing Cham. Conference\n\n\nManjunatha, Hemanth and Distefano Joseph P and Jani, Apurv and Ghassemi Payam and Chowdhury, Souma and Dantu Karthik and Doermann, David and Esfahani. Using physiological measurements to analyze the tactical decisions in human swarm teams. pp. 256--261. Conference"
-  },
-  {
-    "objectID": "publications/index.html#2019",
-    "href": "publications/index.html#2019",
-    "title": "iHuman Lab",
-    "section": "2019",
-    "text": "2019\n\nPareek, Shrey and Manjunath Hemanth and Esfahani, Ehsan T and Kesavadas. MyoTrack: Tracking subject participation in robotic rehabilitation using sEMG and IMU. pp. 1--7. Conference\n\n\nPareek, Shrey and Manjunath Hemanth and Esfahani, Ehsan T and Kesavadas. Myotrack: Realtime estimation of subject participation in robotic rehabilitation using semg and imu. Vol. 7. pp. 76030--76041. IEEE. Journal"
-  },
-  {
-    "objectID": "publications/index.html#2018",
-    "href": "publications/index.html#2018",
-    "title": "iHuman Lab",
-    "section": "2018",
-    "text": "2018\n\nZhang, Binbin and Huang Jida and Rai, Rahul and Manjunatha. A Sequential Sampling Algorithm for Multistage Static Coverage Problems. Vol. 18. No. 2. pp. 021016. American Society of Mechanical Engineers. Journal\n\n\nManjunatha, Hemanth and Memar Amir and Esfahani, Ehsan. Classification of Task Type and Reaction Time of Operator in Simulated Multiple Robot Tele-Exploration."
-  },
-  {
-    "objectID": "publications/index.html#2016",
-    "href": "publications/index.html#2016",
-    "title": "iHuman Lab",
-    "section": "2016",
-    "text": "2016\n\nManjunatha, Hemanth and Huang Jida and Zhang, Binbin and Rai. A Sequential Sampling Algorithm for Multi-Stage Static Coverage Problems. Vol. 50114. pp. V02BT03A029. Conference"
-  },
-  {
-    "objectID": "publications/index.html#misc",
-    "href": "publications/index.html#misc",
-    "title": "iHuman Lab",
-    "section": "Misc",
-    "text": "Misc\n\nKrisshnaKumar, Prajit and Paul Steve and Behjat, Amir and Manjunatha Hemanth and Maurer, Nathan and Esfahani Ehsan and Chowdhury, Souma. Comparative Exploration of Three Approaches to Learning Heterogeneous Robot Swarm Operations over Abstracted Complex Adversarial Environments."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "Welcome to the\n    iHuman Lab\n  \n\n\n\n  \n    30+\n    Publications\n  \n  \n    10+\n    Team Members\n  \n  \n    4\n    Research Areas\n  \n  \n    6+\n    Active Projects\n  \n\n\n\n\n\n  Who we are\n  Building the future of Human-Machine Interaction\n  We unravel the complexities of human-machine interaction — enhancing cognition, augmenting decision-making, and revolutionizing how people and technology work together. At Oklahoma State University, our work spans brain-computer interfaces, human-robot interaction, AI-assisted decision-making, and cognitive augmentation, with a focus on making technology safer, smarter, and more human.\n  \n    Meet the Team\n    See Our Research\n  \n\n\n\n\n\n  View Gallery"
-  },
-  {
-    "objectID": "software/index.html",
-    "href": "software/index.html",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "A modular grid-based Search and Rescue simulation platform for studying human–AI teaming, built on MiniGrid.\n\n\nView on GitHub Python\n\n\n\n\n\n\n\n\n\n\nStatistical analysis for LLM guided search and rescue mission\n\n\nView on GitHub\n\n\n\n\n\n\n\n\n\n\nProbabilistic differentiable signal temporal logics using recurrent neural networks\n\n\nView on GitHub PythonMakefileShell\n\n\n\n\n\n\n\n\n\n\nA software project from the iHuman Lab.\n\n\nView on GitHub SCSS\n\n\n\n\n\n\n\n\n\n\nImplementation of world models in Atari using eye-tracking\n\n\nView on GitHub\n\n\n\n\n\n\n\n\n\n\nA software project from the iHuman Lab.\n\n\nView on GitHub\n\n\n\n\n\n\n\n\n\n\nUsing Large Language Models to automatically analyze aviation accident reports and classify them according to the Human Factors Analysis and Classification System (HFACS).\n\n\nView on GitHub PythonMakefile\n\n\n\n\n\n\n\n\n\n\nThe central software ecosystem for the iHuman Lab. A modular, high-momentum framework for Intelligent Human-Machine interaction built on ROS 2 and Sugarcoat.\n\n\nView on GitHub\n\n\n\n\n\n\n\n\n\n\nA python package implementing various features extraction method from eye tracking\n\n\nView on GitHub\n\n\n\n\n\n\n\n\n\n\nA high-stakes Search and Rescue (SAR) simulation built on MiniGrid. The primary RL training ground for the iHuman Lab, designed for modular research in human-centric navigation and victim recovery.\n\n\nView on GitHub PythonMakefile\n\n\n\n\n\n\n\n\n\n\nA python package to run experiments at iHuman Lab\n\n\nView on GitHub\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "news/index.html",
-    "href": "news/index.html",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "Updates from the lab\n    Latest News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\nLatest\n\nApril 22, 2026\n\n\nUndergraduate Students Present Space Robotics Research at OSU Symposium\n\n\nThree undergraduate students from the iHuman Lab at Oklahoma State University presented their work on a gravity-compensated teleoperated space robotics system at the OSU Undergraduate Research Symposium.\n\nRead more →\n\n\n\n\n\n\n\n\n\n\nDec 31, 2025\n\n\nGraduate Student Receives ASME IDETC Travel Award\n\n\nElahe Oveisi, a Ph.D. student in the iHuman Lab at Oklahoma State University, received a Graduate Poster Travel Award at the ASME International Design Engineering Technical Conferences (IDETC), where she presented her research on AI-driven human factor analysis in safety-critical aerospace systems.\n\n\n\n\n\n\n\n\n\n\nDec 31, 2025\n\n\nNVIDIA GPU Grant\n\n\nThe 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious 𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺, and we couldn’t be more excited!\n\n\n\n\n\n\n\n\n\n\nDec 12, 2025\n\n\nNeurable Research Grant\n\n\niHuman Lab Wins Neurable Research Grant to Advance Brain–Computer Interface Research\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "news/nvidia/index.html",
-    "href": "news/nvidia/index.html",
-    "title": "NVIDIA GPU Grant",
-    "section": "",
-    "text": "Ending 2025 on a High Note, Kicking Off 2026 with Excitement! 🎉 We’re thrilled to share some fantastic news as we wrap up an amazing year and look forward to even greater things in 2026!\nThe 𝗶𝗛𝘂𝗺𝗮𝗻 𝗟𝗮𝗯 at 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 has been selected for the prestigious 𝗡𝗩𝗜𝗗𝗜𝗔 𝗔𝗰𝗮𝗱𝗲𝗺𝗶𝗰 𝗚𝗣𝗨 𝗚𝗿𝗮𝗻𝘁 𝗣𝗿𝗼𝗴𝗿𝗮𝗺, and we couldn’t be more excited!\nThis incredible opportunity is made possible by NVIDIA’s support for our cutting-edge work on 𝘕𝘦𝘶𝘳𝘰𝘢𝘥𝘢𝘱𝘵𝘪𝘷𝘦 𝘙𝘰𝗯𝘶𝘴𝘵 𝘛𝘦𝘭𝘦𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 𝘸𝘪𝘵𝘩 𝘍𝘰𝘳𝘮𝘢𝘭 𝘎𝘶𝘢𝘳𝘢𝘯𝘵𝘦𝘦𝘴. With the help of 𝟰× RTX PRO 6000 Blackwell Max-Q GPUs, we’ll be driving innovative research at the intersection of AI, robotics, and human-centered systems.\nWe are incredibly grateful for NVIDIA’s support and are eager to see how this partnership will enhance our research, bringing us closer to solving some of today’s most complex challenges.\nWishing everyone a fantastic start to 2026! 🎆"
-  },
-  {
-    "objectID": "people/phd/ElaheOveisi/index.html",
-    "href": "people/phd/ElaheOveisi/index.html",
-    "title": "Elahe Oveisi",
-    "section": "",
-    "text": "PhD in Aerospace and Mechanical Engineering Oklahoma State University | 2024–present"
-  },
-  {
-    "objectID": "people/phd/ElaheOveisi/index.html#education",
-    "href": "people/phd/ElaheOveisi/index.html#education",
-    "title": "Elahe Oveisi",
-    "section": "",
-    "text": "PhD in Aerospace and Mechanical Engineering Oklahoma State University | 2024–present"
-  },
-  {
-    "objectID": "people/phd/ElaheOveisi/index.html#research-interest",
-    "href": "people/phd/ElaheOveisi/index.html#research-interest",
-    "title": "Elahe Oveisi",
-    "section": "Research Interest",
-    "text": "Research Interest\n\nHuman-Machine Interaction\nAviation Safety\nHuman Factors in Autonomous Systems"
-  },
-  {
-    "objectID": "people/index.html",
-    "href": "people/index.html",
-    "title": "iHuman Lab",
-    "section": "",
-    "text": "The people behind the research\n    Meet the Team\n  \n\n\n\nPI\n\n\n\n\n\n\n\n\nHemanth Manjunatha\n\n\n\n\nNo matching items\n\n\n\nPhD\n\n\n\n\n\n\n\n\nElahe Oveisi\n\n\n\n\n\n\n\n\n\nBennett Dogbey\n\n\n\n\nNo matching items\n\n\n\nMasters\n\n\n\n\n\n\n\n\nPriyankan Vettivel\n\n\n\n\nNo matching items\n\n\n\nUndergraduate\n\n\n\n\nNo matching items\n\n\n\nAlumni\n\n\n\n\n\n\n\n\nCarson McSpadden\n\n\n\n\n\n\n\n\n\nJackson Benton\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people/master/Priyankan Vettivel/index.html",
-    "href": "people/master/Priyankan Vettivel/index.html",
-    "title": "Priyankan Vettivel",
-    "section": "",
-    "text": "MSc in Mechanical & Aerospace Engineering (in progress) Oklahoma State University, Oklahoma | August 2026 – present\nBSc(Hons) in Electronic and Telecommunication Engineering University of Moratuwa, Sri Lanka | March 2022 – June 2026"
-  },
-  {
-    "objectID": "people/master/Priyankan Vettivel/index.html#education",
-    "href": "people/master/Priyankan Vettivel/index.html#education",
-    "title": "Priyankan Vettivel",
-    "section": "",
-    "text": "MSc in Mechanical & Aerospace Engineering (in progress) Oklahoma State University, Oklahoma | August 2026 – present\nBSc(Hons) in Electronic and Telecommunication Engineering University of Moratuwa, Sri Lanka | March 2022 – June 2026"
-  },
-  {
-    "objectID": "people/master/Priyankan Vettivel/index.html#research-interest",
-    "href": "people/master/Priyankan Vettivel/index.html#research-interest",
-    "title": "Priyankan Vettivel",
-    "section": "Research Interest",
-    "text": "Research Interest\n\nLearning based methods\nHuman-in-the-loop Intelligent Systems\nReinforcement Learning"
-  },
-  {
-    "objectID": "people/alumni/JacksonBenton/index.html",
-    "href": "people/alumni/JacksonBenton/index.html",
-    "title": "Jackson Benton",
-    "section": "",
-    "text": "B.S. in Aerospace and Mechanical Engineering Oklahoma State University | 2021–2026"
-  },
-  {
-    "objectID": "people/alumni/JacksonBenton/index.html#education",
-    "href": "people/alumni/JacksonBenton/index.html#education",
-    "title": "Jackson Benton",
-    "section": "",
-    "text": "B.S. in Aerospace and Mechanical Engineering Oklahoma State University | 2021–2026"
-  },
-  {
-    "objectID": "people/alumni/JacksonBenton/index.html#research-interest",
-    "href": "people/alumni/JacksonBenton/index.html#research-interest",
-    "title": "Jackson Benton",
-    "section": "Research Interest",
-    "text": "Research Interest\n\nAerodynamics and propulsion systems\nThermodynamics and mechanical systems\nAI and machine learning for autonomous systems"
-  },
-  {
-    "objectID": "outreach/discovery-day/slides.html#who-are-we",
-    "href": "outreach/discovery-day/slides.html#who-are-we",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "Who Are We?",
-    "text": "Who Are We?\n\n\n\nWe build technology that understands you.\n\nNot just your commands — your attention, your stress, even your mistakes before they happen.\n\nBrain · AI · Robotics — working together.\n\n\n\n\n10+\n\n\nResearchers\n\n\n\n\n30+\n\n\nPublications\n\n\n\n\n4\n\n\nResearch Areas\n\n\n\n\n6+\n\n\nActive Projects"
-  },
-  {
-    "objectID": "outreach/discovery-day/slides.html#what-if-a-robot-could-read-your-mind",
-    "href": "outreach/discovery-day/slides.html#what-if-a-robot-could-read-your-mind",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "What If a Robot Could Read Your Mind?",
-    "text": "What If a Robot Could Read Your Mind?\n\n\n\nA headset — but instead of music, it reads your brainwaves.\n\n\nStressed? → Robot slows down.\nOverwhelmed? → Robot takes over.\nZoning out? → Robot asks for attention.\n\n\nThe robot adapts to you. Not the other way around."
-  },
-  {
-    "objectID": "outreach/discovery-day/slides.html#what-do-your-eyes-reveal",
-    "href": "outreach/discovery-day/slides.html#what-do-your-eyes-reveal",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "What Do Your Eyes Reveal?",
-    "text": "What Do Your Eyes Reveal?\n\n\n\nIn 200 milliseconds, your eyes reveal exactly what you’re thinking.\n\nExperts see differently — a surgeon’s gaze, a pilot’s scan, a drone operator’s focus.\nWe recorded those eye movements and trained AI to copy them exactly.\n\nNow the AI sees like the best human in the room."
-  },
-  {
-    "objectID": "outreach/discovery-day/slides.html#could-you-control-50-drones-at-once",
-    "href": "outreach/discovery-day/slides.html#could-you-control-50-drones-at-once",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "Could You Control 50 Drones at Once?",
-    "text": "Could You Control 50 Drones at Once?\n\n\n\nDisaster strikes. One person. 50 drones. No room for error.\n\nWhat happens to your brain under that pressure?\nWe track brain signals in real time to find out — and build AI that steps in before you hit your limit.\n\nBecause in a rescue mission, hesitation costs lives."
-  },
-  {
-    "objectID": "outreach/discovery-day/slides.html#could-you-control-a-robot-on-the-moon",
-    "href": "outreach/discovery-day/slides.html#could-you-control-a-robot-on-the-moon",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "Could You Control a Robot on the Moon?",
-    "text": "Could You Control a Robot on the Moon?\n\n\n\nYour signal takes 1.3 seconds to reach the Moon.\n\nThat’s 1.3 seconds your robot is completely on its own.\nWe build robots smart enough to survive that gap — and study how humans stay in control when the stakes are this high.\n\nYou on Earth. Robot on the Moon. One team."
-  },
-  {
-    "objectID": "outreach/discovery-day/slides.html#real-impact",
-    "href": "outreach/discovery-day/slides.html#real-impact",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "Real Impact",
-    "text": "Real Impact\n\n\n\n\n\n\n\n\nSearch & Rescue\n\n\nFind survivors faster when every second counts\n\n\n\n\n\n\n\n\n\n\nManufacturing\n\n\nRobots that work with you, not instead of you\n\n\n\n\n\n\n\n\n\n\nAviation Safety\n\n\nAI that learns from decades of accident reports\n\n\n\n\n\n\n\n\n\n\nHealthcare\n\n\nTech that adapts to patients, not the other way around\n\n\n\n\n\nSmarter Machines·Safer Humans·Better World"
-  },
-  {
-    "objectID": "outreach/discovery-day/slides.html#section",
-    "href": "outreach/discovery-day/slides.html#section",
-    "title": "CEAT Discovery DayiHuman Lab",
-    "section": "",
-    "text": "This Could Be You\n\n\nEvery researcher in this lab was once sitting where you are. If any of this sparked something — come talk to us.\n\n\nQuestions?\n\n\nhemanth.manjunatha@okstate.edu"
-  },
-  {
-    "objectID": "outreach/smc2026/index.html",
-    "href": "outreach/smc2026/index.html",
-    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
-    "section": "",
-    "text": "This half-day tutorial at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026) presents a unified, systems-level perspective on closing the human-AI loop — the bidirectional information exchange between autonomous agents and human cognitive states.\nThe tutorial follows a concept-to-implementation structure combining lectures, architectural walkthroughs, and guided demonstrations built around two open-source research platforms:\n\nSHaSTA (Scalable Human-Swarm Teaming Platform) — A modular framework supporting scalable supervision, reinforcement learning integration, and flexible robot and environment modeling.\nHAI-SAR (Human-AI Interaction Platform) — A search-and-rescue environment designed for adaptive AI communication and granular behavioral/physiological logging.\n\nTopics progress from interaction design principles to system architectures, interface design, physiological sensing (EEG and eye-tracking), and evaluation methodologies, with emphasis on reusable design patterns and experimental rigor."
-  },
-  {
-    "objectID": "outreach/smc2026/index.html#overview",
-    "href": "outreach/smc2026/index.html#overview",
-    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
-    "section": "",
-    "text": "This half-day tutorial at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026) presents a unified, systems-level perspective on closing the human-AI loop — the bidirectional information exchange between autonomous agents and human cognitive states.\nThe tutorial follows a concept-to-implementation structure combining lectures, architectural walkthroughs, and guided demonstrations built around two open-source research platforms:\n\nSHaSTA (Scalable Human-Swarm Teaming Platform) — A modular framework supporting scalable supervision, reinforcement learning integration, and flexible robot and environment modeling.\nHAI-SAR (Human-AI Interaction Platform) — A search-and-rescue environment designed for adaptive AI communication and granular behavioral/physiological logging.\n\nTopics progress from interaction design principles to system architectures, interface design, physiological sensing (EEG and eye-tracking), and evaluation methodologies, with emphasis on reusable design patterns and experimental rigor."
-  },
-  {
-    "objectID": "outreach/smc2026/index.html#who-should-attend",
-    "href": "outreach/smc2026/index.html#who-should-attend",
-    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
-    "section": "Who Should Attend",
-    "text": "Who Should Attend\nResearchers and practitioners in Human-Machine Systems, Cybernetics, and Systems Science seeking to build rigorous, reproducible, and human-centered autonomous systems. Participants are expected to have basic familiarity with autonomous systems or robotics and working knowledge of Python (OOP). No prior experience with swarm systems, physiological sensing, or human-subject experimentation is required."
-  },
-  {
-    "objectID": "outreach/smc2026/index.html#venue",
-    "href": "outreach/smc2026/index.html#venue",
-    "title": "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing",
-    "section": "Venue",
-    "text": "Venue\nHyatt Regency Bellevue, Bellevue, WA, USA"
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html",
-    "href": "outreach/physio-workshop/index.html",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "",
-    "text": "Part 1: Foundations ↗ Part 2: Case Study ↗"
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#overview",
-    "href": "outreach/physio-workshop/index.html#overview",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "Overview",
-    "text": "Overview\nThis workshop runs in two parts. Part 1: Foundations covers the principles of human-AI teaming — situational awareness, mental workload, and trust — and how each is measured, including with physiological sensing (eye tracking, EEG). Part 2: Case Study is a tour of Rescue-Grid, a MiniGrid/Gymnasium-based search-and-rescue simulation built for studying human-AI teaming under controlled, repeatable conditions, covering its architecture, LSL/ixp research instrumentation, and how to extend it for your own study — from a scripted RL environment to a full physiological experiment with eye-tracking and custom sensors."
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#topics-covered",
-    "href": "outreach/physio-workshop/index.html#topics-covered",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "Topics Covered",
-    "text": "Topics Covered\n\nEnvironment design — swappable camera views, real vs. decoy victims, and configurable difficulty as build_sar_env() parameters\nTrust and workload measurement — an optional LLM assistant whose suggestions are logged automatically as a behavioral trust signal\nLSL instrumentation — synchronizing game state with Tobii eye-tracking (or any registered sensor) on one shared clock\nixp integration — how Rescue-Grid plugs into iHuman Lab’s experiment engine as a Task\nExtending the platform — swappable cameras, factories, and placers for building your own scenarios"
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#related-work",
-    "href": "outreach/physio-workshop/index.html#related-work",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "Related Work",
-    "text": "Related Work\nThis platform produced a study on LLM-mediated communication in human-AI teaming, presented as LLM-Mediated Communication in Human–AI Teaming: A Physiological Monitoring Study for Search and Rescue (Oveisi & Manjunatha)."
-  },
-  {
-    "objectID": "outreach/physio-workshop/index.html#venue",
-    "href": "outreach/physio-workshop/index.html#venue",
-    "title": "Rescue-GridAn Open Platform for Human-Machine Teaming",
-    "section": "Venue",
-    "text": "Venue\nNeuroErgonomics 2026, Boston, MA — Wednesday, July 15, Session 6: Human–Robot & Human–AI Teaming"
   }
 ]
