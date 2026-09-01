@@ -9,8 +9,8 @@
 <link>https://iHuman-Lab.github.io/lab-website/research/</link>
 <atom:link href="https://iHuman-Lab.github.io/lab-website/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.57</generator>
-<lastBuildDate>Thu, 25 Jun 2026 04:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Thu, 25 Jun 2026 05:00:00 GMT</lastBuildDate>
 <item>
   <title>LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation</title>
   <link>https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/</link>
@@ -66,7 +66,7 @@
   <category>large-language-models</category>
   <category>search-and-rescue</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/</guid>
-  <pubDate>Thu, 25 Jun 2026 04:00:00 GMT</pubDate>
+  <pubDate>Thu, 25 Jun 2026 05:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -238,7 +238,7 @@
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Research Questions
+<span class="screen-reader-only">Important</span>Research Questions
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -290,7 +290,7 @@ Research Questions
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Research Questions
+<span class="screen-reader-only">Important</span>Research Questions
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -363,7 +363,7 @@ Research Questions
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-The Challenge
+<span class="screen-reader-only">Important</span>The Challenge
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -383,7 +383,7 @@ The Challenge
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Research Goal
+<span class="screen-reader-only">Important</span>Research Goal
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -403,7 +403,7 @@ Research Goal
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Key Methods
+<span class="screen-reader-only">Important</span>Key Methods
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -423,7 +423,7 @@ Key Methods
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Key Findings
+<span class="screen-reader-only">Important</span>Key Findings
 </div>
 </div>
 <div class="callout-body-container callout-body">

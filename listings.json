@@ -8,13 +8,33 @@
     ]
   },
   {
-    "listing": "/people/index.html",
+    "listing": "/research/index.html",
     "items": [
-      "/people/pi/index.html",
-      "/people/phd/ElaheOveisi/index.html",
-      "/people/phd/Bennett_Dogbey/index.html",
-      "/people/alumni/CarsonMcSpadden/index.html",
-      "/people/alumni/JacksonBenton/index.html"
+      "/research/human-llm-sar/index.html",
+      "/research/llm/index.html",
+      "/research/shasta/index.html",
+      "/research/eye-gaze-augmentation/index.html",
+      "/research/transfer-learning/index.html",
+      "/research/tele-operation/index.html",
+      "/research/task-difficulty/index.html",
+      "/research/explainability/index.html",
+      "/research/human-swarm-decision/index.html"
+    ]
+  },
+  {
+    "listing": "/software/index.html",
+    "items": [
+      "/software/repos/mosaic/index.html",
+      "/software/repos/rescue-analysis/index.html",
+      "/software/repos/probabilistic-dstl/index.html",
+      "/software/repos/templates/index.html",
+      "/software/repos/eye-world/index.html",
+      "/software/repos/probabilistic-dstl-cov/index.html",
+      "/software/repos/llm-hfacs/index.html",
+      "/software/repos/irobot/index.html",
+      "/software/repos/igaze/index.html",
+      "/software/repos/rescue-grid/index.html",
+      "/software/repos/ixp/index.html"
     ]
   },
   {
@@ -27,31 +47,14 @@
     ]
   },
   {
-    "listing": "/software/index.html",
+    "listing": "/people/index.html",
     "items": [
-      "/software/repos/rescue-analysis/index.html",
-      "/software/repos/probabilistic-dstl-cov/index.html",
-      "/software/repos/eye-world/index.html",
-      "/software/repos/probabilistic-dstl/index.html",
-      "/software/repos/llm-hfacs/index.html",
-      "/software/repos/irobot/index.html",
-      "/software/repos/igaze/index.html",
-      "/software/repos/rescue-grid/index.html",
-      "/software/repos/ixp/index.html"
-    ]
-  },
-  {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/human-llm-sar/index.html",
-      "/research/llm/index.html",
-      "/research/shasta/index.html",
-      "/research/eye-gaze-augmentation/index.html",
-      "/research/transfer-learning/index.html",
-      "/research/tele-operation/index.html",
-      "/research/task-difficulty/index.html",
-      "/research/explainability/index.html",
-      "/research/human-swarm-decision/index.html"
+      "/people/pi/index.html",
+      "/people/phd/ElaheOveisi/index.html",
+      "/people/phd/Bennett_Dogbey/index.html",
+      "/people/master/Priyankan Vettivel/index.html",
+      "/people/alumni/CarsonMcSpadden/index.html",
+      "/people/alumni/JacksonBenton/index.html"
     ]
   }
 ]
