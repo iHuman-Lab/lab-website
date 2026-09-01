@@ -11,11 +11,14 @@ event_category: "workshop"
 conference_url: "https://neuroergonomics2026.neuroscienceeverydayworld.org"
 ---
 
-<a class="home-cta" href="slides.html" target="_blank" rel="noopener">View the Presentation ↗</a>
+<div class="home-cta-row">
+<a class="home-cta" href="foundations.html" target="_blank" rel="noopener">Part 1: Foundations ↗</a>
+<a class="home-cta" href="case-study.html" target="_blank" rel="noopener">Part 2: Case Study ↗</a>
+</div>
 
 ## Overview
 
-Rescue-Grid is a MiniGrid/Gymnasium-based search-and-rescue simulation built for studying human-AI teaming under controlled, repeatable conditions. This workshop walks through the platform's architecture, its LSL/`ixp` research instrumentation, and how to extend it for your own study — from a scripted RL environment to a full physiological experiment with eye-tracking and custom sensors.
+This workshop runs in two parts. **Part 1: Foundations** covers the principles of human-AI teaming — situational awareness, mental workload, and trust — and how each is measured, including with physiological sensing (eye tracking, EEG). **Part 2: Case Study** is a tour of Rescue-Grid, a MiniGrid/Gymnasium-based search-and-rescue simulation built for studying human-AI teaming under controlled, repeatable conditions, covering its architecture, LSL/`ixp` research instrumentation, and how to extend it for your own study — from a scripted RL environment to a full physiological experiment with eye-tracking and custom sensors.
 
 ## Topics Covered
 

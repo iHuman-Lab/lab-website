@@ -66,6 +66,39 @@ $heading-font: "Roboto", sans-serif !default;
   margin-bottom: 100px;
 }
 
+/* Quarto adds spacing above the page content that doesn't belong on these
+   full-bleed hero banners. Three separate sources, all removed at the
+   source rather than papered over with a compensating negative margin
+   (which has to be guessed and drifts with window width):
+
+   1. An empty #title-block-header (no title/date/author is set on these
+      pages), which still carries margin-block-end: 1rem.
+   2. #quarto-content > * { padding-top: 14px }, Quarto's default spacing
+      between the navbar and the page content.
+   3. body.nav-fixed { padding-top: 64px }, Quarto's assumed navbar height
+      used to keep content clear of the fixed navbar. Our real navbar height
+      differs from that default because of the larger nav-link font/line-
+      height above (confirmed via Quarto's own JS, which measures the real
+      navbar to position #quarto-margin-sidebar) — the 60px below matches
+      the actual rendered height. This only applies above the 991.98px
+      breakpoint where those larger nav-links are shown uncollapsed; below
+      it the navbar collapses to logo + hamburger, close enough to Quarto's
+      own default that no override is needed. If the navbar's font size,
+      padding, or logo size changes, re-measure and update this value. */
+#title-block-header:empty {
+  display: none;
+}
+
+#quarto-content.page-layout-full > #quarto-document-content {
+  padding-top: 0 !important;
+}
+
+@media (min-width: 992px) {
+  body.nav-fixed {
+    padding-top: 60px !important;
+  }
+}
+
 /* ── Homepage Hero ── */
 .image-container {
   position: relative;
@@ -76,7 +109,7 @@ $heading-font: "Roboto", sans-serif !default;
   width: 100vw;
   height: 45vh;
   overflow: hidden;
-  margin-top: -2.5vw;
+  margin-top: 0 !important;
   margin-bottom: 2vw;
 }
 
@@ -198,7 +231,7 @@ a.stat-item {
   width: 100vw;
   height: 30vh;
   overflow: hidden;
-  margin-top: -2.5vw;
+  margin-top: 0 !important;
   margin-bottom: 2vw;
 }
 

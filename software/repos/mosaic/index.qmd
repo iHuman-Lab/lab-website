@@ -1,0 +1,11 @@
+---
+title: "mosaic"
+date: "August 28, 2026"
+draft: false
+image: "cover.png"
+description: "A modular grid-based Search and Rescue simulation platform for studying human–AI teaming, built on MiniGrid."
+github: "https://github.com/iHuman-Lab/mosaic"
+repo_languages:
+  - "Python"
+
+---

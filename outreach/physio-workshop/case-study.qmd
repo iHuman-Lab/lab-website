@@ -1,4 +1,6 @@
 ---
+metadata-files:
+  - ../_assets/revealjs-defaults.yml
 title: "Rescue-Grid<br>An Open Platform for [Human-Machine Teaming]{.accent}"
 subtitle: "From Workshop Prototype to Reusable Research Infrastructure"
 institute: "Oklahoma State University"
@@ -9,50 +11,11 @@ venue: "NeuroErgonomics 2026, Boston MA"
 event_type: "Workshop"
 event_category: "workshop"
 conference_url: "https://neuroergonomics2026.neuroscienceeverydayworld.org"
+resources:
+  - screenshots/Media.mov
 format:
   revealjs:
-    theme: [default, theme.scss]
-    slide-number: false
-    transition: fade
-    background-transition: fade
-    logo: ../../images/logos/logo.png
-    footer: "iHuman Lab · Oklahoma State University"
-    width: 1280
-    height: 720
-    margin: 0.1
-    navigation-mode: linear
-    controls: true
-    progress: true
-    include-in-header:
-      text: |
-        <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          var titleSlide = document.getElementById("title-slide");
-          if (!titleSlide) return;
-          var row = document.createElement("div");
-          row.style.cssText = "display:flex; gap:2rem; align-items:center; margin-top:2.5rem;";
-          var people = [
-            { src: "../../people/pi/avatar.jpg",                name: "Hemanth Manjunatha", role: "Principal Investigator" },
-            { src: "../../people/phd/ElaheOveisi/avatar.jpeg",  name: "Elahe Oveisi",       role: "PhD Student" },
-            { src: "../../people/phd/Bennett_Dogbey/avatar.jpg", name: "Bennett Dogbey",    role: "PhD Student" }
-          ];
-          people.forEach(function(p) {
-            var card = document.createElement("div");
-            card.style.cssText = "display:flex; align-items:center; gap:0.9rem;";
-            var img = document.createElement("img");
-            img.src = p.src;
-            img.alt = p.name;
-            img.style.cssText = "width:130px; height:130px; border-radius:50%; object-fit:cover; border:3px solid #EC672C; box-shadow:0 2px 8px rgba(0,0,0,0.4);";
-            var info = document.createElement("div");
-            info.innerHTML = '<div style="font-weight:700; font-size:1.3rem; color:#fff; line-height:1.3;">' + p.name + '</div>' +
-                             '<div style="font-size:1.1rem; color:rgba(255,255,255,0.5); margin-top:0.2rem;">' + p.role + '</div>';
-            card.appendChild(img);
-            card.appendChild(info);
-            row.appendChild(card);
-          });
-          titleSlide.appendChild(row);
-        });
-        </script>
+    include-in-header: ../_assets/people-row.html
 title-slide-attributes:
   data-background-image: screenshots/fullview.png
   data-background-opacity: "0.25"
@@ -121,7 +84,7 @@ Built on [MiniGrid]{.accent} + Gymnasium — so it's RL-ready from day one.
 
 :::
 ::: {.column width="65%"}
-<video data-autoplay loop muted playsinline src="screenshots/Media2.mov" style="width:100%; border-radius:6px; box-shadow:0 4px 20px rgba(0,0,0,0.4);"></video>
+<video data-autoplay loop muted playsinline src="screenshots/Media.mov" style="width:100%; border-radius:6px; box-shadow:0 4px 20px rgba(0,0,0,0.4);"></video>
 :::
 :::
 

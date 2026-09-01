@@ -1,0 +1,11 @@
+---
+title: "templates"
+date: "July 25, 2026"
+draft: false
+image: "cover.png"
+description: "A software project from the iHuman Lab."
+github: "https://github.com/iHuman-Lab/templates"
+repo_languages:
+  - "SCSS"
+
+---
