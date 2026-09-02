@@ -1,0 +1,21 @@
+---
+title: Noah Opela
+about:
+    template: trestles
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          url: Add your linkedin link
+        - icon: github
+          text: Github
+          url: https://github.com/noah-opela26
+image: ./avatar.jpg
+---
+
+## Education
+Batchelers in Mechanical Engineering
+Minor in Nuclear Engineering
+IT services from level 1 help desk to admin work
+
+## Research Interest
+ai
