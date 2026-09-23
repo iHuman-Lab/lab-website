@@ -2,12 +2,19 @@
 title: "Closing the Human-AI Loop: Modular Architectures for Autonomous Teaming and Physiological Sensing"
 date: 2026-10-04
 draft: false
+image: /outreach/smc2026/ieee_smc.png
 venue: "IEEE SMC 2026, Bellevue WA"
 event_type: "Half-Day Tutorial"
 event_category: "workshop"
 conference_url: "http://www.ieeesmc2026.org"
 description: "Concept-to-implementation tutorial covering the SHaSTA and HAI-SAR open-source platforms, bridging interaction design, physiological sensing (EEG & eye-tracking), and evaluation methodologies for human-centered autonomous systems."
 ---
+
+<div class="home-cta-row">
+<a class="home-cta" href="https://elaheoveisi.github.io/ieee_smc/presentation/smc.html?v=c92fa2f#/title-slide" target="_blank" rel="noopener">Part 1: SHASTA ↗</a>
+<a class="home-cta" href="https://Bkdogbey.github.io/mosaic-smc-tutorial/" target="_blank" rel="noopener">Part 2: MOSAIC↗</a>
+<a class="home-cta" href="https://elaheoveisi.github.io/ieee_smc/presentation/smc.html?v=c92fa2f#/title-slide" target="_blank" rel="noopener">Part 3: Human-LLM Interaction↗</a>
+</div>
 
 ## Overview
 
