@@ -10,7 +10,7 @@
 <atom:link href="https://iHuman-Lab.github.io/lab-website/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Thu, 25 Jun 2026 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 25 Jun 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation</title>
   <link>https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/</link>
@@ -66,7 +66,7 @@
   <category>large-language-models</category>
   <category>search-and-rescue</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/</guid>
-  <pubDate>Thu, 25 Jun 2026 05:00:00 GMT</pubDate>
+  <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -342,6 +342,33 @@
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/task-difficulty/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Using Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams</title>
+  <link>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<section id="abstract" class="level3">
+<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
+<p>Human-Swarm interaction has attracted a lot of attention for their applications in areas such as exploration, rescue, surveillance, and interplanetary exploration. When humans assume a supervisory or tactician role in managing the robot swarm, the humans’ (physiological) state significantly affects the mission performance. In this work, we explore the physiological correlates with the user’s tactical decisions in a simulated search and rescue mission. The mission consists of supervising three groups of unmanned aerial vehicles and three groups of unmanned ground vehicles to search for a target building. The mission complexity is increased by introducing static adversarial teams. Due to the adversarial team’s presence, the user should employ different tactics to search for a target. While the user interacts with the swarm, brain activity in forms of electroencephalogram (EEG) and eye movements are recorded. 20 participants, with prior experience in playing real-time strategy games, took part in the study. A linear mixed effect model is used to study the correlated physiological features and tactical decisions. Six features are extracted from the physiological data: engagement level, mental workload, Fz-Pz coherence, Fz-O1 coherence, pupil size, and the number of gaze fixations. The results show that mental engagement and Fz-O1 coherence are the important factors in predicting the tactical decisions. Specifically, Fz-O1 coherence in Beta (22.5-30 Hz) and Gamma (38-42 Hz) band is found to be significant.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>human-robot-interaction</category>
+  <category>python</category>
+  <guid>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/</guid>
+  <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of HRI</title>
   <link>https://iHuman-Lab.github.io/lab-website/research/explainability/</link>
   <description><![CDATA[ 
@@ -448,33 +475,6 @@
   <guid>https://iHuman-Lab.github.io/lab-website/research/explainability/</guid>
   <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
   <media:content url="https://iHuman-Lab.github.io/lab-website/research/explainability/cover.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Using Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams</title>
-  <link>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<section id="abstract" class="level3">
-<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
-<p>Human-Swarm interaction has attracted a lot of attention for their applications in areas such as exploration, rescue, surveillance, and interplanetary exploration. When humans assume a supervisory or tactician role in managing the robot swarm, the humans’ (physiological) state significantly affects the mission performance. In this work, we explore the physiological correlates with the user’s tactical decisions in a simulated search and rescue mission. The mission consists of supervising three groups of unmanned aerial vehicles and three groups of unmanned ground vehicles to search for a target building. The mission complexity is increased by introducing static adversarial teams. Due to the adversarial team’s presence, the user should employ different tactics to search for a target. While the user interacts with the swarm, brain activity in forms of electroencephalogram (EEG) and eye movements are recorded. 20 participants, with prior experience in playing real-time strategy games, took part in the study. A linear mixed effect model is used to study the correlated physiological features and tactical decisions. Six features are extracted from the physiological data: engagement level, mental workload, Fz-Pz coherence, Fz-O1 coherence, pupil size, and the number of gaze fixations. The results show that mental engagement and Fz-O1 coherence are the important factors in predicting the tactical decisions. Specifically, Fz-O1 coherence in Beta (22.5-30 Hz) and Gamma (38-42 Hz) band is found to be significant.</p>
-
-
-</section>
-
- ]]></description>
-  <category>human-robot-interaction</category>
-  <category>python</category>
-  <guid>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/</guid>
-  <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
