@@ -10,7 +10,7 @@ event_type: "Discovery Day"
 event_category: "k12"
 ---
 
-<a class="home-cta" href="slides.html" target="_blank" rel="noopener">View the Presentation ↗</a>
+<a class="home-cta" href="https://ihuman-lab.github.io/presentations/discovery-day/discovery-day.html" target="_blank" rel="noopener">View the Presentation ↗</a>
 
 ## Overview
 

@@ -33,6 +33,8 @@ website:
         text: Gallery
       - href: outreach
         text: Outreach
+      - href: https://ihuman-lab.github.io/presentations/
+        text: Presentations
       - href: contact
         text: Join
       # - href: blogs

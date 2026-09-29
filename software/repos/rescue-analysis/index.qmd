@@ -1,9 +1,12 @@
 ---
 title: "rescue-analysis"
-date: "August 23, 2026"
+date: "September 17, 2026"
 draft: false
 image: "cover.png"
 description: "Statistical analysis for LLM guided search and rescue mission"
 github: "https://github.com/iHuman-Lab/rescue-analysis"
+repo_languages:
+  - "Python"
+  - "Makefile"
 
 ---

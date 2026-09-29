@@ -12,8 +12,8 @@ conference_url: "https://neuroergonomics2026.neuroscienceeverydayworld.org"
 ---
 
 <div class="home-cta-row">
-<a class="home-cta" href="foundations.html" target="_blank" rel="noopener">Part 1: Foundations ↗</a>
-<a class="home-cta" href="case-study.html" target="_blank" rel="noopener">Part 2: Case Study ↗</a>
+<a class="home-cta" href="https://ihuman-lab.github.io/presentations/physio-workshop/foundations.html" target="_blank" rel="noopener">Part 1: Foundations ↗</a>
+<a class="home-cta" href="https://ihuman-lab.github.io/presentations/physio-workshop/case-study.html" target="_blank" rel="noopener">Part 2: Case Study ↗</a>
 </div>
 
 ## Overview

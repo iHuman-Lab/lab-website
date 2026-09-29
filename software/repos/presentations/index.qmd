@@ -1,11 +1,13 @@
 ---
-title: "templates"
+title: "presentations"
 date: "September 29, 2026"
 draft: false
-image: "cover.png"
+
 description: "A software project from the iHuman Lab."
-github: "https://github.com/iHuman-Lab/templates"
+github: "https://github.com/iHuman-Lab/presentations"
 repo_languages:
   - "SCSS"
+  - "Python"
+  - "EJS"
 
 ---

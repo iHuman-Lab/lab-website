@@ -52,7 +52,7 @@ python scripts/update_gallery.py
 | `news/`         | News posts                                                                   |
 | `software/`     | Software/repos listing ✨ auto-generated, see above                           |
 | `gallery/`      | Photo gallery ✨ auto-generated, see above                                    |
-| `outreach/`     | Outreach events — slides, workshops, and the rest                            |
+| `outreach/`     | Outreach event pages (slide decks live in the [presentations repo](https://github.com/iHuman-Lab/presentations)) |
 | `contact/`      | Join us / contact page                                                       |
 | `images/`       | Site images, incl. `images/work/` & `images/outreach/` for the gallery robot |
 | `scripts/`      | The robots (pre-render Python scripts)                                       |
