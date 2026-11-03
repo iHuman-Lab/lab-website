@@ -5,7 +5,5 @@ draft: false
 image: "cover.png"
 description: "A python package to run experiments at iHuman Lab"
 github: "https://github.com/iHuman-Lab/ixp"
-repo_languages:
-  - "Python"
 
 ---

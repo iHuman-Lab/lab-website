@@ -1,0 +1,9 @@
+<script>
+(function () {
+  var update = function () {
+    document.body.classList.toggle("nav-scrolled", window.scrollY > 40);
+  };
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+})();
+</script>

@@ -1,13 +1,14 @@
 ---
 title: "presentations"
-date: "September 29, 2026"
+date: "October 16, 2026"
 draft: false
-
-description: "A software project from the iHuman Lab."
+image: "cover.png"
+description: "A place to find all the iHuman Lab presentations"
 github: "https://github.com/iHuman-Lab/presentations"
 repo_languages:
-  - "SCSS"
   - "Python"
+  - "SCSS"
+  - "HTML"
   - "EJS"
-
+homepage: "https://ihuman-lab.github.io/presentations/"
 ---

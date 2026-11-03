@@ -29,12 +29,14 @@ website:
         text: News
       - href: software
         text: Software
-      - href: gallery
-        text: Gallery
-      - href: outreach
-        text: Outreach
       - href: https://ihuman-lab.github.io/presentations/
         text: Presentations
+      - text: More
+        menu:
+          - href: gallery
+            text: Gallery
+          - href: outreach
+            text: Outreach
       - href: contact
         text: Join
       # - href: blogs
@@ -49,3 +51,4 @@ format:
     toc_smooth_scroll: true
     toc_highlight: true
     link-external-newwindow: true
+    include-after-body: assets/nav-scroll.html
