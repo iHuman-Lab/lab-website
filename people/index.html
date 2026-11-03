@@ -48,7 +48,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-d461eaeda47c6e310ca48099453705be.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a50056896ef37b76eea533b0cd2be8a4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -170,9 +170,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-title","listing-about","listing-image","listing-started","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -296,17 +296,24 @@ window.Quarto = {
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../gallery"> 
-<span class="menu-text">Gallery</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../outreach"> 
-<span class="menu-text">Outreach</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="https://ihuman-lab.github.io/presentations/"> 
 <span class="menu-text">Presentations</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="../gallery">
+ <span class="dropdown-text">Gallery</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../outreach">
+ <span class="dropdown-text">Outreach</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../contact"> 
 <span class="menu-text">Join</span></a>
@@ -417,7 +424,16 @@ Priyankan Vettivel
 <h3 class="anchored" data-anchor-id="undergraduate">Undergraduate</h3>
 <div id="listing-undergraduate" class="quarto-listing quarto-listing-container-custom">
 <div class="people-grid">
-
+<a class="person-card" href="../people/undergraduate/SigGupta/index.html">
+<div class="person-photo-wrap">
+<img src="../people/undergraduate/SigGupta/avatar.jpg" alt="Sid Gupta" loading="lazy" class="person-photo">
+</div>
+<div class="person-info">
+<div class="person-name">
+Sid Gupta
+</div>
+</div>
+</a><p><a class="person-card" href="../people/undergraduate/SigGupta/index.html"></a></p>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -426,16 +442,6 @@ Priyankan Vettivel
 <h3 class="anchored" data-anchor-id="alumni">Alumni</h3>
 <div id="listing-alumni" class="quarto-listing quarto-listing-container-custom">
 <div class="people-grid">
-<a class="person-card" href="../people/alumni/JacksonBenton/index.html">
-<div class="person-photo-wrap">
-<img src="../people/alumni/JacksonBenton/avatar.jpg" alt="Jackson Benton" loading="lazy" class="person-photo">
-</div>
-<div class="person-info">
-<div class="person-name">
-Jackson Benton
-</div>
-</div>
-</a><p><a class="person-card" href="../people/alumni/JacksonBenton/index.html"></a></p>
 <a class="person-card" href="../people/alumni/CarsonMcSpadden/index.html">
 <div class="person-photo-wrap">
 <img src="../people/alumni/CarsonMcSpadden/avatar.jpg" alt="Carson McSpadden" loading="lazy" class="person-photo">
@@ -446,6 +452,16 @@ Carson McSpadden
 </div>
 </div>
 </a><p><a class="person-card" href="../people/alumni/CarsonMcSpadden/index.html"></a></p>
+<a class="person-card" href="../people/alumni/JacksonBenton/index.html">
+<div class="person-photo-wrap">
+<img src="../people/alumni/JacksonBenton/avatar.jpg" alt="Jackson Benton" loading="lazy" class="person-photo">
+</div>
+<div class="person-info">
+<div class="person-name">
+Jackson Benton
+</div>
+</div>
+</a><p><a class="person-card" href="../people/alumni/JacksonBenton/index.html"></a></p>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -456,6 +472,15 @@ Carson McSpadden
 
 
 </main> <!-- /main -->
+<script>
+(function () {
+  var update = function () {
+    document.body.classList.toggle("nav-scrolled", window.scrollY > 40);
+  };
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

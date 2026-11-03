@@ -48,7 +48,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-d461eaeda47c6e310ca48099453705be.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a50056896ef37b76eea533b0cd2be8a4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-description','listing-github','listing-repo_languages','listing-path',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-title","listing-date","listing-draft","listing-image","listing-description","listing-github","listing-repo_languages","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-title","listing-date","listing-draft","listing-image","listing-description","listing-github","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-repo_languages","listing-homepage"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -184,17 +184,24 @@ window.Quarto = {
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../gallery"> 
-<span class="menu-text">Gallery</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../outreach"> 
-<span class="menu-text">Outreach</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="https://ihuman-lab.github.io/presentations/"> 
 <span class="menu-text">Presentations</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="../gallery">
+ <span class="dropdown-text">Gallery</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../outreach">
+ <span class="dropdown-text">Outreach</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../contact"> 
 <span class="menu-text">Join</span></a>
@@ -229,82 +236,19 @@ window.Quarto = {
 
 
 
+<div class="page-banner">
+  <img src="../images/campus/campus_2.jpg" alt="Campus">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Open-source tools</div>
+    <div class="hero-title-top">Our <span class="hero-title-accent">Software</span></div>
+  </div>
+</div>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
 <div class="software-grid">
-<div class="software-card">
-<a class="software-stretched-link" href="https://github.com/iHuman-Lab/templates" target="_blank" rel="noopener"></a>
-<div class="software-card-img-wrap">
-<p><img src="../software/repos/templates/cover.png" alt="templates" class="software-card-img" loading="lazy"></p>
-</div>
-<div class="software-card-body">
-<div class="software-card-desc">
-A software project from the iHuman Lab.
-</div>
-<div class="software-card-footer">
-<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">SCSS</span></p>
-</div>
-</div>
-</div>
-<div class="software-card">
-<a class="software-stretched-link" href="https://github.com/iHuman-Lab/presentations" target="_blank" rel="noopener"></a>
-<div class="software-card-img-wrap">
-<p><img src="../software/repos/presentations/cover.png" alt="presentations" class="software-card-img" loading="lazy"></p>
-</div>
-<div class="software-card-body">
-<div class="software-card-desc">
-A software project from the iHuman Lab.
-</div>
-<div class="software-card-footer">
-<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">SCSS</span><span class="software-lang-badge">Python</span><span class="software-lang-badge">EJS</span></p>
-</div>
-</div>
-</div>
-<div class="software-card">
-<a class="software-stretched-link" href="https://github.com/iHuman-Lab/eye-world" target="_blank" rel="noopener"></a>
-<div class="software-card-img-wrap">
-<p><img src="../software/repos/eye-world/cover.png" alt="eye-world" class="software-card-img" loading="lazy"></p>
-</div>
-<div class="software-card-body">
-<div class="software-card-desc">
-Implementation of world models in Atari using eye-tracking
-</div>
-<div class="software-card-footer">
-<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span></p>
-</div>
-</div>
-</div>
-<div class="software-card">
-<a class="software-stretched-link" href="https://github.com/iHuman-Lab/mosaic" target="_blank" rel="noopener"></a>
-<div class="software-card-img-wrap">
-<p><img src="../software/repos/mosaic/cover.png" alt="mosaic" class="software-card-img" loading="lazy"></p>
-</div>
-<div class="software-card-body">
-<div class="software-card-desc">
-A modular grid-based Search and Rescue simulation platform for studying human–AI teaming, built on MiniGrid.
-</div>
-<div class="software-card-footer">
-<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span></p>
-</div>
-</div>
-</div>
-<div class="software-card">
-<a class="software-stretched-link" href="https://github.com/iHuman-Lab/rescue-analysis" target="_blank" rel="noopener"></a>
-<div class="software-card-img-wrap">
-<p><img src="../software/repos/rescue-analysis/cover.png" alt="rescue-analysis" class="software-card-img" loading="lazy"></p>
-</div>
-<div class="software-card-body">
-<div class="software-card-desc">
-Statistical analysis for LLM guided search and rescue mission
-</div>
-<div class="software-card-footer">
-<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span><span class="software-lang-badge">Makefile</span></p>
-</div>
-</div>
-</div>
 <div class="software-card">
 <a class="software-stretched-link" href="https://github.com/iHuman-Lab/probabilistic-dstl" target="_blank" rel="noopener"></a>
 <div class="software-card-img-wrap">
@@ -320,6 +264,76 @@ Probabilistic differentiable signal temporal logics using recurrent neural netwo
 </div>
 </div>
 <div class="software-card">
+<a class="software-stretched-link" href="https://github.com/iHuman-Lab/presentations" target="_blank" rel="noopener"></a>
+<div class="software-card-img-wrap">
+<p><img src="../software/repos/presentations/cover.png" alt="presentations" class="software-card-img" loading="lazy"></p>
+</div>
+<div class="software-card-body">
+<div class="software-card-desc">
+A place to find all the iHuman Lab presentations
+</div>
+<div class="software-card-footer">
+<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span><span class="software-lang-badge">SCSS</span><span class="software-lang-badge">HTML</span><span class="software-lang-badge">EJS</span></p>
+</div>
+</div>
+</div>
+<div class="software-card">
+<a class="software-stretched-link" href="https://github.com/iHuman-Lab/mosaic" target="_blank" rel="noopener"></a>
+<div class="software-card-img-wrap">
+<p><img src="../software/repos/mosaic/cover.png" alt="mosaic" class="software-card-img" loading="lazy"></p>
+</div>
+<div class="software-card-body">
+<div class="software-card-desc">
+A modular grid-based Search and Rescue simulation platform for studying human–AI teaming, built on MiniGrid.
+</div>
+<div class="software-card-footer">
+<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span><span class="software-lang-badge">Jupyter Notebook</span><span class="software-lang-badge">TeX</span><span class="software-lang-badge">Shell</span></p>
+</div>
+</div>
+</div>
+<div class="software-card">
+<a class="software-stretched-link" href="https://github.com/iHuman-Lab/templates" target="_blank" rel="noopener"></a>
+<div class="software-card-img-wrap">
+<p><img src="../software/repos/templates/cover.png" alt="templates" class="software-card-img" loading="lazy"></p>
+</div>
+<div class="software-card-body">
+<div class="software-card-desc">
+A software project from the iHuman Lab.
+</div>
+<div class="software-card-footer">
+<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">SCSS</span></p>
+</div>
+</div>
+</div>
+<div class="software-card">
+<a class="software-stretched-link" href="https://github.com/iHuman-Lab/eye-world" target="_blank" rel="noopener"></a>
+<div class="software-card-img-wrap">
+<p><img src="../software/repos/eye-world/cover.png" alt="eye-world" class="software-card-img" loading="lazy"></p>
+</div>
+<div class="software-card-body">
+<div class="software-card-desc">
+Implementation of world models in Atari using eye-tracking
+</div>
+<div class="software-card-footer">
+<p><span class="software-card-arrow">View on GitHub</span></p>
+</div>
+</div>
+</div>
+<div class="software-card">
+<a class="software-stretched-link" href="https://github.com/iHuman-Lab/rescue-analysis" target="_blank" rel="noopener"></a>
+<div class="software-card-img-wrap">
+<p><img src="../software/repos/rescue-analysis/cover.png" alt="rescue-analysis" class="software-card-img" loading="lazy"></p>
+</div>
+<div class="software-card-body">
+<div class="software-card-desc">
+Statistical analysis for LLM guided search and rescue mission
+</div>
+<div class="software-card-footer">
+<p><span class="software-card-arrow">View on GitHub</span></p>
+</div>
+</div>
+</div>
+<div class="software-card">
 <a class="software-stretched-link" href="https://github.com/iHuman-Lab/probabilistic-dstl-cov" target="_blank" rel="noopener"></a>
 <div class="software-card-img-wrap">
 <p><img src="../software/repos/probabilistic-dstl-cov/cover.png" alt="probabilistic-dstl-cov" class="software-card-img" loading="lazy"></p>
@@ -329,7 +343,7 @@ Probabilistic differentiable signal temporal logics using recurrent neural netwo
 A software project from the iHuman Lab.
 </div>
 <div class="software-card-footer">
-<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span><span class="software-lang-badge">Makefile</span><span class="software-lang-badge">Shell</span></p>
+<p><span class="software-card-arrow">View on GitHub</span></p>
 </div>
 </div>
 </div>
@@ -343,7 +357,7 @@ A software project from the iHuman Lab.
 Using Large Language Models to automatically analyze aviation accident reports and classify them according to the Human Factors Analysis and Classification System (HFACS).
 </div>
 <div class="software-card-footer">
-<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span><span class="software-lang-badge">Makefile</span></p>
+<p><span class="software-card-arrow">View on GitHub</span></p>
 </div>
 </div>
 </div>
@@ -357,7 +371,21 @@ Using Large Language Models to automatically analyze aviation accident reports a
 The central software ecosystem for the iHuman Lab. A modular, high-momentum framework for Intelligent Human-Machine interaction built on ROS 2 and Sugarcoat.
 </div>
 <div class="software-card-footer">
-<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span></p>
+<p><span class="software-card-arrow">View on GitHub</span></p>
+</div>
+</div>
+</div>
+<div class="software-card">
+<a class="software-stretched-link" href="https://github.com/iHuman-Lab/igaze" target="_blank" rel="noopener"></a>
+<div class="software-card-img-wrap">
+<p><img src="../software/repos/igaze/cover.png" alt="igaze" class="software-card-img" loading="lazy"></p>
+</div>
+<div class="software-card-body">
+<div class="software-card-desc">
+A python package implementing various features extraction method from eye tracking
+</div>
+<div class="software-card-footer">
+<p><span class="software-card-arrow">View on GitHub</span></p>
 </div>
 </div>
 </div>
@@ -376,20 +404,6 @@ A high-stakes Search and Rescue (SAR) simulation built on MiniGrid. The primary 
 </div>
 </div>
 <div class="software-card">
-<a class="software-stretched-link" href="https://github.com/iHuman-Lab/igaze" target="_blank" rel="noopener"></a>
-<div class="software-card-img-wrap">
-<p><img src="../software/repos/igaze/cover.png" alt="igaze" class="software-card-img" loading="lazy"></p>
-</div>
-<div class="software-card-body">
-<div class="software-card-desc">
-A python package implementing various features extraction method from eye tracking
-</div>
-<div class="software-card-footer">
-<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span></p>
-</div>
-</div>
-</div>
-<div class="software-card">
 <a class="software-stretched-link" href="https://github.com/iHuman-Lab/ixp" target="_blank" rel="noopener"></a>
 <div class="software-card-img-wrap">
 <p><img src="../software/repos/ixp/cover.png" alt="ixp" class="software-card-img" loading="lazy"></p>
@@ -399,13 +413,22 @@ A python package implementing various features extraction method from eye tracki
 A python package to run experiments at iHuman Lab
 </div>
 <div class="software-card-footer">
-<p><span class="software-card-arrow">View on GitHub</span> <span class="software-lang-badge">Python</span></p>
+<p><span class="software-card-arrow">View on GitHub</span></p>
 </div>
 </div>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
+<script>
+(function () {
+  var update = function () {
+    document.body.classList.toggle("nav-scrolled", window.scrollY > 40);
+  };
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
