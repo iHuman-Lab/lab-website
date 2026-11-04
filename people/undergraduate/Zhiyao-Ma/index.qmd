@@ -1,0 +1,24 @@
+---
+title: Zhiyao Ma
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: GitHub
+      url: https://github.com/mazhiyao-dotcom
+image: ./avatar.jpg
+---
+
+## Education
+
+**B.Eng. in Environmental Engineering**  
+Southwest Jiaotong University, China  
+Oklahoma State University, USA  
+Expected Graduation: May 2027
+
+## Research Interest
+
+- Blockchain Technology
+- Large Language Models (LLMs)
+- Data Analytics
+- Human-AI Interaction
