@@ -6,9 +6,33 @@
       "/people/phd/ElaheOveisi/index.html",
       "/people/phd/Bennett_Dogbey/index.html",
       "/people/master/Priyankan Vettivel/index.html",
+      "/people/undergraduate/SigGupta/index.html",
       "/people/undergraduate/ZhiyaoMa/index.html",
       "/people/alumni/JacksonBenton/index.html",
       "/people/alumni/CarsonMcSpadden/index.html"
+    ]
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/human-llm-sar/index.html",
+      "/research/llm/index.html",
+      "/research/shasta/index.html",
+      "/research/eye-gaze-augmentation/index.html",
+      "/research/tele-operation/index.html",
+      "/research/transfer-learning/index.html",
+      "/research/human-swarm-decision/index.html",
+      "/research/task-difficulty/index.html",
+      "/research/explainability/index.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/research_symposium/index.html",
+      "/news/idetc/index.html",
+      "/news/nvidia/index.html",
+      "/news/neurable/index.html"
     ]
   },
   {
@@ -26,29 +50,6 @@
       "/software/repos/rescue-grid/index.html",
       "/software/repos/igaze/index.html",
       "/software/repos/ixp/index.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/research_symposium/index.html",
-      "/news/idetc/index.html",
-      "/news/nvidia/index.html",
-      "/news/neurable/index.html"
-    ]
-  },
-  {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/human-llm-sar/index.html",
-      "/research/llm/index.html",
-      "/research/shasta/index.html",
-      "/research/eye-gaze-augmentation/index.html",
-      "/research/tele-operation/index.html",
-      "/research/transfer-learning/index.html",
-      "/research/human-swarm-decision/index.html",
-      "/research/task-difficulty/index.html",
-      "/research/explainability/index.html"
     ]
   },
   {
