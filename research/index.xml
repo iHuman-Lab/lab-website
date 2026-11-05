@@ -9,8 +9,8 @@
 <link>https://iHuman-Lab.github.io/lab-website/research/</link>
 <atom:link href="https://iHuman-Lab.github.io/lab-website/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.10.18</generator>
-<lastBuildDate>Thu, 25 Jun 2026 05:00:00 GMT</lastBuildDate>
+<generator>quarto-1.11.9</generator>
+<lastBuildDate>Thu, 25 Jun 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>LLM-Mediated Human–AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation</title>
   <link>https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/</link>
@@ -66,8 +66,8 @@
   <category>large-language-models</category>
   <category>search-and-rescue</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/</guid>
-  <pubDate>Thu, 25 Jun 2026 05:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/cover.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/human-llm-sar/cover.jpg" medium="image" type="image/jpeg" height="80" width="144"/>
 </item>
 <item>
   <title>Human Factor Analysis of Helicopter Accidents using Large Language Models</title>
@@ -179,7 +179,7 @@
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/shasta/</guid>
   <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/research/shasta/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/shasta/cover.jpg" medium="image" type="image/jpeg" height="72" width="144"/>
 </item>
 <item>
   <title>Selective Eye-gaze Augmentation To Enhance Imitation Learning In Atari Games</title>
@@ -211,7 +211,56 @@
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/</guid>
   <pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/eye-gaze-augmentation/cover.jpg" medium="image" type="image/jpeg" height="83" width="144"/>
+</item>
+<item>
+  <title>Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration</title>
+  <link>https://iHuman-Lab.github.io/lab-website/research/tele-operation/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://iHuman-Lab.github.io/lab-website/research/tele-operation/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>In the teleoperated scenario, as the task difficulty increases, the performance of the operator decreases which leads to a decrease in the overall system efficiency. Thus, it is important to predict the change in task difficulty in order to increase system efficiency. However, the task difficulty cannot be predicted as task information is unknown in real-time. Alternatively, the task difficulty can be estimated studying the distribution of reaction time. In this study, the physiological features of the operator are used to classify the reaction time as fast, normal and slow corresponding different levels of task difficulty. The physiological features are extracted from the eye (though eye tracking) and brain (through Electroencephalogram) from the operator performing teleoperation using two drones. Among the calculated features glance ratio and mental workload resulted in maximum classification accuracy when task type information is included.</p>
+</section>
+<section id="architecture" class="level2">
+<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Research Questions
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Which physiological modalities, eye, brain activity, or their combination can provide a more accurate classification of the reaction time?</li>
+<li>Do the task type information and individual differences in the task performance influence the classification of reaction time?</li>
+</ul>
+</div>
+</div>
+<p>The study concluded that both eye features and cognitive features are needed to classify the reaction time effectively. The task type information had a significant influence on the classification accuracy, while the same could not be said with individual difference information. The accuracy of classification was increased when task type information was included as features, indicating that the reaction time depends on the task information.</p>
+<p>These results are in agreement with the Linear Approach to the Threshold with Ergodic Rate (LATER) model, which suggests that reaction time depends on evidence collected and the task difficulty. The classifier trained on the physiological features using reaction time as the label can be used to classify task difficulty well above chance. Such systems can be utilized in Automation Invocation models that utilize appropriate control inputs and control strategies for optimal role allocation in collaborative tasks such as teleoperation.</p>
+<p><code>The present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time</code></p>
+
+
+</section>
+
+ ]]></description>
+  <category>human-robot-interaction</category>
+  <category>python</category>
+  <guid>https://iHuman-Lab.github.io/lab-website/research/tele-operation/</guid>
+  <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/tele-operation/cover.jpg" medium="image" type="image/jpeg" height="111" width="144"/>
 </item>
 <item>
   <title>Transfer Learning of Motor Difficulty Classification in Physical Human-Robot Interaction Using Electromyography</title>
@@ -232,7 +281,7 @@
 <p>Twenty six individuals participated in a pHRI experiment where a subject guides the robot’s end-effector with different levels of motor control difficulty. The motor control difficulty is varied by changing the damping parameter of the robot from low to high and constraining the motion to gross and fine movements. A CNN network with raw sEMG as input is used to classify the motor control difficulty.</p>
 <p>The CNN’s transfer learning approach is compared against Riemann geometry-based Procrustes analysis (RPA). With very few labeled samples from new subjects, we demonstrate that the CNN-based transfer learning approach (avg. 69.77%) outperforms the RPA transfer learning (avg. 59.20%).</p>
 <p>Moreover, we observe that the subject’s skill level in the pre-trained model has no significant effect on the transfer learning performance of the new users.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="Research Questions">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -263,11 +312,11 @@
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/transfer-learning/</guid>
   <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/research/transfer-learning/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/transfer-learning/cover.jpg" medium="image" type="image/jpeg" height="53" width="144"/>
 </item>
 <item>
-  <title>Classification of Reaction Time in Simulated Multiple Robot Tele-Exploration</title>
-  <link>https://iHuman-Lab.github.io/lab-website/research/tele-operation/</link>
+  <title>Using Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams</title>
+  <link>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/</link>
   <description><![CDATA[ 
 
 
@@ -275,34 +324,12 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://iHuman-Lab.github.io/lab-website/research/tele-operation/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>In the teleoperated scenario, as the task difficulty increases, the performance of the operator decreases which leads to a decrease in the overall system efficiency. Thus, it is important to predict the change in task difficulty in order to increase system efficiency. However, the task difficulty cannot be predicted as task information is unknown in real-time. Alternatively, the task difficulty can be estimated studying the distribution of reaction time. In this study, the physiological features of the operator are used to classify the reaction time as fast, normal and slow corresponding different levels of task difficulty. The physiological features are extracted from the eye (though eye tracking) and brain (through Electroencephalogram) from the operator performing teleoperation using two drones. Among the calculated features glance ratio and mental workload resulted in maximum classification accuracy when task type information is included.</p>
-</section>
-<section id="architecture" class="level2">
-<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
-<div class="callout callout-style-default callout-important callout-titled" title="Research Questions">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Research Questions
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Which physiological modalities, eye, brain activity, or their combination can provide a more accurate classification of the reaction time?</li>
-<li>Do the task type information and individual differences in the task performance influence the classification of reaction time?</li>
-</ul>
-</div>
-</div>
-<p>The study concluded that both eye features and cognitive features are needed to classify the reaction time effectively. The task type information had a significant influence on the classification accuracy, while the same could not be said with individual difference information. The accuracy of classification was increased when task type information was included as features, indicating that the reaction time depends on the task information.</p>
-<p>These results are in agreement with the Linear Approach to the Threshold with Ergodic Rate (LATER) model, which suggests that reaction time depends on evidence collected and the task difficulty. The classifier trained on the physiological features using reaction time as the label can be used to classify task difficulty well above chance. Such systems can be utilized in Automation Invocation models that utilize appropriate control inputs and control strategies for optimal role allocation in collaborative tasks such as teleoperation.</p>
-<p><code>The present work showed that physiological measurements could indeed be used to model the task difficulty through auxiliary measurements such as reaction time</code></p>
+<section id="abstract" class="level3">
+<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
+<p>Human-Swarm interaction has attracted a lot of attention for their applications in areas such as exploration, rescue, surveillance, and interplanetary exploration. When humans assume a supervisory or tactician role in managing the robot swarm, the humans’ (physiological) state significantly affects the mission performance. In this work, we explore the physiological correlates with the user’s tactical decisions in a simulated search and rescue mission. The mission consists of supervising three groups of unmanned aerial vehicles and three groups of unmanned ground vehicles to search for a target building. The mission complexity is increased by introducing static adversarial teams. Due to the adversarial team’s presence, the user should employ different tactics to search for a target. While the user interacts with the swarm, brain activity in forms of electroencephalogram (EEG) and eye movements are recorded. 20 participants, with prior experience in playing real-time strategy games, took part in the study. A linear mixed effect model is used to study the correlated physiological features and tactical decisions. Six features are extracted from the physiological data: engagement level, mental workload, Fz-Pz coherence, Fz-O1 coherence, pupil size, and the number of gaze fixations. The results show that mental engagement and Fz-O1 coherence are the important factors in predicting the tactical decisions. Specifically, Fz-O1 coherence in Beta (22.5-30 Hz) and Gamma (38-42 Hz) band is found to be significant.</p>
 
 
 </section>
@@ -310,9 +337,9 @@
  ]]></description>
   <category>human-robot-interaction</category>
   <category>python</category>
-  <guid>https://iHuman-Lab.github.io/lab-website/research/tele-operation/</guid>
-  <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/research/tele-operation/cover.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/</guid>
+  <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/cover.jpg" medium="image" type="image/jpeg" height="73" width="144"/>
 </item>
 <item>
   <title>Task Difficulty Prediction in Physical Human Interaction using EEG and Deep Learning</title>
@@ -339,7 +366,7 @@
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/task-difficulty/</guid>
   <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/research/task-difficulty/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/task-difficulty/cover.jpg" medium="image" type="image/jpeg" height="130" width="144"/>
 </item>
 <item>
   <title>Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of HRI</title>
@@ -357,7 +384,7 @@
 <p>Imagine a world where robots work hand-in-hand with humans, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with human-robot collaboration poised to transform industries from manufacturing and logistics to healthcare and assistive technologies. But to achieve truly seamless interaction, robots need to understand not only our actions but also our <strong>thoughts and cognitive processes</strong>.</p>
 <p>Enter <strong>electroencephalography (EEG)</strong>, a technique that measures brain activity using sensors on the scalp. EEG offers a window into the brain’s dynamic processes, but interpreting its complex signals remains a challenge. While <strong>deep learning models</strong> have shown success in decoding EEG data [14], they often act as “<strong>black boxes</strong>” – we see the results, but we don’t know <em>how</em> the model arrived at them. This lack of <strong>transparency</strong> hinders our ability to trust and fully utilize these powerful tools.</p>
 <p>Our research addresses the <strong>interpretability</strong> of deep learning models in human-robot co-manipulation. We developed a <strong>novel computational approach</strong> to understand how these models classify a user’s <strong>mental workload</strong> during collaboration with a robot.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="The Challenge">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -377,7 +404,7 @@
 <li><strong>Fine Motor Control:</strong> Performing a star-shaped fine motion.</li>
 </ul>
 <p>We also manipulated the robot’s <strong>resistance (damping)</strong> between high (requiring more effort) and low (allowing easier movement) levels. This created conditions where the damping was either appropriate or inappropriate for the specific movement, influencing the user’s mental workload. Our <strong>Convolutional Neural Network (CNN)</strong> model was trained to distinguish between these conditions using raw EEG recordings.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="Research Goal">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -397,7 +424,7 @@
 <li><strong>Ablation Attribution:</strong> Here, we systematically removed parts of the input EEG data (e.g., data from specific electrodes or frequency bands) and observed how the model’s performance changed. If removing a particular feature significantly decreased performance, it indicates that the feature was <strong>important</strong> for the classification.</li>
 </ul>
 <p>By combining these methods, we created a pipeline that extracts <strong>interpretable features</strong> from EEG data, providing unprecedented insight into the brain activity patterns associated with mental workload in human-robot collaboration.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="Key Methods">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -417,7 +444,7 @@
 <li><strong>Parietal Regions:</strong> Our method also indicated the importance of EEG signals originating from the <strong>parietal regions</strong> of the brain. These areas play a crucial role in <strong>spatial awareness, sensorimotor integration, and attention</strong>.</li>
 </ul>
 <p>These findings strongly suggest that <strong>Gamma and Beta activity over the parietal areas indicates mental workload</strong> when humans co-manipulate a robot, particularly during tasks requiring visual attention and motor coordination.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="Key Findings">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -447,34 +474,7 @@
   <category>python</category>
   <guid>https://iHuman-Lab.github.io/lab-website/research/explainability/</guid>
   <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/research/explainability/cover.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Using Physiological Measurements to Analyze the Tactical Decisions in Human Swarm Teams</title>
-  <link>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/cover.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<section id="abstract" class="level3">
-<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
-<p>Human-Swarm interaction has attracted a lot of attention for their applications in areas such as exploration, rescue, surveillance, and interplanetary exploration. When humans assume a supervisory or tactician role in managing the robot swarm, the humans’ (physiological) state significantly affects the mission performance. In this work, we explore the physiological correlates with the user’s tactical decisions in a simulated search and rescue mission. The mission consists of supervising three groups of unmanned aerial vehicles and three groups of unmanned ground vehicles to search for a target building. The mission complexity is increased by introducing static adversarial teams. Due to the adversarial team’s presence, the user should employ different tactics to search for a target. While the user interacts with the swarm, brain activity in forms of electroencephalogram (EEG) and eye movements are recorded. 20 participants, with prior experience in playing real-time strategy games, took part in the study. A linear mixed effect model is used to study the correlated physiological features and tactical decisions. Six features are extracted from the physiological data: engagement level, mental workload, Fz-Pz coherence, Fz-O1 coherence, pupil size, and the number of gaze fixations. The results show that mental engagement and Fz-O1 coherence are the important factors in predicting the tactical decisions. Specifically, Fz-O1 coherence in Beta (22.5-30 Hz) and Gamma (38-42 Hz) band is found to be significant.</p>
-
-
-</section>
-
- ]]></description>
-  <category>human-robot-interaction</category>
-  <category>python</category>
-  <guid>https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/</guid>
-  <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
-  <media:content url="https://iHuman-Lab.github.io/lab-website/research/human-swarm-decision/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://iHuman-Lab.github.io/lab-website/research/explainability/cover.jpg" medium="image" type="image/jpeg" height="54" width="144"/>
 </item>
 </channel>
 </rss>
