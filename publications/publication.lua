@@ -127,7 +127,9 @@ function Pandoc(doc)
   end
 end)
 
+  -- keep the page's own content (the banner) ahead of the generated list
   local blocks = {}
+  for _, b in ipairs(doc.blocks) do table.insert(blocks, b) end
 
   for _, year in ipairs(years) do
      local header_id = make_id(year)

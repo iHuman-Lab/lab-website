@@ -1,0 +1,26 @@
+---
+title: Sid Gupta
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      url: https://www.linkedin.com/in/sidgupta1010
+    - icon: github
+      text: GitHub
+      url: https://github.com/sidgupta2
+image: ./avatar.jpg
+started: Fall 2026
+---
+
+## Education
+
+**BS in Mechanical Engineering** *(in progress)*
+
+Oklahoma State University, Oklahoma | Expected Graduation: Fall 2027
+
+## Research Interest
+- Artificial Intelligence and Machine Learning
+- Robotics and Autonomous Systems
+- Human-Robot Interaction
+- Intelligent Control Systems

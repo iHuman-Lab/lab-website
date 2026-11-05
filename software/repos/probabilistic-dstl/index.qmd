@@ -1,6 +1,6 @@
 ---
 title: "probabilistic-dstl"
-date: "August 23, 2026"
+date: "October 19, 2026"
 draft: false
 image: "cover.png"
 description: "Probabilistic differentiable signal temporal logics using recurrent neural networks"
